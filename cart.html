@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Zone 5 Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <button class="lg:hidden">
+                    <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                
+                <div class="flex items-center">
+                    <a href="index.html">
+                        <img src="images/Zone-5-Shop-Logo-small.png" alt="Zone 5 Shop - Boldly Graceful" class="h-16 md:h-20">
+                    </a>
+                </div>
+
+                <nav class="hidden lg:flex space-x-8 text-sm font-medium text-gray-700">
+                    <a href="index.html" class="hover:text-yellow-600 transition">Home</a>
+                    <a href="#" class="hover:text-yellow-600 transition">New Arrivals</a>
+                    <a href="#" class="hover:text-yellow-600 transition">Saree</a>
+                    <a href="#" class="hover:text-yellow-600 transition">Salwar Suit</a>
+                    <a href="products.html" class="hover:text-yellow-600 transition">All Products</a>
+                </nav>
+
+                <div class="flex items-center space-x-4">
+                    <button class="hover:text-yellow-600 transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                    <button class="hover:text-yellow-600 transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </button>
+                    <button class="hover:text-yellow-600 transition relative">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                        <span id="cartCount" class="absolute -top-2 -right-2 bg-yellow-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="bg-white py-4 border-b">
+        <div class="container mx-auto px-4">
+            <nav class="flex text-sm text-gray-600">
+                <a href="index.html" class="hover:text-yellow-600">Home</a>
+                <span class="mx-2">/</span>
+                <span class="text-gray-900 font-semibold">Shopping Cart</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Cart Content -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Shopping Cart</h1>
+
+            <div id="cartContent" class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Cart items will be loaded here -->
+            </div>
+
+            <!-- Empty Cart State -->
+            <div id="emptyCart" class="hidden text-center py-16">
+                <svg class="w-24 h-24 mx-auto text-gray-300 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+                <h2 class="text-2xl font-bold text-gray-700 mb-4">Your Cart is Empty</h2>
+                <p class="text-gray-500 mb-8">Looks like you haven't added anything to your cart yet.</p>
+                <a href="products.html" class="inline-block bg-yellow-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-yellow-700 transition">
+                    Continue Shopping
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checkout Success Modal -->
+    <div id="checkoutModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg p-8 max-w-md w-full text-center">
+            <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Order Placed Successfully!</h3>
+            <p class="text-gray-600 mb-2">Order ID: <span id="orderId" class="font-semibold text-gray-900"></span></p>
+            <p class="text-gray-600 mb-8">Thank you for shopping with Zone 5 Shop. We'll send you a confirmation email shortly.</p>
+            <button onclick="closeCheckoutModal()" class="w-full bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition">
+                Continue Shopping
+            </button>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <section class="bg-gradient-to-r from-gray-900 to-gray-800 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Stay In Style</h2>
+            <p class="text-gray-300 mb-8">Subscribe for exclusive offers and latest trends</p>
+            <div class="max-w-md mx-auto flex gap-2">
+                <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                <button class="bg-yellow-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transition">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4">Zone 5 Shop</h3>
+                    <p class="text-sm italic text-gray-400">Boldly Graceful</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Shop</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">New Arrivals</a></li>
+                        <li><a href="#" class="hover:text-white transition">Best Sellers</a></li>
+                        <li><a href="#" class="hover:text-white transition">Sale</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Customer Care</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white transition">Shipping Info</a></li>
+                        <li><a href="#" class="hover:text-white transition">Returns</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4 text-sm">
+                        <a href="#" class="hover:text-white transition">Instagram</a>
+                        <a href="#" class="hover:text-white transition">Facebook</a>
+                        <a href="#" class="hover:text-white transition">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
+                <p>&copy; 2026 Zone 5 Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let cart = [];
+        const SHIPPING_THRESHOLD = 999;
+        const SHIPPING_COST = 99;
+
+        function loadCart() {
+            cart = JSON.parse(localStorage.getItem('cart') || '[]');
+            updateCartCount();
+            renderCart();
+        }
+
+        function updateCartCount() {
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            document.getElementById('cartCount').textContent = totalItems;
+        }
+
+        function renderCart() {
+            const cartContent = document.getElementById('cartContent');
+            const emptyCart = document.getElementById('emptyCart');
+
+            if (cart.length === 0) {
+                cartContent.classList.add('hidden');
+                emptyCart.classList.remove('hidden');
+                return;
+            }
+
+            cartContent.classList.remove('hidden');
+            emptyCart.classList.add('hidden');
+
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : SHIPPING_COST;
+            const total = subtotal + shipping;
+
+            cartContent.innerHTML = `
+                <!-- Cart Items -->
+                <div class="lg:col-span-2">
+                    <div class="bg-white rounded-lg shadow-sm">
+                        <div class="p-6 border-b">
+                            <h2 class="text-xl font-bold text-gray-900">Cart Items (${cart.length})</h2>
+                        </div>
+                        <div class="divide-y">
+                            ${cart.map(item => `
+                                <div class="p-6 flex gap-4">
+                                    <a href="product-detail.html?code=${item.productcode}" class="flex-shrink-0">
+                                        <img src="${item.image}" alt="${item.name}" class="w-24 h-24 object-cover rounded-lg">
+                                    </a>
+                                    <div class="flex-1 min-w-0">
+                                        <a href="product-detail.html?code=${item.productcode}" class="block">
+                                            <h3 class="font-semibold text-gray-900 mb-1 hover:text-yellow-600 transition">${item.name}</h3>
+                                        </a>
+                                        <p class="text-sm text-gray-500 mb-2">${item.category} / ${item.subcategory}</p>
+                                        <p class="text-sm text-gray-600 mb-3">Code: ${item.productcode}</p>
+                                        <div class="flex items-center gap-4">
+                                            <div class="flex items-center gap-2">
+                                                <button onclick="updateQuantity('${item.productcode}', ${item.quantity - 1})" class="w-8 h-8 border border-gray-300 rounded hover:bg-gray-100 transition flex items-center justify-center">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                                                    </svg>
+                                                </button>
+                                                <span class="w-12 text-center font-semibold">${item.quantity}</span>
+                                                <button onclick="updateQuantity('${item.productcode}', ${item.quantity + 1})" class="w-8 h-8 border border-gray-300 rounded hover:bg-gray-100 transition flex items-center justify-center">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <button onclick="removeItem('${item.productcode}')" class="text-red-600 hover:text-red-700 text-sm font-medium transition">
+                                                Remove
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <p class="text-lg font-bold text-yellow-600">₹${(item.price * item.quantity).toLocaleString('en-IN')}</p>
+                                        <p class="text-sm text-gray-500 mt-1">₹${item.price.toLocaleString('en-IN')} each</p>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Continue Shopping -->
+                    <div class="mt-6">
+                        <a href="products.html" class="inline-flex items-center text-yellow-600 hover:text-yellow-700 font-semibold transition">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                            </svg>
+                            Continue Shopping
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="lg:col-span-1">
+                    <div class="bg-white rounded-lg shadow-sm p-6 sticky top-24">
+                        <h2 class="text-xl font-bold text-gray-900 mb-6">Order Summary</h2>
+                        
+                        <div class="space-y-4 mb-6">
+                            <div class="flex justify-between text-gray-700">
+                                <span>Subtotal (${cart.reduce((sum, item) => sum + item.quantity, 0)} items)</span>
+                                <span class="font-semibold">₹${subtotal.toLocaleString('en-IN')}</span>
+                            </div>
+                            <div class="flex justify-between text-gray-700">
+                                <span>Shipping</span>
+                                <span class="font-semibold ${shipping === 0 ? 'text-green-600' : ''}">
+                                    ${shipping === 0 ? 'FREE' : '₹' + shipping.toLocaleString('en-IN')}
+                                </span>
+                            </div>
+                            ${subtotal < SHIPPING_THRESHOLD ? `
+                                <div class="bg-blue-50 border border-blue-200 rounded-lg p-3">
+                                    <p class="text-sm text-blue-800">
+                                        Add ₹${(SHIPPING_THRESHOLD - subtotal).toLocaleString('en-IN')} more for <strong>FREE shipping</strong>
+                                    </p>
+                                </div>
+                            ` : `
+                                <div class="bg-green-50 border border-green-200 rounded-lg p-3">
+                                    <p class="text-sm text-green-800 flex items-center">
+                                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        You're eligible for <strong class="ml-1">FREE shipping!</strong>
+                                    </p>
+                                </div>
+                            `}
+                        </div>
+
+                        <div class="border-t pt-4 mb-6">
+                            <div class="flex justify-between text-xl font-bold text-gray-900">
+                                <span>Total</span>
+                                <span class="text-yellow-600">₹${total.toLocaleString('en-IN')}</span>
+                            </div>
+                        </div>
+
+                        <button onclick="proceedToCheckout()" class="w-full bg-yellow-600 text-white py-4 rounded-lg font-semibold hover:bg-yellow-700 transition mb-4">
+                            Proceed to Checkout
+                        </button>
+
+                        <div class="space-y-3">
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                Secure checkout
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                7 Days easy returns
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                100% Authentic products
+                            </div>
+                        </div>
+
+                        <!-- Accepted Payment Methods -->
+                        <div class="mt-6 pt-6 border-t">
+                            <p class="text-sm text-gray-600 mb-3">We Accept</p>
+                            <div class="flex gap-2 flex-wrap">
+                                <div class="px-3 py-2 border border-gray-200 rounded text-xs font-semibold text-gray-700">Visa</div>
+                                <div class="px-3 py-2 border border-gray-200 rounded text-xs font-semibold text-gray-700">Mastercard</div>
+                                <div class="px-3 py-2 border border-gray-200 rounded text-xs font-semibold text-gray-700">UPI</div>
+                                <div class="px-3 py-2 border border-gray-200 rounded text-xs font-semibold text-gray-700">Net Banking</div>
+                                <div class="px-3 py-2 border border-gray-200 rounded text-xs font-semibold text-gray-700">COD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateQuantity(productCode, newQuantity) {
+            if (newQuantity < 1) {
+                removeItem(productCode);
+                return;
+            }
+
+            const item = cart.find(item => item.productcode === productCode);
+            if (item) {
+                item.quantity = newQuantity;
+                localStorage.setItem('cart', JSON.stringify(cart));
+                renderCart();
+                updateCartCount();
+            }
+        }
+
+        function removeItem(productCode) {
+            if (confirm('Are you sure you want to remove this item from your cart?')) {
+                cart = cart.filter(item => item.productcode !== productCode);
+                localStorage.setItem('cart', JSON.stringify(cart));
+                renderCart();
+                updateCartCount();
+            }
+        }
+
+        function proceedToCheckout() {
+            // Generate order ID
+            const orderId = 'ORD' + Date.now().toString().slice(-8);
+            document.getElementById('orderId').textContent = orderId;
+            
+            // Show success modal
+            document.getElementById('checkoutModal').classList.remove('hidden');
+            
+            // Clear cart
+            cart = [];
+            localStorage.setItem('cart', JSON.stringify(cart));
+            updateCartCount();
+        }
+
+        function closeCheckoutModal() {
+            document.getElementById('checkoutModal').classList.add('hidden');
+            renderCart();
+        }
+
+        // Initialize cart on page load
+        loadCart();
+    </script>
+</body>
+</html>

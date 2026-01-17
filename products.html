@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Zone 5 Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .filter-btn.active {
+            background-color: #ca8a04;
+            color: white;
+        }
+        .sold-out-overlay {
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <button class="lg:hidden">
+                    <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                
+                <div class="flex items-center">
+                    <a href="index.html">
+                        <img src="images/Zone-5-Shop-Logo-small.png" alt="Zone 5 Shop - Boldly Graceful" class="h-16 md:h-20">
+                    </a>
+                </div>
+
+                <nav class="hidden lg:flex space-x-8 text-sm font-medium text-gray-700">
+                    <a href="index.html" class="hover:text-yellow-600 transition">Home</a>
+                    <a href="#" class="hover:text-yellow-600 transition">New Arrivals</a>
+                    <a href="#" class="hover:text-yellow-600 transition">Women</a>
+                    <a href="#" class="hover:text-yellow-600 transition">Men</a>
+                    <a href="#" class="hover:text-yellow-600 transition">Accessories</a>
+                    <a href="#" class="text-yellow-600 font-semibold">All Products</a>
+                </nav>
+
+                <div class="flex items-center space-x-4">
+                    <button class="hover:text-yellow-600 transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                    <button class="hover:text-yellow-600 transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </button>
+                    <button class="hover:text-yellow-600 transition relative">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                        <span class="absolute -top-2 -right-2 bg-yellow-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="bg-gradient-to-r from-gray-900 to-gray-800 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">All Products</h1>
+            <p class="text-gray-300 text-lg">Discover our complete collection</p>
+        </div>
+    </section>
+
+    <!-- Filters and Products -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-8">
+                <!-- Sidebar Filters -->
+                <aside class="lg:w-64 flex-shrink-0">
+                    <div class="bg-white rounded-lg shadow-sm p-6 sticky top-24">
+                        <h2 class="text-xl font-bold text-gray-900 mb-6">Filters</h2>
+                        
+                        <!-- Search -->
+                        <div class="mb-6">
+                            <label class="text-sm font-semibold text-gray-700 mb-2 block">Search</label>
+                            <input type="text" id="searchInput" placeholder="Search products..." class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                        </div>
+
+                        <!-- Category Filter -->
+                        <div class="mb-6">
+                            <label class="text-sm font-semibold text-gray-700 mb-2 block">Category</label>
+                            <select id="categoryFilter" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                                <option value="">All Categories</option>
+                                <option value="Saree">Saree</option>
+                                <option value="Salwar Suit">Salwar Suit</option>
+                            </select>
+                        </div>
+
+                        <!-- Subcategory Filter -->
+                        <div class="mb-6">
+                            <label class="text-sm font-semibold text-gray-700 mb-2 block">Subcategory</label>
+                            <select id="subcategoryFilter" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                                <option value="">All Subcategories</option>
+                                <optgroup label="Saree">
+                                    <option value="Festive Sarees">Festive Sarees</option>
+                                    <option value="Party Wear Sarees">Party Wear Sarees</option>
+                                    <option value="Office Wear Sarees">Office Wear Sarees</option>
+                                    <option value="Casual Sarees">Casual Sarees</option>
+                                </optgroup>
+                                <optgroup label="Salwar Suit">
+                                    <option value="Unstitched Salwar Suits">Unstitched Salwar Suits</option>
+                                    <option value="Readymade Salwar Suit">Readymade Salwar Suit</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <!-- Price Range -->
+                        <div class="mb-6">
+                            <label class="text-sm font-semibold text-gray-700 mb-2 block">Price Range</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="minPrice" placeholder="Min" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                                <input type="number" id="maxPrice" placeholder="Max" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                            </div>
+                        </div>
+
+                        <!-- Status Filter -->
+                        <div class="mb-6">
+                            <label class="text-sm font-semibold text-gray-700 mb-2 block">Availability</label>
+                            <div class="space-y-2">
+                                <label class="flex items-center">
+                                    <input type="checkbox" id="availableCheck" checked class="w-4 h-4 text-yellow-600 focus:ring-yellow-500 border-gray-300 rounded">
+                                    <span class="ml-2 text-sm text-gray-700">Available</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" id="soldOutCheck" class="w-4 h-4 text-yellow-600 focus:ring-yellow-500 border-gray-300 rounded">
+                                    <span class="ml-2 text-sm text-gray-700">Sold Out</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button onclick="applyFilters()" class="w-full bg-yellow-600 text-white py-3 rounded-lg font-semibold hover:bg-yellow-700 transition">Apply Filters</button>
+                        <button onclick="resetFilters()" class="w-full mt-2 bg-gray-200 text-gray-700 py-3 rounded-lg font-semibold hover:bg-gray-300 transition">Reset</button>
+                    </div>
+                </aside>
+
+                <!-- Product Grid -->
+                <main class="flex-1">
+                    <div class="flex justify-between items-center mb-6">
+                        <div>
+                            <p class="text-gray-600"><span id="productCount">0</span> products found</p>
+                        </div>
+                        <select id="sortFilter" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                            <option value="default">Sort By</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="name-az">Name: A to Z</option>
+                            <option value="name-za">Name: Z to A</option>
+                        </select>
+                    </div>
+
+                    <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Products will be loaded here dynamically -->
+                    </div>
+
+                    <!-- Pagination -->
+                    <div id="pagination" class="mt-12 flex justify-center gap-2">
+                        <!-- Pagination buttons will be added here -->
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-gradient-to-r from-gray-900 to-gray-800 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Stay In Style</h2>
+            <p class="text-gray-300 mb-8">Subscribe for exclusive offers and latest trends</p>
+            <div class="max-w-md mx-auto flex gap-2">
+                <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                <button class="bg-yellow-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transition">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4">Zone 5 Shop</h3>
+                    <p class="text-sm italic text-gray-400">Boldly Graceful</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Shop</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">New Arrivals</a></li>
+                        <li><a href="#" class="hover:text-white transition">Best Sellers</a></li>
+                        <li><a href="#" class="hover:text-white transition">Sale</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Customer Care</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white transition">Shipping Info</a></li>
+                        <li><a href="#" class="hover:text-white transition">Returns</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4 text-sm">
+                        <a href="#" class="hover:text-white transition">Instagram</a>
+                        <a href="#" class="hover:text-white transition">Facebook</a>
+                        <a href="#" class="hover:text-white transition">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
+                <p>&copy; 2026 Zone 5 Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let allProducts = [];
+        let filteredProducts = [];
+        let currentPage = 1;
+        const productsPerPage = 9;
+
+        // Load products from JSON file
+        async function loadProducts() {
+            try {
+                const response = await fetch('data/products.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load products');
+                }
+                allProducts = await response.json();
+                filteredProducts = [...allProducts];
+                renderProducts();
+            } catch (error) {
+                console.error('Error loading products:', error);
+                document.getElementById('productGrid').innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Unable to Load Products</h3>
+                        <p class="text-gray-500">Please make sure the products.json file exists in the data folder.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderProducts() {
+            const productGrid = document.getElementById('productGrid');
+            const startIndex = (currentPage - 1) * productsPerPage;
+            const endIndex = startIndex + productsPerPage;
+            const productsToShow = filteredProducts.slice(startIndex, endIndex);
+
+            productGrid.innerHTML = productsToShow.map(product => `
+                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="relative overflow-hidden aspect-[4/5] bg-gray-100">
+                        <a href="product-detail.html?code=${product.productcode}">
+                            <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        </a>
+                        ${product.status === 'SoldOut' ? `
+                            <div class="absolute inset-0 sold-out-overlay flex items-center justify-center">
+                                <span class="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-lg">SOLD OUT</span>
+                            </div>
+                        ` : ''}
+                        <button onclick="toggleFavorite(this, '${product.productcode}')" class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10">
+                            <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                            </svg>
+                        </button>
+                        ${product.status === 'Available' ? `
+                            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <a href="product-detail.html?code=${product.productcode}" class="block w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition text-center">Quick View</a>
+                            </div>
+                        ` : ''}
+                    </div>
+                    <div class="p-4">
+                        <div class="text-xs text-gray-500 mb-1">${product.category} / ${product.subcategory}</div>
+                        <a href="product-detail.html?code=${product.productcode}">
+                            <h3 class="font-semibold text-gray-900 mb-3 line-clamp-2 min-h-[3rem] hover:text-yellow-600 transition">${product.name}</h3>
+                        </a>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xl font-bold text-yellow-600">₹${product.price.toLocaleString('en-IN')}</span>
+                            <span class="text-xs px-2 py-1 rounded-full ${product.status === 'Available' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">${product.status === 'Available' ? 'In Stock' : 'Sold Out'}</span>
+                        </div>
+                        <div class="mt-3">
+                            ${product.tags && product.tags.length > 0 ? `
+                                <div class="flex flex-wrap gap-1">
+                                    ${product.tags.slice(0, 3).map(tag => `<span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">${tag}</span>`).join('')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            document.getElementById('productCount').textContent = filteredProducts.length;
+            renderPagination();
+        }
+
+        function renderPagination() {
+            const pagination = document.getElementById('pagination');
+            const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+            
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+
+            let html = '';
+            
+            if (currentPage > 1) {
+                html += `<button onclick="changePage(${currentPage - 1})" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition">Previous</button>`;
+            }
+
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                    html += `<button onclick="changePage(${i})" class="px-4 py-2 border rounded-lg transition ${i === currentPage ? 'bg-yellow-600 text-white border-yellow-600' : 'border-gray-300 hover:bg-gray-100'}">${i}</button>`;
+                } else if (i === currentPage - 2 || i === currentPage + 2) {
+                    html += `<span class="px-2">...</span>`;
+                }
+            }
+
+            if (currentPage < totalPages) {
+                html += `<button onclick="changePage(${currentPage + 1})" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition">Next</button>`;
+            }
+
+            pagination.innerHTML = html;
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            renderProducts();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function applyFilters() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            const subcategory = document.getElementById('subcategoryFilter').value;
+            const minPrice = parseFloat(document.getElementById('minPrice').value) || 0;
+            const maxPrice = parseFloat(document.getElementById('maxPrice').value) || Infinity;
+            const showAvailable = document.getElementById('availableCheck').checked;
+            const showSoldOut = document.getElementById('soldOutCheck').checked;
+            const sortBy = document.getElementById('sortFilter').value;
+
+            filteredProducts = allProducts.filter(product => {
+                const matchesSearch = product.name.toLowerCase().includes(search) || 
+                                    (product.tags && product.tags.some(tag => tag.toLowerCase().includes(search)));
+                const matchesCategory = !category || product.category === category;
+                const matchesSubcategory = !subcategory || product.subcategory === subcategory;
+                const matchesPrice = product.price >= minPrice && product.price <= maxPrice;
+                const matchesStatus = (showAvailable && product.status === 'Available') || 
+                                    (showSoldOut && product.status === 'SoldOut');
+
+                return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus;
+            });
+
+            // Apply sorting
+            if (sortBy === 'price-low') {
+                filteredProducts.sort((a, b) => a.price - b.price);
+            } else if (sortBy === 'price-high') {
+                filteredProducts.sort((a, b) => b.price - a.price);
+            } else if (sortBy === 'name-az') {
+                filteredProducts.sort((a, b) => a.name.localeCompare(b.name));
+            } else if (sortBy === 'name-za') {
+                filteredProducts.sort((a, b) => b.name.localeCompare(a.name));
+            }
+
+            currentPage = 1;
+            renderProducts();
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('categoryFilter').value = '';
+            document.getElementById('subcategoryFilter').value = '';
+            document.getElementById('minPrice').value = '';
+            document.getElementById('maxPrice').value = '';
+            document.getElementById('availableCheck').checked = true;
+            document.getElementById('soldOutCheck').checked = false;
+            document.getElementById('sortFilter').value = 'default';
+            
+            filteredProducts = [...allProducts];
+            currentPage = 1;
+            renderProducts();
+        }
+
+        function toggleFavorite(button, productCode) {
+            const svg = button.querySelector('svg');
+            if (svg.classList.contains('fill-red-500')) {
+                svg.classList.remove('fill-red-500', 'text-red-500');
+                svg.classList.add('text-gray-600');
+                svg.setAttribute('fill', 'none');
+            } else {
+                svg.classList.remove('text-gray-600');
+                svg.classList.add('fill-red-500', 'text-red-500');
+                svg.setAttribute('fill', 'currentColor');
+            }
+        }
+
+        // Event listeners for real-time filtering
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+        document.getElementById('categoryFilter').addEventListener('change', applyFilters);
+        document.getElementById('subcategoryFilter').addEventListener('change', applyFilters);
+        document.getElementById('sortFilter').addEventListener('change', applyFilters);
+
+        // Initialize products on page load
+        loadProducts();
+    </script>
+</body>
+</html>
