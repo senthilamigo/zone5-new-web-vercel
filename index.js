@@ -2,10 +2,12 @@ let currentSlide = 0;
 const slides = document.querySelectorAll('.carousel-item');
 const dots = document.querySelectorAll('.carousel-dot');
 
+/*
 const featuredProdImage1 = "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0173.jpeg";
 const featuredProdImage2 = "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0176.jpeg";
 const featuredProdImage3 = "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0023.jpeg";
 const featuredProdImage4 = "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0029.jpeg";
+*/
 
 function showSlide(index) {
             slides.forEach((slide, i) => {
@@ -54,7 +56,9 @@ function toggleFavorite(button) {
 setInterval(nextSlide, 5000);
 
 // Find the element by its ID and set its href attribute
+/*
 document.getElementById('featuredProdImgLink1').href = featuredProdImage1;
 document.getElementById('featuredProdImgLink2').href = featuredProdImage2;
 document.getElementById('featuredProdImgLink3').href = featuredProdImage3;
 document.getElementById('featuredProdImgLink4').href = featuredProdImage4;
+*/
