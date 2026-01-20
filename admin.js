@@ -75,7 +75,7 @@ let products = [];
                 return;
             }
 
-            const githubToken = prompt('Enter your GitHub Personal Access Token:\n\n(You can create one at: https://github.com/settings/tokens)\nRequired permissions: repo');
+            const githubToken = prompt('Enter your GitHub Personal Access Token:');
             
             if (!githubToken) {
                 alert('GitHub token is required to update the datastore.');
@@ -99,7 +99,7 @@ let products = [];
 
                 const owner = 'senthilamigo';
                 const repo = 'zone5-new-web-vercel';
-                const branch = 'dev';
+                const branch = 'main';
                 const path = 'data/products.json';
                 const content = JSON.stringify(products, null, 2);
                 const encodedContent = btoa(unescape(encodeURIComponent(content)));
