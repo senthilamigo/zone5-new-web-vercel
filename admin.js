@@ -1,4 +1,4 @@
-        let products = [];
+let products = [];
         let editingProductCode = null;
 
         const subcategoryMap = {
@@ -65,6 +65,102 @@
                     }
                 };
                 reader.readAsText(file);
+            }
+        }
+
+        // Update datastore - Push to GitHub
+        async function updateDatastore() {
+            if (products.length === 0) {
+                alert('No products to update. Please add some products first.');
+                return;
+            }
+
+            const githubToken = prompt('Enter your GitHub Personal Access Token:\n\n(You can create one at: https://github.com/settings/tokens)\nRequired permissions: repo');
+            
+            if (!githubToken) {
+                alert('GitHub token is required to update the datastore.');
+                return;
+            }
+
+            try {
+                // Show loading state
+                const button = event.target.closest('button');
+                const originalHTML = button.innerHTML;
+                button.disabled = true;
+                button.innerHTML = `
+                    <span class="flex items-center justify-center">
+                        <svg class="animate-spin h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Updating...
+                    </span>
+                `;
+
+                const owner = 'senthilamigo';
+                const repo = 'zone5-new-web-vercel';
+                const branch = 'dev';
+                const path = 'data/products.json';
+                const content = JSON.stringify(products, null, 2);
+                const encodedContent = btoa(unescape(encodeURIComponent(content)));
+
+                // Get current file SHA (required for updating)
+                const getResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`, {
+                    headers: {
+                        'Authorization': `token ${githubToken}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                let sha = null;
+                if (getResponse.ok) {
+                    const fileData = await getResponse.json();
+                    sha = fileData.sha;
+                }
+
+                // Update or create the file
+                const updateResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${githubToken}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: `Update products.json - ${new Date().toLocaleString()}`,
+                        content: encodedContent,
+                        branch: branch,
+                        ...(sha && { sha: sha })
+                    })
+                });
+
+                button.disabled = false;
+                button.innerHTML = originalHTML;
+
+                if (updateResponse.ok) {
+                    const result = await updateResponse.json();
+                    alert(`✅ Datastore updated successfully!\n\nCommit: ${result.commit.sha.substring(0, 7)}\nView at: ${result.content.html_url}`);
+                } else {
+                    const error = await updateResponse.json();
+                    throw new Error(error.message || 'Failed to update repository');
+                }
+            } catch (error) {
+                console.error('Error updating datastore:', error);
+                alert(`❌ Failed to update datastore:\n\n${error.message}\n\nPlease check:\n1. Your GitHub token has 'repo' permissions\n2. You have write access to the repository\n3. The branch 'dev' exists`);
+                
+                // Reset button state
+                const button = event.target.closest('button');
+                if (button) {
+                    button.disabled = false;
+                    button.innerHTML = `
+                        <span class="flex items-center justify-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                            </svg>
+                            Update Datastore
+                        </span>
+                    `;
+                }
             }
         }
 
