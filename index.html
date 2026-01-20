@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zone 5 Shop - Boldly Graceful</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="index.js"></script>
     <style>
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -16,7 +16,7 @@
         }
     </style>
 </head>
-<body class="bg-white">    
+<body class="bg-white">
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-white shadow-sm">
         <div class="container mx-auto px-4">
@@ -161,7 +161,7 @@
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Product 1 -->
-                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-product-code="C0023">
                     <div class="relative overflow-hidden aspect-[4/5] bg-gray-100">
                         <img src="https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0023.jpeg" alt="C0023" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <button onclick="toggleFavorite(this)" class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition">
@@ -170,7 +170,7 @@
                             </svg>
                         </button>
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                            <button class="w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Quick View</button>
+                            <button onclick="quickView(this)" class="w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Quick View</button>
                         </div>
                     </div>
                     <div class="p-4">
@@ -178,11 +178,9 @@
                         <div class="flex items-center justify-between">
                             <span class="text-xl font-bold text-yellow-600">₹999</span>
                             <div class="flex items-center text-sm text-gray-600">
-                                <a href="product-detail.html?code=C0023" class="block w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition text-center">
                                 <svg class="w-4 h-4 fill-yellow-400 text-yellow-400 mr-1" viewBox="0 0 24 24">
                                     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
                                 </svg>
-                                </a>
                                 4.8
                             </div>
                         </div>
@@ -190,7 +188,7 @@
                 </div>
 
                 <!-- Product 2 -->
-                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-product-code="C0029">
                     <div class="relative overflow-hidden aspect-[4/5] bg-gray-100">
                         <img src="https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0029.jpeg" alt="C0029" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <button onclick="toggleFavorite(this)" class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition">
@@ -199,7 +197,7 @@
                             </svg>
                         </button>
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                            <button class="w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Quick View</button>
+                            <button onclick="quickView(this)" class="w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Quick View</button>
                         </div>
                     </div>
                     <div class="p-4">
@@ -217,7 +215,7 @@
                 </div>
 
                 <!-- Product 3 -->
-                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-product-code="S0173">
                     <div class="relative overflow-hidden aspect-[4/5] bg-gray-100">
                         <img src="https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0173.jpeg" alt="S0173" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <button onclick="toggleFavorite(this)" class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition">
@@ -226,7 +224,7 @@
                             </svg>
                         </button>
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                            <button class="w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Quick View</button>
+                            <button onclick="quickView(this)" class="w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Quick View</button>
                         </div>
                     </div>
                     <div class="p-4">
@@ -244,7 +242,7 @@
                 </div>
 
                 <!-- Product 4 -->
-                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" data-product-code="S0176">
                     <div class="relative overflow-hidden aspect-[4/5] bg-gray-100">
                         <img src="https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0176.jpeg" alt="S0176" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         <button onclick="toggleFavorite(this)" class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition">
@@ -253,7 +251,7 @@
                             </svg>
                         </button>
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                            <button class="w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Quick View</button>
+                            <button onclick="quickView(this)" class="w-full bg-white text-gray-900 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Quick View</button>
                         </div>
                     </div>
                     <div class="p-4">
@@ -330,5 +328,8 @@
         </div>
     </footer>
 
+
+<script src="index.js"></script>
+    
 </body>
 </html>
