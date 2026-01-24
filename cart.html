@@ -88,17 +88,58 @@
         </div>
     </section>
 
+    <!-- Email Input Modal -->
+    <div id="emailModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg p-8 max-w-md w-full">
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Confirm Your Email</h3>
+            <p class="text-gray-600 mb-6">We'll send your order confirmation to this email address.</p>
+            
+            <div class="mb-6">
+                <label for="buyerEmail" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                <input 
+                    type="email" 
+                    id="buyerEmail" 
+                    placeholder="your.email@example.com"
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
+                    required
+                >
+                <p id="emailError" class="hidden text-red-600 text-sm mt-2">Please enter a valid email address</p>
+            </div>
+
+            <div class="flex gap-3">
+                <button 
+                    onclick="closeEmailModal()" 
+                    class="flex-1 bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 transition"
+                >
+                    Cancel
+                </button>
+                <button 
+                    onclick="confirmCheckout()" 
+                    class="flex-1 bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition"
+                >
+                    Confirm Order
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- Checkout Success Modal -->
     <div id="checkoutModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-        <div class="bg-white rounded-lg p-8 max-w-md w-full text-center">
+        <div class="bg-white rounded-lg p-8 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
             <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
             </div>
-            <h3 class="text-2xl font-bold text-gray-900 mb-4">Order Placed Successfully!</h3>
-            <p class="text-gray-600 mb-2">Order ID: <span id="orderId" class="font-semibold text-gray-900"></span></p>
-            <p class="text-gray-600 mb-8">Thank you for shopping with Zone 5 Shop. We'll send you a confirmation email shortly.</p>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Order Placed Successfully!</h3>
+            <p class="text-gray-600 mb-2 text-center">Order ID: <span id="orderId" class="font-semibold text-gray-900"></span></p>
+            <p class="text-gray-600 mb-6 text-center">Confirmation email sent to: <span id="confirmEmail" class="font-semibold text-gray-900"></span></p>
+            
+            <!-- Order Summary in Modal -->
+            <div id="orderSummary" class="bg-gray-50 rounded-lg p-6 mb-6">
+                <!-- Order details will be populated here -->
+            </div>
+
             <button onclick="closeCheckoutModal()" class="w-full bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition">
                 Continue Shopping
             </button>
