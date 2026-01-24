@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Information - Zone 5 Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <button class="lg:hidden">
+                    <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                
+                <div class="flex items-center">
+                    <a href="index.html">
+                        <img src="images/Zone-5-Shop-Logo-small.png" alt="Zone 5 Shop - Boldly Graceful" class="h-16 md:h-20">
+                    </a>
+                </div>
+
+                <nav class="hidden lg:flex space-x-8 text-sm font-medium text-gray-700">
+                    <a href="index.html" class="hover:text-yellow-600 transition">Home</a>
+                    <a href="#" class="hover:text-yellow-600 transition">New Arrivals</a>
+                    <a href="#" class="hover:text-yellow-600 transition">Saree</a>
+                    <a href="#" class="hover:text-yellow-600 transition">Salwar Suit</a>
+                    <a href="products.html" class="hover:text-yellow-600 transition">All Products</a>
+                    <a href="about.html" class="hover:text-yellow-600 transition">About Us</a>
+                </nav>
+
+                <div class="flex items-center space-x-4">
+                    <button class="hover:text-yellow-600 transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                    <button class="hover:text-yellow-600 transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </button>
+                    <button onclick="window.location.href='cart.html'" class="hover:text-yellow-600 transition relative">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                        <span id="cartCount" class="absolute -top-2 -right-2 bg-yellow-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-[400px] bg-gradient-to-r from-purple-900 via-purple-800 to-indigo-900 overflow-hidden">
+        <div class="absolute inset-0" style="background-image: url('https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=1600&fit=crop'); background-size: cover; background-position: center; opacity: 0.2;"></div>
+        <div class="relative container mx-auto px-4 h-full flex items-center justify-center text-center">
+            <div class="text-white fade-in-up">
+                <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Shipping Information</h1>
+                <p class="text-xl md:text-2xl font-light drop-shadow-md">Fast, Reliable Delivery</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <section class="bg-gray-50 py-4 border-b">
+        <div class="container mx-auto px-4">
+            <nav class="flex text-sm text-gray-600">
+                <a href="index.html" class="hover:text-yellow-600">Home</a>
+                <span class="mx-2">/</span>
+                <span class="text-gray-900 font-semibold">Shipping Information</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Shipping Information Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Shipping Information</h2>
+                    <div class="w-24 h-1 bg-yellow-600 mx-auto mb-8"></div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 md:p-12">
+                    <div class="space-y-8">
+                        <!-- Shipping Charge Info -->
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-3">Shipping Charges</h3>
+                                <p class="text-gray-700 leading-relaxed text-lg">
+                                    Shipping charges are additional and are not included in the product price displayed on the website.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Transparent Communication -->
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-3">Clear Communication</h3>
+                                <p class="text-gray-700 leading-relaxed text-lg">
+                                    The applicable shipping cost will be clearly communicated to the customer before payment confirmation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Order Processing -->
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-3">Order Processing</h3>
+                                <p class="text-gray-700 leading-relaxed text-lg">
+                                    Orders will be processed and shipped only after full payment is successfully received.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Info Section -->
+    <section class="py-16 bg-gradient-to-b from-gray-50 to-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gradient-to-r from-purple-900 to-indigo-900 rounded-2xl p-8 md:p-12 text-white text-center">
+                    <svg class="w-16 h-16 mx-auto mb-6 opacity-90" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"></path>
+                        <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707l-2-2A1 1 0 0015 7h-1z"></path>
+                    </svg>
+                    <h3 class="text-3xl font-bold mb-4">Need More Information?</h3>
+                    <p class="text-xl mb-6 text-gray-200">Our customer care team is here to help with any shipping queries</p>
+                    <a href="#" class="inline-block bg-yellow-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-yellow-500 transition">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-gradient-to-r from-purple-900 to-indigo-900 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Stay In Style</h2>
+            <p class="text-gray-200 mb-8">Subscribe for exclusive offers and latest trends</p>
+            <div class="max-w-md mx-auto flex gap-2">
+                <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-yellow-600">
+                <button class="bg-yellow-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transition">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4">Zone 5 Shop</h3>
+                    <p class="text-sm italic text-gray-400 mb-2">Boldly Graceful</p>
+                    <p class="text-sm text-gray-400">Elegra - Elegance Redefined</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Shop</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">New Arrivals</a></li>
+                        <li><a href="#" class="hover:text-white transition">Best Sellers</a></li>
+                        <li><a href="#" class="hover:text-white transition">Sale</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Customer Care</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="contact.html" class="hover:text-white transition">Contact Us</a></li>
+                        <li><a href="shipping.html" class="hover:text-white transition">Shipping Info</a></li>
+                        <li><a href="#" class="hover:text-white transition">Returns</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4 text-sm">
+                        <a href="https://www.instagram.com/zone5shop/" class="hover:text-white transition">Instagram</a>
+                        <a href="#" class="hover:text-white transition">Facebook</a>
+                        <a href="#" class="hover:text-white transition">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
+                <p>&copy; 2026 Zone 5 Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+     <script>
+        function updateCartCount() {
+            const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            document.getElementById('cartCount').textContent = totalItems;
+        }
+
+        // Update cart count on page load
+        updateCartCount();
+</script>
+</body>
+</html>
