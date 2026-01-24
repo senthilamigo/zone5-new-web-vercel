@@ -180,6 +180,15 @@
             }
         }
 
+        function updateCartCount() {
+            const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            document.getElementById('cartCount').textContent = totalItems;
+        }
+
+        // Update cart count on page load
+        updateCartCount();
+
         // Event listeners for real-time filtering
         document.getElementById('searchInput').addEventListener('input', applyFilters);
         document.getElementById('categoryFilter').addEventListener('change', applyFilters);
