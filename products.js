@@ -43,7 +43,7 @@
 
             productGrid.innerHTML = productsToShow.map(product => `
                 <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-                    <div class="relative overflow-hidden h-72 lg:h-56 bg-gray-100">
+                    <div class="relative overflow-hidden h-72 lg:h-72 bg-gray-100">
 
                         <a href="product-detail.html?code=${product.productcode}">
                             <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
