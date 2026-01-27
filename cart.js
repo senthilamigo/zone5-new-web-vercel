@@ -3,7 +3,8 @@
         const SHIPPING_COST = 99;
 
         function loadCart() {
-            cart = JSON.parse(localStorage.getItem('cart') || '[]');
+            const savedCart = localStorage.getItem('cart');
+            cart = savedCart ? JSON.parse(savedCart) : [];
             updateCartCount();
             renderCart();
         }
@@ -31,7 +32,6 @@
             const total = subtotal + shipping;
 
             cartContent.innerHTML = `
-                <!-- Cart Items -->
                 <div class="lg:col-span-2">
                     <div class="bg-white rounded-lg shadow-sm">
                         <div class="p-6 border-b">
@@ -77,7 +77,6 @@
                         </div>
                     </div>
 
-                    <!-- Continue Shopping -->
                     <div class="mt-6">
                         <a href="products.html" class="inline-flex items-center text-yellow-600 hover:text-yellow-700 font-semibold transition">
                             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -88,7 +87,6 @@
                     </div>
                 </div>
 
-                <!-- Order Summary -->
                 <div class="lg:col-span-1">
                     <div class="bg-white rounded-lg shadow-sm p-6 sticky top-24">
                         <h2 class="text-xl font-bold text-gray-900 mb-6">Order Summary</h2>
@@ -154,7 +152,6 @@
                             </div>
                         </div>
 
-                        <!-- Accepted Payment Methods -->
                         <div class="mt-6 pt-6 border-t">
                             <p class="text-sm text-gray-600 mb-3">We Accept</p>
                             <div class="flex gap-2 flex-wrap">
@@ -195,17 +192,109 @@
         }
 
         function proceedToCheckout() {
-            // Generate order ID
+            document.getElementById('emailModal').classList.remove('hidden');
+            document.getElementById('buyerEmail').value = '';
+            document.getElementById('emailError').classList.add('hidden');
+        }
+
+        function closeEmailModal() {
+            document.getElementById('emailModal').classList.add('hidden');
+        }
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+
+        function confirmCheckout() {
+            const emailInput = document.getElementById('buyerEmail');
+            const email = emailInput.value.trim();
+            const emailError = document.getElementById('emailError');
+
+            if (!validateEmail(email)) {
+                emailError.classList.remove('hidden');
+                emailInput.focus();
+                return;
+            }
+
             const orderId = 'ORD' + Date.now().toString().slice(-8);
+            const orderDate = new Date().toLocaleString('en-IN', { 
+                day: '2-digit', 
+                month: 'short', 
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : SHIPPING_COST;
+            const total = subtotal + shipping;
+
+            const orderDetails = {
+                orderId: orderId,
+                email: email,
+                date: orderDate,
+                items: cart,
+                subtotal: subtotal,
+                shipping: shipping,
+                total: total
+            };
+
+            sendConfirmationEmail(orderDetails);
+
             document.getElementById('orderId').textContent = orderId;
+            document.getElementById('confirmEmail').textContent = email;
             
-            // Show success modal
+            const orderSummary = document.getElementById('orderSummary');
+            orderSummary.innerHTML = `
+                <h4 class="font-bold text-gray-900 mb-4">Order Details</h4>
+                <div class="space-y-3 mb-4">
+                    ${cart.map(item => `
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-700">${item.name} x ${item.quantity}</span>
+                            <span class="font-semibold text-gray-900">₹${(item.price * item.quantity).toLocaleString('en-IN')}</span>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="border-t pt-3 space-y-2">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-700">Subtotal</span>
+                        <span class="font-semibold">₹${subtotal.toLocaleString('en-IN')}</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-700">Shipping</span>
+                        <span class="font-semibold ${shipping === 0 ? 'text-green-600' : ''}">
+                            ${shipping === 0 ? 'FREE' : '₹' + shipping.toLocaleString('en-IN')}
+                        </span>
+                    </div>
+                    <div class="flex justify-between text-lg font-bold border-t pt-2">
+                        <span class="text-gray-900">Total</span>
+                        <span class="text-yellow-600">₹${total.toLocaleString('en-IN')}</span>
+                    </div>
+                </div>
+            `;
+
+            closeEmailModal();
             document.getElementById('checkoutModal').classList.remove('hidden');
             
-            // Clear cart
             cart = [];
             localStorage.setItem('cart', JSON.stringify(cart));
             updateCartCount();
+        }
+
+        function sendConfirmationEmail(orderDetails) {
+            console.log('=== ORDER CONFIRMATION EMAIL ===');
+            console.log('To:', orderDetails.email);
+            console.log('Order ID:', orderDetails.orderId);
+            console.log('Date:', orderDetails.date);
+            console.log('\nOrder Items:');
+            orderDetails.items.forEach(item => {
+                console.log(`- ${item.name} (${item.productcode}) x ${item.quantity} = ₹${(item.price * item.quantity).toLocaleString('en-IN')}`);
+            });
+            console.log('\nSubtotal: ₹' + orderDetails.subtotal.toLocaleString('en-IN'));
+            console.log('Shipping: ' + (orderDetails.shipping === 0 ? 'FREE' : '₹' + orderDetails.shipping.toLocaleString('en-IN')));
+            console.log('Total: ₹' + orderDetails.total.toLocaleString('en-IN'));
+            console.log('================================');
         }
 
         function closeCheckoutModal() {
@@ -213,5 +302,4 @@
             renderCart();
         }
 
-        // Initialize cart on page load
         loadCart();
