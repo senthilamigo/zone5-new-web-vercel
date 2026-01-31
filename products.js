@@ -132,7 +132,7 @@
                 const matchesSubcategory = !subcategory || product.subcategory === subcategory;
                 const matchesPrice = product.price >= minPrice && product.price <= maxPrice;
                 const matchesStatus = (showAvailable && product.status === 'Available') || 
-                                    (showSoldOut && product.status === 'SoldOut');
+                                    (showSoldOut && product.status === 'Sold Out');
 
                 return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus;
             });
@@ -158,7 +158,7 @@
             document.getElementById('subcategoryFilter').value = '';
             document.getElementById('minPrice').value = '';
             document.getElementById('maxPrice').value = '';
-            document.getElementById('availableCheck').checked = true;
+            document.getElementById('availableCheck').checked = false;
             document.getElementById('soldOutCheck').checked = false;
             document.getElementById('sortFilter').value = 'default';
             
