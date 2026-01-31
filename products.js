@@ -39,7 +39,7 @@
                         <a href="product-detail.html?code=${product.productcode}">
                             <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </a>
-                        ${product.status === 'Sold Out' ? `
+                        ${product.status === 'Sold out' ? `
                             <div class="absolute inset-0 sold-out-overlay flex items-center justify-center">
                                 <span class="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-lg">SOLD OUT</span>
                             </div>
@@ -62,7 +62,7 @@
                         </a>
                         <div class="flex items-center justify-between mb-3">
                             <span class="text-xl font-bold text-yellow-600">₹${product.price.toLocaleString('en-IN')}</span>
-                            <span class="text-xs px-2 py-1 rounded-full ${product.status === 'Available' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">${product.status === 'Available' ? 'In Stock' : 'Sold Out'}</span>
+                            <span class="text-xs px-2 py-1 rounded-full ${product.status === 'Available' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">${product.status === 'Available' ? 'In Stock' : 'Sold out'}</span>
                         </div>
                         <div class="mt-3">
                             ${product.tags && product.tags.length > 0 ? `
@@ -132,7 +132,7 @@
                 const matchesSubcategory = !subcategory || product.subcategory === subcategory;
                 const matchesPrice = product.price >= minPrice && product.price <= maxPrice;
                 const matchesStatus = (showAvailable && product.status === 'Available') || 
-                                    (showSoldOut && product.status === 'Sold Out');
+                                    (showSoldOut && product.status === 'Sold out');
 
                 return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus;
             });
