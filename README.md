@@ -6,3 +6,4 @@ To Do:
 2. automactic whatsapp msg sending
 3. customer testimonial
 4. Subscriber mailing list
+5. index page banner & button link
