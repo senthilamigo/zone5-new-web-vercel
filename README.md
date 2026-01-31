@@ -9,3 +9,4 @@ To Do:
 5. index page banner & button link
 6. In product details page remove unwanted entries at bottom
 7. Migrate from json to posgresql db - inventory, orders, maillist, customers
+8. customer signup with gmail
