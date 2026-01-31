@@ -274,5 +274,15 @@
             `;
         }
 
+        function updateCartCount() {
+            const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            document.getElementById('cartCount').textContent = totalItems;
+        }
+
+        // Update cart count on page load
+        updateCartCount();
+
         // Initialize
         loadProductDetail();
+
