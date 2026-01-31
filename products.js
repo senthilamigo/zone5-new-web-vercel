@@ -39,7 +39,7 @@
                         <a href="product-detail.html?code=${product.productcode}">
                             <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </a>
-                        ${product.status === 'SoldOut' ? `
+                        ${product.status === 'Sold Out' ? `
                             <div class="absolute inset-0 sold-out-overlay flex items-center justify-center">
                                 <span class="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-lg">SOLD OUT</span>
                             </div>
