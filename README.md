@@ -5,3 +5,4 @@ To Do:
 1. Change index page values from men, women etc
 2. automactic whatsapp msg sending
 3. customer testimonial
+4. Subscriber mailing list
