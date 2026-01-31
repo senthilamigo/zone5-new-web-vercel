@@ -8,3 +8,4 @@ To Do:
 4. Subscriber mailing list
 5. index page banner & button link
 6. In product details page remove unwanted entries at bottom
+7. Migrate from json to posgresql db - inventory, orders, maillist, customers
