@@ -1,6 +1,7 @@
         let cart = [];
         const SHIPPING_THRESHOLD = 999;
         const SHIPPING_COST = 99;
+        const API_URL = 'https://zone5-new-web-vercel.vercel.app'; // Change this to your production URL
 
         function loadCart() {
             const savedCart = localStorage.getItem('cart');
@@ -206,7 +207,7 @@
             return re.test(email);
         }
 
-        function confirmCheckout() {
+        async function confirmCheckout() {
             const emailInput = document.getElementById('buyerEmail');
             const email = emailInput.value.trim();
             const emailError = document.getElementById('emailError');
@@ -240,39 +241,56 @@
                 total: total
             };
 
-            sendConfirmationEmail(orderDetails);
+            // Show loading state
+    const confirmButton = event.target;
+    const originalText = confirmButton.textContent;
+    confirmButton.textContent = 'Sending...';
+    confirmButton.disabled = true;
 
-            document.getElementById('orderId').textContent = orderId;
-            document.getElementById('confirmEmail').textContent = email;
-            
-            const orderSummary = document.getElementById('orderSummary');
-            orderSummary.innerHTML = `
-                <h4 class="font-bold text-gray-900 mb-4">Order Details</h4>
-                <div class="space-y-3 mb-4">
-                    ${cart.map(item => `
-                        <div class="flex justify-between text-sm">
-                            <span class="text-gray-700">${item.name} x ${item.quantity}</span>
-                            <span class="font-semibold text-gray-900">₹${(item.price * item.quantity).toLocaleString('en-IN')}</span>
-                        </div>
-                    `).join('')}
+    // Send email via API
+    const emailSent = await sendConfirmationEmail(orderDetails);
+
+    // Reset button
+    confirmButton.textContent = originalText;
+    confirmButton.disabled = false;
+
+    if (!emailSent) {
+        alert('Failed to send confirmation email. Please check your internet connection and try again.');
+        return;
+    }
+
+    // Display success modal
+    document.getElementById('orderId').textContent = orderId;
+    document.getElementById('confirmEmail').textContent = email;
+    
+    const orderSummary = document.getElementById('orderSummary');
+    orderSummary.innerHTML = `
+        <h4 class="font-bold text-gray-900 mb-4">Order Details</h4>
+        <div class="space-y-3 mb-4">
+            ${cart.map(item => `
+                <div class="flex justify-between text-sm">
+                    <span class="text-gray-700">${item.name} x ${item.quantity}</span>
+                    <span class="font-semibold text-gray-900">₹${(item.price * item.quantity).toLocaleString('en-IN')}</span>
                 </div>
-                <div class="border-t pt-3 space-y-2">
-                    <div class="flex justify-between text-sm">
-                        <span class="text-gray-700">Subtotal</span>
-                        <span class="font-semibold">₹${subtotal.toLocaleString('en-IN')}</span>
-                    </div>
-                    <div class="flex justify-between text-sm">
-                        <span class="text-gray-700">Shipping</span>
-                        <span class="font-semibold ${shipping === 0 ? 'text-green-600' : ''}">
-                            ${shipping === 0 ? 'FREE' : '₹' + shipping.toLocaleString('en-IN')}
-                        </span>
-                    </div>
-                    <div class="flex justify-between text-lg font-bold border-t pt-2">
-                        <span class="text-gray-900">Total</span>
-                        <span class="text-yellow-600">₹${total.toLocaleString('en-IN')}</span>
-                    </div>
-                </div>
-            `;
+            `).join('')}
+        </div>
+        <div class="border-t pt-3 space-y-2">
+            <div class="flex justify-between text-sm">
+                <span class="text-gray-700">Subtotal</span>
+                <span class="font-semibold">₹${subtotal.toLocaleString('en-IN')}</span>
+            </div>
+            <div class="flex justify-between text-sm">
+                <span class="text-gray-700">Shipping</span>
+                <span class="font-semibold ${shipping === 0 ? 'text-green-600' : ''}">
+                    ${shipping === 0 ? 'FREE' : '₹' + shipping.toLocaleString('en-IN')}
+                </span>
+            </div>
+            <div class="flex justify-between text-lg font-bold border-t pt-2">
+                <span class="text-gray-900">Total</span>
+                <span class="text-yellow-600">₹${total.toLocaleString('en-IN')}</span>
+            </div>
+        </div>
+    `;
 
             closeEmailModal();
             document.getElementById('checkoutModal').classList.remove('hidden');
@@ -282,19 +300,32 @@
             updateCartCount();
         }
 
-        function sendConfirmationEmail(orderDetails) {
-            console.log('=== ORDER CONFIRMATION EMAIL ===');
-            console.log('To:', orderDetails.email);
-            console.log('Order ID:', orderDetails.orderId);
-            console.log('Date:', orderDetails.date);
-            console.log('\nOrder Items:');
-            orderDetails.items.forEach(item => {
-                console.log(`- ${item.name} (${item.productcode}) x ${item.quantity} = ₹${(item.price * item.quantity).toLocaleString('en-IN')}`);
-            });
-            console.log('\nSubtotal: ₹' + orderDetails.subtotal.toLocaleString('en-IN'));
-            console.log('Shipping: ' + (orderDetails.shipping === 0 ? 'FREE' : '₹' + orderDetails.shipping.toLocaleString('en-IN')));
-            console.log('Total: ₹' + orderDetails.total.toLocaleString('en-IN'));
-            console.log('================================');
+    async function sendConfirmationEmail(orderDetails) {
+        try {
+        const response = await fetch(`${API_URL}/api/send-order-confirmation`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(orderDetails)
+        });
+
+        const result = await response.json();
+        
+        if (result.success) {
+            console.log('✓ Email sent successfully!');
+            console.log('Order ID:', result.orderId);
+            return true;
+        } else {
+            console.error('✗ Failed to send email:', result.message);
+            return false;
+        }
+    } catch (error) {
+        console.error('✗ Error sending email:', error);
+        // Log details for debugging
+        console.log('Order Details:', orderDetails);
+        return false;
+    }
         }
 
         function closeCheckoutModal() {
