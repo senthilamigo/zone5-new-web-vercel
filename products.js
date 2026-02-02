@@ -1,7 +1,7 @@
         let allProducts = [];
         let filteredProducts = [];
         let currentPage = 1;
-        const productsPerPage = 9;
+        const productsPerPage = 48;
 
         // Load products from JSON file
         async function loadProducts() {
