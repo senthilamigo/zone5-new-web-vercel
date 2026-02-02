@@ -1,7 +1,7 @@
         let cart = [];
         const SHIPPING_THRESHOLD = 2500;
         const SHIPPING_COST = 99;
-        const API_URL = 'http://zone5-web-backend-vercel.vercel.app'; // Change this to your production URL
+        const API_URL = 'https://zone5-web-backend-vercel.vercel.app'; // Change this to your production URL
 
         function loadCart() {
             const savedCart = localStorage.getItem('cart');
