@@ -302,7 +302,7 @@ async function confirmCheckout() {
 }
 
 async function sendConfirmationEmail(orderDetails) {
-    const SELLER_EMAIL = 'thisissenthilmail@gmail.com'; // Hardcoded seller email - UPDATE THIS!
+    const SELLER_EMAIL = 'shopzonefive@gmail.com'; // Hardcoded seller email - UPDATE THIS!
     
     try {
         // Send email to customer
