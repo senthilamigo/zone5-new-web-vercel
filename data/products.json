@@ -5284,5 +5284,16 @@
     ],
     "price": "2000",
     "status": "Available"
+  },
+  {
+    "productcode": "test1",
+    "name": "test prod1",
+    "image": "images/Whisk_69555fe2e54723d8bf242ba436208142dr_1770200847269.jpeg",
+    "description": "details",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [],
+    "price": 2000,
+    "status": "Available"
   }
 ]
