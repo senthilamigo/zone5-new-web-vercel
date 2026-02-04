@@ -233,7 +233,8 @@
                         const result = await uploadResponse.json();
                         
                         // Set the image URL in the input field
-                        const imageUrl = `images/${filename}`;
+                        //const imageUrl = `images/${filename}`;
+                        const imageUrl = `https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/${filename}`;
                         imageInput.value = imageUrl;
 
                         statusDiv.innerHTML = `<span class="text-green-600">✅ Image uploaded successfully!</span>`;
