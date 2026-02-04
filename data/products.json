@@ -5317,5 +5317,22 @@
     "tags": [],
     "price": 600,
     "status": "Available"
+  },
+  {
+    "productcode": "img12",
+    "name": "image test 1",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/pixnova-dd512a8d31df0319e11ab7c79bf1b545_1770228945079.jpg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Whisk_69555fe2e54723d8bf242ba436208142dr_1770228952608.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/piclumen-1769682779701_1770228968642.png",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/piclumen-1769682209553_1770228978422.png",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/piclumen-1769682204705_1770228994003.png"
+    ],
+    "description": "test describe",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [],
+    "price": 5000,
+    "status": "Available"
   }
 ]
