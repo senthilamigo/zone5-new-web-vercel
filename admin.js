@@ -170,7 +170,7 @@
 
                 const owner = 'senthilamigo';
                 const repo = 'zone5-new-web-vercel';
-                const branch = 'dev';
+                const branch = 'main';
                 const path = 'data/products.json';
                 const content = JSON.stringify(products, null, 2);
                 const encodedContent = btoa(unescape(encodeURIComponent(content)));
