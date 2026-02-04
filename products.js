@@ -131,10 +131,15 @@
             const subcategory = document.getElementById('subcategoryFilter').value;
             const minPrice = parseFloat(document.getElementById('minPrice').value) || 0;
             const maxPrice = parseFloat(document.getElementById('maxPrice').value) || Infinity;
-            const showAvailable = document.getElementById('availableCheck').checked;
-            const showSoldOut = document.getElementById('soldOutCheck').checked;
+            let showAvailable = document.getElementById('availableCheck').checked;
+            let showSoldOut = document.getElementById('soldOutCheck').checked;
             const sortBy = document.getElementById('sortFilter').value;
 
+            if ( !showAvailable && !showSoldOut ) 
+            {
+                  showAvailable = true;
+                  showSoldOut = true;
+            }
             filteredProducts = allProducts.filter(product => {
                 const matchesSearch = product.name.toLowerCase().includes(search) || 
                                     (product.tags && product.tags.some(tag => tag.toLowerCase().includes(search)));
