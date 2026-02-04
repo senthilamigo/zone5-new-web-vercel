@@ -18,7 +18,7 @@ function updateCartCount() {
 function renderCart() {
     const cartContent = document.getElementById('cartContent');
     const emptyCart = document.getElementById('emptyCart');
-    const cartCount = document.getElementById('cartCount');
+    
 
     if (cart.length === 0) {
         cartContent.classList.add('hidden');
@@ -30,7 +30,7 @@ function renderCart() {
     emptyCart.classList.add('hidden');
 
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : (SHIPPING_COST * cartCount);
+    const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : (SHIPPING_COST * cart.length);
     const total = subtotal + shipping;
 
     cartContent.innerHTML = `
@@ -211,8 +211,7 @@ function validateEmail(email) {
 async function confirmCheckout() {
     const emailInput = document.getElementById('buyerEmail');
     const email = emailInput.value.trim();
-    const emailError = document.getElementById('emailError');
-    const cartCount = document.getElementById('cartCount');
+    const emailError = document.getElementById('emailError');    
 
     if (!validateEmail(email)) {
         emailError.classList.remove('hidden');
@@ -230,7 +229,7 @@ async function confirmCheckout() {
     });
 
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : (SHIPPING_COST * cartCount);
+    const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : (SHIPPING_COST * cart.length);
     const total = subtotal + shipping;
 
     const orderDetails = {
