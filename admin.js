@@ -140,7 +140,7 @@
         }
 
         // Upload image to GitHub
-        async function uploadImage(event) {
+        async function uploadImage(event, imageNumber) {
             const file = event.target.files[0];
             if (!file) return;
 
@@ -157,9 +157,9 @@
             }
 
             const statusDiv = document.getElementById('uploadStatus');
-            const imageInput = document.getElementById('image');
-            const previewDiv = document.getElementById('imagePreview');
-            const previewImg = document.getElementById('previewImg');
+            const imageInput = document.getElementById(`image${imageNumber}`);
+            const previewDiv = document.getElementById(`imagePreview${imageNumber}`);
+            const previewImg = document.getElementById(`previewImg${imageNumber}`);
 
             // Show preview
             const reader = new FileReader();
@@ -185,7 +185,7 @@
             }
 
             try {
-                statusDiv.innerHTML = '<span class="text-blue-600">⏳ Uploading image to GitHub...</span>';
+                statusDiv.innerHTML = `<span class="text-blue-600">⏳ Uploading image ${imageNumber} to GitHub...</span>`;
                 statusDiv.classList.remove('hidden');
 
                 // Generate filename with timestamp to avoid conflicts
@@ -233,11 +233,10 @@
                         const result = await uploadResponse.json();
                         
                         // Set the image URL in the input field
-                        //const imageUrl = `images/${filename}`;
                         const imageUrl = `https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/${filename}`;
                         imageInput.value = imageUrl;
 
-                        statusDiv.innerHTML = `<span class="text-green-600">✅ Image uploaded successfully!</span>`;
+                        statusDiv.innerHTML = `<span class="text-green-600">✅ Image ${imageNumber} uploaded successfully!</span>`;
                         
                         // Clear status after 3 seconds
                         setTimeout(() => {
@@ -377,10 +376,20 @@
             }
 
             emptyState.classList.add('hidden');
-            tbody.innerHTML = filteredProducts.map(product => `
+            tbody.innerHTML = filteredProducts.map(product => {
+                // Get the first image from the images array or fallback to image property
+                const primaryImage = Array.isArray(product.images) && product.images.length > 0 
+                    ? product.images[0] 
+                    : (product.image || '');
+                const imageCount = Array.isArray(product.images) ? product.images.length : (product.image ? 1 : 0);
+                
+                return `
                 <tr class="hover:bg-gray-50">
                     <td class="px-6 py-4">
-                        <img src="${product.image}" alt="${product.name}" class="w-16 h-20 object-cover rounded">
+                        <div class="relative">
+                            <img src="${primaryImage}" alt="${product.name}" class="w-16 h-20 object-cover rounded">
+                            ${imageCount > 1 ? `<span class="absolute -top-1 -right-1 bg-blue-600 text-white text-xs px-1.5 py-0.5 rounded-full">${imageCount}</span>` : ''}
+                        </div>
                     </td>
                     <td class="px-6 py-4 text-sm font-medium text-gray-900">${product.productcode}</td>
                     <td class="px-6 py-4 text-sm text-gray-700 max-w-xs truncate">${product.name}</td>
@@ -406,7 +415,7 @@
                         </div>
                     </td>
                 </tr>
-            `).join('');
+            `}).join('');
         }
 
         // Update subcategories based on selected category
@@ -428,13 +437,16 @@
             const modal = document.getElementById('productModal');
             const form = document.getElementById('productForm');
             const modalTitle = document.getElementById('modalTitle');
-            const previewDiv = document.getElementById('imagePreview');
-            const previewImg = document.getElementById('previewImg');
             const uploadStatus = document.getElementById('uploadStatus');
             
             form.reset();
-            previewDiv.classList.add('hidden');
             uploadStatus.classList.add('hidden');
+            
+            // Hide all previews
+            for (let i = 1; i <= 5; i++) {
+                document.getElementById(`imagePreview${i}`).classList.add('hidden');
+            }
+            
             editingProductCode = productCode;
             
             if (productCode) {
@@ -444,12 +456,21 @@
                     document.getElementById('productcode').value = product.productcode;
                     document.getElementById('productcode').readOnly = true;
                     document.getElementById('name').value = product.name;
-                    document.getElementById('image').value = product.image;
                     
-                    // Show preview if image exists
-                    if (product.image) {
-                        previewImg.src = product.image.startsWith('http') ? product.image : `https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/main/${product.image}`;
-                        previewDiv.classList.remove('hidden');
+                    // Handle multiple images
+                    const images = Array.isArray(product.images) ? product.images : (product.image ? [product.image] : []);
+                    for (let i = 0; i < 5; i++) {
+                        const imageInput = document.getElementById(`image${i + 1}`);
+                        const previewDiv = document.getElementById(`imagePreview${i + 1}`);
+                        const previewImg = document.getElementById(`previewImg${i + 1}`);
+                        
+                        if (i < images.length && images[i]) {
+                            imageInput.value = images[i];
+                            previewImg.src = images[i].startsWith('http') ? images[i] : `https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/main/${images[i]}`;
+                            previewDiv.classList.remove('hidden');
+                        } else {
+                            imageInput.value = '';
+                        }
                     }
                     
                     document.getElementById('description').value = product.description;
@@ -479,10 +500,25 @@
         document.getElementById('productForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
+            // Collect all images
+            const images = [];
+            for (let i = 1; i <= 5; i++) {
+                const imageValue = document.getElementById(`image${i}`).value.trim();
+                if (imageValue) {
+                    images.push(imageValue);
+                }
+            }
+            
+            // Validate at least one image
+            if (images.length === 0) {
+                alert('Please provide at least one product image.');
+                return;
+            }
+            
             const productData = {
                 productcode: document.getElementById('productcode').value.trim(),
                 name: document.getElementById('name').value.trim(),
-                image: document.getElementById('image').value.trim(),
+                images: images,  // Store as array
                 description: document.getElementById('description').value.trim(),
                 category: document.getElementById('category').value,
                 subcategory: document.getElementById('subcategory').value,
