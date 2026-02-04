@@ -1,6 +1,6 @@
 let cart = [];
 const SHIPPING_THRESHOLD = 2500;
-const SHIPPING_COST = 99;
+const SHIPPING_COST = 80;
 const API_URL = 'https://zone5-web-backend-vercel.vercel.app'; // Change this to your production URL
 
 function loadCart() {
@@ -18,6 +18,7 @@ function updateCartCount() {
 function renderCart() {
     const cartContent = document.getElementById('cartContent');
     const emptyCart = document.getElementById('emptyCart');
+    const cartCount = document.getElementById('cartCount');
 
     if (cart.length === 0) {
         cartContent.classList.add('hidden');
@@ -29,7 +30,7 @@ function renderCart() {
     emptyCart.classList.add('hidden');
 
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : SHIPPING_COST;
+    const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : SHIPPING_COST * cartCount;
     const total = subtotal + shipping;
 
     cartContent.innerHTML = `
