@@ -2,11 +2,18 @@
   {
     "productcode": "S0022",
     "name": "Printed Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0022.jpeg",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0022.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Whisk_69555fe2e54723d8bf242ba436208142dr_1770229167222.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Whisk_07ca6d288e90f968fb04e8a52906ed3ddr_1770229182243.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/pixnova-dd512a8d31df0319e11ab7c79bf1b545_1770229193876.jpg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/piclumen-1769682209553_1770229203182.png"
+    ],
     "description": "✨ Lightweight soft tissue fabric with a gentle natural sheen, featuring a warm golden-beige base. Designed with delicate multicolour translucent leaf motifs—scattered lightly across the body with a bold leaf cluster near the pallu—finished with a simple woven tissue border for a clean, refined look.\n🧵 Highlights:\n* Beautiful oversized floral pattern\n* Sophisticated muted gold shine\n* Easy to carry, non-bulky & elegant\n🧼 Care:\n* Dry clean recommended\n* Store in a soft muslin cloth to maintain shine\nNote: Slight shade variation may occur due to screen resolution and photography lighting.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "price": "1099",
+    "tags": [],
+    "price": 1099,
     "status": "Available"
   },
   {
@@ -5316,23 +5323,6 @@
     "subcategory": "Festive Sarees",
     "tags": [],
     "price": 600,
-    "status": "Available"
-  },
-  {
-    "productcode": "img12",
-    "name": "image test 1",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/pixnova-dd512a8d31df0319e11ab7c79bf1b545_1770228945079.jpg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Whisk_69555fe2e54723d8bf242ba436208142dr_1770228952608.jpeg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/piclumen-1769682779701_1770228968642.png",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/piclumen-1769682209553_1770228978422.png",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/piclumen-1769682204705_1770228994003.png"
-    ],
-    "description": "test describe",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 5000,
     "status": "Available"
   }
 ]
