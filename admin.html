@@ -12,7 +12,6 @@
         .modal.active {
             display: flex;
         }
-        
     </style>
 </head>
 <body class="bg-gray-50">
@@ -26,7 +25,7 @@
                 </div>
                 <nav class="hidden lg:flex space-x-8 text-sm font-medium text-gray-700">
                     <a href="index.html" class="hover:text-yellow-600 transition">View Store</a>
-                    <a href="products.html" class="hover:text-yellow-600 transition">All Products</a>                    
+                    <a href="products.html" class="hover:text-yellow-600 transition">All Products</a>
                     <a href="#" class="text-yellow-600 font-semibold">Product Management</a>
                 </nav>
             </div>
@@ -59,12 +58,20 @@
                                 Add New Product
                             </span>
                         </button>
-                        <button onclick="updateDatastore()" class="bg-green-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700 transition">
+                        <button onclick="syncFromGitHub()" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition">
                             <span class="flex items-center justify-center">
                                 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
                                 </svg>
-                                Update Datastore
+                                Sync from GitHub
+                            </span>
+                        </button>
+                        <button onclick="updateDatastore()" class="bg-green-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700 transition">
+                            <span class="flex items-center justify-center">
+                                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                                </svg>
+                                Push to GitHub
                             </span>
                         </button>
                         <button onclick="exportProducts()" class="bg-gray-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition">

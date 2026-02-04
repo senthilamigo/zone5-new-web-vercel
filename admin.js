@@ -1,4 +1,4 @@
-let products = [];
+        let products = [];
         let editingProductCode = null;
 
         const subcategoryMap = {
@@ -7,14 +7,39 @@ let products = [];
         };
 
         // Load products from storage
-        function loadProducts() {
+        async function loadProducts() {
             try {
+                // First, try to load from GitHub
+                const githubUrl = 'https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/main/data/products.json';
+                
+                try {
+                    const response = await fetch(githubUrl);
+                    if (response.ok) {
+                        const githubProducts = await response.json();
+                        if (Array.isArray(githubProducts) && githubProducts.length > 0) {
+                            products = githubProducts;
+                            // Save to localStorage for offline access
+                            localStorage.setItem('products-data', JSON.stringify(products));
+                            console.log('Products loaded from GitHub repository');
+                            renderProducts();
+                            return;
+                        }
+                    }
+                } catch (githubError) {
+                    console.log('Could not load from GitHub, falling back to localStorage:', githubError.message);
+                }
+
+                // Fallback to localStorage if GitHub fails
                 const stored = localStorage.getItem('products-data');
                 if (stored) {
                     products = JSON.parse(stored);
+                    console.log('Products loaded from localStorage');
+                } else {
+                    products = [];
+                    console.log('No products found, starting fresh');
                 }
             } catch (error) {
-                console.log('No existing products found, starting fresh');
+                console.error('Error loading products:', error);
                 products = [];
             }
             renderProducts();
@@ -68,6 +93,52 @@ let products = [];
             }
         }
 
+        // Sync from GitHub - Manual refresh
+        async function syncFromGitHub() {
+            const button = event.target.closest('button');
+            const originalHTML = button.innerHTML;
+            
+            try {
+                button.disabled = true;
+                button.innerHTML = `
+                    <span class="flex items-center justify-center">
+                        <svg class="animate-spin h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Syncing...
+                    </span>
+                `;
+
+                const githubUrl = 'https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/main/data/products.json';
+                const response = await fetch(githubUrl, { cache: 'no-store' });
+                
+                if (!response.ok) {
+                    throw new Error('Failed to fetch from GitHub');
+                }
+
+                const githubProducts = await response.json();
+                
+                if (!Array.isArray(githubProducts)) {
+                    throw new Error('Invalid data format from GitHub');
+                }
+
+                products = githubProducts;
+                localStorage.setItem('products-data', JSON.stringify(products));
+                renderProducts();
+                
+                button.disabled = false;
+                button.innerHTML = originalHTML;
+                
+                alert(`✅ Successfully synced ${products.length} products from GitHub!`);
+            } catch (error) {
+                console.error('Error syncing from GitHub:', error);
+                button.disabled = false;
+                button.innerHTML = originalHTML;
+                alert(`❌ Failed to sync from GitHub:\n\n${error.message}\n\nPlease check:\n1. The repository is accessible\n2. The products.json file exists in the main branch\n3. Your internet connection`);
+            }
+        }
+
         // Update datastore - Push to GitHub
         async function updateDatastore() {
             if (products.length === 0) {
@@ -75,7 +146,7 @@ let products = [];
                 return;
             }
 
-            const githubToken = prompt('Enter your GitHub Personal Access Token:');
+            const githubToken = prompt('Enter your GitHub Personal Access Token:\n\n(You can create one at: https://github.com/settings/tokens)\nRequired permissions: repo');
             
             if (!githubToken) {
                 alert('GitHub token is required to update the datastore.');
