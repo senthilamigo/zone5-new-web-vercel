@@ -135,6 +135,11 @@
             const showSoldOut = document.getElementById('soldOutCheck').checked;
             const sortBy = document.getElementById('sortFilter').value;
 
+            if ( !showAvailable && !showSoldOut ) 
+            {
+                  showAvailable = true;
+                  showSoldOut = true;
+            }
             filteredProducts = allProducts.filter(product => {
                 const matchesSearch = product.name.toLowerCase().includes(search) || 
                                     (product.tags && product.tags.some(tag => tag.toLowerCase().includes(search)));
