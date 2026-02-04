@@ -5295,5 +5295,16 @@
     "tags": [],
     "price": 2000,
     "status": "Available"
+  },
+  {
+    "productcode": "test1431",
+    "name": "test11",
+    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/Whisk_07ca6d288e90f968fb04e8a52906ed3ddr_1770202412725.jpeg",
+    "description": "detail",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [],
+    "price": 60,
+    "status": "Available"
   }
 ]
