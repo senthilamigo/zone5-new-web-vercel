@@ -139,6 +139,130 @@
             }
         }
 
+        // Upload image to GitHub
+        async function uploadImage(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            // Validate file type
+            if (!file.type.startsWith('image/')) {
+                alert('Please select an image file');
+                return;
+            }
+
+            // Validate file size (max 5MB)
+            if (file.size > 5 * 1024 * 1024) {
+                alert('Image size should be less than 5MB');
+                return;
+            }
+
+            const statusDiv = document.getElementById('uploadStatus');
+            const imageInput = document.getElementById('image');
+            const previewDiv = document.getElementById('imagePreview');
+            const previewImg = document.getElementById('previewImg');
+
+            // Show preview
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                previewImg.src = e.target.result;
+                previewDiv.classList.remove('hidden');
+            };
+            reader.readAsDataURL(file);
+
+            // Get GitHub token
+            let githubToken = localStorage.getItem('github_token');
+            if (!githubToken) {
+                githubToken = prompt('Enter your GitHub Personal Access Token:\n\n(This will be saved for future uploads)\n\nYou can create one at: https://github.com/settings/tokens\nRequired permissions: repo');
+                
+                if (!githubToken) {
+                    statusDiv.innerHTML = '<span class="text-red-600">❌ GitHub token is required to upload images</span>';
+                    statusDiv.classList.remove('hidden');
+                    return;
+                }
+                
+                // Save token for future use
+                localStorage.setItem('github_token', githubToken);
+            }
+
+            try {
+                statusDiv.innerHTML = '<span class="text-blue-600">⏳ Uploading image to GitHub...</span>';
+                statusDiv.classList.remove('hidden');
+
+                // Generate filename with timestamp to avoid conflicts
+                const timestamp = Date.now();
+                const extension = file.name.split('.').pop();
+                const sanitizedName = file.name.replace(/[^a-zA-Z0-9.-]/g, '_').replace(/\.[^/.]+$/, '');
+                const filename = `${sanitizedName}_${timestamp}.${extension}`;
+
+                const owner = 'senthilamigo';
+                const repo = 'zone5-new-web-vercel';
+                const branch = 'main';
+                const path = `images/${filename}`;
+
+                // Convert file to base64
+                const fileReader = new FileReader();
+                fileReader.onload = async function(e) {
+                    try {
+                        const base64Content = e.target.result.split(',')[1];
+
+                        // Upload to GitHub
+                        const uploadResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+                            method: 'PUT',
+                            headers: {
+                                'Authorization': `token ${githubToken}`,
+                                'Accept': 'application/vnd.github.v3+json',
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                message: `Upload product image: ${filename}`,
+                                content: base64Content,
+                                branch: branch
+                            })
+                        });
+
+                        if (!uploadResponse.ok) {
+                            const error = await uploadResponse.json();
+                            if (uploadResponse.status === 401) {
+                                // Invalid token, clear it
+                                localStorage.removeItem('github_token');
+                                throw new Error('Invalid GitHub token. Please try again with a valid token.');
+                            }
+                            throw new Error(error.message || 'Failed to upload image');
+                        }
+
+                        const result = await uploadResponse.json();
+                        
+                        // Set the image URL in the input field
+                        //const imageUrl = `images/${filename}`;
+                        const imageUrl = `https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/${filename}`;
+                        imageInput.value = imageUrl;
+
+                        statusDiv.innerHTML = `<span class="text-green-600">✅ Image uploaded successfully!</span>`;
+                        
+                        // Clear status after 3 seconds
+                        setTimeout(() => {
+                            statusDiv.classList.add('hidden');
+                        }, 3000);
+
+                    } catch (uploadError) {
+                        console.error('Error uploading to GitHub:', uploadError);
+                        statusDiv.innerHTML = `<span class="text-red-600">❌ Upload failed: ${uploadError.message}</span>`;
+                    }
+                };
+                fileReader.readAsDataURL(file);
+
+            } catch (error) {
+                console.error('Error processing image:', error);
+                statusDiv.innerHTML = `<span class="text-red-600">❌ Error: ${error.message}</span>`;
+            }
+        }
+
+        // Clear GitHub token function (can be called from console if needed)
+        function clearGitHubToken() {
+            localStorage.removeItem('github_token');
+            alert('GitHub token cleared. You will be prompted for a new token on next upload.');
+        }
+
         // Update datastore - Push to GitHub
         async function updateDatastore() {
             if (products.length === 0) {
@@ -304,8 +428,13 @@
             const modal = document.getElementById('productModal');
             const form = document.getElementById('productForm');
             const modalTitle = document.getElementById('modalTitle');
+            const previewDiv = document.getElementById('imagePreview');
+            const previewImg = document.getElementById('previewImg');
+            const uploadStatus = document.getElementById('uploadStatus');
             
             form.reset();
+            previewDiv.classList.add('hidden');
+            uploadStatus.classList.add('hidden');
             editingProductCode = productCode;
             
             if (productCode) {
@@ -316,6 +445,13 @@
                     document.getElementById('productcode').readOnly = true;
                     document.getElementById('name').value = product.name;
                     document.getElementById('image').value = product.image;
+                    
+                    // Show preview if image exists
+                    if (product.image) {
+                        previewImg.src = product.image.startsWith('http') ? product.image : `https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/main/${product.image}`;
+                        previewDiv.classList.remove('hidden');
+                    }
+                    
                     document.getElementById('description').value = product.description;
                     document.getElementById('category').value = product.category;
                     updateSubcategories();
