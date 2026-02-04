@@ -5306,5 +5306,16 @@
     "tags": [],
     "price": 60,
     "status": "Available"
+  },
+  {
+    "productcode": "gggg",
+    "name": "dd",
+    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Whisk_07ca6d288e90f968fb04e8a52906ed3ddr_1770202982425.jpeg",
+    "description": "gggg",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [],
+    "price": 600,
+    "status": "Available"
   }
 ]
