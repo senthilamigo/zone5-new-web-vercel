@@ -2,6 +2,7 @@
         let allProducts = [];
         let selectedSize = null;
         let quantity = 1;
+        let currentImageIndex = 0;
 
         // Get product code from URL
         const urlParams = new URLSearchParams(window.location.search);
@@ -37,25 +38,41 @@
             document.getElementById('breadcrumbProduct').textContent = currentProduct.name;
             document.getElementById('productFullDescription').textContent = currentProduct.description;
             
+            // Get available images - use images array if available, otherwise fallback to single image
+            const productImages = currentProduct.images && currentProduct.images.length > 0 
+                ? currentProduct.images 
+                : [currentProduct.image];
+            
+            // Filter out any undefined or null images
+            const validImages = productImages.filter(img => img);
+            
+            // Debug logging
+            console.log('Product Code:', currentProduct.productcode);
+            console.log('Images array:', currentProduct.images);
+            console.log('Valid images count:', validImages.length);
+            console.log('Valid images:', validImages);
+            
+            // Generate thumbnail HTML
+            const thumbnailsHTML = validImages.map((image, index) => `
+                <button onclick="changeMainImage('${image}', ${index})" class="${index === 0 ? 'thumbnail-active' : ''}" data-index="${index}">
+                    <img src="${image}" alt="Thumbnail ${index + 1}" class="w-full h-24 object-cover rounded-lg border-2 ${index === 0 ? 'border-yellow-600' : 'border-gray-200'} hover:border-yellow-600 transition" onerror="this.parentElement.style.display='none'">
+                </button>
+            `).join('');
+            
+            // Determine grid columns based on number of images
+            const gridColsClass = validImages.length === 1 ? 'grid-cols-1' :
+                                  validImages.length === 2 ? 'grid-cols-2' :
+                                  validImages.length === 3 ? 'grid-cols-3' :
+                                  validImages.length === 4 ? 'grid-cols-4' : 'grid-cols-5';
+            
             productDetail.innerHTML = `
                 <!-- Product Images -->
                 <div>
                     <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
-                        <img id="mainImage" src="${currentProduct.image}" alt="${currentProduct.name}" class="w-full h-auto object-cover">
+                        <img id="mainImage" src="${validImages[0]}" alt="${currentProduct.name}" class="w-full h-auto object-cover">
                     </div>
-                    <div class="grid grid-cols-4 gap-2">
-                        <button onclick="changeMainImage('${currentProduct.image}')" class="thumbnail-active">
-                            <img src="${currentProduct.image}" alt="Thumbnail 1" class="w-full h-24 object-cover rounded-lg border-2 hover:border-yellow-600 transition">
-                        </button>
-                        <button onclick="changeMainImage('${currentProduct.image}')">
-                            <img src="${currentProduct.image}" alt="Thumbnail 2" class="w-full h-24 object-cover rounded-lg border-2 border-gray-200 hover:border-yellow-600 transition">
-                        </button>
-                        <button onclick="changeMainImage('${currentProduct.image}')">
-                            <img src="${currentProduct.image}" alt="Thumbnail 3" class="w-full h-24 object-cover rounded-lg border-2 border-gray-200 hover:border-yellow-600 transition">
-                        </button>
-                        <button onclick="changeMainImage('${currentProduct.image}')">
-                            <img src="${currentProduct.image}" alt="Thumbnail 4" class="w-full h-24 object-cover rounded-lg border-2 border-gray-200 hover:border-yellow-600 transition">
-                        </button>
+                    <div class="grid ${gridColsClass} gap-2" id="thumbnailContainer">
+                        ${thumbnailsHTML}
                     </div>
                 </div>
 
@@ -138,13 +155,13 @@
                                     <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                     </svg>
-                                    <span class="text-gray-700">Free Shipping on orders above ₹2500</span>
+                                    <span class="text-gray-700">Free Shipping</span>
                                 </div>
                                 <div class="flex items-center gap-3">
                                     <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                     </svg>
-                                    <span class="text-gray-700">7 Days Easy Returns</span>
+                                    <span class="text-gray-700">Easy Returns</span>
                                 </div>
                                 <div class="flex items-center gap-3">
                                     <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -171,28 +188,43 @@
                 .slice(0, 4);
             
             const container = document.getElementById('relatedProducts');
-            container.innerHTML = relatedProducts.map(product => `
-                <a href="product-detail.html?code=${product.productcode}" class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-                    <div class="relative overflow-hidden aspect-[4/5] bg-gray-100">
-                        <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-4">
-                        <div class="text-xs text-gray-500 mb-1">${product.subcategory}</div>
-                        <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2">${product.name}</h3>
-                        <span class="text-lg font-bold text-yellow-600">₹${product.price.toLocaleString('en-IN')}</span>
-                    </div>
-                </a>
-            `).join('');
+            container.innerHTML = relatedProducts.map(product => {
+                // Use first image from images array or fallback to image property
+                const productImage = product.images && product.images.length > 0 
+                    ? product.images[0] 
+                    : product.image;
+                
+                return `
+                    <a href="product-detail.html?code=${product.productcode}" class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="relative overflow-hidden aspect-[4/5] bg-gray-100">
+                            <img src="${productImage}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <div class="p-4">
+                            <div class="text-xs text-gray-500 mb-1">${product.subcategory}</div>
+                            <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2">${product.name}</h3>
+                            <span class="text-lg font-bold text-yellow-600">₹${product.price.toLocaleString('en-IN')}</span>
+                        </div>
+                    </a>
+                `;
+            }).join('');
         }
 
-        function changeMainImage(imageSrc) {
+        function changeMainImage(imageSrc, index) {
             document.getElementById('mainImage').src = imageSrc;
+            currentImageIndex = index;
             
             // Update thumbnail borders
-            document.querySelectorAll('.grid button').forEach(btn => {
-                btn.classList.remove('thumbnail-active');
+            document.querySelectorAll('#thumbnailContainer button').forEach((btn, idx) => {
+                if (idx === index) {
+                    btn.classList.add('thumbnail-active');
+                    btn.querySelector('img').classList.remove('border-gray-200');
+                    btn.querySelector('img').classList.add('border-yellow-600');
+                } else {
+                    btn.classList.remove('thumbnail-active');
+                    btn.querySelector('img').classList.add('border-gray-200');
+                    btn.querySelector('img').classList.remove('border-yellow-600');
+                }
             });
-            event.currentTarget.classList.add('thumbnail-active');
         }
 
         function increaseQuantity() {
