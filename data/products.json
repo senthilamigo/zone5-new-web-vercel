@@ -1710,15 +1710,15 @@
   {
     "productcode": "S0117",
     "name": "Kanchipuram Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0117.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0117.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0117.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0058-1_1770289532720.jpeg"
     ],
     "description": "✨ Pure Silk Saree with Tested Zari ✨\nFabric: Pure Silk\nBody Color: Elegant teal blue\nDesign: Delicate gold zari floral and geometric motifs woven across the body\nBorder: Broad, richly woven purple border with intricate traditional zari patterns\nPallu: Heavy zari pallu with fine geometric and ornamental weaving\nZari: Tested zari\nTexture: Smooth, lustrous silk with a graceful fall and rich sheen\nOccasion: Ideal for weddings, festive occasions, temple wear, and special celebrations\nBlouse: Matching blouse piece included\n💙💜 A stunning blend of green and royal purple that exudes elegance and timeless charm.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "5300",
+    "price": 5300,
     "status": "Available"
   },
   {
@@ -2522,15 +2522,15 @@
   {
     "productcode": "C0058",
     "name": "Premium Kanchi Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0058.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0058.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0058.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0058-1_1770289617793.jpeg"
     ],
     "description": "Kanchi Cotton Salwar Material – Sophisticated Ethnic Charm ✨\n* Fabric: Premium Chanderi Cotton (Kurta & Dupatta)\n* Color Palette: Deep Teal Blue & Classic Ebony Black\n* Kurta Details: * Teal blue base with a textured finish\n* Stunning contrast neck panel with traditional temple-border motifs\n* Accented with elegant handcrafted wooden buttons\n* Dupatta Details: * Graceful black Chanderi dupatta\n* Rich Golden Zari border featuring intricate triangular weave\n* Finished with delicate tassel detailing\n* Bottom: Matching solid black fabric for a sleek, comfortable fit\n* Fabric Feel: Lightweight, breathable, and features a subtle natural sheen characteristic of Chanderi\n* Occasion: Perfect for office wear, kitty parties, semi-formal events, and elegant daily styling\n* Style Tip: Pair with oxidized silver jhumkas and black mojaris for a complete ethnic look",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
-    "price": "1340",
+    "price": 1340,
     "status": "Available"
   },
   {
@@ -5980,19 +5980,19 @@
   {
     "productcode": "C0244",
     "name": "Kashmiri Salwar Suit - Heavy work Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0244.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0244.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0244.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0244-1_1770289644185.jpeg"
     ],
-    "description": "",
+    "description": "Kashmiri Salwar Suit - Heavy work Dupatta",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
       "Party wear"
     ],
-    "price": "3200",
-    "status": "Sold out"
+    "price": 3200,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0245",
@@ -6580,11 +6580,11 @@
   {
     "productcode": "S0191",
     "name": "Fancy Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0191.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0191.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0191.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0191-1_1770289569909.jpeg"
     ],
-    "description": "",
+    "description": "Fancy Saree",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [
@@ -6592,7 +6592,7 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "1900",
+    "price": 1900,
     "status": "Available"
   },
   {
