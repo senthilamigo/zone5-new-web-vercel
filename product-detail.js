@@ -46,6 +46,12 @@
             // Filter out any undefined or null images
             const validImages = productImages.filter(img => img);
             
+            // Debug logging
+            console.log('Product Code:', currentProduct.productcode);
+            console.log('Images array:', currentProduct.images);
+            console.log('Valid images count:', validImages.length);
+            console.log('Valid images:', validImages);
+            
             // Generate thumbnail HTML
             const thumbnailsHTML = validImages.map((image, index) => `
                 <button onclick="changeMainImage('${image}', ${index})" class="${index === 0 ? 'thumbnail-active' : ''}" data-index="${index}">
@@ -53,13 +59,19 @@
                 </button>
             `).join('');
             
+            // Determine grid columns based on number of images
+            const gridColsClass = validImages.length === 1 ? 'grid-cols-1' :
+                                  validImages.length === 2 ? 'grid-cols-2' :
+                                  validImages.length === 3 ? 'grid-cols-3' :
+                                  validImages.length === 4 ? 'grid-cols-4' : 'grid-cols-5';
+            
             productDetail.innerHTML = `
                 <!-- Product Images -->
                 <div>
                     <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
                         <img id="mainImage" src="${validImages[0]}" alt="${currentProduct.name}" class="w-full h-auto object-cover">
                     </div>
-                    <div class="grid grid-cols-${Math.min(validImages.length, 5)} gap-2" id="thumbnailContainer">
+                    <div class="grid ${gridColsClass} gap-2" id="thumbnailContainer">
                         ${thumbnailsHTML}
                     </div>
                 </div>
@@ -143,7 +155,7 @@
                                     <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                     </svg>
-                                    <span class="text-gray-700">Free Shipping on orders above ₹2500 </span>
+                                    <span class="text-gray-700">Free Shipping</span>
                                 </div>
                                 <div class="flex items-center gap-3">
                                     <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
