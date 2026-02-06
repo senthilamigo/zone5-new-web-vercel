@@ -52,18 +52,17 @@
             console.log('Valid images count:', validImages.length);
             console.log('Valid images:', validImages);
             
-            // Generate thumbnail HTML
+            // Generate thumbnail HTML with fixed aspect ratio
             const thumbnailsHTML = validImages.map((image, index) => `
-                <button onclick="changeMainImage('${image}', ${index})" class="${index === 0 ? 'thumbnail-active' : ''}" data-index="${index}">
-                    <img src="${image}" alt="Thumbnail ${index + 1}" class="w-full h-24 object-cover rounded-lg border-2 ${index === 0 ? 'border-yellow-600' : 'border-gray-200'} hover:border-yellow-600 transition" onerror="this.parentElement.style.display='none'">
+                <button onclick="changeMainImage('${image}', ${index})" 
+                        class="${index === 0 ? 'thumbnail-active' : ''} relative block w-24 h-24 flex-shrink-0" 
+                        data-index="${index}">
+                    <img src="${image}" 
+                         alt="Thumbnail ${index + 1}" 
+                         class="w-full h-full object-cover rounded-lg border-2 ${index === 0 ? 'border-yellow-600' : 'border-gray-200'} hover:border-yellow-600 transition" 
+                         onerror="this.parentElement.style.display='none'">
                 </button>
             `).join('');
-            
-            // Determine grid columns based on number of images
-            const gridColsClass = validImages.length === 1 ? 'grid-cols-1' :
-                                  validImages.length === 2 ? 'grid-cols-2' :
-                                  validImages.length === 3 ? 'grid-cols-3' :
-                                  validImages.length === 4 ? 'grid-cols-4' : 'grid-cols-5';
             
             productDetail.innerHTML = `
                 <!-- Product Images -->
@@ -71,7 +70,7 @@
                     <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
                         <img id="mainImage" src="${validImages[0]}" alt="${currentProduct.name}" class="w-full h-auto object-cover">
                     </div>
-                    <div class="grid ${gridColsClass} gap-2" id="thumbnailContainer">
+                    <div class="flex flex-wrap gap-2" id="thumbnailContainer">
                         ${thumbnailsHTML}
                     </div>
                 </div>
