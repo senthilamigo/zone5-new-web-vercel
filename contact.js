@@ -1,5 +1,5 @@
         // Configuration - Update this with your actual API endpoint
-        const API_ENDPOINT = 'https://zone5-web-backend-vercel.vercel.app';
+        const API_ENDPOINT = 'https://zone5-web-backend-vercel.vercel.app/api/send-contact-email';
         // For production, use: 'https://yourdomain.com/api/send-contact-email'
 
         function updateCartCount() {
