@@ -4841,18 +4841,18 @@
   {
     "productcode": "C0199",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0199.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0199.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0199.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0199_-1_1770659625388.jpeg"
     ],
-    "description": "",
+    "description": "Cotton Salwar Suit with Mul Cotton Dupatta",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
       "Work Wear"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
