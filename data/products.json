@@ -5725,18 +5725,18 @@
   {
     "productcode": "C0229",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0229.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0229.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0229.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0229_-1_1770659061001.jpeg"
     ],
-    "description": "",
+    "description": "Cotton Salwar Suit with Chiffon Dupatta",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
       "Work Wear"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
@@ -6119,15 +6119,18 @@
   {
     "productcode": "C0252",
     "name": "Embroidery Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0252.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0252.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0252.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0252-1_1770658868927.jpeg"
     ],
-    "description": "",
+    "description": "Embroidery Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Party wear, Festive",
-    "price": "2300",
+    "tags": [
+      "Party wear",
+      "Festive"
+    ],
+    "price": 2300,
     "status": "Available"
   },
   {
@@ -6404,18 +6407,18 @@
   {
     "productcode": "S0181",
     "name": "Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0181.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0181.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0181.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0181-1_1770658956340.jpeg"
     ],
-    "description": "",
+    "description": "Silk Cotton Saree",
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
       "Party wear"
     ],
-    "price": "2500",
+    "price": 2500,
     "status": "Available"
   },
   {
@@ -6438,18 +6441,18 @@
   {
     "productcode": "S0183",
     "name": "Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0183.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0183.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0183.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0183-1_1770659099169.jpeg"
     ],
-    "description": "",
+    "description": "Silk Cotton Saree",
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
       "Party wear"
     ],
-    "price": "2500",
+    "price": 2500,
     "status": "Available"
   },
   {
@@ -6582,7 +6585,8 @@
     "name": "Fancy Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0191.jpeg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0191-1_1770289569909.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0191-1_1770289569909.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0191-2_1770658928288.jpeg"
     ],
     "description": "Fancy Saree",
     "category": "Saree",
@@ -6652,11 +6656,11 @@
   {
     "productcode": "S0195",
     "name": "Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0195.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0195.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0195.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0195-1_1770659134063.jpeg"
     ],
-    "description": "",
+    "description": "Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
@@ -6664,7 +6668,7 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "2000",
+    "price": 2000,
     "status": "Available"
   },
   {
@@ -6724,11 +6728,11 @@
   {
     "productcode": "S0199",
     "name": "Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0199.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0199.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0199.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0199_-1_1770659003328.jpeg"
     ],
-    "description": "",
+    "description": "Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
@@ -6736,7 +6740,7 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "2000",
+    "price": 2000,
     "status": "Available"
   }
 ]
