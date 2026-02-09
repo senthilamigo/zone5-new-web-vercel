@@ -233,7 +233,7 @@
                         const result = await uploadResponse.json();
                         
                         // Set the image URL in the input field
-                        const imageUrl = `https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/${filename}`;
+                        const imageUrl = `images/${filename}`;
                         imageInput.value = imageUrl;
 
                         statusDiv.innerHTML = `<span class="text-green-600">✅ Image ${imageNumber} uploaded successfully!</span>`;
@@ -293,7 +293,7 @@
 
                 const owner = 'senthilamigo';
                 const repo = 'zone5-new-web-vercel';
-                const branch = 'main';
+                const branch = 'dev';
                 const path = 'data/products.json';
                 const content = JSON.stringify(products, null, 2);
                 const encodedContent = btoa(unescape(encodeURIComponent(content)));
@@ -477,7 +477,7 @@
                     document.getElementById('category').value = product.category;
                     updateSubcategories();
                     document.getElementById('subcategory').value = product.subcategory;
-                    document.getElementById('tags').value = product.tags ? product.tags.join(', ') : '';
+                    document.getElementById('tags').value = Array.isArray(product.tags) ? product.tags.join(', ') : (product.tags || '');
                     document.getElementById('price').value = product.price;
                     document.getElementById('status').value = product.status;
                 }
