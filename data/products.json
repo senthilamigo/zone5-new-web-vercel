@@ -870,7 +870,6 @@
   {
     "productcode": "S0090",
     "name": "Semi Silk Cotton",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0090.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0090.jpeg"
     ],
@@ -878,8 +877,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "1499",
-    "status": "Available"
+    "price": 1499,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0091",
@@ -1474,7 +1473,6 @@
   {
     "productcode": "S0110",
     "name": "Chettinad Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0110.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0110.jpeg"
     ],
@@ -1482,8 +1480,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "1330",
-    "status": "Available"
+    "price": 1330,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0111",
@@ -2062,7 +2060,6 @@
   {
     "productcode": "S0142",
     "name": "Semi Tussar Raw Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0142.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0142.jpeg"
     ],
@@ -2070,8 +2067,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "2100",
-    "status": "Available"
+    "price": 2100,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0143",
@@ -2342,7 +2339,6 @@
   {
     "productcode": "C0047",
     "name": "Indigo Hand block Cotton Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0047.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0047.jpeg"
     ],
@@ -2350,8 +2346,8 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
-    "price": "1250",
-    "status": "Available"
+    "price": 1250,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0048",
@@ -2384,7 +2380,6 @@
   {
     "productcode": "C0050",
     "name": "Fancy Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0050.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0050.jpeg"
     ],
@@ -2392,8 +2387,8 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
-    "price": "1310",
-    "status": "Available"
+    "price": 1310,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0051",
@@ -2426,7 +2421,6 @@
   {
     "productcode": "C0053",
     "name": "Pure Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0053.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0053.jpeg"
     ],
@@ -2434,8 +2428,8 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
-    "price": "1160",
-    "status": "Available"
+    "price": 1160,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0054",
@@ -2482,7 +2476,6 @@
   {
     "productcode": "C0057",
     "name": "Soft Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0057.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0057.jpeg"
     ],
@@ -2490,8 +2483,8 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
-    "price": "1150",
-    "status": "Available"
+    "price": 1150,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0157",
@@ -3285,19 +3278,18 @@
   {
     "productcode": "C0105",
     "name": "Cotton Floral",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0105.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0105.jpeg"
     ],
-    "description": "",
+    "description": "Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
       "Work Wear"
     ],
-    "price": "1160",
-    "status": "Available"
+    "price": 1160,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0106",
@@ -3886,19 +3878,18 @@
   {
     "productcode": "C0141",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0141.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0141.jpeg"
     ],
-    "description": "",
+    "description": "Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
       "Work Wear"
     ],
-    "price": "1380",
-    "status": "Available"
+    "price": 1380,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0142",
@@ -4073,19 +4064,18 @@
   {
     "productcode": "C0152",
     "name": "Premium Maheshwari Silk Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0152.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0152.jpeg"
     ],
-    "description": "",
+    "description": "Maheshwari Silk Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
       "Work Wear"
     ],
-    "price": "2590",
-    "status": "Available"
+    "price": 2590,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0153",
