@@ -6731,5 +6731,18 @@
     ],
     "price": 2000,
     "status": "Available"
+  },
+  {
+    "productcode": "S0200",
+    "name": "Chettinad Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Green_saree_1770882133945.jpeg"
+    ],
+    "description": "Cotton",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [],
+    "price": 970,
+    "status": "SoldOut"
   }
 ]
