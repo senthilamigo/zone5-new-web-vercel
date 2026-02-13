@@ -71,7 +71,7 @@ function renderProducts() {
         <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
             <div class="relative overflow-hidden h-72 lg:h-72 bg-gray-100">
                 <a href="product-detail.html?code=${product.productcode}">
-                    <img src="${Array.isArray(product.image) ? product.image[0] : product.image}" alt="${product.name}"
+                    <img src="${Array.isArray(product.images) ? product.images[0] : product.images}" alt="${product.name}"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                 </a>
 
