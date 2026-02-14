@@ -1358,15 +1358,17 @@
   {
     "productcode": "S0102",
     "name": "Chettinad Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0102.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0102.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0102.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_p0br3sp0br3sp0br_1771063877545.png"
     ],
     "description": "💜 Chettinad Pure Cotton Saree – Magenta & Navy Blue Elephant Border 💜\n✨ Fabric: Authentic Chettinad Pure Cotton\n✨ Colour: Rich magenta body with fine gold check pattern, paired with a deep navy blue border\n✨ Design: Classic checked weave complemented by traditional elephant motifs symbolising heritage and strength\n✨ Border: Broad navy blue border with gold-toned woven elephant designs\n✨ Pallu: Coordinated pallu with matching border and hand-finished tassels\n✨ Texture: Soft, breathable cotton with a graceful, structured drape\n👗 Ideal For: Office wear, cultural functions, festive days & everyday ethnic styling\n🧼 Care Instructions:\n* Hand wash separately\n* Mild detergent only\n* Dry in shade\n📌 Note: Actual saree colour may slightly vary due to lighting and screen resolution.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1150",
+    "tags": [
+      "Pure Cotton"
+    ],
+    "price": 1150,
     "status": "Available"
   },
   {
@@ -1400,15 +1402,18 @@
   {
     "productcode": "S0105",
     "name": "Chettinad Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0105.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0105.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0105.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-01-22_at_18.24.08__3__1771063922298.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-01-22_at_18.24.08__2__1771063934877.jpeg"
     ],
     "description": "Classic Brown & Green Chettinad Cotton Saree with Temple Border\n✨ Product Highlights:\n* Fabric: Pure Chettinad Cotton (Thick, breathable weave).\n* Color: Deep Earthy Maroon body with a striking Emerald Green border.\n* Design: Features traditional golden motifs (buttas) scattered across the body.\n* Border: intricate \"\"Temple\"\" style peaks combined with a wide floral creeper band in golden thread work.\n* Occasion: Perfect for office wear, temple visits, and summer gatherings.\n👗 Ideal For: Office wear, temple visits, festive mornings & everyday traditional styling\n🧼 Care Instructions:\n* Hand wash separately\n* Mild detergent only\n* Dry in shade\n📌 Note: Actual saree colour may slightly vary due to lighting and screen resolution.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1260",
+    "tags": [
+      "Pure Cotton"
+    ],
+    "price": 1260,
     "status": "Available"
   },
   {
@@ -1807,15 +1812,18 @@
   {
     "productcode": "S0123",
     "name": "Raw Silk by Jute Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0123.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0123.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Raw_silk-3_1771064043051.jpeg"
     ],
     "description": "✨ Pure Tussar Silk Saree ✨\nFabric: Pure Tussar Silk\nColor: Deep Rani Pink\nDesign: All-over elegant woven deer motifs, inspired by traditional heritage patterns\nBorder: Rich zari-woven border with fine temple-style detailing\nPallu: Coordinated pallu with subtle zari accents\nTexture: Natural Tussar silk texture with a soft raw finish and gentle sheen\nOccasion: Festive wear | Traditional functions | Temple visits | Elegant daytime occasions\nHighlight: Lightweight, breathable, and gracefully draping Tussar silk that blends tradition with timeless beauty\nA classic saree that adds charm and sophistication to every ethnic wardrobe 🌺",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "2000",
+    "tags": [
+      "Festive",
+      "Elegant",
+      "Classy"
+    ],
+    "price": 2000,
     "status": "Available"
   },
   {
@@ -5073,103 +5081,102 @@
   {
     "productcode": "S0164",
     "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0164.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0164.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0164.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_196sb9196sb9196s_1771064302828.png"
     ],
-    "description": "",
+    "description": "Handloom Cotton Linen Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
       "Office wear"
     ],
-    "price": "1150",
+    "price": 1150,
     "status": "Available"
   },
   {
     "productcode": "S0165",
     "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0165.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0165.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0165.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_m5nl5m5nl5m5nl5m_1771064204161.png"
     ],
-    "description": "",
+    "description": "Handloom Cotton Linen Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
       "Office wear"
     ],
-    "price": "1150",
+    "price": 1150,
     "status": "Available"
   },
   {
     "productcode": "S0166",
     "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0166.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0166.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0166.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_nfb85hnfb85hnfb8__1__1771064341469.png"
     ],
-    "description": "",
+    "description": "Handloom Cotton Linen Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
       "Office wear"
     ],
-    "price": "1150",
+    "price": 1150,
     "status": "Available"
   },
   {
     "productcode": "S0167",
     "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0167.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0167.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0167.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_r5l46rr5l46rr5l4_1771064268353.png"
     ],
-    "description": "",
+    "description": "Handloom Cotton Linen Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
       "Office wear"
     ],
-    "price": "1150",
+    "price": 1150,
     "status": "Available"
   },
   {
     "productcode": "S0168",
     "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0168.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0168.jpeg"
     ],
-    "description": "",
+    "description": "Handloom Cotton Linen Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
       "Office wear"
     ],
-    "price": "1150",
+    "price": 1150,
     "status": "Available"
   },
   {
     "productcode": "S0169",
     "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0169.jpeg",
     "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0169.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0169.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_2wupz2wupz2wupz2_1771064375496.png"
     ],
-    "description": "",
+    "description": "Handloom Cotton Linen Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
       "Office wear"
     ],
-    "price": "1150",
+    "price": 1150,
     "status": "Available"
   },
   {
@@ -5192,35 +5199,33 @@
   {
     "productcode": "S0171",
     "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0171.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0171.jpeg"
     ],
-    "description": "",
+    "description": "Handloom Cotton Linen Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
       "Office wear"
     ],
-    "price": "1150",
+    "price": 1150,
     "status": "Available"
   },
   {
     "productcode": "S0172",
     "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0172.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0172.jpeg"
     ],
-    "description": "",
+    "description": "Handloom Cotton Linen Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
       "Office wear"
     ],
-    "price": "1150",
+    "price": 1150,
     "status": "Available"
   },
   {
