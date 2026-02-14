@@ -1709,12 +1709,15 @@
     "name": "Kanchipuram Silk Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0117.jpeg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0058-1_1770289532720.jpeg"
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0117-2_1771057969716.png"
     ],
     "description": "✨ Pure Silk Saree with Tested Zari ✨\nFabric: Pure Silk\nBody Color: Elegant teal blue\nDesign: Delicate gold zari floral and geometric motifs woven across the body\nBorder: Broad, richly woven purple border with intricate traditional zari patterns\nPallu: Heavy zari pallu with fine geometric and ornamental weaving\nZari: Tested zari\nTexture: Smooth, lustrous silk with a graceful fall and rich sheen\nOccasion: Ideal for weddings, festive occasions, temple wear, and special celebrations\nBlouse: Matching blouse piece included\n💙💜 A stunning blend of green and royal purple that exudes elegance and timeless charm.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
+    "tags": [
+      "Festive",
+      "Silk Saree"
+    ],
     "price": 5300,
     "status": "Available"
   },
