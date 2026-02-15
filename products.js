@@ -182,9 +182,10 @@ function applyFilters() {
     }
 
     filteredProducts = allProducts.filter(product => {
-        const matchesSearch =
-            product.name.toLowerCase().includes(search) ||
-            (product.tags && product.tags.some(tag => tag.toLowerCase().includes(search)));
+       const matchesSearch =
+    !search || 
+    (product.name && product.name.toLowerCase().includes(search));
+
 
         const matchesCategory = !category || product.category === category;
         const matchesSubcategory = !subcategory || product.subcategory === subcategory;
