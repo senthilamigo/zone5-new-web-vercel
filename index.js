@@ -66,3 +66,55 @@
 
         // Auto-rotate carousel
         setInterval(nextSlide, 5000);
+
+        // Newsletter subscription function
+        async function subscribeNewsletter() {
+            const emailInput = document.getElementById('newsletterEmail');
+            const subscribeBtn = document.getElementById('subscribeBtn');
+            const messageDiv = document.getElementById('subscribeMessage');
+            const email = emailInput.value.trim();
+
+            // Validate email
+            if (!email) {
+                messageDiv.innerHTML = '<p class="text-red-400 text-sm">Please enter your email address</p>';
+                return;
+            }
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                messageDiv.innerHTML = '<p class="text-red-400 text-sm">Please enter a valid email address</p>';
+                return;
+            }
+
+            // Disable button and show loading state
+            subscribeBtn.disabled = true;
+            subscribeBtn.textContent = 'Subscribing...';
+            messageDiv.innerHTML = '';
+
+            try {
+                // Send subscription request to server
+                const response = await fetch('https://zone5-new-web-vercel.vercel.app/api/subscribe-newsletter', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ email })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    messageDiv.innerHTML = '<p class="text-green-400 text-sm font-semibold">✓ Thank you for subscribing! Check your email for confirmation.</p>';
+                    emailInput.value = '';
+                } else {
+                    messageDiv.innerHTML = `<p class="text-red-400 text-sm">${data.message || 'Failed to subscribe. Please try again.'}</p>`;
+                }
+            } catch (error) {
+                console.error('Error subscribing:', error);
+                messageDiv.innerHTML = '<p class="text-red-400 text-sm">Network error. Please try again later.</p>';
+            } finally {
+                // Re-enable button
+                subscribeBtn.disabled = false;
+                subscribeBtn.textContent = 'Subscribe';
+            }
+        }
