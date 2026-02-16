@@ -1,4 +1,4 @@
-        let currentSlide = 0;
+let currentSlide = 0;
         const slides = document.querySelectorAll('.carousel-item');
         const dots = document.querySelectorAll('.carousel-dot');
 
@@ -93,7 +93,7 @@
 
             try {
                 // Send subscription request to server
-                const response = await fetch('https://zone5-new-web-vercel.vercel.app/api/subscribe-newsletter', {
+                const response = await fetch('/api/subscribe-newsletter', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
