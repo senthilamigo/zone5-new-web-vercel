@@ -93,7 +93,7 @@ let currentSlide = 0;
 
             try {
                 // Send subscription request to server
-                const response = await fetch('/api/subscribe-newsletter', {
+                const response = await fetch('https://zone5-web-backend-vercel.vercel.app/api/subscribe-newsletter', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
