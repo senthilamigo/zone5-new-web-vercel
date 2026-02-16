@@ -4441,7 +4441,9 @@
     "description": "",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Party wear",
+    "tags":  [
+      "Party wear"
+    ],
     "price": "1280",
     "status": "Available"
   },
