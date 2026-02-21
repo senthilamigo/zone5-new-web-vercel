@@ -2557,23 +2557,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0101",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0101.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0101.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "695",
-    "status": "Available"
-  },
-  {
     "productcode": "C0102",
     "name": "Cotton Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0102.jpeg",
@@ -2608,23 +2591,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0104",
-    "name": "Rayon Contemporary Floral",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0104.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0104.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "715",
-    "status": "Available"
-  },
-  {
     "productcode": "C0105",
     "name": "Cotton Floral",
     "images": [
@@ -2646,40 +2612,6 @@
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0106.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0106.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1150",
-    "status": "Available"
-  },
-  {
-    "productcode": "C0107",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0107.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0107.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1150",
-    "status": "Available"
-  },
-  {
-    "productcode": "C0108",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0108.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0108.jpeg"
     ],
     "description": "",
     "category": "Salwar Suit",
@@ -3908,19 +3840,18 @@
   {
     "productcode": "C0196",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0196.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0196.jpeg"
     ],
-    "description": "",
+    "description": "Cotton",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
       "Work Wear"
     ],
-    "price": "1090",
-    "status": "Available"
+    "price": 1090,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0197",
@@ -5821,7 +5752,7 @@
       "Casual"
     ],
     "price": 970,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0203",
@@ -5857,7 +5788,7 @@
       "Casual"
     ],
     "price": 990,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0205",
@@ -5894,7 +5825,7 @@
       "Casual"
     ],
     "price": 1230,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0207",
@@ -5913,7 +5844,7 @@
       "Office Wear"
     ],
     "price": 1230,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0208",
