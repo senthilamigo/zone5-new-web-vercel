@@ -28,34 +28,6 @@
     "status": "Sold out"
   },
   {
-    "productcode": "S0025",
-    "name": "Printed Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0025.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0025.jpeg"
-    ],
-    "description": "🌿 Premium Soft Tissue Saree – Leaf Print Elegance 🌿\n✨ Lightweight soft tissue with a natural sheen, featuring a warm golden-beige base and multicolour translucent leaf motifs—scattered across the body with a bold leaf cluster near the pallu. Finished with a simple woven tissue border for a neat, classy look.\n🌟 Highlights:\n* Elegant soft tissue with a rich golden glow\n* Beautiful artistic leaf motifs\n* Lightweight, flowy & easy to drape\n* Perfect for small functions, festive wear & gifting\n🧼 Saree Care:\n* Dry clean recommended\n* Store in a muslin cloth to maintain shine\n* Avoid heavy ironing; use low heat if needed\nNote: Slight shade variation may occur due to screen resolution and photography lighting.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1099",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0026",
-    "name": "Printed Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0026.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0026.jpeg"
-    ],
-    "description": "✨ Soft semi Crepe silk with a glossy drape, featuring an elegant beige–gold base and rich digital floral prints. The satin-smooth texture with tissue sheen and vertical zari stripes is completed with a classy woven gold border for a refined finish.\n🌟 Highlights:\n* Luxurious semi crepe blend with a premium shine\n* Beautiful life-like digital floral design\n* Soft, flowy & easy to drape\n* Perfect for receptions, events, parties & gifting\n🧼 Saree Care:\n* Dry clean recommended\n* Store in muslin cloth\n* Use low-heat ironing on the reverse side\nNote: Slight shade variation may occur due to screen resolution and photography lighting.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1099",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0027",
     "name": "Semi Crepe Silk Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0027.jpeg",
@@ -96,20 +68,6 @@
     "tags": [],
     "price": "1199",
     "status": "Available"
-  },
-  {
-    "productcode": "S0030",
-    "name": "Linen Silk Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0030.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0030.jpeg"
-    ],
-    "description": "🌸 Premium Linen Silk Blend Saree 🌸\n✨ Fabric: Soft Linen–Silk Blend\n✨ Colour: Elegant grey base with a subtle sheen\n✨ Design: Artistic pot & bowl motifs with hand-paint–style detailing\n✨ Pallu: Vase + floral artwork for a unique ethnic look\n✨ Border: Pink–gold woven zari border\n✨ Texture: Lightweight, soft & comfortable\n⸻\n🔹 Highlights\n* Unique artistic print for a stylish contemporary look\n* Soft fall with a semi-sheer linen-silk finish\n* Rich zari border adds elegance\n* Comes with matching blouse fabric\n⸻\n🧵 Saree Care\n* Dry clean recommended for long life\n* Store in a cool, dry place\n* Avoid direct sunlight to maintain colour\n* Iron on low heat (preferably with cloth on top)\n⸻\n📌 Note\n* Slight color variation may occur due to lighting & screen settings\n* Handmade/printed detailing may have minor natural irregularities",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1199",
-    "status": "Sold out"
   },
   {
     "productcode": "S0031",
@@ -224,34 +182,6 @@
     "status": "Sold out"
   },
   {
-    "productcode": "S0039",
-    "name": "Semi Tussar Silk Block Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0039.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0039.jpeg"
-    ],
-    "description": "🌿 Semi Tussar Silk Block Print Saree 🌿\n✨ Fabric: Pure Chanderi Silk\n✨ Work: Traditional hand block print\n✨ Color: Deep maroon–brown body with antique floral motifs\n✨ Pallu/Border: Beige-gold contrast with detailed block prints\n✨ Blouse: Matching running blouse\n⸻\n⭐ Highlights\n* Lightweight & soft\n* Elegant sheen\n* Classic floral block pattern\n* Perfect for office & festive wear\n⸻\n💫 Look & Feel\n* Sophisticated, classy, heritage-style\n* Smooth, airy & easy to drape\n⸻\n🧵 Care\n* Dry clean recommended\n* Iron on low heat (reverse side)\n* Store in muslin cloth",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "2199",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0040",
-    "name": "Semi Tussar Silk Block Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0040.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0040.jpeg"
-    ],
-    "description": "🌿 Semi Tussar Silk Saree – Blue Geo Weave Edition 🌿\n✨ Fabric: Pure Premium Chanderi Silk\n✨ Design: Contemporary geometric block-style patterns\n✨ Color Palette: Soft blue body with cream motifs + olive & navy highlights\n✨ Pallu/Border: Stylish multi-pattern pallu with stripes, triangles & leafy motifs\n⸻\n⭐ Highlights\n* Lightweight & breathable\n* Subtle natural Chanderi sheen\n* Modern geometric design with elegant contrast\n* Perfect for office, casual ethnic wear & small functions\n⸻\n💫 Look & Feel\n* Fresh, modern & graceful\n* Soft, airy and easy to drape\n* Gives a neat, elegant silhouette",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "2199",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0041",
     "name": "Semi Tussar Silk Block Print Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0041.jpeg",
@@ -264,33 +194,6 @@
     "tags": [],
     "price": "2199",
     "status": "Sold out"
-  },
-  {
-    "productcode": "S0042",
-    "name": "Semi Tussar Silk Block Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0042.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0042.jpeg"
-    ],
-    "description": "🌿 Semi Tussar Silk Saree – Magenta Floral Edition 🌿\n✨ Fabric: Pure Premium Chanderi Silk\n✨ Design: Traditional floral block-style print\n✨ Color: Rich indigo blue body with cream motifs\n✨ Border: Elegant beige-gold tissue border with black block pattern\n⸻\n⭐ Highlights\n* Lightweight & breathable\n* Soft texture with natural Chanderi shine\n* Classic floral motifs for a timeless ethnic look\n* Perfect for office, casual functions & festive wear\n⸻\n💫 Look & Feel\n* Graceful, classy & elegant\n* Airy, smooth and easy to drape\n⸻\n🧵 Care Instructions\n* Dry clean recommended\n* Iron on low heat (reverse side)\n* Store in muslin cloth",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "2199",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0043",
-    "name": "Tussar Cotton Blend Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0043.jpeg"
-    ],
-    "description": "🌸 Tussar Cotton Blend Saree – Soft Mauve Elegance 🌸\n✨ Fabric: Premium Tussar–Cotton Blend\n✨ Design: Subtle white floral block-style motifs\n✨ Color: Soft mauve body with light gold tussar border\n✨ Texture: Natural tussar slub texture with a gentle sheen\n⸻\n⭐ Highlights\n* Lightweight & breathable\n* Elegant pastel colour\n* Minimal, classy block motifs\n* Comfortable for all-day wear—perfect for office & casual occasions\n⸻\n💫 Look & Feel\n* Soft, graceful & refined\n* Slight sheen with a natural tussar finish\n* Drapes beautifully with a polished look\n⸻\n🧵 Care Instructions\n* Mild hand wash or dry clean\n* Iron on low heat\n* Store in a cool, dry place",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 1999,
-    "status": "SoldOut"
   },
   {
     "productcode": "S0044",
@@ -417,20 +320,6 @@
     "tags": [],
     "price": "1299",
     "status": "Available"
-  },
-  {
-    "productcode": "S0054",
-    "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0054.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0054.jpeg"
-    ],
-    "description": "🌺✨ Premium Crepe Silk Digital Print Saree –Contemporary Edition ✨🌺\n✨ Fabric: Soft, glossy Crepe Silk\n✨ Design: High-definition digital print with abstract florals + ikat-style motifs\n✨ Color: Warm rose-copper base with hints of teal, cream & maroon\n✨ Border: Subtle woven satin border with a light sheen\n⭐ Highlights:\n* Smooth satin shine\n* Lightweight & elegant drape\n* Trendy abstract + floral designer pattern\n* Perfect for parties, office events & festive wear\n💗 Look & Feel:\nSoft • Silky • Glossy finish\n🧵 Care: Mild wash / dry clean preferred",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1299",
-    "status": "Sold out"
   },
   {
     "productcode": "S0055",
@@ -835,20 +724,6 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
     "price": "1299",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0022",
-    "name": "Soft Premium Rayon Embroidered Suit Material",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0022.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0022.jpeg"
-    ],
-    "description": "❤️ Soft Premium Rayon Embroidered Suit Material ❤️\n✨ Fabric: Ultra-soft Premium Rayon\n✨ Work: Elegant thread embroidery on the dupatta\n✨ Colour: Rich red with ivory & floral detailing on the top\n👗 Set Includes:\n* Top: Soft rayon with beautiful printed pattern and neckline embroidery\n* Bottom: Plain matching red rayon fabric\n* Dupatta: Light embroidered rayon dupatta with delicate floral thread work\n💫 Look & Feel:\nFeather-soft • Flowing drape • Skin-friendly • Comfortable for all-day wear\n🧼 Care:\nHand wash recommended\nUse mild detergent\nDry in shade",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1399",
     "status": "Sold out"
   },
   {
@@ -5907,6 +5782,24 @@
       "Cotton"
     ],
     "price": 1230,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0270",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-02-20_at_23.37.40__5__1771693249293.jpeg"
+    ],
+    "description": "Ultra Soft Premium Cotton Salwar Suit",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Cotton",
+      "Formal wear",
+      "Casual"
+    ],
+    "price": 1270,
     "status": "Available"
   }
 ]
