@@ -59,6 +59,23 @@ function applyCategoryFromURL() {
     }
 }
 
+
+
+function applyTagFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    const tagFromURL = params.get("tag");
+
+    if (tagFromURL) {
+        // If you are using tag filter in applyFilters
+        const searchInput = document.getElementById('searchInput');
+
+        // Option 1 (Simple Way): Use search
+        searchInput.value = tagFromURL;
+
+        applyFilters();
+    }
+}
+
 /* ===========================
    RENDER PRODUCTS
 =========================== */
@@ -355,4 +372,5 @@ document.getElementById('sortFilter').addEventListener('change', applyFilters);
 loadProducts().then(() => {
     applyCategoryFromURL();
     initTagInput();
+   applyTagFromURL();
 });
