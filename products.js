@@ -2,6 +2,7 @@ let allProducts = [];
 let filteredProducts = [];
 let currentPage = 1;
 const productsPerPage = 48;
+let selectedTags = [];
 
 /* ===========================
    LOAD PRODUCTS
@@ -186,15 +187,16 @@ function applyFilters() {
     !search || 
     (product.name && product.name.toLowerCase().includes(search));
 
-
         const matchesCategory = !category || product.category === category;
         const matchesSubcategory = !subcategory || product.subcategory === subcategory;
         const matchesPrice = product.price >= minPrice && product.price <= maxPrice;
         const matchesStatus =
             (showAvailable && product.status === 'Available') ||
             (showSoldOut && product.status === 'Sold out');
+        const matchesTags = selectedTags.length === 0 || 
+            selectedTags.every(tag => Array.isArray(product.tags) && product.tags.includes(tag));
 
-        return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus;
+        return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus && matchesTags;
     });
 
     if (sortBy === 'price-low') {
@@ -220,10 +222,96 @@ function resetFilters() {
     document.getElementById('availableCheck').checked = false;
     document.getElementById('soldOutCheck').checked = false;
     document.getElementById('sortFilter').value = 'default';
+    document.getElementById('tagInput').value = '';
+    selectedTags = [];
+    renderSelectedTags();
 
     filteredProducts = [...allProducts];
     currentPage = 1;
     renderProducts();
+}
+
+/* ===========================
+   TAG FILTER
+=========================== */
+function getAllTags() {
+    const tagSet = new Set();
+    allProducts.forEach(p => {
+        if (Array.isArray(p.tags)) p.tags.forEach(t => tagSet.add(t));
+    });
+    return [...tagSet].sort();
+}
+
+function renderSelectedTags() {
+    const container = document.getElementById('selectedTags');
+    container.innerHTML = selectedTags.map(tag => `
+        <span class="inline-flex items-center gap-1 bg-yellow-100 text-yellow-800 text-xs font-medium px-2 py-1 rounded-full">
+            ${tag}
+            <button onclick="removeTag('${tag}')" class="hover:text-red-600 transition leading-none">&times;</button>
+        </span>
+    `).join('');
+}
+
+function addTag(tag) {
+    if (!selectedTags.includes(tag)) {
+        selectedTags.push(tag);
+        renderSelectedTags();
+        applyFilters();
+    }
+    document.getElementById('tagInput').value = '';
+    document.getElementById('tagSuggestions').classList.add('hidden');
+}
+
+function removeTag(tag) {
+    selectedTags = selectedTags.filter(t => t !== tag);
+    renderSelectedTags();
+    applyFilters();
+}
+
+function initTagInput() {
+    const input = document.getElementById('tagInput');
+    const suggestions = document.getElementById('tagSuggestions');
+
+    input.addEventListener('input', () => {
+        const query = input.value.trim().toLowerCase();
+        const allTags = getAllTags();
+
+        if (!query) {
+            suggestions.classList.add('hidden');
+            return;
+        }
+
+        const matches = allTags.filter(t => t.toLowerCase().includes(query) && !selectedTags.includes(t));
+
+        if (matches.length === 0) {
+            suggestions.classList.add('hidden');
+            return;
+        }
+
+        suggestions.innerHTML = matches.map(tag => `
+            <li onclick="addTag('${tag}')"
+                class="px-4 py-2 text-sm text-gray-700 hover:bg-yellow-50 hover:text-yellow-800 cursor-pointer transition">
+                ${tag}
+            </li>
+        `).join('');
+        suggestions.classList.remove('hidden');
+    });
+
+    input.addEventListener('keydown', e => {
+        if (e.key === 'Enter') {
+            const firstMatch = suggestions.querySelector('li');
+            if (firstMatch) firstMatch.click();
+        }
+        if (e.key === 'Escape') {
+            suggestions.classList.add('hidden');
+        }
+    });
+
+    document.addEventListener('click', e => {
+        if (!input.contains(e.target) && !suggestions.contains(e.target)) {
+            suggestions.classList.add('hidden');
+        }
+    });
 }
 
 /* ===========================
@@ -266,4 +354,5 @@ document.getElementById('sortFilter').addEventListener('change', applyFilters);
 =========================== */
 loadProducts().then(() => {
     applyCategoryFromURL();
+    initTagInput();
 });
