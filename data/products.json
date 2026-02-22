@@ -28,34 +28,6 @@
     "status": "Sold out"
   },
   {
-    "productcode": "S0025",
-    "name": "Printed Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0025.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0025.jpeg"
-    ],
-    "description": "🌿 Premium Soft Tissue Saree – Leaf Print Elegance 🌿\n✨ Lightweight soft tissue with a natural sheen, featuring a warm golden-beige base and multicolour translucent leaf motifs—scattered across the body with a bold leaf cluster near the pallu. Finished with a simple woven tissue border for a neat, classy look.\n🌟 Highlights:\n* Elegant soft tissue with a rich golden glow\n* Beautiful artistic leaf motifs\n* Lightweight, flowy & easy to drape\n* Perfect for small functions, festive wear & gifting\n🧼 Saree Care:\n* Dry clean recommended\n* Store in a muslin cloth to maintain shine\n* Avoid heavy ironing; use low heat if needed\nNote: Slight shade variation may occur due to screen resolution and photography lighting.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1099",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0026",
-    "name": "Printed Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0026.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0026.jpeg"
-    ],
-    "description": "✨ Soft semi Crepe silk with a glossy drape, featuring an elegant beige–gold base and rich digital floral prints. The satin-smooth texture with tissue sheen and vertical zari stripes is completed with a classy woven gold border for a refined finish.\n🌟 Highlights:\n* Luxurious semi crepe blend with a premium shine\n* Beautiful life-like digital floral design\n* Soft, flowy & easy to drape\n* Perfect for receptions, events, parties & gifting\n🧼 Saree Care:\n* Dry clean recommended\n* Store in muslin cloth\n* Use low-heat ironing on the reverse side\nNote: Slight shade variation may occur due to screen resolution and photography lighting.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1099",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0027",
     "name": "Semi Crepe Silk Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0027.jpeg",
@@ -96,20 +68,6 @@
     "tags": [],
     "price": "1199",
     "status": "Available"
-  },
-  {
-    "productcode": "S0030",
-    "name": "Linen Silk Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0030.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0030.jpeg"
-    ],
-    "description": "🌸 Premium Linen Silk Blend Saree 🌸\n✨ Fabric: Soft Linen–Silk Blend\n✨ Colour: Elegant grey base with a subtle sheen\n✨ Design: Artistic pot & bowl motifs with hand-paint–style detailing\n✨ Pallu: Vase + floral artwork for a unique ethnic look\n✨ Border: Pink–gold woven zari border\n✨ Texture: Lightweight, soft & comfortable\n⸻\n🔹 Highlights\n* Unique artistic print for a stylish contemporary look\n* Soft fall with a semi-sheer linen-silk finish\n* Rich zari border adds elegance\n* Comes with matching blouse fabric\n⸻\n🧵 Saree Care\n* Dry clean recommended for long life\n* Store in a cool, dry place\n* Avoid direct sunlight to maintain colour\n* Iron on low heat (preferably with cloth on top)\n⸻\n📌 Note\n* Slight color variation may occur due to lighting & screen settings\n* Handmade/printed detailing may have minor natural irregularities",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1199",
-    "status": "Sold out"
   },
   {
     "productcode": "S0031",
@@ -224,34 +182,6 @@
     "status": "Sold out"
   },
   {
-    "productcode": "S0039",
-    "name": "Semi Tussar Silk Block Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0039.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0039.jpeg"
-    ],
-    "description": "🌿 Semi Tussar Silk Block Print Saree 🌿\n✨ Fabric: Pure Chanderi Silk\n✨ Work: Traditional hand block print\n✨ Color: Deep maroon–brown body with antique floral motifs\n✨ Pallu/Border: Beige-gold contrast with detailed block prints\n✨ Blouse: Matching running blouse\n⸻\n⭐ Highlights\n* Lightweight & soft\n* Elegant sheen\n* Classic floral block pattern\n* Perfect for office & festive wear\n⸻\n💫 Look & Feel\n* Sophisticated, classy, heritage-style\n* Smooth, airy & easy to drape\n⸻\n🧵 Care\n* Dry clean recommended\n* Iron on low heat (reverse side)\n* Store in muslin cloth",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "2199",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0040",
-    "name": "Semi Tussar Silk Block Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0040.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0040.jpeg"
-    ],
-    "description": "🌿 Semi Tussar Silk Saree – Blue Geo Weave Edition 🌿\n✨ Fabric: Pure Premium Chanderi Silk\n✨ Design: Contemporary geometric block-style patterns\n✨ Color Palette: Soft blue body with cream motifs + olive & navy highlights\n✨ Pallu/Border: Stylish multi-pattern pallu with stripes, triangles & leafy motifs\n⸻\n⭐ Highlights\n* Lightweight & breathable\n* Subtle natural Chanderi sheen\n* Modern geometric design with elegant contrast\n* Perfect for office, casual ethnic wear & small functions\n⸻\n💫 Look & Feel\n* Fresh, modern & graceful\n* Soft, airy and easy to drape\n* Gives a neat, elegant silhouette",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "2199",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0041",
     "name": "Semi Tussar Silk Block Print Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0041.jpeg",
@@ -264,33 +194,6 @@
     "tags": [],
     "price": "2199",
     "status": "Sold out"
-  },
-  {
-    "productcode": "S0042",
-    "name": "Semi Tussar Silk Block Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0042.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0042.jpeg"
-    ],
-    "description": "🌿 Semi Tussar Silk Saree – Magenta Floral Edition 🌿\n✨ Fabric: Pure Premium Chanderi Silk\n✨ Design: Traditional floral block-style print\n✨ Color: Rich indigo blue body with cream motifs\n✨ Border: Elegant beige-gold tissue border with black block pattern\n⸻\n⭐ Highlights\n* Lightweight & breathable\n* Soft texture with natural Chanderi shine\n* Classic floral motifs for a timeless ethnic look\n* Perfect for office, casual functions & festive wear\n⸻\n💫 Look & Feel\n* Graceful, classy & elegant\n* Airy, smooth and easy to drape\n⸻\n🧵 Care Instructions\n* Dry clean recommended\n* Iron on low heat (reverse side)\n* Store in muslin cloth",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "2199",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0043",
-    "name": "Tussar Cotton Blend Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0043.jpeg"
-    ],
-    "description": "🌸 Tussar Cotton Blend Saree – Soft Mauve Elegance 🌸\n✨ Fabric: Premium Tussar–Cotton Blend\n✨ Design: Subtle white floral block-style motifs\n✨ Color: Soft mauve body with light gold tussar border\n✨ Texture: Natural tussar slub texture with a gentle sheen\n⸻\n⭐ Highlights\n* Lightweight & breathable\n* Elegant pastel colour\n* Minimal, classy block motifs\n* Comfortable for all-day wear—perfect for office & casual occasions\n⸻\n💫 Look & Feel\n* Soft, graceful & refined\n* Slight sheen with a natural tussar finish\n* Drapes beautifully with a polished look\n⸻\n🧵 Care Instructions\n* Mild hand wash or dry clean\n* Iron on low heat\n* Store in a cool, dry place",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 1999,
-    "status": "SoldOut"
   },
   {
     "productcode": "S0044",
@@ -417,34 +320,6 @@
     "tags": [],
     "price": "1299",
     "status": "Available"
-  },
-  {
-    "productcode": "S0053",
-    "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0053.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0053.jpeg"
-    ],
-    "description": "💜✨ Premium Crepe Silk Digital Print Saree – Brown Splash Edition ✨💜\n✨ Fabric: Soft, glossy Crepe Silk\n✨ Design: High-definition digital print with abstract splash patterns, pastel overlays & intricate motifs\n✨ Color: Mauve base with soft pink, beige & multi-tone accents\n✨ Border: Rich woven Crepe border in deep plum for an elegant finish;\n⭐ Highlights:\n* Smooth satin shine\n* Lightweight, classy drape\n* Trendy digital designer look\n* Perfect for parties, evening wear & casual festive styling\n🧵 Care: Mild wash / dry clean preferred",
-    "category": "Saree",
-    "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "1299",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0054",
-    "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0054.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0054.jpeg"
-    ],
-    "description": "🌺✨ Premium Crepe Silk Digital Print Saree –Contemporary Edition ✨🌺\n✨ Fabric: Soft, glossy Crepe Silk\n✨ Design: High-definition digital print with abstract florals + ikat-style motifs\n✨ Color: Warm rose-copper base with hints of teal, cream & maroon\n✨ Border: Subtle woven satin border with a light sheen\n⭐ Highlights:\n* Smooth satin shine\n* Lightweight & elegant drape\n* Trendy abstract + floral designer pattern\n* Perfect for parties, office events & festive wear\n💗 Look & Feel:\nSoft • Silky • Glossy finish\n🧵 Care: Mild wash / dry clean preferred",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1299",
-    "status": "Sold out"
   },
   {
     "productcode": "S0055",
@@ -684,47 +559,6 @@
     "status": "Available"
   },
   {
-    "productcode": "S0075",
-    "name": "Cotton Poly Blend - Circular Border",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0075.jpeg"
-    ],
-    "description": "💜✨ Traditional Cotton Saree - Purple Butti Edition ✨💜\n✨ Fabric: Comfortable, Structured Cotton (Breathable and easy to drape)\n✨ Design: Classic large circular Butti Motifs (appears to be a zari or woven effect) all over the body.\n✨ Color: Natural Light Beige/Cream body with motifs and border in deep Regal Purple/Aubergine.\n✨ Border: Broad woven border featuring large Mandala/Floral Medallion designs in a lighter contrasting color (possibly gold or cream zari thread) set against the purple base.\n⭐ Key Features:\n* Soft, comfortable, and breathable cotton.\n* Rich traditional woven design with classic butti patterns.\n* Striking color contrast between the light body and deep purple border.\n* Ideal for: Festive wear, poojas, cultural events, and comfortable occasion wear.\n💗 Feel: Structured • Soft • Traditional\n🧵 Care: Gentle hand wash or dry clean recommended",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 999,
-    "status": "SoldOut"
-  },
-  {
-    "productcode": "S0076",
-    "name": "Soft Chanderi Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0076.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0076.jpeg"
-    ],
-    "description": "🌟🌿 Elegant Cotton Silk Saree - Paisley & Floral Edition 🌿🌟\n✨ Fabric: Luxurious Cotton Silk Blend (Comfortable drape with a rich sheen)\n✨ Design: All-over subtle shimmering self-weave combined with a printed or woven pattern of small Paisley and Floral Motifs across the body.\n✨ Color: Muted Grey/Taupe base with print accents in shades of Maroon, Rust, and Olive Green.\n✨ Border: Elaborate woven border featuring a horizontal band of floral/geometric patterns and a subtle metallic sheen.\n⭐ Key Features:\n* Combines the comfort of cotton with the luster of silk.\n* Versatile color palette with a hint of metallic shine.\n* Richly patterned border provides a traditional yet elegant finish.\n* Ideal for: Semi-formal events, office functions, and cultural gatherings.\n💗 Feel: Soft • Sheeny • Flowing drape\n🧵 Care: Dry clean or gentle hand wash recommended",
-    "category": "Saree",
-    "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "1280",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0077",
-    "name": "Soft Chanderi Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0077.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0077.jpeg"
-    ],
-    "description": "🌟🧡 Elegant Paisley Print Saree - Warm Gold Edition 🧡🌟\n✨ Fabric: Soft, Structured Blend (Likely Cotton Silk or Premium Textured Cotton)\n✨ Design: All-over small and large Paisley Motifs combined with repeating floral patterns along the border.\n✨ Color: Rich Warm Gold/Mustard Yellow base with prints in shades of Deep Red, Maroon, and Olive Green.\n✨ Border: Dual woven border featuring an intricate pattern and a solid band of Rust/Copper tone.\n⭐ Key Features:\n* Comfortable feel with a luxurious texture or slight sheen.\n* Rich, traditional paisley print for a timeless look.\n* Warm color palette perfect for festive and casual occasions.\n* Ideal for: Daytime events, casual festive wear, and everyday elegance.\n💗 Feel: Soft • Structured • Rich texture\n🧵 Care: Dry clean or gentle hand wash recommended",
-    "category": "Saree",
-    "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "1280",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0078",
     "name": "Premium Cotton Silk",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0078.jpeg",
@@ -865,33 +699,6 @@
     "status": "Sold out"
   },
   {
-    "productcode": "S0090",
-    "name": "Semi Silk Cotton",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0090.jpeg"
-    ],
-    "description": "💖✨ Opulent Semi Silk Saree - Gold & Pink Brocade Edition ✨💖\n✨ Fabric: Rich Semi Silk (Structured drape with a bright, festive sheen)\n✨ Design: All-over shimmering Brocade Weave featuring small diamond or geometric butti motifs.\n✨ Color: Body in bright Antique Gold/Mustard and a striking contrast border in Deep Rani Pink/Fuchsia.\n✨ Border: Broad, woven border in the Rani Pink color featuring traditional Peacock and floral motifs.\n⭐ Key Features\n* Luxurious look and feel comparable to pure silk at a better price point.\n* Bold, festive color combination is perfect for celebrations.\n* Intricate traditional woven work across the fabric.\n* Ideal for: Weddings, festive occasions, and grand events.\n💗 Feel: Structured • Rich • Shimmering\n🧵 Care: Dry clean recommended",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": 1499,
-    "status": "SoldOut"
-  },
-  {
-    "productcode": "S0091",
-    "name": "Semi Silk Cotton",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0091.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0091.jpeg"
-    ],
-    "description": "💛💙 Opulent Silk Weave Saree - Mustard & Teal Edition 💙💛\n✨ Fabric: Rich, Structured Silk Blend (Likely Silk Cotton, Semi Silk, or Heavy Art Silk)\n✨ Design: Body features a subtle woven texture or simple butti work in Mustard Yellow/Gold. The pallu and border feature an intricate Brocade Weave pattern.\n✨ Color: Bold contrast between a bright Mustard Yellow body and a rich Teal Blue/Turquoise border and pallu.\n✨ Border: Broad, opulent Gold Zari woven border with traditional motifs (possibly jaal or geometric patterns) and solid gold stripes.\n⭐ Key Features:\n* Rich structure and weight, indicating a grand, festive quality.\n* Striking, traditional color combination (Mustard Yellow and Teal) is very popular.\n* Intricate traditional woven work provides a luxurious finish.\n* Ideal for: Weddings, festive ceremonies, and grand celebratory occasions.\n💗 Feel: Structured • Heavy • Rich sheen\n🧵 Care: Strictly Dry Clean Only",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1499",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0092",
     "name": "Semi Silk Cotton",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0092.jpeg",
@@ -906,132 +713,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0011",
-    "name": "Premium Pure Cotton Suit – Handblock Style",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0011.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0011.jpeg"
-    ],
-    "description": "🌸 Pure Cotton Printed Suit – Navy Blue Elegance 🌸\n✨ Fabric: 100% Pure Soft Cotton\n✨ Feel: Breathable, lightweight & perfect for daily wear\n✨ Colour: Deep navy base with vibrant red & white detailing\n👗 Top:\n* Traditional block-style print in red & white\n* Geometric + floral motifs for a rich ethnic look\n👖 Bottom / Dupatta:\n* Coordinated navy piece with intricate white block-style design\n* Perfect contrast to complete the set\n💫 Highlight: Skin-friendly pure cotton, ideal for summer & everyday comfort\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0012",
-    "name": "Premium Pure Cotton Suit – Handblock Style",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0012.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0012.jpeg"
-    ],
-    "description": "🌺 Premium Pure Cotton Suit – Maroon Handblock Style 🌺\n✨ Fabric: 100% Pure Soft Cotton\n✨ Colour: Deep Maroon with ivory & black detailing\n✨ Feel: Soft • Breathable • Skin-friendly\n🎨 Design Highlights:\n* Ajrakh + Dabu–inspired block print\n* Geometric floral motifs (top)\n* Dotted butta pattern (bottom)\n* Ethnic circular & border design (dupatta)\n👗 Set Includes:\n* Top: Ajrakh-style geometric print\n* Bottom: Maroon dotted butta print\n* Dupatta: Matching cotton dupatta with circular motifs\n💫 Look & Feel:\n* Elegant ethnic look\n* Perfect for office, casual outings & light festive wear\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0013",
-    "name": "Premium Pure Cotton Suit – Handblock Style",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0013.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0013.jpeg"
-    ],
-    "description": "❤️ Pure Cotton Printed Suit – Red Traditional Edition ❤️\n✨ Fabric: 100% Pure Cotton\n✨ Feel: Soft, breathable & perfect for everyday comfort\n✨ Colour: Rich red base with black & white detailing\n👗 Top:\n* Beautiful ethnic block-style print in black & white\n* Floral & geometric motifs for a bold, elegant look\n👖 Bottom / Dupatta:\n* Coordinated red piece with white polka dots\n* Dupatta features intricate white ethnic patterns for a classy finish\n💫 Highlight: Vibrant colour, skin-friendly cotton & ideal for daily wear\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0014",
-    "name": "Premium Pure Cotton Suit – Handblock Style",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0014.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0014.jpeg"
-    ],
-    "description": "💜 Pure Cotton Printed Suit – Deep Wine Edition 💜\n✨ Fabric: 100% Pure Cotton\n✨ Feel: Soft, breathable & perfect for daily wear\n✨ Colour: Rich wine/maroon base with red, white & black detailing\n👗 Top:\n* Traditional block-style geometric + floral print\n* Bold red highlights that pop beautifully on the deep base\n👖 Bottom / Dupatta:\n* Matching polka-dot bottom in wine & white\n* Dupatta features intricate white ethnic circular and border motifs for a classy, traditional finish\n💫 Highlight: Vibrant print, skin-friendly cotton, elegant ethnic look\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0015",
-    "name": "Premium Pure Cotton Suit – Handblock Style",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0015.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0015.jpeg"
-    ],
-    "description": "🌺 PURE COTTON BLOCK PRINTED LUXURY SUIT – MAROON 🌺\n✨ Soft • Breathable • Premium Ethnic Finish ✨\n🧵 Fabric:\n• 100% Pure Cotton\n• Soft, lightweight & extremely breathable\n• Perfect for everyday comfort and stylish wear\n🎨 Print & Design:\n• Rich maroon base with elegant traditional block-printed floral motifs\n• Intricate beige patterns add a classy ethnic charm\n• Natural, hand-block inspired design that never goes out of style\n👗 Suitable For:\n• Daily wear, office wear, small functions & casual outings\n• Ideal for stitching straight-cut suits, A-line kurtis or semi-ethnic sets\n✨ Highlights:\n• Premium-quality cotton\n• Colorfast, skin-friendly print\n• Comfortable for all-day wear\n• Gives a rich, elegant ethnic look\n🧼 Care Instructions:\n• Gentle hand wash separately\n• Dry in shade to maintain color vibrancy\n• Mild ironing recommended",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0016",
-    "name": "Premium Pure Cotton Suit – Handblock Style",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0016.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0016.jpeg"
-    ],
-    "description": "💙 Pure Cotton Luxury Block Print Suit – Indigo Elegance 💙\n✨ Fabric: 100% Pure Cotton\n✨ Feel: Soft, breathable & perfect for everyday comfort\n✨ Colour: Deep Indigo Blue with classic beige block prints\n👗 Top:\n* Beautiful all-over floral block print in beige\n* Elegant chevron-pattern border for a refined finish\n👖 Bottom / Dupatta:\n* Dupatta features intricate circular motifs + traditional border detailing\n* Coordinated ethnic patterns for a rich, heritage look\n💫 Highlight: Premium cotton, artisanal print style & classy indigo-beige combo\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0017",
-    "name": "Premium Pure Cotton Suit – Handblock Style",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0017.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0017.jpeg"
-    ],
-    "description": "❤️ Pure Cotton Luxury Block Print Suit – Red Classic ❤️\n✨ Fabric: 100% Pure Cotton\n✨ Feel: Soft, breathable & super comfortable\n✨ Colour: Red with elegant beige block prints\n👗 Top:\n* All-over traditional floral block motifs\n* Rich handblock-style pattern that looks timeless and ethnic\n👖 Dupatta / Bottom:\n* Matching Red fabric with bold chevron-style border prints\n* Perfectly coordinated for a complete, graceful look\n💫 Highlight: Premium cotton + classy Red–beige combo for everyday elegance\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0018",
-    "name": "Premium Pure Cotton Suit – Handblock Style",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0018.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0018.jpeg"
-    ],
-    "description": "💜 Pure Cotton Luxury Block Print Suit – Deep Plum Edition 💜\n✨ Fabric: 100% Pure Cotton\n✨ Feel: Soft, airy & skin-friendly\n✨ Colour: Rich deep plum with subtle beige block prints\n👗 Top:\n* Beautiful all-over floral block motifs\n* Classic handblock-style detailing for an elegant ethnic finish\n👖 Dupatta / Bottom:\n* Matching deep plum fabric with bold chevron + dotted pattern\n* Beige ethnic border adds a refined touch\n💫 Highlight: A premium, rich-looking suit that’s perfect for daily wear & small occasions\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0020",
-    "name": "Ajrakh Premium Pure Cotton Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0020.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0020.jpeg"
-    ],
-    "description": "💙 Premium Pure Cotton Ajrakh Suit Material 💙\n✨ Fabric: 100% Premium Pure Cotton\n✨ Work: Traditional Ajrakh Block Print\n✨ Colour: Deepest Navy Blue with Rust-Red & Ivory Ajrakh Motifs\n👗 Set Includes:\n* Top: Classic Ajrakh block print with geometric & circular patterns\n* Bottom: Solid navy blue cotton with Ajrakh border highlight\n* Dupatta: Matching Ajrakh patterned dupatta in earthy tones\n💫 Look & Feel:\nUltra-soft • Breathable • Skin-friendly • Rich handcrafted finish\n🧼 Care:\n* Hand wash separately in cold water\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* May release slight colour initially as it is pure cotton & naturally dyed",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1299",
-    "status": "Sold out"
-  },
-  {
     "productcode": "C0021",
     "name": "Ajrakh Premium Pure Cotton Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0021.jpeg",
@@ -1043,48 +724,6 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
     "price": "1299",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0022",
-    "name": "Soft Premium Rayon Embroidered Suit Material",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0022.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0022.jpeg"
-    ],
-    "description": "❤️ Soft Premium Rayon Embroidered Suit Material ❤️\n✨ Fabric: Ultra-soft Premium Rayon\n✨ Work: Elegant thread embroidery on the dupatta\n✨ Colour: Rich red with ivory & floral detailing on the top\n👗 Set Includes:\n* Top: Soft rayon with beautiful printed pattern and neckline embroidery\n* Bottom: Plain matching red rayon fabric\n* Dupatta: Light embroidered rayon dupatta with delicate floral thread work\n💫 Look & Feel:\nFeather-soft • Flowing drape • Skin-friendly • Comfortable for all-day wear\n🧼 Care:\nHand wash recommended\nUse mild detergent\nDry in shade",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1399",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0023",
-    "name": "Pure Cotton Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0023.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0023.jpeg"
-    ],
-    "description": "🌿 Premium Pure Cotton Printed Suit – Olive Green Elegance 🌿\n✨ Fabric: 100% Pure Cotton – soft, breathable & perfect for all-day comfort\n✨ Colour: Rich olive green with mustard-gold traditional prints\n✨ Design:\n* Beautiful all-over floral butti print on the kurta\n* Intricately printed yoke panel with geometric + ethnic detailing\n* Sleeves feature coordinated borders for a finished, stylish look\n👖 Bottom:\n* Matching printed cotton bottom with fine geometric motifs\n🧣 Dupatta:\n* Soft cotton dupatta in olive & beige tones\n* Traditional block-style borders and motif work completing the set\n💫 Highlight:\nA classy, ethnic cotton suit ideal for office wear, casual outings, festive days & everyday elegance. Lightweight, breathable and very graceful.\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0024",
-    "name": "Pure Cotton Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0024.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0024.jpeg"
-    ],
-    "description": "🌿 Premium Pure Cotton Printed Suit – Mustard Elegance 🌿\n✨ Fabric: 100% Pure Cotton – soft, breathable & perfect for all-day comfort\n✨ Colour: Rich Mustard with beige traditional prints\n✨ Design:\n* Beautiful all-over floral butti print on the kurta\n* Intricately printed yoke panel with geometric + ethnic detailing\n* Sleeves feature coordinated borders for a finished, stylish look\n👖 Bottom:\n* Matching printed cotton bottom with fine geometric motifs\n🧣 Dupatta:\n* Soft cotton dupatta in olive & beige tones\n* Traditional block-style borders and motif work completing the set\n💫 Highlight:\nA classy, ethnic cotton suit ideal for office wear, casual outings, festive days & everyday elegance. Lightweight, breathable and very graceful.\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
     "status": "Sold out"
   },
   {
@@ -1102,20 +741,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0026",
-    "name": "Pure Cotton Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0026.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0026.jpeg"
-    ],
-    "description": "🌿 Premium Pure Cotton Printed Suit – Rust and beige Elegance 🌿\n✨ Fabric: 100% Pure Cotton – soft, breathable & perfect for all-day comfort\n✨ Colour: Rust with beige and black traditional prints\n✨ Design:\n* Beautiful all-over floral butti print on the kurta\n* Intricately printed yoke panel with geometric + ethnic detailing\n* Sleeves feature coordinated borders for a finished, stylish look\n👖 Bottom:\n* Matching printed cotton bottom with fine geometric motifs\n🧣 Dupatta:\n* Soft cotton dupatta in black & red motif \n* Traditional block-style borders and motif work completing the set\n💫 Highlight:\nA classy, ethnic cotton suit ideal for office wear, casual outings, festive days & everyday elegance. Lightweight, breathable and very graceful.\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Sold out"
-  },
-  {
     "productcode": "C0027",
     "name": "Soft Mixed Cotton Suit – Grey Elegance",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0027.jpeg",
@@ -1130,33 +755,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0028",
-    "name": "Soft Mixed Cotton Suit – Grey Elegance",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0028_1771149019876.jpeg"
-    ],
-    "description": "🌿 Soft Mixed Cotton Suit – Grey Elegance 🌿\n✨ Fabric\n* 80% soft cotton, 20% blended fibre\n* Lightweight, breathable & skin-friendly\n✨ Design & Pattern\n* Grey base with peach–ivory–teal floral motifs\n* Ajrakh-inspired borders & geometric detailing\n* Coordinated printed bottom for a complete set\n* Soft ivory mixed-cotton dupatta for a classy finish\n✨ Set Includes\n* Top: Printed soft-mixed cotton\n* Bottom: Matching printed pattern\n* Dupatta: Solid ivory mixed cotton\n✨ Look & Feel\n* Elegant • Office-friendly • Neat & rich ethnic styling\n🧼 Care\n* Hand wash recommended\n* Mild detergent only\n* Dry in shade\n* Wash once before stitching",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": 799,
-    "status": "SoldOut"
-  },
-  {
-    "productcode": "C0029",
-    "name": "Premium Maroon - Wine Floral Kurti Set",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0029.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0029.jpeg"
-    ],
-    "description": "Premium Maroon–Wine Floral Kurti Set\n✨ Rayon–Cotton Mixed Fabric | Ready-Made\nFabric & Feel:\n* Soft rayon–cotton mixed blend (breathable + smooth finish)\n* Lightweight and skin-friendly\n* Gentle fall with mild sheen\nColour & Design:\n* Beautiful matron + wine mixed shade\n* Bold floral prints in gold–wine tones\n* Button-down front with elegant neckline\n* 3/4 sleeves for a refined, stylish look\nFit & Style:\n* Ready-made straight-cut kurti\n* Side slits for easy movement\n* Paired with matching plain wine pant\n* Perfect for office, outings & daily elegance\nAvailable Sizes:\n* M, L, XL\nCare:\n* Gentle wash\n* Dry in shade to maintain colour richness",
-    "category": "Salwar Suit",
-    "subcategory": "Readymade Salwar Suit",
-    "tags": [],
-    "price": "899",
-    "status": "Available"
-  },
-  {
     "productcode": "C0030",
     "name": "Premium Maroon - Wine Floral Kurti Set",
     "images": [
@@ -1168,46 +766,6 @@
     "tags": [],
     "price": 899,
     "status": "Available"
-  },
-  {
-    "productcode": "C0031",
-    "name": "Premium Maroon - Wine Floral Kurti Set",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0031_1770881619863.jpeg"
-    ],
-    "description": "Premium Maroon–Wine Floral Kurti Set\n✨ Rayon–Cotton Mixed Fabric | Ready-Made\nFabric & Feel:\n* Soft rayon–cotton mixed blend (breathable + smooth finish)\n* Lightweight and skin-friendly\n* Gentle fall with mild sheen\nColour & Design:\n* Beautiful matron + wine mixed shade\n* Bold floral prints in gold–wine tones\n* Button-down front with elegant neckline\n* 3/4 sleeves for a refined, stylish look\nFit & Style:\n* Ready-made straight-cut kurti\n* Side slits for easy movement\n* Paired with matching plain wine pant\n* Perfect for office, outings & daily elegance\nAvailable Sizes:\n* M, L, XL\nCare:\n* Gentle wash\n* Dry in shade to maintain colour richness",
-    "category": "Salwar Suit",
-    "subcategory": "Readymade Salwar Suit",
-    "tags": [],
-    "price": 899,
-    "status": "Available"
-  },
-  {
-    "productcode": "C0032",
-    "name": "Premium Maroon - Wine Floral Kurti Set",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0032_1770881683825.jpeg"
-    ],
-    "description": "Premium Maroon–Wine Floral Kurti Set\n✨ Rayon–Cotton Mixed Fabric | Ready-Made\nFabric & Feel:\n* Soft rayon–cotton mixed blend (breathable + smooth finish)\n* Lightweight and skin-friendly\n* Gentle fall with mild sheen\nColour & Design:\n* Beautiful matron + wine mixed shade\n* Bold floral prints in gold–wine tones\n* Button-down front with elegant neckline\n* 3/4 sleeves for a refined, stylish look\nFit & Style:\n* Ready-made straight-cut kurti\n* Side slits for easy movement\n* Paired with matching plain wine pant\n* Perfect for office, outings & daily elegance\nAvailable Sizes:\n* M, L, XL\nCare:\n* Gentle wash\n* Dry in shade to maintain colour richness",
-    "category": "Salwar Suit",
-    "subcategory": "Readymade Salwar Suit",
-    "tags": [],
-    "price": 899,
-    "status": "SoldOut"
-  },
-  {
-    "productcode": "C0003",
-    "name": "Katan Silk Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0003.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0003.jpeg"
-    ],
-    "description": "💙🌿 Premium Katan Silk Suit Material - Indigo Block Print 🌿💙\n✨ Fabric: Premium Cotton Blend (Comfortable, breathable, and structured)\n✨ Design: Classic Indigo/White Block Print style featuring contrasting patterns:\n* Kurta: Large, ornate traditional motifs.\n* Dupatta/Scarf: Dense floral/vine repeating motifs.\n* Bottom: Simple repeating small motifs (as seen on the dupatta).\n✨ Color: Rich Deep Indigo Blue and Crisp White.\n✨ Dupatta: Matching blue print with tassels and a subtle metallic gold striped accent.\n⭐ Key Features:\n* High-quality cotton blend material is soft yet retains shape.\n* Timeless and popular traditional block print design.\n* Includes ample fabric for kurta, bottom, and dupatta (Unstitched).\n* Ideal for: Daily wear, office, and smart casual ethnic events.\n💗 Feel: Soft • Breathable • Structured\n🧵 Care: Gentle hand wash or dry clean recommended",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1600",
-    "status": "Sold out"
   },
   {
     "productcode": "C0002",
@@ -1236,34 +794,6 @@
     "tags": [],
     "price": "700",
     "status": "Available"
-  },
-  {
-    "productcode": "S0094",
-    "name": "Semi Chanderi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0094.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0094.jpeg"
-    ],
-    "description": "🌿 Semi Chanderi Silk Saree 🌿\n✨ Fabric: Semi Chanderi Silk\n✨ Colour: Deep Navy Blue with Ivory prints\n✨ Design: Elegant floral vine motifs with subtle vertical zari lines\n✨ Border & Pallu: Rich silver-toned woven border and pallu\n✨ Texture: Lightweight, smooth & softly lustrous\n✨ Drape: Easy to carry with a graceful fall\n👗 Occasion:\nPerfect for office wear, festive gatherings, poojas & elegant daytime functions.\n🧼 Care Instructions:\n* Dry clean recommended\n* Store in a cool, dry place\n* Avoid direct sunlight for long hours\n📌 Note:\nBlouse piece included. Colour may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "700",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0095",
-    "name": "Semi Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0095.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0095.jpeg"
-    ],
-    "description": "🌸 Semi Linen Saree 🌸\n✨ Fabric: Semi Linen\n✨ Colour: Soft Mauve / Dusty Rose\n✨ Design: Delicate floral prints in subtle purple and blue tones\n✨ Border & Pallu: Elegant silver-toned woven border and pallu\n✨ Texture: Lightweight, airy & gently textured\n✨ Drape: Comfortable with a graceful, natural fall\n👗 Occasion:\nIdeal for office wear, casual outings, festive daytime events & elegant everyday styling\n🧼 Care Instructions:\n* Dry clean or gentle hand wash\n* Use mild detergent\n* Dry in shade\n📌 Note:\nBlouse piece included. Colour may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "800",
-    "status": "Sold out"
   },
   {
     "productcode": "S0096",
@@ -1368,34 +898,6 @@
     "status": "Available"
   },
   {
-    "productcode": "S0103",
-    "name": "Chettinad Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0103.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0103.jpeg"
-    ],
-    "description": "💚 Chettinad Pure Cotton Saree – Green & Mustard Elephant Motif 💚\n✨ Fabric: Authentic Chettinad Pure Cotton\n✨ Colour: Rich mustard body paired with green contrast pallu\n✨ Design: Classic striped weave on the body complemented by traditional elephant motifs symbolising heritage and prosperity\n✨ Border / Pallu: Broad contrast pallu featuring intricately woven gold-toned elephant designs\n✨ Tassels: Hand-finished tassels in matching mustard shade\n✨ Texture: Soft, breathable cotton with a crisp, graceful drape\n👗 Ideal For: Office wear, festive occasions, temple visits & everyday ethnic elegance\n🧼 Care Instructions:\n* Hand wash separately\n* Mild detergent only\n* Dry in shade\n📌 Note: Actual saree colour may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1150",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0104",
-    "name": "Chettinad Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0104.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0104.jpeg"
-    ],
-    "description": "❤️ Chettinad Pure Cotton Saree – Classic Red & Green ❤️\n✨ Fabric: Authentic Chettinad Pure Cotton\n✨ Colour: Deep red body with rich green contrast border\n✨ Design: Traditional Chettinad temple-pattern weave with elegant gold-toned woven motifs\n✨ Border: Broad temple-style border with zari-inspired detailing\n✨ Pallu: Coordinated pallu with classic Chettinad patterns\n✨ Texture: Soft, breathable cotton with a neat, structured drape\n👗 Ideal For: Office wear, festive occasions, temple visits & traditional functions\n🧼 Care Instructions:\n* Hand wash separately\n* Use mild detergent\n* Dry in shade\n📌 Note: Actual saree colour may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1260",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0105",
     "name": "Chettinad Cotton Saree",
     "images": [
@@ -1453,20 +955,6 @@
     "tags": [],
     "price": "970",
     "status": "Available"
-  },
-  {
-    "productcode": "S0109",
-    "name": "Chettinad Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0109.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0109.jpeg"
-    ],
-    "description": "💛 Chettinad Pure Cotton Saree – Yellow with Maroon Border 💛\n✨ Fabric: Authentic Chettinad Pure Cotton\n✨ Colour: Bright mustard yellow body with rich maroon and rust-toned contrast border\n✨ Design: Subtle self-textured weave on the body with classic Chettinad traditional motifs\n✨ Border: Broad temple-style border featuring intricate gold-toned woven patterns inspired by heritage designs\n✨ Pallu: Coordinated pallu with detailed zari-style weaving\n✨ Texture: Soft, breathable cotton with a crisp, structured drape\n👗 Ideal For: Office wear, festive occasions, temple visits & everyday traditional styling\n🧼 Care Instructions:\n* Hand wash separately\n* Use mild detergent\n* Dry in shade\n📌 Note: Actual saree colour may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1330",
-    "status": "Sold out"
   },
   {
     "productcode": "S0110",
@@ -1636,20 +1124,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0039",
-    "name": "Fancy Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0039.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0039.jpeg"
-    ],
-    "description": "✨ NEW ARRIVAL: Dusty Rose & Sage Floral Silk Set ✨\n🌸 Product Details:\n* Fabric: Textured Silk Blend (Kurta) & Embossed Designer Fabric (Dupatta).\n* Color: Dusty Rose Kurta with a Sage Green Dupatta.\n* Work: Hand-embroidered floral V-neckline with pearls, beads, and gold thread work.\n* Dupatta: Sage green with a subtle geometric weave and finished lace edges.\n* Style: Elegant straight-cut kurta with a statement designer neckline.\n🌟 Why You’ll Love It:\n* Unique Contrast: The rose and sage green combination is trendy yet timeless.\n* Textured Detail: The self-grid pattern on the fabric gives it a high-end, boutique feel.\n* Lightweight Glamour: Rich in detail but comfortable enough for all-day wear.",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1400",
-    "status": "Sold out"
-  },
-  {
     "productcode": "C0040",
     "name": "Floral Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0040.jpeg",
@@ -1740,7 +1214,7 @@
       "Silk Saree"
     ],
     "price": 5500,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0119",
@@ -1823,20 +1297,6 @@
     "status": "Available"
   },
   {
-    "productcode": "S0124",
-    "name": "Semi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0124.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0124.jpeg"
-    ],
-    "description": "✨ Semi Silk Saree ✨\nFabric: Semi Silk\nColor: Royal Purple body with Rani Pink contrast\nDesign: All-over fine golden butta pattern giving a rich and elegant look\nBorder: Contrast zari-woven border with a bold Rani Pink finish\nPallu: Matching pallu with subtle zari detailing and traditional tassels\nTexture: Smooth semi-silk texture with a soft sheen and comfortable drape\nOccasion: Festive wear | Traditional functions | Party wear | Office ethnic days\nHighlight: Elegant color combination with minimal yet classy detailing, perfect for refined ethnic styling 🌸",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "900",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0125",
     "name": "Semi Silk Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0125.jpeg",
@@ -1892,34 +1352,6 @@
     "status": "Available"
   },
   {
-    "productcode": "S0129",
-    "name": "Semi Chanderi Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0129.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0129.jpeg"
-    ],
-    "description": "Elegant Handblock Cotton Saree with Warli Border\nPerfect for office wear, casual outings, or cultural events, this saree offers a blend of comfort and timeless ethnic charm.\nProduct Highlights:\n* Fabric: Premium Quality Breathable Cotton — lightweight and comfortable for all-day wear.\n* Color Palette: Classic Carbon Black base with a contrasting Terracotta Red and Gold border.\n* Body Design: Features intricate cream-toned floral/leaf handblock prints spread across the body.\n* Border Detail: A unique Warli-style tribal art border in red, accented with a sleek Antique Gold Zari lining for a touch of sophistication.\n* Finish: Finished with delicate tassels on the pallu for a graceful fall.\n* Style Tip: Pair with oxidized silver jewelry and a contrast red or black blouse to complete the look.",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "1100",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0130",
-    "name": "Hand Block Printed Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0130.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0130.jpeg"
-    ],
-    "description": "🌿 Traditional Printed Multi-Color Cotton Saree\nCelebrate color and heritage with this elegantly crafted cotton saree, featuring a unique blend of floral motifs and mythological art.\nProduct Highlights:\n* Fabric: Soft, high-quality Breathable Cotton, ideal for all-day comfort in any season.\n* Base Color: A rich Emerald Green body that provides a striking contrast to the vibrant borders.\n* Body Design: Scattered with delicate hand-printed floral motifs in a dark contrast tone.\n* Artistic Pallu/Border: Features a bold Color-Block design in shades of Crimson Red, Mustard Yellow, and Sunset Orange.\n* Traditional Art: Highlighted with intricate Kalamkari-inspired illustrations, featuring traditional deities or mythological figures.\n* Edge Finish: Sophisticated tassel detailing along the pallu edge for an added touch of elegance.\nProduct Details:\n* Occasion: Perfect for festive gatherings, office ethnic days, or casual events.\n* Style Tip: Pair with traditional terracotta or gold-toned jewelry to complement the warm border colors.\n* Length: Standard 5.5 meters (approx.).\n* Care: Gentle hand wash recommended to preserve the print and fabric texture.",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "1200",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0131",
     "name": "Hand Block Printed Cotton Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0131.jpeg",
@@ -1932,20 +1364,6 @@
     "tags": [],
     "price": "1200",
     "status": "Available"
-  },
-  {
-    "productcode": "S0132",
-    "name": "Hand Block Printed Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0132.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0132.jpeg"
-    ],
-    "description": "🌿 Earthy Mustard & Teal Hand-Print Cotton Saree\n* Fabric: Premium quality soft cotton, perfect for comfortable all-day wear.\n* Color Palette: A warm Mustard Gold body contrasted with a rich Teal Green pallu and a vibrant Orange border.\n* Body Design: Features elegant, dark-maroon circular and floral ethnic motifs printed across the main body.\n* Border & Pallu Detail: * The teal pallu showcases bold, intricate Elephant motifs in black line-art.\n* The bottom orange border is accented with repetitive maroon ethnic patterns.\n* Artistic Style: Traditional hand-block inspired aesthetic with a modern color-block layout.\n* Finishing: Includes delicate black tassels on the edge of the pallu for a finished look.\n* Occasion: Ideal for office ethnic wear, casual gatherings, or daytime events.",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "1200",
-    "status": "Sold out"
   },
   {
     "productcode": "S0133",
@@ -1976,20 +1394,6 @@
     "status": "Available"
   },
   {
-    "productcode": "S0135",
-    "name": "Raw silk by Tussar silk Premium saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0135.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0135.jpeg"
-    ],
-    "description": "Premium Pure Raw Silk Floral Saree - Slate Grey\nProduct Details:\n* Fabric: Authentic Pure Raw Silk with a rich, natural textured finish.\n* Color: Sophisticated Slate Grey with a subtle Teal undertone.\n* Design: Adorned with large, elegantly embroidered floral motifs in copper and peach tones.\n* Pallu: Finished with beautiful, hand-knotted matching tassels for a graceful look.\n* Occasion: Perfect for weddings, formal gatherings, and high-end festive events.\n* Style Tip: Pairs exceptionally well with antique silver or copper-toned jewelry.",
-    "category": "Saree",
-    "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "2750",
-    "status": "Sold out"
-  },
-  {
     "productcode": "S0136",
     "name": "Premium Raw silk saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0136.jpeg",
@@ -2016,19 +1420,6 @@
     "tags": [],
     "price": "2200",
     "status": "Available"
-  },
-  {
-    "productcode": "S0138",
-    "name": "Soft Raw Silk Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0138.jpeg"
-    ],
-    "description": "Tussar silk Saree \n* Fabric: Authentic Tussar silk featuring a distinct rich, coarse texture and a natural golden sheen.\n* Main Body: Decorated with evenly spaced golden floral buttis (small woven motifs) throughout the fabric.\n* Border Design: Highlights a traditional motif, where two peacocks are positioned facing each other above a solid gold zari edge.\n* Pallu Detail: Finished with matching colored tassels along the edge of the pallu for an elegant look.\n* Color Options: Available in vibrant jewel tones, including emerald blue\n* Overall Aesthetic: A combination of a textured matte finish and metallic gold work, making it suitable for festive or formal occasions.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": 2200,
-    "status": "SoldOut"
   },
   {
     "productcode": "S0139",
@@ -2100,34 +1491,6 @@
     "status": "Available"
   },
   {
-    "productcode": "S0144",
-    "name": "Semi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0144.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0144.jpeg"
-    ],
-    "description": "✨ Semi Silk Saree – Festive Collection ✨\nFabric: Semi Silk\nColor: Rich mustard yellow body paired with elegant teal blue pallu & border\nTexture: Smooth, soft drape with a festive silk-like sheen\nDesign: Plain textured body enhanced with contrast pallu detailing\nMotifs: Graceful woven leaf motifs in subtle zari tones\nBorder: Teal blue border with fine zari stripe accents\nPallu: Beautifully woven teal pallu with delicate zari patterns\nLook & Feel: Rich, elegant, and comfortable for long festive wear\nOccasion: Festive functions, weddings, temple occasions, celebrations\nBlouse: Running blouse piece included\nNote: Color may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1600",
-    "status": "Available"
-  },
-  {
-    "productcode": "S0145",
-    "name": "Semi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0145.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0145.jpeg"
-    ],
-    "description": "✨ Semi Silk Saree – Festive Collection ✨\nFabric: Semi Silk\nColor: Deep teal blue body paired with rich maroon border & pallu\nTexture: Smooth, lightweight with an elegant silk sheen\nDesign: Plain body enhanced with fine zari stripe detailing\nMotifs: Woven leaf motifs in zari on the border and pallu\nBorder: Contrast maroon border with traditional zari work\nPallu: Coordinated maroon pallu with classy zari accents\nLook & Feel: Rich, elegant, and comfortable for long festive wear\nOccasion: Festive celebrations, weddings, temple functions, special occasions\nBlouse: Running blouse piece included\nNote: Color may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1600",
-    "status": "Available"
-  },
-  {
     "productcode": "S0146",
     "name": "Premium Cotton Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0146.jpeg",
@@ -2168,19 +1531,6 @@
     "tags": [],
     "price": "1250",
     "status": "Available"
-  },
-  {
-    "productcode": "S0149",
-    "name": "Cotton blend Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0149.jpeg"
-    ],
-    "description": "✨ Semi Silk Cotton Saree ✨\nFabric: Semi Silk Cotton\nColor: Rich maroon / wine shade\nTexture: Soft, breathable cotton feel with a gentle silk finish\nDesign: Elegant woven peacock motifs spread across the body\nMotifs: Traditional peacock patterns in subtle golden zari tone\nPallu: Simple and graceful with coordinated motif detailing\nLook & Feel: Classic, lightweight, and comfortable for all-day wear\nOccasion: Office wear, festive gatherings, temple visits, casual functions\nBlouse: Running blouse piece included\nNote: Color may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 1450,
-    "status": "SoldOut"
   },
   {
     "productcode": "S0150",
@@ -2237,20 +1587,6 @@
     "tags": [],
     "price": "1300",
     "status": "Available"
-  },
-  {
-    "productcode": "S0154",
-    "name": "Premium Ultra Soft Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0154.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0154.jpeg"
-    ],
-    "description": "✨ Pure Handloom Cotton Saree ✨\nFabric: 100% Pure Handloom Cotton\nColor: Elegant muted rose pink\nDesign: Traditional handloom woven floral and leafy motifs in contrasting deep navy blue, highlighted with subtle buttas across the body\nBorder: Classic striped border with fine detailing, giving a graceful ethnic finish\nPallu: Richly woven pallu with coordinated motifs and neat hand-knotted tassels\nTexture: Soft, breathable, and skin-friendly with a natural cotton weave\nLook & Feel: Minimal yet elegant – perfect for everyday wear, office, casual outings, and summer festive use",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "1600",
-    "status": "Sold out"
   },
   {
     "productcode": "S0155",
@@ -2337,33 +1673,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0046",
-    "name": "Indigo Hand block Cotton Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0046.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0046.jpeg"
-    ],
-    "description": "✨ NEW ARRIVAL: Midnight Navy Batik-Block Cotton Set ✨\nStep out in style with this masterfully crafted navy blue ensemble, where traditional block prints meet modern textures.\n🌸 Product Details:\n* Fabric: 100% Premium Cotton for high durability and comfort.\n* Color: Rich Midnight Navy with Cream and Antique Gold accents.\n* Work: Tone-on-tone chevron weave and traditional hand-block style prints.\n* Detailing: Designer borders with geometric prints and gold-tone finishes.\n* Style: Straight-cut festive kurta set.\n🌟 Why You’ll Love It:\n* Versatile Navy: A classic, slimming color that works perfectly for both office wear and festive gatherings.\n* Subtle Sophistication: The mix of zigzag textures and bold prints makes it stand out from standard cotton sets.\n* Boutique Quality: Finished with designer borders that add a premium feel to the natural cotton fabric.",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1250",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0047",
-    "name": "Indigo Hand block Cotton Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0047.jpeg"
-    ],
-    "description": "✨ NEW ARRIVAL: Premium Unstitched Cotton Suit Material ✨\nDesign your perfect look this season! Our high-quality cotton dress materials are now available, featuring stunning artisanal prints and rich festive colors.\n🌸 Product Details:\n* Kurta Fabric: 2.5 Meters Premium Cotton (with designer front panel).\n* Bottom Fabric: 2.0 - 2.5 Meters Pure Cotton (matching/contrast).\n* Dupatta: 2.25 Meters Printed Cotton with border/tassel detail.\n* Work Type: Traditional Batik/Hand-block prints with subtle hand-work highlights.\n🌟 Why Buy Unstitched?\n* Custom Fit: Get the perfect fit that ready-made sizes can't always provide.\n* Style Freedom: Choose your own neck design, sleeve style, and pant type (Palazzo, Cigarette pants, or Patiala).\n* Premium Fabric: 100% breathable cotton, ideal for all-day comfort.",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": 1250,
-    "status": "SoldOut"
-  },
-  {
     "productcode": "C0048",
     "name": "Blue Hand block Cotton Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0048.jpeg",
@@ -2390,60 +1699,6 @@
     "tags": [],
     "price": "1250",
     "status": "Available"
-  },
-  {
-    "productcode": "C0050",
-    "name": "Fancy Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0050.jpeg"
-    ],
-    "description": "✨ Premium Silk-Mixed Salwar Material – Elegant Floral Edition ✨\nFabric: Premium silk-mixed salwar material\nColor: Classic deep black base\nDesign & Work:\n• Beautiful hand-style floral prints in rich mustard yellow, coral red, and soft green tones\n• Elegant vine pattern flowing gracefully across the fabric\n• Fine dotted detailing adds a subtle festive sparkle\n• Stylish striped panel detailing at the borders enhances the contemporary appeal\nLook & Feel:\n• Smooth silk-blend texture with a soft, comfortable drape\n• Rich appearance with a lightweight, easy-to-carry feel\nOccasion:\nPerfect for festive wear, office ethnic days, casual functions, and elegant day events\nStyle Tip:\nPair with antique gold or oxidised jewellery and a contrast dupatta for a chic Indo-fusion look 🌼",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": 1310,
-    "status": "SoldOut"
-  },
-  {
-    "productcode": "C0051",
-    "name": "Fancy Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0051.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0051.jpeg"
-    ],
-    "description": "✨ Premium Silk-Mixed Salwar Material – Floral Elegance ✨\nFabric: Premium silk-mixed salwar material\nColor: Deep navy blue base\nDesign & Work:\n• Graceful floral motifs in rich teal green, soft pink, and warm beige tones\n• Delicate dotted detailing within the flowers adds a subtle festive sparkle\n• Flowing vine and leaf patterns create an elegant, elongated look\n• Stylish striped detailing near the border enhances the modern appeal\n• Comes with a beautifully coordinated dupatta finished with tassels for a classy touch\nLook & Feel:\n• Smooth silk-blend texture with a soft, fluid drape\n• Lightweight yet rich, giving a premium and refined appearance\nOccasion:\nIdeal for festive gatherings, office ethnic wear, small functions, and elegant day celebrations\nStyle Tip:\nPair with silver or pearl jewellery and soft makeup for a sophisticated ethnic look 💙",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1310",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0052",
-    "name": "Pure Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0052.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0052.jpeg"
-    ],
-    "description": "✨ Pure Cotton Salwar Material – Classic Ethnic Charm ✨\nFabric: 100% pure cotton\nColor: Rich maroon with cream and black contrast\nDesign & Print:\n• Traditional block-style prints inspired by classic ethnic motifs\n• Kurta panel highlighted with an artistic central print bordered beautifully for a statement look\n• Coordinated bottom fabric with elegant zig-zag and border detailing\n• Matching dupatta featuring small traditional buttas and contrast borders\nLook & Feel:\n• Soft, breathable, and skin-friendly cotton\n• Lightweight and comfortable for all-day wear\nOccasion:\nPerfect for daily wear, office use, casual outings, temple visits, and summer-friendly ethnic styling\nStyle Tip:\nPair with minimal jewellery and kolhapuri or juttis for a graceful everyday ethnic look ❤️",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1160",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0053",
-    "name": "Pure Cotton Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0053.jpeg"
-    ],
-    "description": "✨ Pure Cotton Salwar Material – Heritage Print Collection ✨\nFabric: 100% pure cotton\nColor Palette: Cream base with rich maroon, black, and earthy tones\nDesign & Print:\n• Kurta panel features traditional folk-inspired bird motifs framed with classic ethnic borders\n• Coordinated bottom fabric in bold zig-zag (chevron) pattern adds a stylish contrast\n• Matching dupatta with elegant floral buttas and contrast borders for a complete ethnic look\n• Beautiful combination of prints that reflect timeless heritage artistry\nLook & Feel:\n• Soft, breathable cotton ideal for all-day comfort\n• Lightweight and skin-friendly, perfect for warm weather\nOccasion:\nIdeal for daily wear, office use, casual outings, temple visits, and ethnic day styling\nStyle Tip:\nPair with oxidised silver jewellery and flats for a graceful, effortless cotton look 🤍",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": 1160,
-    "status": "SoldOut"
   },
   {
     "productcode": "C0054",
@@ -2488,19 +1743,6 @@
     "status": "Sold out"
   },
   {
-    "productcode": "C0057",
-    "name": "Soft Cotton Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0057.jpeg"
-    ],
-    "description": "✨ Pure Cotton Salwar Material – Classic Red Elegance ✨\nFabric: 100% pure cotton\nColor: Rich brick red with navy blue accents\nDesign & Print:\n• Kurta features a striking contrast neckline panel in deep navy with delicate printed detailing\n• Subtle all-over traditional floral motifs add timeless ethnic charm\n• Coordinated dupatta highlighted with elegant floral and leafy border prints\n• Matching solid cotton bottom for a neat and graceful finish\nLook & Feel:\n• Soft, breathable, and skin-friendly cotton\n• Lightweight and comfortable for long hours of wear\nOccasion:\nIdeal for daily wear, office ethnic days, casual outings, temple visits, and summer-friendly styling\nStyle Tip:\nPair with oxidised silver jewellery or simple studs for a refined everyday ethnic look",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": 1150,
-    "status": "SoldOut"
-  },
-  {
     "productcode": "S0157",
     "name": "Rajkot Silk Cotton Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0157.jpeg",
@@ -2513,20 +1755,6 @@
     "tags": [],
     "price": "1050",
     "status": "Available"
-  },
-  {
-    "productcode": "S0158",
-    "name": "Rajkot Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0158.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0158.jpeg"
-    ],
-    "description": "✨ Cotton Silk Blend Saree ✨\nFabric: Cotton Silk Blend\nColor: Royal blue with teal undertones\nDesign: Richly woven traditional geometric and floral-inspired motifs across the body, giving a classic handcrafted look\nBorder: Elegant contrast border with a subtle golden silk sheen that adds richness to the saree\nPallu: Coordinated pallu with refined weave detailing for a graceful finish\nTexture: Soft and breathable with the comfort of cotton, enhanced by a gentle silk lustre\nLook & Feel: Sophisticated yet comfortable – ideal for office wear, festive occasions, and elegant daytime events",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1050",
-    "status": "Sold out"
   },
   {
     "productcode": "C0058",
@@ -2635,34 +1863,6 @@
     "tags": [],
     "price": "1050",
     "status": "Available"
-  },
-  {
-    "productcode": "C0065",
-    "name": "Silk Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0065.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0065.jpeg"
-    ],
-    "description": "Premium Silk Cotton – Rust Orange & Olive Green ✨\n* Fabric: High-grade Chanderi Silk Cotton with a sophisticated natural luster.\n* Color Palette: Vibrant Rust Orange paired with Earthy Olive Green.\n* Kurta Details:\n* Rich rust orange base with a refined slub texture.\n* Adorned with delicate, all-over woven \"\"teardrop\"\" butta motifs in a light cream/silver thread.\n* Dupatta Details:\n* Solid olive green Chanderi dupatta featuring a beautiful silky sheen.\n* Highlighted by a bold golden zari border near the hem.\n* Finished with traditional handcrafted black tassels for an elegant drape.\n* Bottom: Matching solid olive green fabric for a perfectly balanced ethnic look.\n* Fabric Feel: Lightweight, breathable, and structured, ideal for creating a polished silhouette.\n* Occasion: A stunning choice for festive celebrations, formal gatherings, weddings, or elegant evening wear.\n* Style Tip: Pair with antique gold jewelry and a pair of traditional juttis to complement the rich earthy tones",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1050",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0066",
-    "name": "Silk Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0066.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0066.jpeg"
-    ],
-    "description": "✨ Festive Silk Cotton Dress Material ✨\nAn elegant and classy festive silk cotton set in a soothing yet rich colour combination.\nFabric: Premium Silk Cotton\nTop: Royal blue silk cotton with delicate butti motifs woven evenly across the fabric, giving a refined traditional appeal\nBottom: Soft beige/golden silk cotton with subtle self texture for a balanced and elegant look\nDupatta: Matching beige-gold silk cotton dupatta with striking royal blue panel and fine stripe detailing, finished with tassels for a festive touch\nTexture: Smooth, lightweight and breathable with a gentle silk sheen\nStyle: Minimal, traditional and graceful\nOccasion: Festivals, temple visits, pooja functions, office ethnic wear, and family gatherings",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1050",
-    "status": "Sold out"
   },
   {
     "productcode": "C0067",
@@ -3232,23 +2432,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0101",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0101.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0101.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "695",
-    "status": "Available"
-  },
-  {
     "productcode": "C0102",
     "name": "Cotton Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0102.jpeg",
@@ -3283,23 +2466,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0104",
-    "name": "Rayon Contemporary Floral",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0104.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0104.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "715",
-    "status": "Available"
-  },
-  {
     "productcode": "C0105",
     "name": "Cotton Floral",
     "images": [
@@ -3330,108 +2496,6 @@
       "Work Wear"
     ],
     "price": "1150",
-    "status": "Available"
-  },
-  {
-    "productcode": "C0107",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0107.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0107.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1150",
-    "status": "Available"
-  },
-  {
-    "productcode": "C0108",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0108.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0108.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1150",
-    "status": "Available"
-  },
-  {
-    "productcode": "C0109",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0109.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0109.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1190",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0110",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0110.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0110.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1190",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0111",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0111.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0111.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1210",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0112",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0112.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0112.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1210",
     "status": "Available"
   },
   {
@@ -3912,61 +2976,11 @@
     "status": "Available"
   },
   {
-    "productcode": "C0141",
-    "name": "Cotton Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0141.jpeg"
-    ],
-    "description": "Salwar Suit",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": 1380,
-    "status": "SoldOut"
-  },
-  {
     "productcode": "C0142",
     "name": "Cotton Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0142.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0142.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1380",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0143",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0143.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0143.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1380",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "C0144",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0144.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0144.jpeg"
     ],
     "description": "",
     "category": "Salwar Suit",
@@ -4114,22 +3128,6 @@
     "status": "SoldOut"
   },
   {
-    "productcode": "C0153",
-    "name": "Premium Maheshwari Silk Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0153.jpeg"
-    ],
-    "description": "Maheshwari Silk Salwar Suit Material",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Festive",
-      "Work Wear"
-    ],
-    "price": 2590,
-    "status": "SoldOut"
-  },
-  {
     "productcode": "C0154",
     "name": "Premium Maheshwari Silk Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0154.jpeg",
@@ -4147,23 +3145,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0155",
-    "name": "Premium Maheshwari Silk Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0155.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0155.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Festive",
-      "Work Wear"
-    ],
-    "price": "2590",
-    "status": "Sold out"
-  },
-  {
     "productcode": "C0156",
     "name": "Premium Maheshwari Silk Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0156.jpeg",
@@ -4179,23 +3160,6 @@
     ],
     "price": "2590",
     "status": "Available"
-  },
-  {
-    "productcode": "C0157",
-    "name": "Premium Maheshwari Silk Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0157.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0157.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Festive",
-      "Work Wear"
-    ],
-    "price": "2590",
-    "status": "Sold out"
   },
   {
     "productcode": "C0158",
@@ -4399,39 +3363,6 @@
     "status": "SoldOut"
   },
   {
-    "productcode": "C0170",
-    "name": "Cotton Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0170.jpeg"
-    ],
-    "description": "Cotton Salwar Suit",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": 1300,
-    "status": "SoldOut"
-  },
-  {
-    "productcode": "C0171",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0171.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0171.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1300",
-    "status": "Sold out"
-  },
-  {
     "productcode": "C0172",
     "name": "Embroidery Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0172.jpeg",
@@ -4472,21 +3403,6 @@
     "tags": "Party wear",
     "price": "1280",
     "status": "Available"
-  },
-  {
-    "productcode": "C0175",
-    "name": "Embroidery Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0175.jpeg"
-    ],
-    "description": "Cotton Salwar Suit",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Party wear"
-    ],
-    "price": 1280,
-    "status": "SoldOut"
   },
   {
     "productcode": "C0176",
@@ -4661,23 +3577,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0187",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0187.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0187.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1100",
-    "status": "Sold out"
-  },
-  {
     "productcode": "C0188",
     "name": "Cotton Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0188.jpeg",
@@ -4816,19 +3715,18 @@
   {
     "productcode": "C0196",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0196.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0196.jpeg"
     ],
-    "description": "",
+    "description": "Cotton",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
       "Work Wear"
     ],
-    "price": "1090",
-    "status": "Available"
+    "price": 1090,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0197",
@@ -5168,39 +4066,6 @@
     ],
     "price": 1150,
     "status": "Available"
-  },
-  {
-    "productcode": "S0170",
-    "name": "Handloom Cotton Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0170.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0170.jpeg"
-    ],
-    "description": "",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [
-      "Casual",
-      "Office wear"
-    ],
-    "price": "1150",
-    "status": "Sold out"
-  },
-  {
-    "productcode": "S0171",
-    "name": "Handloom Cotton Linen Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0171.jpeg"
-    ],
-    "description": "Handloom Cotton Linen Saree",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [
-      "Casual",
-      "Office wear"
-    ],
-    "price": 1150,
-    "status": "SoldOut"
   },
   {
     "productcode": "S0172",
@@ -6234,22 +5099,6 @@
     "status": "SoldOut"
   },
   {
-    "productcode": "C0258",
-    "name": "Embroidery Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0258.jpeg"
-    ],
-    "description": "Embroidery Salwar Suit",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Party wear",
-      "Festive"
-    ],
-    "price": 2300,
-    "status": "SoldOut"
-  },
-  {
     "productcode": "C0259",
     "name": "Madhubani Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0259.jpeg",
@@ -6400,22 +5249,6 @@
     "status": "SoldOut"
   },
   {
-    "productcode": "C0268",
-    "name": "Matka Silk Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0268.jpeg"
-    ],
-    "description": "Matka Silk Salwar Suit",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": 1250,
-    "status": "SoldOut"
-  },
-  {
     "productcode": "C0269",
     "name": "Matka Silk Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0269.jpeg",
@@ -6465,23 +5298,6 @@
     ],
     "price": "2500",
     "status": "Available"
-  },
-  {
-    "productcode": "S0183",
-    "name": "Silk Cotton Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0183.jpeg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0183-1_1770659099169.jpeg"
-    ],
-    "description": "Silk Cotton Saree",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [
-      "Festive",
-      "Party wear"
-    ],
-    "price": 2500,
-    "status": "SoldOut"
   },
   {
     "productcode": "S0184",
@@ -6811,7 +5627,7 @@
       "Casual"
     ],
     "price": 970,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0203",
@@ -6847,7 +5663,7 @@
       "Casual"
     ],
     "price": 990,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0205",
@@ -6884,7 +5700,7 @@
       "Casual"
     ],
     "price": 1230,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0207",
@@ -6903,7 +5719,7 @@
       "Office Wear"
     ],
     "price": 1230,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0208",
@@ -6966,6 +5782,24 @@
       "Cotton"
     ],
     "price": 1230,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0270",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-02-20_at_23.37.40__5__1771693249293.jpeg"
+    ],
+    "description": "Ultra Soft Premium Cotton Salwar Suit",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Cotton",
+      "Formal wear",
+      "Casual"
+    ],
+    "price": 1270,
     "status": "Available"
   }
 ]
