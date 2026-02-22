@@ -537,7 +537,7 @@
                     alert('Product code already exists. Please use a unique code.');
                     return;
                 }
-                products.push(productData);
+                products.unshift(productData);
             }
 
             const saved = saveProducts();
