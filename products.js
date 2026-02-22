@@ -59,6 +59,22 @@ function applyCategoryFromURL() {
     }
 }
 
+function applyTagFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    const tagFromURL = params.get("tag");
+
+    if (tagFromURL) {
+
+        // Add tag to selectedTags array
+        if (!selectedTags.includes(tagFromURL)) {
+            selectedTags.push(tagFromURL);
+        }
+
+        renderSelectedTags();   // show tag chip
+        applyFilters();         // filter products
+    }
+}
+
 /* ===========================
    RENDER PRODUCTS
 =========================== */
@@ -355,4 +371,5 @@ document.getElementById('sortFilter').addEventListener('change', applyFilters);
 loadProducts().then(() => {
     applyCategoryFromURL();
     initTagInput();
+   applyTagFromURL();
 });
