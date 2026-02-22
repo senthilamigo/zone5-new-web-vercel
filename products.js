@@ -59,20 +59,19 @@ function applyCategoryFromURL() {
     }
 }
 
-
-
 function applyTagFromURL() {
     const params = new URLSearchParams(window.location.search);
     const tagFromURL = params.get("tag");
 
     if (tagFromURL) {
-        // If you are using tag filter in applyFilters
-        const searchInput = document.getElementById('searchInput');
 
-        // Option 1 (Simple Way): Use search
-        searchInput.value = tagFromURL;
+        // Add tag to selectedTags array
+        if (!selectedTags.includes(tagFromURL)) {
+            selectedTags.push(tagFromURL);
+        }
 
-        applyFilters();
+        renderSelectedTags();   // show tag chip
+        applyFilters();         // filter products
     }
 }
 
