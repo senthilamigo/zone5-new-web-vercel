@@ -82,106 +82,50 @@ function applyTagFromURL() {
 =========================== */
 function renderProducts() {
     const productGrid = document.getElementById('productGrid');
-    const startIndex = (currentPage - 1) * productsPerPage;
-    const endIndex = startIndex + productsPerPage;
-    const productsToShow = filteredProducts.slice(startIndex, endIndex);
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+
+    const endIndex = currentPage * productsPerPage;
+    const productsToShow = filteredProducts.slice(0, endIndex);
 
     productGrid.innerHTML = productsToShow.map(product => `
         <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-            <div class="relative overflow-hidden h-72 lg:h-72 bg-gray-100">
+            <div class="relative overflow-hidden h-72 bg-gray-100">
                 <a href="product-detail.html?code=${product.productcode}">
-                    <img src="${Array.isArray(product.images) ? product.images[0] : product.images}" alt="${product.name}"
+                    <img src="${Array.isArray(product.images) ? product.images[0] : product.images}"
+                        alt="${product.name}"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                 </a>
-
-                ${product.status === 'Sold out' ? `
-                    <div class="absolute inset-0 sold-out-overlay flex items-center justify-center">
-                        <span class="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-lg">SOLD OUT</span>
-                    </div>
-                ` : ''}
-
-                <button onclick="toggleFavorite(this)"
-                    class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition z-10">
-                    <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                    </svg>
-                </button>
             </div>
-
             <div class="p-4">
-                <div class="text-xs text-gray-500 mb-1">${product.category} / ${product.subcategory}</div>
-                <a href="product-detail.html?code=${product.productcode}">
-                    <h3 class="font-semibold text-gray-900 mb-3 line-clamp-2 min-h-[3rem] hover:text-yellow-600 transition">
-                        ${product.name}
-                    </h3>
-                </a>
-                <div class="flex items-center justify-between">
-                    <span class="text-xl font-bold text-yellow-600">
-                        ₹${product.price.toLocaleString('en-IN')}
-                    </span>
-                    <span class="text-xs px-2 py-1 rounded-full 
-                        ${product.status === 'Available' 
-                            ? 'bg-green-100 text-green-700' 
-                            : 'bg-red-100 text-red-700'}">
-                        ${product.status === 'Available' ? 'In Stock' : 'Sold out'}
-                    </span>
-                </div>
+                <h3 class="font-semibold text-gray-900 mb-2">
+                    ${product.name}
+                </h3>
+                <span class="text-xl font-bold text-yellow-600">
+                    ₹${product.price.toLocaleString('en-IN')}
+                </span>
             </div>
         </div>
     `).join('');
 
     document.getElementById('productCount').textContent = filteredProducts.length;
-    renderPagination();
+
+    // FIX: Only show button if more products exist
+    if (endIndex < filteredProducts.length) {
+        loadMoreBtn.classList.remove('hidden');
+    } else {
+        loadMoreBtn.classList.add('hidden');
+    }
 }
+
+document.getElementById('loadMoreBtn').addEventListener('click', () => {
+    currentPage++;
+    renderProducts();
+});
 
 
 /* ===========================
    PAGINATION
 =========================== */
-function renderPagination() {
-    const pagination = document.getElementById('pagination');
-    const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
-
-    if (totalPages <= 1) {
-        pagination.innerHTML = '';
-        return;
-    }
-
-    let html = '';
-
-    if (currentPage > 1) {
-        html += `<button onclick="changePage(${currentPage - 1})"
-            class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition">
-            Previous
-        </button>`;
-    }
-
-    for (let i = 1; i <= totalPages; i++) {
-        html += `<button onclick="changePage(${i})"
-            class="px-4 py-2 border rounded-lg transition 
-            ${i === currentPage 
-                ? 'bg-yellow-600 text-white border-yellow-600' 
-                : 'border-gray-300 hover:bg-gray-100'}">
-            ${i}
-        </button>`;
-    }
-
-    if (currentPage < totalPages) {
-        html += `<button onclick="changePage(${currentPage + 1})"
-            class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition">
-            Next
-        </button>`;
-    }
-
-    pagination.innerHTML = html;
-}
-
-function changePage(page) {
-    currentPage = page;
-    renderProducts();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
 
 /* ===========================
    FILTERS
