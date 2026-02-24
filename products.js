@@ -117,10 +117,14 @@ function renderProducts() {
     }
 }
 
-document.getElementById('loadMoreBtn').addEventListener('click', () => {
-    currentPage++;
-    renderProducts();
-});
+const loadMoreBtn = document.getElementById('loadMoreBtn');
+
+if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+        currentPage++;
+        renderProducts();
+    });
+}
 
 
 /* ===========================
