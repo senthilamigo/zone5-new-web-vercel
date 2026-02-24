@@ -322,7 +322,7 @@
         }
 
         function setupWhatsApp(productName) {
-            const phoneNumber = "919876543210"; // Replace with your number
+            const phoneNumber = "919940656889"; // Replace with your number
         
             const message = `Hi I am interested in ${productName}`;
         
