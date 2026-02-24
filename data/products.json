@@ -5908,7 +5908,7 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1250,
+    "price": 750,
     "status": "Available"
   },
   {
@@ -6147,6 +6147,45 @@
       "Cotton"
     ],
     "price": 900,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0289",
+    "name": "Premium Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0289_1771957862964.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\nUnstitched 3 Pcs \nClassy and Elegant",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 2100,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0290",
+    "name": "Premium Chanderi Silk Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0290_1771958083332.jpeg"
+    ],
+    "description": "Premium Chanderi Silk Salwar Suit\nHalf White Elegance\n3 Pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Chanderi Silk",
+      "Festive"
+    ],
+    "price": 1350,
     "status": "Available"
   }
 ]
