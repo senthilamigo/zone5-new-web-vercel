@@ -1,22 +1,4 @@
 [
-    {
-    "productcode": "C0270",
-    "name": "Cotton Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-02-20_at_23.37.40__5__1771693249293.jpeg"
-    ],
-    "description": "Ultra Soft Premium Cotton Salwar Suit",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "New Arrival",
-      "Cotton",
-      "Formal wear",
-      "Casual"
-    ],
-    "price": 1270,
-    "status": "Available"
-  },
   {
     "productcode": "S0022",
     "name": "Printed Tissue Saree",
