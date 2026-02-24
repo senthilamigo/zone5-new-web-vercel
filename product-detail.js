@@ -186,10 +186,11 @@
                     </div>
                 </div>
             `;
+
+        setupWhatsApp(currentProduct.name);
         }
 
 // Setup WhatsApp link after rendering
-        setupWhatsApp(currentProduct.name);
         function renderRelatedProducts() {
             const relatedProducts = allProducts
                 .filter(p => p.category === currentProduct.category && p.productcode !== currentProduct.productcode)
