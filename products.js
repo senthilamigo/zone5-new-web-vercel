@@ -75,60 +75,49 @@ function applyTagFromURL() {
     }
 }
 
-document.getElementById('loadMoreBtn').addEventListener('click', () => {
-    currentPage++;
-    renderProducts();
-});
+
 
 /* ===========================
    RENDER PRODUCTS
 =========================== */
-function renderProducts(append = false) {
+function renderProducts() {
     const productGrid = document.getElementById('productGrid');
     const loadMoreBtn = document.getElementById('loadMoreBtn');
 
     const endIndex = currentPage * productsPerPage;
     const productsToShow = filteredProducts.slice(0, endIndex);
 
-    if (!append) {
-        productGrid.innerHTML = '';
-    }
-
     productGrid.innerHTML = productsToShow.map(product => `
         <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
             <div class="relative overflow-hidden h-72 bg-gray-100">
                 <a href="product-detail.html?code=${product.productcode}">
-                    <img src="${Array.isArray(product.images) ? product.images[0] : product.images}" 
+                    <img src="${Array.isArray(product.images) ? product.images[0] : product.images}"
                         alt="${product.name}"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                 </a>
             </div>
-
             <div class="p-4">
-                <div class="text-xs text-gray-500 mb-1">
-                    ${product.category} / ${product.subcategory}
-                </div>
-                <h3 class="font-semibold text-gray-900 mb-3 line-clamp-2 min-h-[3rem]">
+                <h3 class="font-semibold text-gray-900 mb-2">
                     ${product.name}
                 </h3>
-                <div class="flex items-center justify-between">
-                    <span class="text-xl font-bold text-yellow-600">
-                        ₹${product.price.toLocaleString('en-IN')}
-                    </span>
-                </div>
+                <span class="text-xl font-bold text-yellow-600">
+                    ₹${product.price.toLocaleString('en-IN')}
+                </span>
             </div>
         </div>
     `).join('');
 
     document.getElementById('productCount').textContent = filteredProducts.length;
 
-    // Show or hide Load More button
-    if (endIndex >= filteredProducts.length) {
-        loadMoreBtn.classList.add('hidden');
-    } else {
+    // FIX: Only show button if more products exist
+    if (endIndex < filteredProducts.length) {
         loadMoreBtn.classList.remove('hidden');
+    } else {
+        loadMoreBtn.classList.add('hidden');
     }
 }
+currentPage = 1;
+renderProducts();
 
 
 /* ===========================
@@ -190,9 +179,6 @@ function applyFilters() {
     let showAvailable = document.getElementById('availableCheck').checked;
     let showSoldOut = document.getElementById('soldOutCheck').checked;
     const sortBy = document.getElementById('sortFilter').value;
-
-   currentPage = 1;
-   renderProducts();
 
     if (!showAvailable && !showSoldOut) {
         showAvailable = true;
