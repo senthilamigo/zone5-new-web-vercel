@@ -7,16 +7,22 @@ let selectedTags = [];
 /* ===========================
    LOAD PRODUCTS
 =========================== */
+function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+
 async function loadProducts() {
     try {
         const response = await fetch('data/products.json');
         if (!response.ok) {
             throw new Error('Failed to load products');
         }
+       allProducts = await response.json();
 
-        allProducts = await response.json();
-       allProducts = allProducts.reverse();
-        filteredProducts = [...allProducts];
+         // Shuffle products randomly
+         allProducts = shuffleArray(allProducts);
+         
+         filteredProducts = [...allProducts];
 
         renderProducts();
         return true;
