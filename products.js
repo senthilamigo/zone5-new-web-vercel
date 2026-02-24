@@ -1,7 +1,7 @@
 let allProducts = [];
 let filteredProducts = [];
 let currentPage = 1;
-const productsPerPage = 48;
+const productsPerPage = 24;
 let selectedTags = [];
 
 /* ===========================
