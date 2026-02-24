@@ -15,6 +15,7 @@ async function loadProducts() {
         }
 
         allProducts = await response.json();
+       allProducts = allProducts.reverse();
         filteredProducts = [...allProducts];
 
         renderProducts();
