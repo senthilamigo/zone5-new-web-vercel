@@ -479,6 +479,7 @@
                     document.getElementById('subcategory').value = product.subcategory;
                     document.getElementById('tags').value = Array.isArray(product.tags) ? product.tags.join(', ') : (product.tags || '');
                     document.getElementById('price').value = product.price;
+                    document.getElementById('discountedprice').value = product.discountedprice || '';
                     document.getElementById('status').value = product.status;
                 }
             } else {
@@ -515,6 +516,7 @@
                 return;
             }
             
+            const discountedPriceVal = document.getElementById('discountedprice').value.trim();
             const productData = {
                 productcode: document.getElementById('productcode').value.trim(),
                 name: document.getElementById('name').value.trim(),
@@ -524,6 +526,7 @@
                 subcategory: document.getElementById('subcategory').value,
                 tags: document.getElementById('tags').value.split(',').map(t => t.trim()).filter(t => t),
                 price: parseFloat(document.getElementById('price').value),
+                ...(discountedPriceVal !== '' && { discountedprice: parseFloat(discountedPriceVal) }),
                 status: document.getElementById('status').value
             };
 
