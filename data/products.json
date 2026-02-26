@@ -5802,7 +5802,7 @@
   },
   {
     "productcode": "C0270",
-    "name": "Pure Cotton Salwar Suit",
+    "name": "Pure Cotton Salwar Suit - Ready to wear (stitched)",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0270_1771919947959.jpeg"
     ],
@@ -5821,7 +5821,7 @@
   },
   {
     "productcode": "C0271",
-    "name": "Pure Cotton Salwar Suit",
+    "name": "Pure Cotton Salwar Suit - Ready to wear (stitched)",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0271_1771920056210.jpeg"
     ],
@@ -5840,7 +5840,7 @@
   },
   {
     "productcode": "C0272",
-    "name": "Cotton Salwar Suit",
+    "name": "Cotton Salwar Suit - Ready to wear (stitched)",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0272_1771920120682.jpeg"
     ],
@@ -5949,7 +5949,7 @@
   },
   {
     "productcode": "C0278",
-    "name": "Cotton Salwar Suit",
+    "name": "Cotton Salwar Suit - Ready to wear (stitched)",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-02-20_at_23.37.39__2__1771920478341.jpeg",
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_2avuqj2avuqj2avu_1771947975605.png"
@@ -6084,7 +6084,7 @@
   },
   {
     "productcode": "C0285",
-    "name": "Co-Ord Set - Rayon",
+    "name": "Co-Ord Set - Rayon - Ready to wear (stitched)",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0285_1771954377884.jpeg"
     ],
@@ -6100,7 +6100,7 @@
   },
   {
     "productcode": "C0286",
-    "name": "Co-Ord Set - Rayon",
+    "name": "Co-Ord Set - Rayon - Ready to wear (stitched)",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0286_1771954125384.jpeg",
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0286-2_1771954165977.jpeg"
@@ -6117,7 +6117,7 @@
   },
   {
     "productcode": "C0287",
-    "name": "Co-Ord Set - Cotton",
+    "name": "Co-Ord Set - Cotton - Ready to wear (stitched)",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0287_1771954803342.jpeg"
     ],
@@ -6134,7 +6134,7 @@
   },
   {
     "productcode": "C0288",
-    "name": "Co-Ord Set - Cotton",
+    "name": "Co-Ord Set - Cotton - Ready to wear (stitched)",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0288_1771955006040.jpeg"
     ],
@@ -6723,6 +6723,139 @@
       "Silk"
     ],
     "price": 2500,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0231",
+    "name": "Fancy Crush Silk Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0231_1772088879936.jpeg"
+    ],
+    "description": "Fancy Silk Saree\nPerfect for Party wear\nLight weight - Easy to drape\nClassy look",
+    "category": "Saree",
+    "subcategory": "Party Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Office wear",
+      "Traditional wear",
+      "Party wear",
+      "Silk"
+    ],
+    "price": 2290,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0232",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0232_1772093081928.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0233",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0233_1772093272382.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0234",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0234_1772093336644.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0235",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0235_1772093400053.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0236",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0236_1772093475320.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0237",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0237_1772093530355.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1250,
     "status": "Available"
   }
 ]
