@@ -34,7 +34,7 @@
 
                 <nav class="hidden lg:flex space-x-8 text-sm font-medium text-gray-700">
                     <a href="index.html" class="hover:text-yellow-600 transition">Home</a>
-                    <a href="products.html" class="hover:text-yellow-600 transition">New Arrivals</a>
+                    <a href="products.html?tag=New%20Arrival" class="hover:text-yellow-600 transition">New Arrivals</a>
                     <a href="products.html?category=Salwar%20Suit" class="hover:text-yellow-600 transition">Salwar Suits</a>
                     <a href="products.html?category=Saree" class="hover:text-yellow-600 transition">Sarees</a>
                     <a href="contact.html" class="hover:text-yellow-600 transition">Contact Us</a>
@@ -175,10 +175,12 @@
                         <!-- Products will be loaded here dynamically -->
                     </div>
 
-                    <!-- Pagination -->
-                    <div id="pagination" class="mt-12 flex justify-center gap-2">
-                        <!-- Pagination buttons will be added here -->
-                    </div>
+                        <div class="mt-12 text-center">
+                            <button id="loadMoreBtn"
+                                class="bg-yellow-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition hidden">
+                                Show More Products
+                            </button>
+                        </div>
                 </main>
             </div>
         </div>

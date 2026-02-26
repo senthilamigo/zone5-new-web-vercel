@@ -135,6 +135,13 @@
                                     </svg>
                                     Add to Cart
                                 </button>
+
+                                <a id="whatsappBtn"
+                                   target="_blank"
+                                   class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+                                    Chat on WhatsApp
+                                </a>
+                                
                                 <button onclick="toggleWishlist()" class="w-14 h-14 border-2 border-gray-300 rounded-lg hover:border-yellow-600 transition flex items-center justify-center">
                                     <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
@@ -179,8 +186,11 @@
                     </div>
                 </div>
             `;
+
+        setupWhatsApp(currentProduct.name);
         }
 
+// Setup WhatsApp link after rendering
         function renderRelatedProducts() {
             const relatedProducts = allProducts
                 .filter(p => p.category === currentProduct.category && p.productcode !== currentProduct.productcode)
@@ -309,6 +319,17 @@
             const cart = JSON.parse(localStorage.getItem('cart') || '[]');
             const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
             document.getElementById('cartCount').textContent = totalItems;
+        }
+
+        function setupWhatsApp(productName) {
+            const phoneNumber = "919940656889"; // Replace with your number
+        
+            const message = `Hi I am interested in ${productName}`;
+        
+            const whatsappLink =
+                `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        
+            document.getElementById("whatsappBtn").href = whatsappLink;
         }
 
         // Update cart count on page load

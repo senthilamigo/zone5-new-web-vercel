@@ -1,22 +1,4 @@
 [
-    {
-    "productcode": "C0270",
-    "name": "Cotton Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-02-20_at_23.37.40__5__1771693249293.jpeg"
-    ],
-    "description": "Ultra Soft Premium Cotton Salwar Suit",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "New Arrival",
-      "Cotton",
-      "Formal wear",
-      "Casual"
-    ],
-    "price": 1270,
-    "status": "Available"
-  },
   {
     "productcode": "S0022",
     "name": "Printed Tissue Saree",
@@ -424,114 +406,130 @@
   },
   {
     "productcode": "S0061",
-    "name": "Glass Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0061.jpeg",
+    "name": "Cotton Blend Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0061.jpeg"
     ],
-    "description": "🐘🌿 Elegant Glass Cotton Saree - Indigo Floral Edition 🌿🐘\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Floral & Vine motifs\n✨ Color: Muted Grey/Off-White base with deep Indigo Blue and soft grey-blue prints.\n✨ Border: Dual design featuring a patterned band and a broad Metallic Gold or Antique Bronze woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Timeless indigo floral design.\n* Luxurious metallic border for elevated style.\n* Ideal for: Office, daytime events, and festive wear.\n💗 Feel: Light • Crisp • Elegant drape\n🧵 Care: Gentle wash / Dry clean preferred",
+    "description": "🐘🌿 Elegant Cotton Blend Saree - Indigo Floral Edition 🌿🐘\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Floral & Vine motifs\n✨ Color: Muted Grey/Off-White base with deep Indigo Blue and soft grey-blue prints.\n✨ Border: Dual design featuring a patterned band and a broad Metallic Gold or Antique Bronze woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Timeless indigo floral design.\n* Luxurious metallic border for elevated style.\n* Ideal for: Office, daytime events, and festive wear.\n💗 Feel: Light • Crisp • Elegant drape\n🧵 Care: Gentle wash / Dry clean preferred",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Office wear",
+      "Casual wear"
+    ],
+    "price": 999,
     "status": "Available"
   },
   {
     "productcode": "S0062",
-    "name": "Glass Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0062.jpeg",
+    "name": "Cotton Blend Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0062.jpeg"
     ],
-    "description": "🌸🌼 Elegant Glass Cotton Saree - Earthy Floral Edition 🌼🌸\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Block/Digital Floral & Vine motifs\n✨ Color: Warm Cream/Beige base with detailed prints in shades of Earthy Red/Maroon, Teal, and Olive Green.\n✨ Border: Dual design featuring a patterned band of small woven motifs in deep brown/maroon, and a broad, solid Soft Gold woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Rich, traditional floral print in a versatile color scheme.\n* Luxurious gold border for a festive touch.\n* Ideal for: Office, daytime events, and cultural/festive wear.\n💗 Feel: Light • Crisp • Soft drape\n🧵 Care: Gentle wash / Dry clean preferred",
+    "description": "🌸🌼 Elegant Cotton Blend Saree - Earthy Floral Edition 🌼🌸\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Block/Digital Floral & Vine motifs\n✨ Color: Warm Cream/Beige base with detailed prints in shades of Earthy Red/Maroon, Teal, and Olive Green.\n✨ Border: Dual design featuring a patterned band of small woven motifs in deep brown/maroon, and a broad, solid Soft Gold woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Rich, traditional floral print in a versatile color scheme.\n* Luxurious gold border for a festive touch.\n* Ideal for: Office, daytime events, and cultural/festive wear.\n💗 Feel: Light • Crisp • Soft drape\n🧵 Care: Gentle wash / Dry clean preferred",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Casual",
+      "Work Wear"
+    ],
+    "price": 999,
     "status": "Available"
   },
   {
     "productcode": "S0063",
-    "name": "Glass Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0063.jpeg",
+    "name": "Cotton Blend Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0063.jpeg"
     ],
-    "description": "🌸🌼 Elegant Glass Cotton Saree - Earthy Floral Edition 🌼🌸\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Block/Digital Floral & Vine motifs\n✨ Color: Warm Cream/Beige base with detailed prints in shades of Earthy Red/Maroon, Teal, and Olive Green.\n✨ Border: Dual design featuring a patterned band of small woven motifs and a broad, solid Soft Gold woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Rich, traditional floral print in a versatile color scheme.\n* Luxurious gold border for a festive touch.\n* Ideal for: Office, daytime events, and cultural/festive wear.\n💗 Feel: Light • Crisp • Soft drape\n🧵 Care: Gentle wash / Dry clean preferred",
+    "description": "🌸🌼 Elegant Cotton Blend Saree - Earthy Floral Edition 🌼🌸\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Block/Digital Floral & Vine motifs\n✨ Color: Warm Cream/Beige base with detailed prints in shades of Earthy Red/Maroon, Teal, and Olive Green.\n✨ Border: Dual design featuring a patterned band of small woven motifs and a broad, solid Soft Gold woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Rich, traditional floral print in a versatile color scheme.\n* Luxurious gold border for a festive touch.\n* Ideal for: Office, daytime events, and cultural/festive wear.\n💗 Feel: Light • Crisp • Soft drape\n🧵 Care: Gentle wash / Dry clean preferred",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Casual",
+      "Work Wear"
+    ],
+    "price": 999,
     "status": "Available"
   },
   {
     "productcode": "S0064",
-    "name": "Glass Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0064.jpeg",
+    "name": "Cotton Blend Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0064.jpeg"
     ],
-    "description": "🎨🌿 Elegant Glass Cotton Saree - Multi-Color Vine Edition 🌿🎨\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Vibrant All-over Floral & Leaf vine motifs\n✨ Color: Crisp White/Off-White base with prints in rich shades of Red, Gold, Green, Maroon, and Blue.\n✨ Border: Dual design featuring a subtle plain band and a broad, solid Classic Gold woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Eye-catching multi-color print for a lively look.\n* Rich gold border provides a traditional finish.\n* Ideal for: Daytime events, casual outings, and festive gatherings.\n💗 Feel: Light • Crisp • Soft drape\n🧵 Care: Gentle wash / Dry clean preferred",
+    "description": "🎨🌿 Elegant Cotton Blend Saree - Multi-Color Vine Edition 🌿🎨\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Vibrant All-over Floral & Leaf vine motifs\n✨ Color: Crisp White/Off-White base with prints in rich shades of Red, Gold, Green, Maroon, and Blue.\n✨ Border: Dual design featuring a subtle plain band and a broad, solid Classic Gold woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Eye-catching multi-color print for a lively look.\n* Rich gold border provides a traditional finish.\n* Ideal for: Daytime events, casual outings, and festive gatherings.\n💗 Feel: Light • Crisp • Soft drape\n🧵 Care: Gentle wash / Dry clean preferred",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Casual",
+      "Work Wear"
+    ],
+    "price": 999,
     "status": "Available"
   },
   {
     "productcode": "S0065",
-    "name": "Glass Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0065.jpeg",
+    "name": "Cotton Blend Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0065.jpeg"
     ],
-    "description": "💜🌿 Elegant Glass Cotton Saree - Blue & Earth Tones Edition 🌿💜\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Floral & Leaf motifs\n✨ Color: Light Grey/Off-White sheer base with prints in deep Indigo Blue, Maroon/Brown, and Olive Green.\n✨ Border: Broad, solid Classic Gold woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Timeless pattern in a sophisticated, muted color palette.\n* Rich gold border provides an elegant finish.\n* Ideal for: Office wear, daytime functions, and cultural events.\n💗 Feel: Light • Crisp • Elegant drape\n🧵 Care: Gentle wash / Dry clean preferred",
+    "description": "💜🌿 Elegant Cotton Blend Saree - Blue & Earth Tones Edition 🌿💜\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Floral & Leaf motifs\n✨ Color: Light Grey/Off-White sheer base with prints in deep Indigo Blue, Maroon/Brown, and Olive Green.\n✨ Border: Broad, solid Classic Gold woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Timeless pattern in a sophisticated, muted color palette.\n* Rich gold border provides an elegant finish.\n* Ideal for: Office wear, daytime functions, and cultural events.\n💗 Feel: Light • Crisp • Elegant drape\n🧵 Care: Gentle wash / Dry clean preferred",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Casual",
+      "Work Wear"
+    ],
+    "price": 999,
     "status": "Available"
   },
   {
     "productcode": "S0066",
-    "name": "Glass Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0066.jpeg",
+    "name": "Cotton Blend Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0066.jpeg"
     ],
-    "description": "🌿💙 Elegant Glass Cotton Saree - Teal & Beige Edition 💙🌿\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Floral & Vine motifs\n✨ Color: Soft Beige/Light Tan base with detailed prints in shades of Teal Blue, Olive Green, and subtle Purple accents.\n✨ Border: Broad, solid Antique Gold/Champagne woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Versatile color combination perfect for all seasons.\n* Luxurious metallic border provides a sophisticated finish.\n* Ideal for: Office wear, daytime functions, and light festive events.\n💗 Feel: Light • Crisp • Elegant drape\n🧵 Care: Gentle wash / Dry clean preferred",
+    "description": "🌿💙 Elegant Cotton Blend Saree - Teal & Beige Edition 💙🌿\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Intricate All-over Floral & Vine motifs\n✨ Color: Soft Beige/Light Tan base with detailed prints in shades of Teal Blue, Olive Green, and subtle Purple accents.\n✨ Border: Broad, solid Antique Gold/Champagne woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Versatile color combination perfect for all seasons.\n* Luxurious metallic border provides a sophisticated finish.\n* Ideal for: Office wear, daytime functions, and light festive events.\n💗 Feel: Light • Crisp • Elegant drape\n🧵 Care: Gentle wash / Dry clean preferred",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Casual",
+      "Work Wear"
+    ],
+    "price": 999,
     "status": "Available"
   },
   {
     "productcode": "S0067",
-    "name": "Glass Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0067.jpeg",
+    "name": "Cotton Blend Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0067.jpeg"
     ],
-    "description": "Peacock Garden Glass Cotton Saree - Scenic Edition 🌿👑\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Unique Scenic Digital Print featuring peacocks, lush palm trees, and ornate architectural/dome motifs along the border area.\n✨ Color: Light Olive/Pista Green base with print details in shades of Deep Teal, Forest Green, Purple, and Tan.\n✨ Border: Broad, solid Classic Gold/Champagne woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Statement scenic print for a contemporary and dramatic look.\n* Luxurious metallic border provides a sophisticated finish.\n* Ideal for: Art exhibitions, garden parties, or special cultural events.\n💗 Feel: Light • Crisp • Artistic drape\n🧵 Care: Gentle wash / Dry clean preferred",
+    "description": "Peacock Garden Cotton Blend Saree - Scenic Edition 🌿👑\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Unique Scenic Digital Print featuring peacocks, lush palm trees, and ornate architectural/dome motifs along the border area.\n✨ Color: Light Olive/Pista Green base with print details in shades of Deep Teal, Forest Green, Purple, and Tan.\n✨ Border: Broad, solid Classic Gold/Champagne woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Statement scenic print for a contemporary and dramatic look.\n* Luxurious metallic border provides a sophisticated finish.\n* Ideal for: Art exhibitions, garden parties, or special cultural events.\n💗 Feel: Light • Crisp • Artistic drape\n🧵 Care: Gentle wash / Dry clean preferred",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Casual",
+      "Work Wear"
+    ],
+    "price": 999,
     "status": "Available"
   },
   {
     "productcode": "S0068",
-    "name": "Glass Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0068.jpeg",
+    "name": "Cotton Blend Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0068.jpeg"
     ],
-    "description": "🎨👑 Elegant Glass Cotton Saree - Muted Scenic Edition 👑🎨\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Unique Scenic Digital Print featuring peacocks, palm trees, and ornate architectural domes along the border area.\n✨ Color: Soft, Muted Grey/Lavender-Grey base with print details in light Pink, Teal, Olive Green, and Brown.\n✨ Border: Broad, solid Antique Gold/Champagne woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Detailed scenic print in a sophisticated, subdued palette.\n* Luxurious metallic border provides an elegant finish.\n* Ideal for: Evening events, cultural gatherings, and special occasions.\n💗 Feel: Light • Crisp • Artistic drape\n🧵 Care: Gentle wash / Dry clean preferred",
+    "description": "🎨👑 Elegant Cotton Blend Saree - Muted Scenic Edition 👑🎨\n✨ Fabric: Premium Lightweight Glass Cotton (Sheer, airy feel)\n✨ Print: Unique Scenic Digital Print featuring peacocks, palm trees, and ornate architectural domes along the border area.\n✨ Color: Soft, Muted Grey/Lavender-Grey base with print details in light Pink, Teal, Olive Green, and Brown.\n✨ Border: Broad, solid Antique Gold/Champagne woven border.\n⭐ Key Features:\n* Breathable cotton with a subtle \"\"glass\"\" sheen.\n* Detailed scenic print in a sophisticated, subdued palette.\n* Luxurious metallic border provides an elegant finish.\n* Ideal for: Evening events, cultural gatherings, and special occasions.\n💗 Feel: Light • Crisp • Artistic drape\n🧵 Care: Gentle wash / Dry clean preferred",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Casual",
+      "Work Wear"
+    ],
+    "price": 999,
     "status": "Available"
   },
   {
@@ -5800,6 +5798,1064 @@
       "Cotton"
     ],
     "price": 1230,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0270",
+    "name": "Pure Cotton Salwar Suit - Ready to wear (stitched)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0270_1771919947959.jpeg"
+    ],
+    "description": "Pure Cotton Ready to wear Salwar Suit\n3 pcs, Stitched\nSize : XL",
+    "category": "Salwar Suit",
+    "subcategory": "Readymade Salwar Suit",
+    "tags": [
+      "New Arrival",
+      "Salwar Suit",
+      "Readymade",
+      "Formal wear",
+      "Casual"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0271",
+    "name": "Pure Cotton Salwar Suit - Ready to wear (stitched)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0271_1771920056210.jpeg"
+    ],
+    "description": "Cotton Salwar Suit\nReady to wear\n3 pcs, stitched\nSize : L",
+    "category": "Salwar Suit",
+    "subcategory": "Readymade Salwar Suit",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0272",
+    "name": "Cotton Salwar Suit - Ready to wear (stitched)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0272_1771920120682.jpeg"
+    ],
+    "description": "Cotton Salwar Suit\nReady to wear\n3 pcs, stitched\nSize : L",
+    "category": "Salwar Suit",
+    "subcategory": "Readymade Salwar Suit",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0273",
+    "name": "Cotton Suit (2 pcs)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0273_1771920169837.jpeg"
+    ],
+    "description": "Pure Cotton Salwar 2 pcs\nTop and Bottom\nUnstitched material",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 750,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0274",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0274_1771920243956.jpeg"
+    ],
+    "description": "Pure Cotton Salwar 2 pcs\nTop and Bottom\nUnstitched material",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 750,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0275",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0275_1771920287227.jpeg"
+    ],
+    "description": "Pure Cotton Salwar 2 pcs\nTop and Bottom\nUnstitched material",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 750,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0276",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0276_1771920324759.jpeg"
+    ],
+    "description": "Pure Cotton Salwar 2 pcs\nTop and Bottom\nUnstitched material",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 750,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0277",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0277_1771920363280.jpeg"
+    ],
+    "description": "Pure Cotton Salwar 2 pcs\nTop and Bottom\nUnstitched material",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 750,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0278",
+    "name": "Cotton Salwar Suit - Ready to wear (stitched)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-02-20_at_23.37.39__2__1771920478341.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_2avuqj2avuqj2avu_1771947975605.png"
+    ],
+    "description": "Pure Cotton Salwar 3 pcs\nTop Bottom and Dupatta\nReady to wear (Ready made, stitched set)\nSize: M/L (38)",
+    "category": "Salwar Suit",
+    "subcategory": "Readymade Salwar Suit",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1300,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0279",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0279_1771920862934.jpeg"
+    ],
+    "description": "Premium Soft Cotton Salwar Suit\n3 pcs - Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1270,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0280",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0280_1771923620341.jpeg"
+    ],
+    "description": "Ultra Premium Smooth Cotton Salwar Suit\n3 pcs - Top, Bottom and Dupatta\nUnstitched material",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1270,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0281",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0281_1771923703845.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\n3 pcs - Unstitched\nYoke work Acoba with Tree motif\nHand block printed cotton fabric",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1270,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0282",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0282-2_1771923802092.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0282_1771923808027.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\n3 pcs - Unstitched\nYoke work Acoba with Worli motif\nHand block printed cotton fabric \nColor : Black",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1270,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0283",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0283_1771948965619.jpeg"
+    ],
+    "description": "Pure Cotton Salwar Suit\n3 pcs, Unstitched\nBandej",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0284",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0284_1771953363765.jpeg"
+    ],
+    "description": "Pure Cotton Salwar Suit\n3 pcs, Unstitched\nBandej",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0285",
+    "name": "Co-Ord Set - Rayon - Ready to wear (stitched)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0285_1771954377884.jpeg"
+    ],
+    "description": "Ready to Wear\nCo-Ord Set (Top and Bottom)\nSize : XL",
+    "category": "Salwar Suit",
+    "subcategory": "Readymade Salwar Suit",
+    "tags": [
+      "New Arrival",
+      "Casual wear"
+    ],
+    "price": 1050,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0286",
+    "name": "Co-Ord Set - Rayon - Ready to wear (stitched)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0286_1771954125384.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0286-2_1771954165977.jpeg"
+    ],
+    "description": "Ready to wear\nCo-Ord Set -Top and Bottom\nRayon\nSize : M",
+    "category": "Salwar Suit",
+    "subcategory": "Readymade Salwar Suit",
+    "tags": [
+      "New Arrival",
+      "Casual"
+    ],
+    "price": 1050,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0287",
+    "name": "Co-Ord Set - Cotton - Ready to wear (stitched)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0287_1771954803342.jpeg"
+    ],
+    "description": "Pure Cotton Ready to wear\nCo-ord set - top and bottom\nSize : XL",
+    "category": "Salwar Suit",
+    "subcategory": "Readymade Salwar Suit",
+    "tags": [
+      "New Arrival",
+      "Casual wear",
+      "Cotton"
+    ],
+    "price": 900,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0288",
+    "name": "Co-Ord Set - Cotton - Ready to wear (stitched)",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0288_1771955006040.jpeg"
+    ],
+    "description": "Pure Cotton Ready to wear\nCo-ord set - top and bottom\nSize : L",
+    "category": "Salwar Suit",
+    "subcategory": "Readymade Salwar Suit",
+    "tags": [
+      "New Arrival",
+      "Casual wear",
+      "Cotton"
+    ],
+    "price": 900,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0289",
+    "name": "Premium Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0289_1771957862964.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\nUnstitched 3 Pcs \nClassy and Elegant",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 2100,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0290",
+    "name": "Premium Chanderi Silk Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0290_1771958083332.jpeg"
+    ],
+    "description": "Premium Chanderi Silk Salwar Suit\nHalf White Elegance\n3 Pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Chanderi Silk",
+      "Festive"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0291",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0291_1772012222049.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\n3 pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1340,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0292",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0292_1772012408143.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\n3 pcs, Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1340,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0293",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0293_1772012468844.jpeg"
+    ],
+    "description": "Pure Cotton Ajrakh Salwar Suit\nPremium 3 pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1299,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0294",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0294_1772012531293.jpeg"
+    ],
+    "description": "Pure Cotton Ajrakh Salwar Suit\nPremium 3 pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1299,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0295",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0295_1772012607138.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\n3 pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0296",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0296_1772012668774.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\n3 pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0297",
+    "name": "Cotton Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0297_1772012710194.jpeg"
+    ],
+    "description": "Premium Cotton Salwar Suit\n3 pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "C0298",
+    "name": "Ultra Premium Salwar Suit",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0298_1772012766828.jpeg"
+    ],
+    "description": "Ultra Premium Cotton Salwar Suit\n3 pcs Unstitched",
+    "category": "Salwar Suit",
+    "subcategory": "Unstitched Salwar Suits",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 2100,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0211",
+    "name": "Indigo Hand Block Printed Light Weight Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0211_1772015930252.jpeg"
+    ],
+    "description": "Indigo Hand Block Printed Light Weight Saree\nCorporate Wear\nPremium Light Weight Drape",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0212",
+    "name": "Indigo Hand Block Printed Light Weight Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0212_1772016038397.jpeg"
+    ],
+    "description": "Indigo Hand Block Printed Light Weight Saree\nCorporate Wear\nPremium Light Weight Drape",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0213",
+    "name": "Indigo Hand Block Printed Light Weight Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0213_1772018910181.jpeg"
+    ],
+    "description": "Indigo Hand Block Printed Light Weight Saree\nCorporate Wear\nPremium Light Weight Drape",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0214",
+    "name": "Indigo Hand Block Printed Light Weight Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0214_1772018977747.jpeg"
+    ],
+    "description": "Indigo Hand Block Printed Light Weight Saree\nCorporate Wear\nPremium Light Weight Drape",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0215",
+    "name": "Indigo Hand Block Printed Light Weight Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0215_1772019030617.jpeg"
+    ],
+    "description": "Indigo Hand Block Printed Light Weight Saree\nCorporate Wear\nPremium Light Weight Drape",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0216",
+    "name": "Semi Chanderi Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0216_1772019081731.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0216-2_1772019089854.jpeg"
+    ],
+    "description": "Semi Chanderi Cotton Saree\nBlack and Maroon",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1100,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0217",
+    "name": "Cotton Blend Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0217_1772019137962.jpeg"
+    ],
+    "description": "Cotton Blend Saree\nLight Weight",
+    "category": "Saree",
+    "subcategory": "Casual Sarees",
+    "tags": [
+      "New Arrival",
+      "Office wear",
+      "Traditional wear",
+      "Cotton",
+      "Casual"
+    ],
+    "price": 1100,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0218",
+    "name": "Semi Chanderi Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0218_1772019204536.jpeg"
+    ],
+    "description": "Cotton Blend Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1100,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0219",
+    "name": "Premium Printed Cotton Blend Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0219_1772019299187.jpeg"
+    ],
+    "description": "Premium Printed Silk Cotton blend Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1650,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0220",
+    "name": "Malai Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0220_1772019411132.jpeg"
+    ],
+    "description": "Malai Cotton Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1100,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0221",
+    "name": "Cotton Georgette Blend Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0221_1772032105472.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0221-2_1772032145346.jpeg"
+    ],
+    "description": "Cotton Georgette Blend Saree",
+    "category": "Saree",
+    "subcategory": "Casual Sarees",
+    "tags": [
+      "New Arrival",
+      "Traditional wear",
+      "Cotton Georgette"
+    ],
+    "price": 1050,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0222",
+    "name": "Semi Chanderi Kalamkari Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0222_1772032278946.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0222-2_1772032287189.jpeg"
+    ],
+    "description": "Semi Chanderi Kalamkari Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0223",
+    "name": "Semi Chanderi Kalamkari Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0223_1772032360398.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0223-2_1772032369505.jpeg"
+    ],
+    "description": "Semi Chanderi Kalamkari Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0224",
+    "name": "Digital Print Border Fancy Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0224_1772033672786.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0224-2_1772033682374.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0224-3_1772033690448.jpeg"
+    ],
+    "description": "Digital Print Border Fancy Saree",
+    "category": "Saree",
+    "subcategory": "Party Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Party wear",
+      "Traditional wear"
+    ],
+    "price": 1650,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0225",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0225_1772033854170.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0225-2_1772033871980.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0225-3_1772033878277.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0226",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0226_1772033945415.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0226-2_1772033952790.jpeg",
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0226-3_1772033959502.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0227",
+    "name": "Kantha Work Border Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0227_1772034066035.jpeg"
+    ],
+    "description": "Kantha Work Border Cotton Saree\nContemporary Design\nClassy look",
+    "category": "Saree",
+    "subcategory": "Party Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton",
+      "Party Wear"
+    ],
+    "price": 1750,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0228",
+    "name": "Kantha Work Border Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0228_1772034204816.jpeg"
+    ],
+    "description": "Kantha Work Border Cotton Saree\nContemporary Design\nClassy look",
+    "category": "Saree",
+    "subcategory": "Party Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Party wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1750,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0229",
+    "name": "Kantha Work Border Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0229_1772034266733.jpeg"
+    ],
+    "description": "Kantha Work Border Cotton Saree\nContemporary Design\nClassy look",
+    "category": "Saree",
+    "subcategory": "Party Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Party wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1750,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0230",
+    "name": "Fancy Silk Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0230_1772034560627.jpeg"
+    ],
+    "description": "Fancy Silk Saree with birds on the border",
+    "category": "Saree",
+    "subcategory": "Party Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Party wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 2500,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0231",
+    "name": "Fancy Crush Silk Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0231_1772088879936.jpeg"
+    ],
+    "description": "Fancy Silk Saree\nPerfect for Party wear\nLight weight - Easy to drape\nClassy look",
+    "category": "Saree",
+    "subcategory": "Party Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Office wear",
+      "Traditional wear",
+      "Party wear",
+      "Silk"
+    ],
+    "price": 2290,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0232",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0232_1772093081928.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0233",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0233_1772093272382.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0234",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0234_1772093336644.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0235",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0235_1772093400053.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0236",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0236_1772093475320.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1350,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0237",
+    "name": "Semi Mysore Silk Crepe Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0237_1772093530355.jpeg"
+    ],
+    "description": "Semi Mysore Silk Crepe Saree with border",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive wear",
+      "Office wear",
+      "Traditional wear",
+      "Silk"
+    ],
+    "price": 1250,
     "status": "Available"
   }
 ]
