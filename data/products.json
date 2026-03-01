@@ -114,7 +114,6 @@
   {
     "productcode": "S0034",
     "name": "Cotton Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0034.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0034.jpeg"
     ],
@@ -122,7 +121,8 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [],
-    "price": "999",
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
