@@ -63,6 +63,14 @@
                          onerror="this.parentElement.style.display='none'">
                 </button>
             `).join('');
+
+                let discountPercent = null;
+
+                if (currentProduct.discountPrice && currentProduct.price) {
+                    discountPercent = Math.round(
+                        ((currentProduct.price - currentProduct.discountPrice) / currentProduct.price) * 100
+                    );
+                }
             
             productDetail.innerHTML = `
                 <!-- Product Images -->
