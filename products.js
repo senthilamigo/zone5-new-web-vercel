@@ -7,6 +7,7 @@ let selectedTags = [];
 /* ===========================
    SHUFFLE PRODUCTS
 =========================== */
+
 function shuffleArray(array) {
     return array.sort(() => Math.random() - 0.5);
 }
@@ -14,8 +15,11 @@ function shuffleArray(array) {
 /* ===========================
    LOAD PRODUCTS
 =========================== */
+
 async function loadProducts() {
+
     try {
+
         const response = await fetch('data/products.json');
 
         if (!response.ok) {
@@ -24,12 +28,12 @@ async function loadProducts() {
 
         allProducts = await response.json();
 
-        // Shuffle products randomly
         allProducts = shuffleArray(allProducts);
 
         filteredProducts = [...allProducts];
 
         renderProducts();
+
         return true;
 
     } catch (error) {
@@ -49,8 +53,9 @@ async function loadProducts() {
 }
 
 /* ===========================
-   APPLY CATEGORY FROM URL
+   CATEGORY FROM URL
 =========================== */
+
 function applyCategoryFromURL() {
 
     const params = new URLSearchParams(window.location.search);
@@ -59,11 +64,12 @@ function applyCategoryFromURL() {
     if (categoryFromURL) {
 
         const categorySelect = document.getElementById("categoryFilter");
-        categorySelect.value = categoryFromURL;
+
+        if (categorySelect) {
+            categorySelect.value = categoryFromURL;
+        }
 
         document.getElementById('availableCheck').checked = true;
-
-        applyFilters();
 
         const pageTitle = document.querySelector("h1");
 
@@ -76,6 +82,7 @@ function applyCategoryFromURL() {
 /* ===========================
    TAG FROM URL
 =========================== */
+
 function applyTagFromURL() {
 
     const params = new URLSearchParams(window.location.search);
@@ -94,6 +101,7 @@ function applyTagFromURL() {
 /* ===========================
    RENDER PRODUCTS
 =========================== */
+
 function renderProducts() {
 
     const productGrid = document.getElementById('productGrid');
@@ -105,11 +113,10 @@ function renderProducts() {
 
     productGrid.innerHTML = productsToShow.map(product => {
 
-        const image = Array.isArray(product.images)
-            ? product.images[0]
-            : product.images;
-
-        /* Discount Calculation */
+        const image =
+            Array.isArray(product.images) && product.images.length
+                ? product.images[0]
+                : product.image;
 
         let discountPercent = null;
 
@@ -194,8 +201,6 @@ function renderProducts() {
 
     document.getElementById('productCount').textContent = filteredProducts.length;
 
-    /* Show More Button */
-
     if (endIndex < filteredProducts.length) {
         loadMoreBtn.classList.remove('hidden');
     } else {
@@ -226,23 +231,17 @@ if (loadMoreBtn) {
 function applyFilters() {
 
     const search = document.getElementById('searchInput').value.toLowerCase();
-
     const category = document.getElementById('categoryFilter').value;
-
     const subcategory = document.getElementById('subcategoryFilter').value;
-
     const minPrice = parseFloat(document.getElementById('minPrice').value) || 0;
-
     const maxPrice = parseFloat(document.getElementById('maxPrice').value) || Infinity;
 
     let showAvailable = document.getElementById('availableCheck').checked;
-
     let showSoldOut = document.getElementById('soldOutCheck').checked;
 
     const sortBy = document.getElementById('sortFilter').value;
 
     if (!showAvailable && !showSoldOut) {
-
         showAvailable = true;
         showSoldOut = true;
     }
@@ -250,7 +249,7 @@ function applyFilters() {
     filteredProducts = allProducts.filter(product => {
 
         const matchesSearch =
-            !search || (product.name && product.name.toLowerCase().includes(search));
+            !search || product.name.toLowerCase().includes(search);
 
         const matchesCategory =
             !category || product.category === category;
@@ -268,13 +267,12 @@ function applyFilters() {
             (showAvailable && product.status === 'Available') ||
             (showSoldOut && product.status === 'Sold out');
 
-
-       const matchesTags =
-             selectedTags.length === 0 ||
-             (Array.isArray(product.tags) &&
-                 product.tags.some(productTag =>
-                     selectedTags.includes(productTag.toLowerCase())
-                 ));
+        const matchesTags =
+            selectedTags.length === 0 ||
+            (Array.isArray(product.tags) &&
+                product.tags.some(tag =>
+                    selectedTags.includes(tag.trim().toLowerCase())
+                ));
 
         return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus && matchesTags;
     });
@@ -285,17 +283,17 @@ function applyFilters() {
         );
     }
 
-    else if (sortBy === 'price-high') {
+    if (sortBy === 'price-high') {
         filteredProducts.sort((a, b) =>
             (b.discountedprice || b.price) - (a.discountedprice || a.price)
         );
     }
 
-    else if (sortBy === 'name-az') {
+    if (sortBy === 'name-az') {
         filteredProducts.sort((a, b) => a.name.localeCompare(b.name));
     }
 
-    else if (sortBy === 'name-za') {
+    if (sortBy === 'name-za') {
         filteredProducts.sort((a, b) => b.name.localeCompare(a.name));
     }
 
@@ -305,55 +303,8 @@ function applyFilters() {
 }
 
 /* ===========================
-   RESET FILTERS
+   TAG UI
 =========================== */
-
-function resetFilters() {
-
-    document.getElementById('searchInput').value = '';
-
-    document.getElementById('categoryFilter').value = '';
-
-    document.getElementById('subcategoryFilter').value = '';
-
-    document.getElementById('minPrice').value = '';
-
-    document.getElementById('maxPrice').value = '';
-
-    document.getElementById('availableCheck').checked = false;
-
-    document.getElementById('soldOutCheck').checked = false;
-
-    document.getElementById('sortFilter').value = 'default';
-
-    document.getElementById('tagInput').value = '';
-
-    selectedTags = [];
-
-    renderSelectedTags();
-
-    filteredProducts = [...allProducts];
-
-    currentPage = 1;
-
-    renderProducts();
-}
-
-/* ===========================
-   TAG FILTER
-=========================== */
-
-function getAllTags() {
-
-    const tagSet = new Set();
-
-    allProducts.forEach(p => {
-        if (Array.isArray(p.tags))
-            p.tags.forEach(t => tagSet.add(t));
-    });
-
-    return [...tagSet].sort();
-}
 
 function renderSelectedTags() {
 
@@ -384,10 +335,7 @@ function updateCartCount() {
 
     const cart = JSON.parse(localStorage.getItem('cart') || '[]');
 
-    const totalItems = cart.reduce(
-        (sum, item) => sum + item.quantity,
-        0
-    );
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
 
     document.getElementById('cartCount').textContent = totalItems;
 }
@@ -399,11 +347,8 @@ updateCartCount();
 =========================== */
 
 document.getElementById('searchInput').addEventListener('input', applyFilters);
-
 document.getElementById('categoryFilter').addEventListener('change', applyFilters);
-
 document.getElementById('subcategoryFilter').addEventListener('change', applyFilters);
-
 document.getElementById('sortFilter').addEventListener('change', applyFilters);
 
 /* ===========================
