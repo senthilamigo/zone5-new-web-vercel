@@ -411,9 +411,9 @@ document.getElementById('sortFilter').addEventListener('change', applyFilters);
 
 loadProducts().then(() => {
 
-    applyCategoryFromURL();
-
+    applyTagFromURL();        // apply tag first
+    applyCategoryFromURL();   // then category
     initTagInput();
 
-    applyTagFromURL();
+    applyFilters();           // finally run filters
 });
