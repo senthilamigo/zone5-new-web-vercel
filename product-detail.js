@@ -98,7 +98,30 @@
                         </div>
 
                         <div class="flex items-center gap-4 mb-6">
-                            <span class="text-4xl font-bold text-yellow-600">₹${currentProduct.price.toLocaleString('en-IN')}</span>
+
+
+                        ${currentProduct.discountPrice ? `
+                        
+                            <span class="text-4xl font-bold text-red-600">
+                                ₹${currentProduct.discountPrice.toLocaleString('en-IN')}
+                            </span>
+                        
+                            <span class="text-xl text-gray-400 line-through">
+                                ₹${currentProduct.price.toLocaleString('en-IN')}
+                            </span>
+                        
+                            <span class="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-semibold">
+                                ${discountPercent}% OFF
+                            </span>
+                        
+                        ` : `
+                        
+                            <span class="text-4xl font-bold text-yellow-600">
+                                ₹${currentProduct.price.toLocaleString('en-IN')}
+                            </span>
+                        
+                        `}
+                        
                             <span class="px-4 py-2 rounded-full text-sm font-semibold ${currentProduct.status === 'Available' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">
                                 ${currentProduct.status === 'Available' ? '✓ In Stock' : '✗ Sold Out'}
                             </span>
