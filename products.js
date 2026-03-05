@@ -246,6 +246,9 @@ function applyFilters() {
 
     filteredProducts = allProducts.filter(product => {
 
+           console.log("Selected Tag:", selectedTags);
+         console.log("Product Tags:", product.tags);
+
         const matchesSearch =
             !search || product.name.toLowerCase().includes(search);
 
