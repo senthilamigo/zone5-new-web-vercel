@@ -83,7 +83,7 @@ function applyTagFromURL() {
 
     if (tagFromURL) {
 
-        const tag = tagFromURL.trim();
+        const tag = tagFromURL.trim().toLowerCase();
 
         selectedTags = [tag];
 
@@ -268,12 +268,13 @@ function applyFilters() {
             (showAvailable && product.status === 'Available') ||
             (showSoldOut && product.status === 'Sold out');
 
-         const matchesTags =
-       selectedTags.length === 0 ||
-       selectedTags.every(tag =>
-           Array.isArray(product.tags) &&
-           product.tags.some(t => t.trim().toLowerCase() === tag.trim().toLowerCase())
-       );
+
+       const matchesTags =
+             selectedTags.length === 0 ||
+             (Array.isArray(product.tags) &&
+                 product.tags.some(productTag =>
+                     selectedTags.includes(productTag.toLowerCase())
+                 ));
 
         return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus && matchesTags;
     });
@@ -411,9 +412,11 @@ document.getElementById('sortFilter').addEventListener('change', applyFilters);
 
 loadProducts().then(() => {
 
-    applyTagFromURL();        // apply tag first
-    applyCategoryFromURL();   // then category
+    applyTagFromURL();
+
+    applyCategoryFromURL();
+
     initTagInput();
 
-    applyFilters();           // finally run filters
+    applyFilters();
 });
