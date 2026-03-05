@@ -354,6 +354,54 @@ document.getElementById('categoryFilter').addEventListener('change', applyFilter
 document.getElementById('subcategoryFilter').addEventListener('change', applyFilters);
 document.getElementById('sortFilter').addEventListener('change', applyFilters);
 
+function initTagInput() {
+
+    const input = document.getElementById('tagInput');
+    const suggestions = document.getElementById('tagSuggestions');
+
+    if (!input || !suggestions) return;
+
+    input.addEventListener('input', () => {
+
+        const query = input.value.trim().toLowerCase();
+
+        const allTags = getAllTags();
+
+        if (!query) {
+            suggestions.classList.add('hidden');
+            return;
+        }
+
+        const matches = allTags.filter(tag =>
+            tag.toLowerCase().includes(query) &&
+            !selectedTags.includes(tag)
+        );
+
+        if (matches.length === 0) {
+            suggestions.classList.add('hidden');
+            return;
+        }
+
+        suggestions.innerHTML = matches.map(tag => `
+            <li onclick="addTag('${tag}')"
+            class="px-4 py-2 text-sm text-gray-700 hover:bg-yellow-50 cursor-pointer">
+                ${tag}
+            </li>
+        `).join('');
+
+        suggestions.classList.remove('hidden');
+    });
+
+    document.addEventListener('click', e => {
+
+        if (!input.contains(e.target) && !suggestions.contains(e.target)) {
+            suggestions.classList.add('hidden');
+        }
+
+    });
+
+}
+
 /* ===========================
    INIT
 =========================== */
