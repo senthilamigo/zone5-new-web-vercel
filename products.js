@@ -83,12 +83,11 @@ function applyTagFromURL() {
 
     if (tagFromURL) {
 
-        if (!selectedTags.includes(tagFromURL)) {
-            selectedTags.push(tagFromURL);
-        }
+        const tag = tagFromURL.trim();
+
+        selectedTags = [tag];
 
         renderSelectedTags();
-        applyFilters();
     }
 }
 
