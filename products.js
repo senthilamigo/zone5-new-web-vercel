@@ -268,11 +268,12 @@ function applyFilters() {
             (showAvailable && product.status === 'Available') ||
             (showSoldOut && product.status === 'Sold out');
 
-        const matchesTags =
-            selectedTags.length === 0 ||
-            selectedTags.every(tag =>
-                Array.isArray(product.tags) && product.tags.includes(tag)
-            );
+         const matchesTags =
+       selectedTags.length === 0 ||
+       selectedTags.every(tag =>
+           Array.isArray(product.tags) &&
+           product.tags.some(t => t.trim().toLowerCase() === tag.trim().toLowerCase())
+       );
 
         return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus && matchesTags;
     });
