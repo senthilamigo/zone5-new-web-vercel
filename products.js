@@ -90,9 +90,7 @@ function applyTagFromURL() {
 
     if (tagFromURL) {
 
-        const tag = tagFromURL.trim().toLowerCase();
-
-        selectedTags = [tag];
+        selectedTags = [tagFromURL];   // do NOT lowercase
 
         renderSelectedTags();
     }
@@ -267,12 +265,14 @@ function applyFilters() {
             (showAvailable && product.status === 'Available') ||
             (showSoldOut && product.status === 'Sold out');
 
-        const matchesTags =
-            selectedTags.length === 0 ||
-            (Array.isArray(product.tags) &&
-                product.tags.some(tag =>
-                    selectedTags.includes(tag.trim().toLowerCase())
-                ));
+       const matchesTags =
+             selectedTags.length === 0 ||
+             (Array.isArray(product.tags) &&
+                 product.tags.some(productTag =>
+                     selectedTags.some(selectedTag =>
+                         productTag.trim().toLowerCase() === selectedTag.trim().toLowerCase()
+                     )
+                 ));
 
         return matchesSearch && matchesCategory && matchesSubcategory && matchesPrice && matchesStatus && matchesTags;
     });
