@@ -1,5 +1,177 @@
 [
   {
+    "productcode": "S0246",
+    "name": "Premium Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0246_1772551373488.jpeg"
+    ],
+    "description": "Premium Cotton Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1400,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0245",
+    "name": "Premium Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0245_1772551306417.jpeg"
+    ],
+    "description": "Premium Cotton Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1400,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0244",
+    "name": "Cotton Saree with Jamdani border",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0244_1772551259607.jpeg"
+    ],
+    "description": "Cotton Saree with Jamdani border",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton",
+      "Party wear",
+      "Summer"
+    ],
+    "price": 1050,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0243",
+    "name": "Cotton Saree with Jamdani border",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0243_1772551147202.jpeg"
+    ],
+    "description": "Cotton Saree with Jamdani border",
+    "category": "Saree",
+    "subcategory": "Party Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton",
+      "Casual"
+    ],
+    "price": 1050,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0242",
+    "name": "Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0242_1772551061577.jpeg"
+    ],
+    "description": "Cotton Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1250,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0241",
+    "name": "Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0241_1772551023773.jpeg"
+    ],
+    "description": "Cotton Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1299,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0240",
+    "name": "Cotton Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0240_1772550889827.jpeg"
+    ],
+    "description": "Cotton Saree",
+    "category": "Saree",
+    "subcategory": "Office Wear Sarees",
+    "tags": [
+      "New Arrival",
+      "Formal wear",
+      "Office wear",
+      "Traditional wear",
+      "Cotton"
+    ],
+    "price": 1299,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0239",
+    "name": "Bandini Semi Silk Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0239_1772550845476.jpeg"
+    ],
+    "description": "Bandini Semi Silk Saree",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive Saree",
+      "Party Wear",
+      "Casual"
+    ],
+    "price": 1500,
+    "status": "Available"
+  },
+  {
+    "productcode": "S0238",
+    "name": "Bandini Semi Silk Saree",
+    "images": [
+      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0238_1772550760473.jpeg"
+    ],
+    "description": "Bandini Semi Silk Saree",
+    "category": "Saree",
+    "subcategory": "Festive Sarees",
+    "tags": [
+      "New Arrival",
+      "Festive Saree",
+      "Party Wear",
+      "Casual"
+    ],
+    "price": 1500,
+    "status": "Available"
+  },
+  {
     "productcode": "S0022",
     "name": "Printed Tissue Saree",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0022.jpeg",
@@ -30,15 +202,18 @@
   {
     "productcode": "S0027",
     "name": "Semi Crepe Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0027.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0027.jpeg"
     ],
     "description": "✨ Soft Semi Crepe silk with a glossy drape, featuring an elegant beige–gold base and rich digital floral prints. The satin-smooth texture with tissue sheen and vertical zari stripes is completed with a classy woven gold border for a refined finish.\n🌟 Highlights:\n* Luxurious semi Crepe blend with a premium shine\n* Beautiful life-like digital floral design\n* Soft, flowy & easy to drape\n* Perfect for receptions, events, parties & gifting\n🧼 Saree Care:\n* Dry clean recommended\n* Store in muslin cloth\n* Use low-heat ironing on the reverse side\nNote: Slight shade variation may occur due to screen resolution and photography lighting.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1199",
+    "tags": [
+      "Sale",
+      "Semi Crepe"
+    ],
+    "price": 1199,
+    "discountedprice": 1080,
     "status": "Available"
   },
   {
@@ -58,15 +233,18 @@
   {
     "productcode": "S0029",
     "name": "Semi Crepe Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0029.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0029.jpeg"
     ],
     "description": "🌺 Premium Semi Crepe Saree – Floral Elegance 🌺\n✨ Fabric: Ultra-soft premium Crepe with a lightweight, glossy drape\n✨ Colour: Rich wine–maroon base with a subtle metallic sheen\n✨ Design: Beautiful digital floral print in soft beige, cream and teal tones\n✨ Texture: Smooth tissue finish with fine vertical zari lines\n✨ Border: Classy woven gold tissue border for an elegant, festive look\n🌟 Highlights:\n* Luxurious soft tissue with a rich shine\n* Stunning floral artwork for a graceful appeal\n* Lightweight, flowy & easy to drape\n* Perfect for parties, celebrations & gifting\n🧼 Saree Care:\n* Dry clean recommended\n* Store in a muslin cloth\n* Use low-heat ironing on the reverse\nNote: Slight shade variation may occur due to screen resolution and photography lighting.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1199",
+    "tags": [
+      "Sale",
+      "Semi Crepe"
+    ],
+    "price": 1199,
+    "discountedprice": 1080,
     "status": "Available"
   },
   {
@@ -86,85 +264,97 @@
   {
     "productcode": "S0032",
     "name": "Linen Silk Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0032.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0032.jpeg"
     ],
     "description": "🌿 Premium Linen Silk Saree 🌿\n✨ Fabric: Soft Linen–Silk Blend\n✨ Colour: Subtle grey-beige base with a natural matte sheen\n✨ Design: Artistic village-inspired pottery, abstract figures & hand-paint–style detailing\n✨ Body: Light textured weave with a smooth, airy drape\n✨ Border: Elegant gold zari border that adds richness\n⸻\n🔹 Highlights\n* Unique artistic print—statement piece\n* Lightweight, breathable & easy to drape\n* Soft linen-silk texture with a classy finish\n* Comes with matching blouse material\n⸻\n🧵 Saree Care\n* Dry clean recommended\n* Store in a cool, dry place\n* Avoid direct sunlight to preserve colours\n* Steam press or light iron on reverse\n⸻\n📌 Note\n* Slight shade variations may occur due to lighting & screen settings\n* Minor irregularities in print/weave indicate the beauty of the fabric",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "1299",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1299,
+    "discountedprice": 1195,
     "status": "Available"
   },
   {
     "productcode": "S0033",
     "name": "Linen Silk Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0033.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0033.jpeg"
     ],
     "description": "🌿 Premium Linen Silk Saree 🌿\n✨ Fabric: Soft Linen–Silk Blend\n✨ Colour: Subtle grey-beige base with a natural matte sheen\n✨ Design: Artistic village-inspired pottery, abstract figures & hand-paint–style detailing\n✨ Body: Light textured weave with a smooth, airy drape\n✨ Border: Elegant gold zari border that adds richness\n⸻\n🔹 Highlights\n* Unique artistic print—statement piece\n* Lightweight, breathable & easy to drape\n* Soft linen-silk texture with a classy finish\n* Comes with matching blouse material\n⸻\n🧵 Saree Care\n* Dry clean recommended\n* Store in a cool, dry place\n* Avoid direct sunlight to preserve colours\n* Steam press or light iron on reverse\n⸻\n📌 Note\n* Slight shade variations may occur due to lighting & screen settings\n* Minor irregularities in print/weave indicate the beauty of the fabric",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "1299",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1299,
+    "discountedprice": 1195,
     "status": "Available"
   },
   {
     "productcode": "S0034",
     "name": "Cotton Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0034.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0034.jpeg"
     ],
     "description": "✨ Cotton Tissue Saree (80% Cotton • 20% Poly) ✨\nA gorgeous cotton tissue saree with a rich, shiny finish and a stunning multi-tone gradient. The saree flows from rose pink → soft gold → deep teal, creating a unique and eye-catching ombré effect. Subtle dotted weaving adds texture and elegance.\n🪔 Highlights\n• Fabric: 80% Cotton | 20% Poly Tissue\n• Beautiful rose-gold–teal ombré\n• Soft shimmer with a premium glossy touch\n• Lightweight, breathable & easy to drape\n• Perfect for festive wear, gatherings & gifting\n💫 Look & Feel\nElegant, colourful, and luxurious — combines cotton comfort with tissue shine.\n🧵 Saree Care\n• Gentle hand wash / dry clean\n• Avoid wringing\n• Store folded away from direct sunlight",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0035",
     "name": "Cotton Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0035.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0035.jpeg"
     ],
     "description": "✨ Cotton Tissue Saree (80% Cotton • 20% Poly) ✨\nA premium cotton tissue saree featuring a rich golden shine paired with a beautiful navy-blue to teal gradient. The subtle dotted weaving adds a delicate pattern, giving the saree a stylish, modern finish while keeping it lightweight and breathable.\n🪔 Highlights\n• Fabric: 80% Cotton | 20% Poly Tissue\n• Elegant golden shimmer\n• Unique blue–teal ombré effect\n• Soft, lightweight & easy to drape\n• Perfect for festive wear, office events & gifting\n💫 Look & Feel\nShiny, classy, and effortlessly elegant — blends cotton comfort with tissue gloss.\n🧵 Saree Care\n• Gentle hand wash or dry clean\n• Do not wring\n• Store folded away from direct sunlight",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0036",
     "name": "Cotton Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0036.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0036.jpeg"
     ],
     "description": "✨ Premium Cotton Tissue Saree – Green & Gold Elegance ✨\nA beautifully woven cotton-tissue saree featuring a rich golden body with a soft shimmer, paired with a deep moss-green pallu adorned with subtle dotted patterns. The gentle gold–green gradient adds a graceful, classy finish, making it perfect for festive wear, functions or elegant gifting.\nHighlights:\n* Lightweight cotton–tissue blend with a natural sheen\n* Smooth drape with a soft gold–green ombré effect\n* Subtle textured dotted design for a refined look\n* Rich woven borders enhancing the premium feel\nSaree Care:\n* Dry clean recommended\n* Store in a muslin cloth\n* Avoid direct perfume/spray on the fabric\nNote:\nColour may slightly vary due to lighting and screen settings.",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0037",
     "name": "Cotton Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0037.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0037.jpeg"
     ],
     "description": "✨ Cotton Tissue Saree (80% Cotton • 20% Poly) ✨\nA premium cotton tissue saree with a rich, glossy shine and an elegant gold to deep coffee-brown gradient. The subtle dotted weaving pattern adds a refined texture, giving it a graceful and classic look. Lightweight, soft, and perfect for all-day wear.\n🪔 Highlights\n• Fabric: 80% Cotton | 20% Poly Tissue\n• Beautiful gold–brown ombré effect\n• Soft shimmer with a premium finish\n• Lightweight & breathable\n• Ideal for festive wear, office functions & gifting\n💫 Look & Feel\nElegant, sophisticated, and richly toned — blends cotton comfort with classy tissue shine.\n🧵 Saree Care\n• Gentle hand wash or dry clean\n• Avoid wringing\n• Store folded, away from direct sunlight",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
@@ -268,85 +458,97 @@
   {
     "productcode": "S0049",
     "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0049.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0049.jpeg"
     ],
     "description": "💚✨ Premium Crepe Silk Digital Print Saree – Emerald Leaf Edition ✨\n✨ Fabric: Soft, flowy Crepe Silk\n✨ Design: Unique digital print with artistic patchwork patterns + leafy motifs\n✨ Color: Rich emerald green base with multi-tone digital shades\n✨ Border: Elegant gold Crepe-woven border with leaf detailing\n⭐ Highlights\n* Smooth, glossy satin finish\n* Lightweight and drapes beautifully\n* Trendy digital artwork – modern & stylish\n* Perfect for parties, functions & office chic looks\n💚 Look & Feel\nSoft • Silky • Glossy • Effortless drape\n🧵 Care: Gentle mild wash or dry clean for long life",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "1299",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1299,
+    "discountedprice": 1190,
     "status": "Available"
   },
   {
     "productcode": "S0050",
     "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0050.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0050.jpeg"
     ],
     "description": "💚✨ Premium Crepe Silk Digital Print Saree – Vintage Art Green Edition ✨💚\n✨ Fabric: Soft, flowy Crepe Silk\n✨ Design: High-definition digital print with vintage motifs, abstract textures & pastel detailing\n✨ Color: Deep bottle-green border with multishade artistic body\n✨ Border: Gold woven Crepe border\n⭐ Highlights:\n* Luxurious satin shine\n* Lightweight & elegant fall\n* Unique designer digital artwork\n* Perfect for parties, functions & evening wear\n💚 Look & Feel:\nSilky • Smooth • Glossy • Comfortable\n🧵 Care: Mild wash or dry clean recommended",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "1299",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1299,
+    "discountedprice": 1190,
     "status": "Available"
   },
   {
     "productcode": "S0051",
     "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0051.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0051.jpeg"
     ],
     "description": "🍇✨ Premium Crepe Silk Digital Print Saree – Wine Mosaic Leaf Edition ✨🍇\n✨ Fabric: Soft & glossy Crepe Silk\n✨ Design: High-definition digital print with multi-shade abstract + leafy motifs\n✨ Color: Rich wine/maroon base with pastel and earthy tones\n✨ Border: Gold-woven satin border adding a classy finish\n⭐ Highlights:\n* Smooth Crepe shine\n* Lightweight & elegant fall\n* Trendy designer digital print\n* Perfect for parties, evening wear & casual festive styling\n💗 Look & Feel:\nSilky • Soft • Glossy • Comfortable\n🧵 Care: Mild wash / dry clean recommended",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "1299",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1299,
+    "discountedprice": 1190,
     "status": "Available"
   },
   {
     "productcode": "S0052",
     "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0052.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0052.jpeg"
     ],
     "description": "💜✨ Premium Crepe Silk Digital Print Saree – Lavender Splash Edition ✨💜\n✨ Fabric: Soft, glossy Crepe Silk\n✨ Design: High-definition digital print with abstract splash patterns, pastel overlays & intricate motifs\n✨ Color: Lavender–mauve base with soft pink, beige & multi-tone accents\n✨ Border: Rich woven Crepe border in deep plum for an elegant finish;\n⭐ Highlights:\n* Smooth satin shine\n* Lightweight, classy drape\n* Trendy digital designer look\n* Perfect for parties, evening wear & casual festive styling\n🧵 Care: Mild wash / dry clean preferred",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1299",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1299,
+    "discountedprice": 1190,
     "status": "Available"
   },
   {
     "productcode": "S0055",
     "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0055.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0055.jpeg"
     ],
     "description": "🌺✨ Premium Crepe Silk Digital Print Saree – Rose Copper Edition ✨🌺\n✨ Fabric: Soft, glossy Crepe Silk\n✨ Design: High-definition digital print with abstract florals + ikat-style motifs\n✨ Color: Warm rose-copper base with hints of teal, cream & maroon\n✨ Border: Subtle woven satin border with a light sheen\n⭐ Highlights:\n* Smooth satin shine\n* Lightweight & elegant drape\n* Trendy abstract + floral designer pattern\n* Perfect for parties, office events & festive wear\n💗 Look & Feel:\nSoft • Silky • Glossy finish\n🧵 Care: Mild wash / dry clean preferred",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1299",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1299,
+    "discountedprice": 1190,
     "status": "Available"
   },
   {
     "productcode": "S0056",
     "name": "Crepe Silk Digital Print Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0056.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0056.jpeg"
     ],
     "description": "🌺✨ Premium Crepe Silk Digital Print Saree – Rose Copper Edition ✨🌺\n✨ Fabric: Soft, glossy Crepe Silk\n✨ Design: High-definition digital print with abstract florals + ikat-style motifs\n✨ Color: Warm rose-copper base with hints of teal, cream & maroon\n✨ Border: Subtle woven Crepe border with a light sheen\n⭐ Highlights:\n* Smooth satin shine\n* Lightweight & elegant drape\n* Trendy abstract + floral designer pattern\n* Perfect for parties, office events & festive wear\n💗 Look & Feel:\nSoft • Silky • Glossy finish\n🧵 Care: Mild wash / dry clean preferred",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1299",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1299,
+    "discountedprice": 1190,
     "status": "Available"
   },
   {
@@ -577,127 +779,145 @@
   {
     "productcode": "S0078",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0078.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0078.jpeg"
     ],
     "description": "💎✨ Premium Soft Tissue Silk Saree - Geometric Motif Edition ✨💎\n✨ Fabric: Luxurious Soft Tissue Silk (Ultra-fine, lightweight weave with a rich metallic sheen)\n✨ Design: Contemporary Geometric/Ikat-style Block Print or weave featuring square/rectangular patterns interspersed with floral or tree motifs.\n✨ Color: Elegant dual-tone blend of Deep Navy/Teal Blue and Soft Khaki/Beige, creating an antique metallic look.\n✨ Border: Elaborate, rich Gold Zari woven border with intricate jaal (net) or diamond patterns, contrasted with a solid blue stripe.\n⭐ Key Features:\n* Famous for its featherlight feel and natural metallic shimmer.\n* Modern geometric print is trendy and sophisticated.\n* Rich Zari work provides a luxurious, festive finish.\n* Ideal for: Evening receptions, weddings, and grand festive occasions.\n💗 Feel: Light • Sheer • Metallic drape\n🧵 Care: Strictly Dry Clean Only",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0079",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0079.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0079.jpeg"
     ],
     "description": "🖤✨ Luxurious Dual-Tone Saree - Geometric Brocade Edition ✨🖤\n✨ Fabric: Premium Tissue Silk Blend or Structured Cotton Silk (Fine weave with a rich, metallic sheen)\n✨ Design: Bold, contemporary Geometric Blocks weave or print across the body, featuring contrasting Tree of Life or floral butti motifs.\n✨ Color: Elegant contrast between Deep Brown/Black and Warm Khaki/Antique Gold.\n✨ Border: Broad, intricate Rich Gold Zari woven border with a traditional jaal (net) or geometric pattern.\n⭐ Key Features:\n* Structured drape with a luxurious sheen.\n* Striking dual-tone color combination is modern and sophisticated.\n* Rich Zari border provides a festive and grand finish.\n* Ideal for: Evening events, cocktail parties, and grand occasions.\n💗 Feel: Structured • Rich • Metallic drape\n🧵 Care: Dry clean recommended",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0080",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0080.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0080.jpeg"
     ],
     "description": "🖤💛 Luxurious Dual-Tone Saree - Geometric Brocade Edition 💛🖤\n✨ Fabric: Premium Tissue Silk Blend or Structured Cotton Silk (Fine weave with a rich, metallic sheen)\n✨ Design: Bold, contemporary Geometric Blocks weave or print across the body, featuring contrasting Tree of Life or floral butti motifs.\n✨ Color: Striking contrast between Deep Black/Navy and Warm Khaki/Antique Gold.\n✨ Border: Broad, intricate Rich Gold Zari woven border with a traditional diamond or geometric jaal pattern.\n⭐ Key Features:\n* Structured drape with a luxurious sheen.\n* Striking dual-tone color combination is modern and elegant.\n* Rich Zari border provides a festive and grand finish.\n* Ideal for: Evening events, cocktail parties, and grand occasions.\n💗 Feel: Structured • Rich • Metallic drape\n🧵 Care: Dry clean recommended",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0082",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0082.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0082.jpeg"
     ],
     "description": "🍇🌿 Elegant Floral Print Saree - Wine & Olive Edition 🌿🍇\n✨ Fabric: Lightweight & Sheer Blend (Likely Glass Cotton or Digital Print Silk Blend)\n✨ Print: Artistic Digital Print featuring flowing leaves, berries, and large watercolor-style floral motifs.\n✨ Color: Muted Lavender/Dusty Lilac base with prints in shades of Deep Wine/Maroon, Olive Green, and Deep Teal.\n✨ Border: Broad, rich Gold Zari woven border with an intricate jaal pattern, framed by a solid Deep Purple/Wine piping.\n⭐ Key Features:\n* Soft, lightweight feel with an elegant, flowing drape.\n* Sophisticated, high-definition floral print.\n* Rich Zari border provides a festive and striking contrast.\n* Ideal for: Evening receptions, semi-formal events, and winter festivities.\n💗 Feel: Light • Soft • Elegant drape\n🧵 Care: Dry clean or gentle hand wash recommended",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0083",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0083.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0083.jpeg"
     ],
     "description": "🌿🖤 Elegant Floral Print Saree - Dusty Olive & Black Edition 🖤🌿\n✨ Fabric: Lightweight & Sheer Blend (Likely Glass Cotton or Digital Print Silk Blend)\n✨ Print: Artistic Digital Print featuring flowing leaves, berries, and large watercolor-style floral motifs.\n✨ Color: Muted Grey/Dusty Olive base with prints in shades of Deep Olive Green, Brown/Rust, and soft Khaki.\n✨ Border: Broad, rich Gold Zari woven border with an intricate jaal pattern, framed by a solid Deep Black/Navy Blue piping.\n⭐ Key Features:\n* Soft, lightweight feel with an elegant, flowing drape.\n* Sophisticated, high-definition floral print in a darker, contemporary palette.\n* Rich Zari border provides a festive and striking contrast.\n* Ideal for: Evening receptions, semi-formal events, and sophisticated gatherings.\n💗 Feel: Light • Soft • Elegant drape\n🧵 Care: Dry clean or gentle hand wash recommended",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0084",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0084.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0084.jpeg"
     ],
     "description": "🍊💙 Elegant Floral Print Saree - Blue & Orange Edition 💙🍊\n✨ Fabric: Lightweight & Sheer Blend (Likely Glass Cotton or Digital Print Silk Blend)\n✨ Print: Artistic Digital Print featuring flowing leaves, delicate berries, and small floral motifs.\n✨ Color: Muted Light Grey/Smoke base with prints in shades of Bright Orange, Coral, Brown, and Olive Green.\n✨ Border: Broad, rich Gold Zari woven border with an intricate jaal pattern, framed by a solid Royal Blue piping.\n⭐ Key Features:\n* Soft, lightweight feel with an elegant, flowing drape.\n* Eye-catching color combination of warm oranges and cool blue trim.\n* Rich Zari border provides a festive and striking contrast.\n* Ideal for: Daytime functions, semi-formal events, and summer festivities.\n💗 Feel: Light • Soft • Elegant drape\n🧵 Care: Dry clean or gentle hand wash recommended",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0085",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0085.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0085.jpeg"
     ],
     "description": "🌸✨ Elegant Floral Print Saree - Dusty Rose & Bronze Edition ✨🌸\n✨ Fabric: Lightweight & Sheer Blend (Likely Glass Cotton or Digital Print Silk Blend)\n✨ Print: Artistic Digital Print featuring flowing leaves, delicate berries, and watercolor-style floral motifs.\n✨ Color: Soft Dusty Rose/Light Peach base with prints in shades of Muted Orange, Sage Green, and Brown.\n✨ Border: Broad, rich Antique Bronze/Copper Zari woven border with an intricate geometric pattern, framed by a solid Brown/Maroon piping.\n⭐ Key Features:\n* Soft, lightweight feel with an elegant, flowing drape.\n* Romantic color palette perfect for day or evening events.\n* Rich Zari border provides a luxurious, traditional contrast.\n* Ideal for: Semi-formal events, day parties, and elegant gatherings.\n💗 Feel: Light • Soft • Elegant drape\n🧵 Care: Dry clean or gentle hand wash recommended",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0086",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0086.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0086.jpeg"
     ],
     "description": "⚡️💙 Luxurious Chevron Pattern Saree - Indigo & Gold Edition 💙⚡️\n✨ Fabric: Premium Structured Blend (Likely Cotton Silk or Tissue Silk Blend)\n✨ Design: Bold, contemporary Chevron (Zig-Zag) Pattern across the body with an abstract woven effect.\n✨ Color: Dynamic interplay of Deep Indigo Blue, Khaki/Antique Gold, and Soft Grey/Teal.\n✨ Border: Broad, intricate Rich Gold Zari woven border featuring a tight geometric pattern, framed by a solid Indigo Blue band.\n⭐ Key Features:\n* Structured drape with a slight sheen or metallic shimmer.\n* Modern chevron pattern provides a striking and contemporary look.\n* Rich Zari border adds a traditional and luxurious contrast.\n* Ideal for: Evening receptions, cocktail parties, and sophisticated gatherings.\n💗 Feel: Structured • Rich • Dynamic\n🧵 Care: Gentle handwashing/Dry clean recommended",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
     "productcode": "S0087",
     "name": "Premium Cotton Silk",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0087.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0087.jpeg"
     ],
     "description": "💙 Luxurious Chevron Pattern Saree - Indigo & Gold Edition 💙⚡️\n✨ Fabric: Premium Structured Blend (Likely Cotton Silk or Tissue Silk Blend)\n✨ Design: Bold, contemporary Chevron (Zig-Zag) Pattern across the body with an abstract woven effect.\n✨ Color: Dynamic interplay of Deep Indigo Blue, Khaki/Antique Gold, and Soft Grey/Teal.\n✨ Border: Broad, intricate Rich Gold Zari woven border featuring a tight geometric pattern, framed by a solid Indigo Blue band.\n⭐ Key Features:\n* Structured drape with a slight sheen or metallic shimmer.\n* Modern chevron pattern provides a striking and contemporary look.\n* Rich Zari border adds a traditional and luxurious contrast.\n* Ideal for: Evening receptions, cocktail parties, and sophisticated gatherings.\n💗 Feel: Structured • Rich • Dynamic\n🧵 Care: Gentle hand wash/Dry clean recommended",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "999",
+    "tags": [
+      "Sale"
+    ],
+    "price": 999,
+    "discountedprice": 899,
     "status": "Available"
   },
   {
@@ -1193,9 +1413,11 @@
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
-      "Silk Saree"
+      "Silk Saree",
+      "Sale"
     ],
     "price": 5200,
+    "discountedprice": 4500,
     "status": "Available"
   },
   {
@@ -1210,9 +1432,11 @@
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
-      "Silk Saree"
+      "Silk Saree",
+      "Sale"
     ],
     "price": 5300,
+    "discountedprice": 4500,
     "status": "Available"
   },
   {
@@ -1245,9 +1469,11 @@
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
-      "Silk Saree"
+      "Silk Saree",
+      "Sale"
     ],
     "price": 5300,
+    "discountedprice": 4500,
     "status": "Available"
   },
   {
@@ -1262,9 +1488,11 @@
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
-      "Silk Saree"
+      "Silk Saree",
+      "Sale"
     ],
     "price": 5200,
+    "discountedprice": 4500,
     "status": "Available"
   },
   {
@@ -1315,15 +1543,17 @@
   {
     "productcode": "S0125",
     "name": "Semi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0125.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0125.jpeg"
     ],
     "description": "✨ Semi Silk Saree ✨\nFabric: Semi Silk\nColor: Classic Charcoal Grey body with Rani Pink contrast\nDesign: All-over delicate golden butta pattern giving a subtle and elegant look\nBorder: Rich zari-woven border paired with a striking Rani Pink edge\nPallu: Coordinated pallu with traditional tassels for a graceful finish\nTexture: Soft semi-silk texture with a gentle sheen and easy drape\nOccasion: Festive wear | Traditional functions | Office ethnic wear | Casual celebrations\nHighlight: Elegant color combination with minimal yet classy detailing, perfect for refined ethnic styling 🌸",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "900",
+    "tags": [
+      "Sale"
+    ],
+    "price": 900,
+    "discountedprice": 799,
     "status": "Available"
   },
   {
@@ -1342,43 +1572,48 @@
   {
     "productcode": "S0127",
     "name": "Semi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0127.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0127.jpeg"
     ],
     "description": "✨ Semi Silk Saree ✨\nFabric: Semi Silk\nColor: Elegant Olive Green body with Black contrast\nDesign: All-over fine golden butta pattern for a subtle and classy appeal\nBorder: Rich zari-woven border paired with a bold Black edge\nPallu: Coordinated pallu with traditional tassels adding a graceful finish\nTexture: Smooth semi-silk texture with a soft sheen and easy drape\nOccasion: Festive wear | Traditional functions | Office ethnic wear | Casual elegance\nHighlight: Sophisticated color combination with minimal design, perfect for timeless ethnic styling 🌿🖤",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "900",
+    "tags": [
+      "Sale"
+    ],
+    "price": 900,
+    "discountedprice": 799,
     "status": "Available"
   },
   {
     "productcode": "S0128",
     "name": "Semi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0128.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0128.jpeg"
     ],
     "description": "✨ Semi Silk Saree ✨\nFabric: Semi Silk\nColor: Teal Blue body with Royal Blue contrast\nDesign: All-over fine golden butta pattern, giving a neat and elegant appearance\nBorder: Classic zari-woven border with rich Royal Blue finish\nPallu: Coordinated pallu with traditional tassels for a graceful look\nTexture: Smooth semi-silk texture with a soft sheen and comfortable drape\nOccasion: Festive wear | Traditional functions | Office ethnic wear | Casual celebrations\nHighlight: Elegant blue tones with minimal zari detailing, perfect for refined everyday ethnic styling 💙",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "900",
+    "tags": [
+      "Sale"
+    ],
+    "price": 900,
+    "discountedprice": 799,
     "status": "Available"
   },
   {
     "productcode": "S0131",
     "name": "Hand Block Printed Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0131.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0131.jpeg"
     ],
     "description": "Mustard Gold & Maroon (S0131)\n* Fabric: High-quality cotton ensuring all-day comfort and easy draping.\n* Color Scheme: A warm mustard gold body contrasted with a deep maroon and bright orange border section.\n* Body Design: Features bold black and maroon floral and circular hand-block style motifs.\n* Artistic Elements: The border and pallu showcase Kalamkari-inspired tribal art and repetitive floral patterns in black ink.\n* Vibe: Earthy, traditional, and sophisticated.\nProduct Details & Care:\n* Occasion: Ideal for office wear, temple visits, festive gatherings, or casual outings.\n* Style Tip: Pair with oxidized silver or terracotta jewelry and a solid-colored contrast blouse to highlight the prints.\n* Care Instructions: Hand wash separately in cold water with mild detergent; dry in shade to maintain color vibrancy.",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": "1200",
+    "tags": [
+      "Summer"
+    ],
+    "price": 1200,
     "status": "Available"
   },
   {
@@ -1495,7 +1730,6 @@
   {
     "productcode": "S0143",
     "name": "Semi Tussar Raw Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0143.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0143.jpeg"
     ],
@@ -1503,8 +1737,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "2100",
-    "status": "Available"
+    "price": 2100,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0146",
@@ -1578,30 +1812,34 @@
   },
   {
     "productcode": "S0152",
-    "name": "Maheswari Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0152.jpeg",
+    "name": "Silk Cotton Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0152.jpeg"
     ],
     "description": "A cotton saree is a staple of Indian ethnic wear, valued for its comfort, heritage, and versatile designs.\nBased on its core features, here is a description in points:\nFabric & Comfort\n* Breathability: Made from natural cotton fibers, the fabric allows for free air circulation, making it ideal for hot and humid climates.\n* Skin-Friendly: It is naturally hypoallergenic and gentle, preventing skin irritations or rashes caused by heat and sweat.\n* Lightweight: These sarees are known for their airy, feather-like feel, which provides all-day comfort without feeling heavy.\nDesign & Aesthetics\n* Versatile Patterns: They come in a vast range of styles, from simple checks and stripes to intricate hand-painted Kalamkari, block prints, and floral motifs.\n* Crisp Finish: The fabric often has a naturally stiff or starchy texture that holds its shape well and provides a professional, structured look.\n* Regional Diversity: Each region in India offers unique weaves, such as the sheer Chanderi, the fine Jamdani, the checkered Chettinad, or the lightweight Tant.\n* Zari Accents: Many cotton sarees feature gold or silver zari borders, elevating them from simple daily wear to elegant options for festivals or weddings.\nDurability & Care\n* Longevity: High-quality handloom cotton is exceptionally durable",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1300",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1300,
+    "discountedprice": 999,
     "status": "Available"
   },
   {
     "productcode": "S0153",
-    "name": "Maheswari Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0153.jpeg",
+    "name": "Silk Cotton Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0153.jpeg"
     ],
     "description": "pure cotton saree \n* Fabric: Crafted from 100% pure cotton, which is highly breathable, moisture-absorbent, and skin-friendly for all-day comfort.\n* Body Design: Features a sophisticated micro-checkered (grid) weave in a muted periwinkle blue shade.\n* Traditional Motifs: Decorated with a horizontal panel of classic forest green paisley (manga) motifs that provide a traditional contrast to the body.\n* Zari Accents: Finished with a thick, shimmering golden zari border at the hem to add a touch of formal elegance.\n* Texture: The fabric has a crisp, structured finish that helps maintain sharp, neat pleats and a polished silhouette.\n* Color Palette: A refined combination of Dusty Blue, Forest Green, and Antique Gold.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": "1300",
+    "tags": [
+      "Sale"
+    ],
+    "price": 1300,
+    "discountedprice": 999,
     "status": "Available"
   },
   {
@@ -1705,7 +1943,6 @@
   {
     "productcode": "C0049",
     "name": "Blue Hand block Cotton Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0049.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0049.jpeg"
     ],
@@ -1713,35 +1950,43 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
-    "price": "1250",
-    "status": "Available"
+    "price": 1250,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0054",
     "name": "Cotton Ikkat Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0054.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0054.jpeg"
     ],
     "description": "✨ Pure Ikat Cotton Salwar Material – Timeless Handloom Elegance ✨\nFabric: 100% pure Ikat cotton\nColor Palette: Deep red and dusty rose pink with subtle indigo accents\nDesign & Weave:\n• Kurta fabric features classic Ikat motifs in neat, symmetrical patterns\n• Beautifully balanced contrast between the solid and patterned sections\n• Coordinated dupatta with elegant Ikat weave, finished with traditional tassels\n• Matching bottom fabric in rich solid red for a clean, graceful finish\nLook & Feel:\n• Soft, breathable handloom cotton\n• Lightweight, comfortable, and perfect for all-day wear\nOccasion:\nIdeal for daily wear, office use, casual outings, temple visits, and summer-friendly ethnic styling\nStyle Tip:\nPair with silver jewellery and comfortable flats for a refined, effortless Ikat look",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1080",
+    "tags": [
+      "Summer",
+      "Cotton",
+      "Office Wear",
+      "Casual"
+    ],
+    "price": 1080,
     "status": "Available"
   },
   {
     "productcode": "C0055",
     "name": "Cotton Ikkat Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0055.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0055.jpeg"
     ],
     "description": "✨ Pure Ikat Cotton Salwar Material – Handloom Classic ✨\nFabric: 100% pure Ikat cotton\nColor Palette: Warm mustard yellow paired with deep maroon\nDesign & Weave:\n• Kurta fabric showcases traditional Ikat diamond and wave motifs, giving a rich handloom character\n• Beautifully coordinated dupatta with Ikat weave and elegant tassel finishing\n• Solid maroon bottom fabric provides a striking contrast and balances the look perfectly\nLook & Feel:\n• Soft, breathable cotton with a natural handloom texture\n• Lightweight and comfortable for all-day wear, especially in warm weather\nOccasion:\nIdeal for daily wear, office ethnic days, casual outings, temple visits, and summer-friendly styling\nStyle Tip:\nPair with oxidised silver jewellery or simple studs for a graceful, earthy ethnic look",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1080",
+    "tags": [
+      "Summer",
+      "Casual",
+      "Office wear",
+      "Cotton"
+    ],
+    "price": 1080,
     "status": "Available"
   },
   {
@@ -1782,7 +2027,12 @@
     "description": "Kanchi Cotton Salwar Material – Sophisticated Ethnic Charm ✨\n* Fabric: Premium Chanderi Cotton (Kurta & Dupatta)\n* Color Palette: Deep Teal Blue & Classic Ebony Black\n* Kurta Details: * Teal blue base with a textured finish\n* Stunning contrast neck panel with traditional temple-border motifs\n* Accented with elegant handcrafted wooden buttons\n* Dupatta Details: * Graceful black Chanderi dupatta\n* Rich Golden Zari border featuring intricate triangular weave\n* Finished with delicate tassel detailing\n* Bottom: Matching solid black fabric for a sleek, comfortable fit\n* Fabric Feel: Lightweight, breathable, and features a subtle natural sheen characteristic of Chanderi\n* Occasion: Perfect for office wear, kitty parties, semi-formal events, and elegant daily styling\n* Style Tip: Pair with oxidized silver jhumkas and black mojaris for a complete ethnic look",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
+    "tags": [
+      "Summer",
+      "Casual",
+      "Office wear",
+      "Cotton"
+    ],
     "price": 1340,
     "status": "Available"
   },
@@ -1800,7 +2050,8 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "Summer"
     ],
     "price": 1340,
     "status": "Available"
@@ -1819,7 +2070,8 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "Summer"
     ],
     "price": 1340,
     "status": "Available"
@@ -1911,7 +2163,6 @@
   {
     "productcode": "C0069",
     "name": "Fancy Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0069.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0069.jpeg"
     ],
@@ -1919,9 +2170,11 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
-      "Festive"
+      "Festive",
+      "Sale"
     ],
-    "price": "1360",
+    "price": 1360,
+    "discountedprice": 1200,
     "status": "Available"
   },
   {
@@ -2330,87 +2583,87 @@
   },
   {
     "productcode": "C0094",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0094.jpeg",
+    "name": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0094.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0095",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0095.jpeg",
+    "name": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0095.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0096",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0096.jpeg",
+    "name": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0096.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0097",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0097.jpeg",
+    "name": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0097.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0098",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0098.jpeg",
+    "name": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0098.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Ultra Soft Salwar Suit - Bandej",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
@@ -2496,23 +2749,6 @@
     ],
     "price": 1160,
     "status": "SoldOut"
-  },
-  {
-    "productcode": "C0106",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0106.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0106.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1150",
-    "status": "Available"
   },
   {
     "productcode": "C0113",
@@ -3527,18 +3763,18 @@
   {
     "productcode": "C0183",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0183.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0183.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1100",
+    "price": 1100,
     "status": "Available"
   },
   {
@@ -3561,18 +3797,18 @@
   {
     "productcode": "C0185",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0185.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0185.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1100",
+    "price": 1100,
     "status": "Available"
   },
   {
@@ -3595,18 +3831,18 @@
   {
     "productcode": "C0188",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0188.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0188.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1100",
+    "price": 1100,
     "status": "Available"
   },
   {
@@ -3629,35 +3865,35 @@
   {
     "productcode": "C0190",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0190.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0190.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0191",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0191.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0191.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
@@ -3680,52 +3916,52 @@
   {
     "productcode": "C0193",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0193.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0193.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0194",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0194.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0194.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0195",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0195.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0195.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
@@ -3747,35 +3983,35 @@
   {
     "productcode": "C0197",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0197.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0197.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0198",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0198.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0198.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
@@ -3798,154 +4034,154 @@
   {
     "productcode": "C0200",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0200.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0200.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0201",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0201.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0201.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0202",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0202.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0202.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0203",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0203.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0203.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0204",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0204.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0204.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0205",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0205.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0205.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "S0159",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0159.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0159.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
     "productcode": "S0160",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0160.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0160.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
     "productcode": "S0161",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0161.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0161.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
@@ -4102,103 +4338,103 @@
   {
     "productcode": "S0173",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0173.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0173.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
     "productcode": "S0174",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0174.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0174.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
     "productcode": "S0175",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0175.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0175.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
     "productcode": "S0176",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0176.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0176.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
     "productcode": "S0177",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0177.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0177.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
     "productcode": "S0178",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0178.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0178.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
@@ -4221,188 +4457,188 @@
   {
     "productcode": "S0180",
     "name": "Bagru Printed Mul Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0180.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0180.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "Summer"
     ],
-    "price": "975",
+    "price": 975,
     "status": "Available"
   },
   {
     "productcode": "C0206",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0206.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0206.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0207",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0207.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0207.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0208",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0208.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0208.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0209",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0209.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0209.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0210",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0210.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0210.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0211",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0211.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0211.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0212",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0212.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0212.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0213",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0213.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0213.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0214",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0214.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0214.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0215",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0215.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0215.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
@@ -4425,154 +4661,154 @@
   {
     "productcode": "C0217",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0217.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0217.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0218",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0218.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0218.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0219",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0219.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0219.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0220",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0220.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0220.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0221",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0221.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0221.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0222",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0222.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0222.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0223",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0223.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0223.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0224",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0224.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0224.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
     "productcode": "C0225",
     "name": "Cotton Salwar Suit with Mul Cotton Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0225.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0225.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1090",
+    "price": 1090,
     "status": "Available"
   },
   {
@@ -4595,35 +4831,35 @@
   {
     "productcode": "C0227",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0227.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0227.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0228",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0228.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0228.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
@@ -4633,12 +4869,13 @@
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0229.jpeg",
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0229_-1_1770659061001.jpeg"
     ],
-    "description": "Cotton Salwar Suit with Chiffon Dupatta",
+    "description": "Pure Cotton Salwar Suit with Chiffon Dupatta",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
     "price": 1200,
     "status": "Available"
@@ -4646,171 +4883,171 @@
   {
     "productcode": "C0230",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0230.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0230.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0231",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0231.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0231.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0232",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0232.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0232.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0233",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0233.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0233.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0234",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0234.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0234.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0235",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0235.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0235.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0236",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0236.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0236.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0237",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0237.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0237.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0238",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0238.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0238.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
     "productcode": "C0239",
     "name": "Cotton Salwar Suit with Chiffon Dupatta",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0239.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0239.jpeg"
     ],
-    "description": "",
+    "description": "Pure Cotton Salwar Suit\nUnstitched\n3 pcs",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "Summer"
     ],
-    "price": "1200",
+    "price": 1200,
     "status": "Available"
   },
   {
