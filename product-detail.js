@@ -1,340 +1,415 @@
-        let currentProduct = null;
-        let allProducts = [];
-        let selectedSize = null;
-        let quantity = 1;
-        let currentImageIndex = 0;
+let currentProduct = null;
+let allProducts = [];
+let quantity = 1;
+let currentImageIndex = 0;
 
-        // Get product code from URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const productCode = urlParams.get('code');
+// Get product code from URL
+const urlParams = new URLSearchParams(window.location.search);
+const productCode = urlParams.get('code');
 
-        // Load products and display product detail
-        async function loadProductDetail() {
-            try {
-                const response = await fetch('data/products.json');
-                if (!response.ok) {
-                    throw new Error('Failed to load products');
-                }
-                allProducts = await response.json();
-                currentProduct = allProducts.find(p => p.productcode === productCode);
-                
-                if (currentProduct) {
-                    renderProductDetail();
-                    renderRelatedProducts();
-                } else {
-                    showError();
-                }
-            } catch (error) {
-                console.error('Error loading product:', error);
-                showError();
-            }
+/* ===========================
+   LOAD PRODUCT
+=========================== */
+
+async function loadProductDetail() {
+    try {
+        const response = await fetch('data/products.json');
+        if (!response.ok) throw new Error('Failed to load products');
+
+        allProducts = await response.json();
+        currentProduct = allProducts.find(p => p.productcode === productCode);
+
+        if (currentProduct) {
+            renderProductDetail();
+            renderRelatedProducts();
+        } else {
+            showError();
         }
 
-        function renderProductDetail() {
-            const productDetail = document.getElementById('productDetail');
-            
-            // Update breadcrumb
-            document.getElementById('breadcrumbCategory').textContent = currentProduct.category;
-            document.getElementById('breadcrumbProduct').textContent = currentProduct.name;
-            document.getElementById('productFullDescription').textContent = currentProduct.description;
-            
-            // Get available images - use images array if available, otherwise fallback to single image
-            const productImages = currentProduct.images && currentProduct.images.length > 0 
-                ? currentProduct.images 
-                : [currentProduct.image];
-            
-            // Filter out any undefined or null images
-            const validImages = productImages.filter(img => img);
-            
-            // Debug logging
-            console.log('Product Code:', currentProduct.productcode);
-            console.log('Images array:', currentProduct.images);
-            console.log('Valid images count:', validImages.length);
-            console.log('Valid images:', validImages);
-            
-            // Generate thumbnail HTML with fixed aspect ratio
-            const thumbnailsHTML = validImages.map((image, index) => `
-                <button onclick="changeMainImage('${image}', ${index})" 
-                        class="${index === 0 ? 'thumbnail-active' : ''} relative block w-24 h-24 flex-shrink-0" 
-                        data-index="${index}">
-                    <img src="${image}" 
-                         alt="Thumbnail ${index + 1}" 
-                         class="w-full h-full object-cover rounded-lg border-2 ${index === 0 ? 'border-yellow-600' : 'border-gray-200'} hover:border-yellow-600 transition" 
-                         onerror="this.parentElement.style.display='none'">
-                </button>
-            `).join('');
-            
-            productDetail.innerHTML = `
-                <!-- Product Images -->
-                <div>
-                    <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
-                        <img id="mainImage" src="${validImages[0]}" alt="${currentProduct.name}" class="w-full h-auto object-cover">
-                    </div>
-                    <div class="flex flex-wrap gap-2" id="thumbnailContainer">
-                        ${thumbnailsHTML}
-                    </div>
+    } catch (error) {
+        console.error('Error loading product:', error);
+        showError();
+    }
+}
+
+/* ===========================
+   RENDER PRODUCT
+=========================== */
+
+function renderProductDetail() {
+
+    const productDetail = document.getElementById('productDetail');
+
+    document.getElementById('breadcrumbCategory').textContent = currentProduct.category;
+    document.getElementById('breadcrumbProduct').textContent = currentProduct.name;
+    document.getElementById('productFullDescription').textContent = currentProduct.description;
+
+    const productImages = currentProduct.images?.length
+        ? currentProduct.images
+        : [currentProduct.image];
+
+    const validImages = productImages.filter(Boolean);
+
+    const thumbnailsHTML = validImages.map((image, index) => `
+        <button onclick="changeMainImage('${image}', ${index})"
+            class="relative block w-24 h-24 flex-shrink-0">
+
+            <img src="${image}"
+                class="w-full h-full object-cover rounded-lg border-2
+                ${index === 0 ? 'border-yellow-600' : 'border-gray-200'}">
+        </button>
+    `).join('');
+
+    /* ===========================
+       DISCOUNT CALCULATION
+    =========================== */
+
+    let discountPercent = null;
+
+    if (currentProduct.discountedprice && currentProduct.price) {
+
+        discountPercent = Math.round(
+            ((currentProduct.price - currentProduct.discountedprice) /
+                currentProduct.price) * 100
+        );
+    }
+
+    /* ===========================
+       HTML
+    =========================== */
+
+    productDetail.innerHTML = `
+
+    <!-- IMAGES -->
+    <div>
+
+        <div class="relative bg-white rounded-lg overflow-hidden shadow-lg mb-4">
+
+            <img id="mainImage"
+                src="${validImages[0]}"
+                class="w-full h-auto object-cover">
+
+            ${discountPercent ? `
+                <div class="absolute top-3 left-3 bg-red-600 text-white text-sm font-bold px-3 py-1 rounded">
+                    ${discountPercent}% OFF
+                </div>
+            ` : ``}
+
+        </div>
+
+        <div class="flex flex-wrap gap-2" id="thumbnailContainer">
+            ${thumbnailsHTML}
+        </div>
+
+    </div>
+
+
+    <!-- PRODUCT INFO -->
+    <div>
+
+        <div class="bg-white rounded-lg shadow-sm p-8">
+
+            <span class="text-sm text-gray-500">
+                ${currentProduct.category} / ${currentProduct.subcategory}
+            </span>
+
+            <h1 class="text-3xl font-bold mt-3 mb-4">
+                ${currentProduct.name}
+            </h1>
+
+            <div class="mb-4 text-sm">
+                Product Code:
+                <span class="font-semibold">${currentProduct.productcode}</span>
+            </div>
+
+
+            <!-- PRICE -->
+            <div class="flex items-center gap-4 mb-6">
+
+                ${currentProduct.discountedprice ? `
+
+                    <span class="text-4xl font-bold text-red-600">
+                        ₹${currentProduct.discountedprice.toLocaleString('en-IN')}
+                    </span>
+
+                    <span class="text-xl text-gray-400 line-through">
+                        ₹${currentProduct.price.toLocaleString('en-IN')}
+                    </span>
+
+                    <span class="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-semibold">
+                        ${discountPercent}% OFF
+                    </span>
+
+                ` : `
+
+                    <span class="text-4xl font-bold text-yellow-600">
+                        ₹${currentProduct.price.toLocaleString('en-IN')}
+                    </span>
+
+                `}
+
+                <span class="px-4 py-2 rounded-full text-sm font-semibold
+                    ${currentProduct.status === 'Available'
+                        ? 'bg-green-100 text-green-700'
+                        : 'bg-red-100 text-red-700'}">
+
+                    ${currentProduct.status === 'Available'
+                        ? '✓ In Stock'
+                        : '✗ Sold Out'}
+                </span>
+
+            </div>
+
+
+            <!-- TAGS -->
+            ${currentProduct.tags?.length ? `
+            <div class="flex flex-wrap gap-2 mb-6">
+                ${currentProduct.tags.map(tag =>
+                    `<span class="bg-gray-100 px-3 py-1 rounded-full text-sm">${tag}</span>`
+                ).join('')}
+            </div>
+            ` : ''}
+
+
+            <p class="text-gray-700 mb-6">
+                ${currentProduct.description}
+            </p>
+
+
+            <!-- QUANTITY -->
+            <div class="mb-6">
+
+                <label class="block text-sm font-semibold mb-2">
+                    Quantity
+                </label>
+
+                <div class="flex items-center gap-4">
+
+                    <button onclick="decreaseQuantity()"
+                        class="w-10 h-10 border rounded-lg">
+                        -
+                    </button>
+
+                    <span id="quantityDisplay" class="text-xl font-semibold w-12 text-center">
+                        1
+                    </span>
+
+                    <button onclick="increaseQuantity()"
+                        class="w-10 h-10 border rounded-lg">
+                        +
+                    </button>
+
                 </div>
 
-                <!-- Product Info -->
-                <div>
-                    <div class="bg-white rounded-lg shadow-sm p-8">
-                        <div class="mb-4">
-                            <span class="text-sm text-gray-500">${currentProduct.category} / ${currentProduct.subcategory}</span>
-                        </div>
-                        
-                        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">${currentProduct.name}</h1>
-                        
-                        <div class="flex items-center gap-4 mb-6">
-                            <span class="text-sm text-gray-600">Product Code:</span>
-                            <span class="text-sm font-semibold text-gray-900">${currentProduct.productcode}</span>
-                        </div>
+            </div>
 
-                        <div class="flex items-center gap-4 mb-6">
-                            <span class="text-4xl font-bold text-yellow-600">₹${currentProduct.price.toLocaleString('en-IN')}</span>
-                            <span class="px-4 py-2 rounded-full text-sm font-semibold ${currentProduct.status === 'Available' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">
-                                ${currentProduct.status === 'Available' ? '✓ In Stock' : '✗ Sold Out'}
-                            </span>
-                        </div>
 
-                        ${currentProduct.tags && currentProduct.tags.length > 0 ? `
-                            <div class="mb-6">
-                                <div class="flex flex-wrap gap-2">
-                                    ${currentProduct.tags.map(tag => `<span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">${tag}</span>`).join('')}
-                                </div>
-                            </div>
-                        ` : ''}
+            <!-- ACTION BUTTONS -->
+            <div class="flex gap-4 mb-6">
 
-                        <div class="border-t border-gray-200 pt-6 mb-6">
-                            <p class="text-gray-700 leading-relaxed">${currentProduct.description}</p>
-                        </div>
+                ${currentProduct.status === 'Available' ? `
 
-                        <!-- Quantity Selector -->
-                        <div class="mb-6">
-                            <label class="text-sm font-semibold text-gray-700 mb-2 block">Quantity</label>
-                            <div class="flex items-center gap-4">
-                                <button onclick="decreaseQuantity()" class="w-10 h-10 border border-gray-300 rounded-lg hover:bg-gray-100 transition flex items-center justify-center">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
-                                    </svg>
-                                </button>
-                                <span id="quantityDisplay" class="text-xl font-semibold w-12 text-center">1</span>
-                                <button onclick="increaseQuantity()" class="w-10 h-10 border border-gray-300 rounded-lg hover:bg-gray-100 transition flex items-center justify-center">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
+                    <button onclick="addToCart()"
+                        class="flex-1 bg-yellow-600 text-white py-4 rounded-lg font-semibold hover:bg-yellow-700">
 
-                        <!-- Action Buttons -->
-                        <div class="flex gap-4 mb-6">
-                            ${currentProduct.status === 'Available' ? `
-                                <button onclick="addToCart()" class="flex-1 bg-yellow-600 text-white py-4 rounded-lg font-semibold hover:bg-yellow-700 transition flex items-center justify-center gap-2">
-                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                                    </svg>
-                                    Add to Cart
-                                </button>
+                        Add to Cart
+                    </button>
 
-                                <a id="whatsappBtn"
-                                   target="_blank"
-                                   class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition">
-                                    Chat on WhatsApp
-                                </a>
-                                
-                                <button onclick="toggleWishlist()" class="w-14 h-14 border-2 border-gray-300 rounded-lg hover:border-yellow-600 transition flex items-center justify-center">
-                                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                                    </svg>
-                                </button>
-                            ` : `
-                                <button disabled class="flex-1 bg-gray-300 text-gray-500 py-4 rounded-lg font-semibold cursor-not-allowed">
-                                    Out of Stock
-                                </button>
-                            `}
-                        </div>
+                    <a id="whatsappBtn"
+                        target="_blank"
+                        class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold">
 
-                        <!-- Product Features -->
-                        <div class="border-t border-gray-200 pt-6">
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-                                <div class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    <span class="text-gray-700">Free Shipping on orders above 2500</span>
-                                </div>
-                                <div class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    <span class="text-gray-700">Easy Returns</span>
-                                </div>
-                                <div class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    <span class="text-gray-700">100% Authentic Products</span>
-                                </div>
-                                <div class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    <span class="text-gray-700">Secure Payment</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `;
-
-        setupWhatsApp(currentProduct.name);
-        }
-
-// Setup WhatsApp link after rendering
-        function renderRelatedProducts() {
-            const relatedProducts = allProducts
-                .filter(p => p.category === currentProduct.category && p.productcode !== currentProduct.productcode)
-                .slice(0, 4);
-            
-            const container = document.getElementById('relatedProducts');
-            container.innerHTML = relatedProducts.map(product => {
-                // Use first image from images array or fallback to image property
-                const productImage = product.images && product.images.length > 0 
-                    ? product.images[0] 
-                    : product.image;
-                
-                return `
-                    <a href="product-detail.html?code=${product.productcode}" class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-                        <div class="relative overflow-hidden aspect-[4/5] bg-gray-100">
-                            <img src="${productImage}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        </div>
-                        <div class="p-4">
-                            <div class="text-xs text-gray-500 mb-1">${product.subcategory}</div>
-                            <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2">${product.name}</h3>
-                            <span class="text-lg font-bold text-yellow-600">₹${product.price.toLocaleString('en-IN')}</span>
-                        </div>
+                        WhatsApp
                     </a>
-                `;
-            }).join('');
-        }
 
-        function changeMainImage(imageSrc, index) {
-            document.getElementById('mainImage').src = imageSrc;
-            currentImageIndex = index;
-            
-            // Update thumbnail borders
-            document.querySelectorAll('#thumbnailContainer button').forEach((btn, idx) => {
-                if (idx === index) {
-                    btn.classList.add('thumbnail-active');
-                    btn.querySelector('img').classList.remove('border-gray-200');
-                    btn.querySelector('img').classList.add('border-yellow-600');
-                } else {
-                    btn.classList.remove('thumbnail-active');
-                    btn.querySelector('img').classList.add('border-gray-200');
-                    btn.querySelector('img').classList.remove('border-yellow-600');
-                }
-            });
-        }
+                ` : `
 
-        function increaseQuantity() {
-            quantity++;
-            document.getElementById('quantityDisplay').textContent = quantity;
-        }
+                    <button disabled
+                        class="flex-1 bg-gray-300 text-gray-500 py-4 rounded-lg">
+                        Out of Stock
+                    </button>
 
-        function decreaseQuantity() {
-            if (quantity > 1) {
-                quantity--;
-                document.getElementById('quantityDisplay').textContent = quantity;
-            }
-        }
+                `}
 
-        function addToCart() {
-            // Add to cart logic here
-            const cart = JSON.parse(localStorage.getItem('cart') || '[]');
-            const existingItem = cart.find(item => item.productcode === currentProduct.productcode);
-            
-            if (existingItem) {
-                existingItem.quantity += quantity;
-            } else {
-                cart.push({
-                    ...currentProduct,
-                    quantity: quantity
-                });
-            }
-            
-            localStorage.setItem('cart', JSON.stringify(cart));
-            
-            // Update cart count
-            const currentCount = parseInt(document.getElementById('cartCount').textContent);
-            document.getElementById('cartCount').textContent = currentCount + quantity;
-            
-            // Show success modal
-            document.getElementById('successModal').classList.remove('hidden');
-            
-            // Reset quantity
-            quantity = 1;
-            document.getElementById('quantityDisplay').textContent = '1';
-        }
+            </div>
 
-        function toggleWishlist() {
-            const btn = event.currentTarget;
-            const svg = btn.querySelector('svg');
-            
-            if (svg.classList.contains('fill-red-500')) {
-                svg.classList.remove('fill-red-500', 'text-red-500');
-                svg.classList.add('text-gray-600');
-                svg.setAttribute('fill', 'none');
-            } else {
-                svg.classList.remove('text-gray-600');
-                svg.classList.add('fill-red-500', 'text-red-500');
-                svg.setAttribute('fill', 'currentColor');
-            }
-        }
+        </div>
 
-        function closeModal() {
-            document.getElementById('successModal').classList.add('hidden');
-        }
+    </div>
+    `;
 
-        function goToCart() {
-            window.location.href = 'cart.html';
-        }
+    setupWhatsApp(currentProduct.name);
+}
 
-        function showError() {
-            const productDetail = document.getElementById('productDetail');
-            productDetail.innerHTML = `
-                <div class="col-span-full text-center py-12">
-                    <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                    <h3 class="text-xl font-semibold text-gray-700 mb-2">Product Not Found</h3>
-                    <p class="text-gray-500 mb-6">The product you're looking for doesn't exist.</p>
-                    <a href="products.html" class="inline-block bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition">
-                        Browse All Products
-                    </a>
+/* ===========================
+   RELATED PRODUCTS
+=========================== */
+
+function renderRelatedProducts() {
+
+    const relatedProducts = allProducts
+        .filter(p =>
+            p.category === currentProduct.category &&
+            p.productcode !== currentProduct.productcode
+        )
+        .slice(0, 4);
+
+    const container = document.getElementById('relatedProducts');
+
+    container.innerHTML = relatedProducts.map(product => {
+
+        const productImage =
+            product.images?.length ? product.images[0] : product.image;
+
+        const price = product.discountedprice
+            ? product.discountedprice
+            : product.price;
+
+        return `
+        <a href="product-detail.html?code=${product.productcode}"
+            class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl">
+
+            <div class="aspect-[4/5] bg-gray-100 overflow-hidden">
+
+                <img src="${productImage}"
+                    class="w-full h-full object-cover group-hover:scale-110 transition">
+
+            </div>
+
+            <div class="p-4">
+
+                <div class="text-xs text-gray-500 mb-1">
+                    ${product.subcategory}
                 </div>
-            `;
-        }
 
-        function updateCartCount() {
-            const cart = JSON.parse(localStorage.getItem('cart') || '[]');
-            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
-            document.getElementById('cartCount').textContent = totalItems;
-        }
+                <h3 class="font-semibold mb-2">
+                    ${product.name}
+                </h3>
 
-        function setupWhatsApp(productName) {
-            const phoneNumber = "919940656889"; // Replace with your number
-        
-            const message = `Hi I am interested in ${productName}`;
-        
-            const whatsappLink =
-                `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-        
-            document.getElementById("whatsappBtn").href = whatsappLink;
-        }
+                <span class="text-lg font-bold text-yellow-600">
+                    ₹${price.toLocaleString('en-IN')}
+                </span>
 
-        // Update cart count on page load
-        updateCartCount();
+            </div>
 
-        // Initialize
-        loadProductDetail();
+        </a>
+        `;
 
+    }).join('');
+}
+
+/* ===========================
+   IMAGE SWITCH
+=========================== */
+
+function changeMainImage(imageSrc) {
+    document.getElementById('mainImage').src = imageSrc;
+}
+
+/* ===========================
+   QUANTITY
+=========================== */
+
+function increaseQuantity() {
+    quantity++;
+    document.getElementById('quantityDisplay').textContent = quantity;
+}
+
+function decreaseQuantity() {
+    if (quantity > 1) {
+        quantity--;
+        document.getElementById('quantityDisplay').textContent = quantity;
+    }
+}
+
+/* ===========================
+   ADD TO CART
+=========================== */
+
+function addToCart() {
+
+    const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+
+    const existingItem = cart.find(
+        item => item.productcode === currentProduct.productcode
+    );
+
+    if (existingItem) {
+        existingItem.quantity += quantity;
+    } else {
+        cart.push({
+            ...currentProduct,
+            quantity: quantity
+        });
+    }
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    updateCartCount();
+}
+
+/* ===========================
+   CART COUNT
+=========================== */
+
+function updateCartCount() {
+
+    const cart = JSON.parse(localStorage.getItem('cart') || '[]');
+
+    const totalItems = cart.reduce(
+        (sum, item) => sum + item.quantity,
+        0
+    );
+
+    document.getElementById('cartCount').textContent = totalItems;
+}
+
+/* ===========================
+   WHATSAPP
+=========================== */
+
+function setupWhatsApp(productName) {
+
+    const phoneNumber = "919940656889";
+
+    const message =
+        `Hi, I am interested in ${productName}`;
+
+    const link =
+        `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+    document.getElementById("whatsappBtn").href = link;
+}
+
+/* ===========================
+   ERROR
+=========================== */
+
+function showError() {
+
+    const productDetail = document.getElementById('productDetail');
+
+    productDetail.innerHTML = `
+        <div class="text-center py-12">
+
+            <h3 class="text-xl font-semibold mb-4">
+                Product Not Found
+            </h3>
+
+            <a href="products.html"
+                class="bg-yellow-600 text-white px-6 py-3 rounded-lg">
+
+                Browse Products
+
+            </a>
+
+        </div>
+    `;
+}
+
+/* ===========================
+   INIT
+=========================== */
+
+updateCartCount();
+loadProductDetail();
