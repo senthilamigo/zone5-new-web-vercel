@@ -262,22 +262,6 @@
     "status": "Sold out"
   },
   {
-    "productcode": "S0032",
-    "name": "Linen Silk Blend Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0032.jpeg"
-    ],
-    "description": "🌿 Premium Linen Silk Saree 🌿\n✨ Fabric: Soft Linen–Silk Blend\n✨ Colour: Subtle grey-beige base with a natural matte sheen\n✨ Design: Artistic village-inspired pottery, abstract figures & hand-paint–style detailing\n✨ Body: Light textured weave with a smooth, airy drape\n✨ Border: Elegant gold zari border that adds richness\n⸻\n🔹 Highlights\n* Unique artistic print—statement piece\n* Lightweight, breathable & easy to drape\n* Soft linen-silk texture with a classy finish\n* Comes with matching blouse material\n⸻\n🧵 Saree Care\n* Dry clean recommended\n* Store in a cool, dry place\n* Avoid direct sunlight to preserve colours\n* Steam press or light iron on reverse\n⸻\n📌 Note\n* Slight shade variations may occur due to lighting & screen settings\n* Minor irregularities in print/weave indicate the beauty of the fabric",
-    "category": "Saree",
-    "subcategory": "Party Wear Sarees",
-    "tags": [
-      "Sale"
-    ],
-    "price": 1299,
-    "discountedprice": 1195,
-    "status": "Available"
-  },
-  {
     "productcode": "S0033",
     "name": "Linen Silk Blend Saree",
     "images": [
@@ -550,33 +534,6 @@
     "price": 1299,
     "discountedprice": 1190,
     "status": "Available"
-  },
-  {
-    "productcode": "S0057",
-    "name": "Cotton Daily Wear Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0057.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0057.jpeg"
-    ],
-    "description": "🍁 Handloom Pure Cotton Daily Wear Saree – orange Floral Weave 🍁\n✨ Fabric: Soft Handloom Cotton (lightweight & breathable)\n✨ Color: Fresh peach-orange tone\n✨ Design: Woven floral buttas across the body with dotted motifs\n✨ Border: Traditional floral jacquard-style woven border in matching shade\n✨ Blouse: Attached running blouse\n💛 Highlights:\n* Very soft & skin-friendly\n* Perfect for office, regular wear & summer use\n* Easy drape • Sweat-friendly fabric • Minimal, elegant look\n🧵 Care: Gentle wash / dries quickly",
-    "category": "Saree",
-    "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": "550",
-    "status": "Available"
-  },
-  {
-    "productcode": "S0058",
-    "name": "Cotton Daily Wear Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0058.jpeg"
-    ],
-    "description": "🌿 Handloom Cotton Daily Wear Saree – Grey Paisley Weave 🌿\n✨ Fabric: Soft Handloom Cotton (light, breathable & comfortable)\n✨ Color: Elegant smoky grey\n✨ Design: All-over woven paisley buttas for a subtle, classy look\n✨ Border: Intricate floral + geometric woven border in matching tone\n✨ Blouse: Running blouse attached\n💛 Highlights:\n* Easy to drape • Office-friendly • Sweat-friendly\n* Perfect for daily use • Minimal & elegant\n🧵 Care: Mild wash",
-    "category": "Saree",
-    "subcategory": "Casual Sarees",
-    "tags": [],
-    "price": 550,
-    "status": "SoldOut"
   },
   {
     "productcode": "S0059",
@@ -1020,7 +977,6 @@
   {
     "productcode": "S0093",
     "name": "Semi Chanderi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0093.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0093.jpeg"
     ],
@@ -1028,8 +984,8 @@
     "category": "Saree",
     "subcategory": "Casual Sarees",
     "tags": [],
-    "price": "700",
-    "status": "Available"
+    "price": 700,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0096",
