@@ -3271,19 +3271,18 @@
   {
     "productcode": "C0149",
     "name": "Premium Maheshwari Silk Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0149.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0149.jpeg"
     ],
-    "description": "",
+    "description": "Maheshwari Silk Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
       "Work Wear"
     ],
-    "price": "2590",
-    "status": "Available"
+    "price": 2590,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0150",
@@ -3305,19 +3304,18 @@
   {
     "productcode": "C0151",
     "name": "Premium Maheshwari Silk Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0151.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0151.jpeg"
     ],
-    "description": "",
+    "description": "Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
       "Work Wear"
     ],
-    "price": "2590",
-    "status": "Available"
+    "price": 2590,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0152",
@@ -3355,19 +3353,18 @@
   {
     "productcode": "C0156",
     "name": "Premium Maheshwari Silk Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0156.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0156.jpeg"
     ],
-    "description": "",
+    "description": "Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
       "Work Wear"
     ],
-    "price": "2590",
-    "status": "Available"
+    "price": 2590,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0158",
@@ -3472,19 +3469,18 @@
   {
     "productcode": "C0164",
     "name": "Fancy Silk Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0164.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0164.jpeg"
     ],
-    "description": "",
+    "description": "Salwar Suit",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
       "Party wear"
     ],
-    "price": "1200",
-    "status": "Available"
+    "price": 1200,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0165",
@@ -6158,45 +6154,7 @@
       "Cotton"
     ],
     "price": 1300,
-    "status": "Available"
-  },
-  {
-    "productcode": "C0279",
-    "name": "Cotton Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0279_1771920862934.jpeg"
-    ],
-    "description": "Premium Soft Cotton Salwar Suit\n3 pcs - Unstitched",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "New Arrival",
-      "Formal wear",
-      "Office wear",
-      "Traditional wear",
-      "Cotton"
-    ],
-    "price": 1270,
-    "status": "Available"
-  },
-  {
-    "productcode": "C0280",
-    "name": "Cotton Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/C0280_1771923620341.jpeg"
-    ],
-    "description": "Ultra Premium Smooth Cotton Salwar Suit\n3 pcs - Top, Bottom and Dupatta\nUnstitched material",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "New Arrival",
-      "Formal wear",
-      "Office wear",
-      "Traditional wear",
-      "Cotton"
-    ],
-    "price": 1270,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0281",
@@ -6235,7 +6193,7 @@
       "Cotton"
     ],
     "price": 1270,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0283",
@@ -6273,7 +6231,7 @@
       "Cotton"
     ],
     "price": 1250,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0285",
@@ -6799,7 +6757,7 @@
       "Traditional wear"
     ],
     "price": 1650,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0225",
@@ -6839,7 +6797,7 @@
       "Silk"
     ],
     "price": 1350,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0227",
@@ -6916,7 +6874,7 @@
       "Silk"
     ],
     "price": 2500,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0231",
@@ -6954,7 +6912,7 @@
       "Silk"
     ],
     "price": 1350,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0233",
