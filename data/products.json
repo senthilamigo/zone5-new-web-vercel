@@ -3764,23 +3764,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0186",
-    "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0186.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0186.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1100",
-    "status": "Available"
-  },
-  {
     "productcode": "C0188",
     "name": "Cotton Salwar Suit",
     "images": [
@@ -4795,7 +4778,7 @@
       "Summer"
     ],
     "price": 1200,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0228",
@@ -4830,7 +4813,7 @@
       "Summer"
     ],
     "price": 1200,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0230",
@@ -5558,11 +5541,10 @@
   {
     "productcode": "S0187",
     "name": "Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0187.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0187.jpeg"
     ],
-    "description": "",
+    "description": "mulberry saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
@@ -5570,8 +5552,8 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "1800",
-    "status": "Available"
+    "price": 1800,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0188",
@@ -6062,7 +6044,7 @@
       "Cotton"
     ],
     "price": 750,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0274",
@@ -6470,7 +6452,7 @@
       "Cotton"
     ],
     "price": 1350,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0298",
@@ -6508,7 +6490,7 @@
       "Cotton"
     ],
     "price": 1250,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0212",
@@ -6969,7 +6951,7 @@
       "Silk"
     ],
     "price": 1350,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0236",
