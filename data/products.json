@@ -5,7 +5,7 @@
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0246_1772551373488.jpeg"
     ],
-    "description": "Premium Cotton Saree.",
+    "description": "Premium Cotton Saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
@@ -550,20 +550,6 @@
     "status": "Available"
   },
   {
-    "productcode": "S0060",
-    "name": "Premium Litchi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0060.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0060.jpeg"
-    ],
-    "description": "💙 Premium Litchi Silk Saree – Light Blue Elegance 💙\n✨ Fabric: Soft, glossy Litchi Silk\n✨ Color: Serene light blue with a rich woven shine\n✨ Design: Intricate jacquard weaving with dotted & floral motifs\n✨ Border/Pallu: Traditional woven border and matching detailed pallu\n✨ Blouse: Running blouse included\n🌸 Highlights:\n* Lightweight & smooth\n* Beautiful drape with a luxe finish\n* Perfect for functions & gifting\n🧵 Care: Prefer dry wash",
-    "category": "Saree",
-    "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": "999",
-    "status": "Available"
-  },
-  {
     "productcode": "S0061",
     "name": "Cotton Blend Saree",
     "images": [
@@ -918,20 +904,6 @@
     "tags": [],
     "price": "1299",
     "status": "Sold out"
-  },
-  {
-    "productcode": "C0025",
-    "name": "Pure Cotton Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0025.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0025.jpeg"
-    ],
-    "description": "🌿 Premium Pure Cotton Printed Suit – Black Elegance 🌿\n✨ Fabric: 100% Pure Cotton – soft, breathable & perfect for all-day comfort\n✨ Colour: Rich Black with beige and red traditional prints\n✨ Design:\n* Beautiful all-over floral butti print on the kurta\n* Intricately printed yoke panel with geometric + ethnic detailing\n* Sleeves feature coordinated borders for a finished, stylish look\n👖 Bottom:\n* Matching printed cotton bottom with fine geometric motifs\n🧣 Dupatta:\n* Soft cotton dupatta in black & red motif \n* Traditional block-style borders and motif work completing the set\n💫 Highlight:\nA classy, ethnic cotton suit ideal for office wear, casual outings, festive days & everyday elegance. Lightweight, breathable and very graceful.\n🧼 Care Instructions:\n* Hand wash recommended\n* Use mild detergent\n* Dry in shade\n* Wash once before stitching\n* Mild colour release may occur initially (pure cotton)",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "999",
-    "status": "Available"
   },
   {
     "productcode": "C0027",
