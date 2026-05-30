@@ -306,8 +306,8 @@
       "Sale"
     ],
     "price": 999,
-    "discountedprice": 899,
-    "status": "Available"
+    "discountedprice": 700,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0036",
@@ -338,8 +338,8 @@
       "Sale"
     ],
     "price": 999,
-    "discountedprice": 899,
-    "status": "Available"
+    "discountedprice": 600,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0038",
@@ -538,7 +538,6 @@
   {
     "productcode": "S0059",
     "name": "Premium Litchi Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0059.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0059.jpeg"
     ],
@@ -546,8 +545,8 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [],
-    "price": "999",
-    "status": "Available"
+    "price": 999,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0061",
@@ -733,7 +732,7 @@
     ],
     "price": 999,
     "discountedprice": 899,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0079",
@@ -797,7 +796,7 @@
     ],
     "price": 999,
     "discountedprice": 899,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0092",
@@ -1252,8 +1251,8 @@
       "Sale"
     ],
     "price": 5300,
-    "discountedprice": 4500,
-    "status": "Available"
+    "discountedprice": 2500,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0120",
@@ -2970,34 +2969,32 @@
   {
     "productcode": "C0159",
     "name": "Fancy Chanderi Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0159.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0159.jpeg"
     ],
-    "description": "",
+    "description": "Festive salwar",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive"
     ],
-    "price": "1250",
-    "status": "Available"
+    "price": 1250,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0160",
     "name": "Fancy Chanderi Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0160.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0160.jpeg"
     ],
-    "description": "",
+    "description": "Festive salwar",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive"
     ],
-    "price": "1250",
-    "status": "Available"
+    "price": 1250,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0161",
@@ -3585,7 +3582,7 @@
       "Summer"
     ],
     "price": 975,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0174",
@@ -3891,7 +3888,7 @@
       "Summer"
     ],
     "price": 1090,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0220",
@@ -4387,7 +4384,7 @@
       "Festive"
     ],
     "price": 2300,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0253",
@@ -5030,7 +5027,7 @@
       "Casual"
     ],
     "price": 990,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0206",
@@ -5786,7 +5783,7 @@
       "Cotton"
     ],
     "price": 1100,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0221",
