@@ -2820,16 +2820,17 @@
   {
     "productcode": "C0178",
     "name": "Rayon Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0178.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0178.jpeg"
     ],
-    "description": "",
+    "description": "Cotton salwar",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Casual",
-    "price": "750",
-    "status": "Available"
+    "tags": [
+      "Casual"
+    ],
+    "price": 750,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0179",
@@ -4201,19 +4202,19 @@
   {
     "productcode": "C0261",
     "name": "Madhubani Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0261.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0261.jpeg"
     ],
-    "description": "",
+    "description": "Salwar material",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
       "Work Wear"
     ],
-    "price": "1250",
-    "status": "Available"
+    "price": 1250,
+    "discountedprice": 50,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0262",
