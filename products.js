@@ -27,6 +27,8 @@ async function loadProducts() {
         }
 
         allProducts = await response.json();
+        // Filter out disabled products
+        allProducts = allProducts.filter(p => p.status !== 'Disabled');
 
         allProducts = shuffleArray(allProducts);
 
