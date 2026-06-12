@@ -682,7 +682,6 @@
   {
     "productcode": "S0092",
     "name": "Semi Silk Cotton",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0092.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0092.jpeg"
     ],
@@ -690,8 +689,9 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "1499",
-    "status": "Available"
+    "price": 1499,
+    "discountedprice": 299,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0027",
@@ -1116,7 +1116,6 @@
   {
     "productcode": "S0121",
     "name": "Raw Silk by Jute Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0121.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0121.jpeg"
     ],
@@ -1124,8 +1123,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "2000",
-    "status": "Available"
+    "price": 2000,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0122",
@@ -3214,7 +3213,8 @@
       "Office wear"
     ],
     "price": 1150,
-    "status": "Available"
+    "discountedprice": 50,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0166",
