@@ -114,7 +114,7 @@
       "Cotton"
     ],
     "price": 1299,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0240",
@@ -718,7 +718,7 @@
     "subcategory": "Readymade Salwar Suit",
     "tags": [],
     "price": 899,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0002",
@@ -953,7 +953,6 @@
   {
     "productcode": "S0114",
     "name": "Tussar Printed Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0114.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0114.jpeg"
     ],
@@ -961,8 +960,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "2200",
-    "status": "Available"
+    "price": 2200,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0036",
@@ -1251,7 +1250,6 @@
   {
     "productcode": "S0137",
     "name": "Soft Raw Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0137.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0137.jpeg"
     ],
@@ -1259,8 +1257,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "2200",
-    "status": "Available"
+    "price": 2200,
+    "status": "SoldOut"
   },
   {
     "productcode": "S0139",
@@ -1614,7 +1612,6 @@
   {
     "productcode": "C0062",
     "name": "Embroidered Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0062.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0062.jpeg"
     ],
@@ -1622,8 +1619,8 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [],
-    "price": "1250",
-    "status": "Available"
+    "price": 1250,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0063",
@@ -3162,7 +3159,7 @@
       "Summer"
     ],
     "price": 975,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0160",
@@ -3384,7 +3381,7 @@
       "Summer"
     ],
     "price": 975,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0206",
@@ -4284,19 +4281,18 @@
   {
     "productcode": "C0266",
     "name": "Matka Silk Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0266.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0266.jpeg"
     ],
-    "description": "",
+    "description": "Cotton material",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
       "Work Wear"
     ],
-    "price": "1250",
-    "status": "Available"
+    "price": 1250,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0267",
@@ -5070,7 +5066,7 @@
       "Casual wear"
     ],
     "price": 1050,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0286",
@@ -5087,7 +5083,7 @@
       "Casual"
     ],
     "price": 1050,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0287",
@@ -5388,7 +5384,7 @@
       "Cotton"
     ],
     "price": 1250,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0215",
@@ -5559,7 +5555,7 @@
       "Cotton"
     ],
     "price": 1750,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0229",
