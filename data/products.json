@@ -1242,23 +1242,6 @@
     "status": "Available"
   },
   {
-    "productcode": "C0090",
-    "name": "Cotton by Rayon Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0090.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0090.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Work Wear"
-    ],
-    "price": "1150",
-    "status": "Available"
-  },
-  {
     "productcode": "C0091",
     "name": "Cotton by Rayon Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0091.jpeg",
