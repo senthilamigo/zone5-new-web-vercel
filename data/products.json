@@ -100,7 +100,6 @@
   {
     "productcode": "S0022",
     "name": "Printed Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0022.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0022.jpeg"
     ],
@@ -108,7 +107,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "1099",
+    "price": 2190,
+    "discountedprice": 1095,
     "status": "Available"
   },
   {
@@ -124,8 +124,8 @@
       "Sale",
       "Semi Crepe"
     ],
-    "price": 1199,
-    "discountedprice": 1080,
+    "price": 1950,
+    "discountedprice": 1170,
     "status": "Available"
   },
   {
@@ -141,8 +141,8 @@
       "Sale",
       "Semi Crepe"
     ],
-    "price": 1199,
-    "discountedprice": 1080,
+    "price": 1950,
+    "discountedprice": 1170,
     "status": "Available"
   },
   {
@@ -157,8 +157,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1195,
+    "price": 2199,
+    "discountedprice": 1319,
     "status": "Available"
   },
   {
@@ -173,8 +173,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 999,
-    "discountedprice": 899,
+    "price": 1699,
+    "discountedprice": 849,
     "status": "Available"
   },
   {
@@ -189,14 +189,13 @@
     "tags": [
       "Sale"
     ],
-    "price": 999,
-    "discountedprice": 899,
+    "price": 1699,
+    "discountedprice": 849,
     "status": "Available"
   },
   {
     "productcode": "S0044",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0044.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0044.jpeg"
     ],
@@ -204,13 +203,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 2800,
+    "discountedprice": 1680,
     "status": "Available"
   },
   {
     "productcode": "S0045",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0045.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0045.jpeg"
     ],
@@ -218,13 +217,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 2800,
+    "discountedprice": 1680,
     "status": "Available"
   },
   {
     "productcode": "S0046",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0046.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0046.jpeg"
     ],
@@ -232,13 +231,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 2800,
+    "discountedprice": 1680,
     "status": "Available"
   },
   {
     "productcode": "S0047",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0047.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0047.jpeg"
     ],
@@ -246,13 +245,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 2800,
+    "discountedprice": 1680,
     "status": "Available"
   },
   {
     "productcode": "S0048",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0048.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0048.jpeg"
     ],
@@ -260,7 +259,8 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 2800,
+    "discountedprice": 1680,
     "status": "Available"
   },
   {
@@ -275,8 +275,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 1980,
+    "discountedprice": 1188,
     "status": "Available"
   },
   {
@@ -291,8 +291,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 1980,
+    "discountedprice": 1188,
     "status": "Available"
   },
   {
@@ -307,8 +307,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 1980,
+    "discountedprice": 1188,
     "status": "Available"
   },
   {
@@ -323,8 +323,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 1980,
+    "discountedprice": 1188,
     "status": "Available"
   },
   {
@@ -339,8 +339,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 1980,
+    "discountedprice": 1188,
     "status": "Available"
   },
   {
@@ -355,8 +355,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 1980,
+    "discountedprice": 1188,
     "status": "Available"
   },
   {
@@ -372,7 +372,8 @@
       "Office wear",
       "Casual wear"
     ],
-    "price": 999,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -388,7 +389,8 @@
       "Casual",
       "Work Wear"
     ],
-    "price": 999,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -404,7 +406,8 @@
       "Casual",
       "Work Wear"
     ],
-    "price": 999,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -420,7 +423,8 @@
       "Casual",
       "Work Wear"
     ],
-    "price": 999,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -436,7 +440,8 @@
       "Casual",
       "Work Wear"
     ],
-    "price": 999,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -452,7 +457,8 @@
       "Casual",
       "Work Wear"
     ],
-    "price": 999,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -468,7 +474,8 @@
       "Casual",
       "Work Wear"
     ],
-    "price": 999,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -484,13 +491,13 @@
       "Casual",
       "Work Wear"
     ],
-    "price": 999,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
     "productcode": "S0073",
     "name": "Premium Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0073.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0073.jpeg"
     ],
@@ -498,7 +505,8 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1299",
+    "price": 2399,
+    "discountedprice": 1179,
     "status": "Available"
   },
   {
@@ -513,8 +521,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 999,
-    "discountedprice": 899,
+    "price": 1800,
+    "discountedprice": 900,
     "status": "Available"
   },
   {
@@ -548,7 +556,6 @@
   {
     "productcode": "S0098",
     "name": "Semi Linen Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0098.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0098.jpeg"
     ],
@@ -556,7 +563,8 @@
     "category": "Saree",
     "subcategory": "Casual Sarees",
     "tags": [],
-    "price": "800",
+    "price": 1400,
+    "discountedprice": 700,
     "status": "Available"
   },
   {
