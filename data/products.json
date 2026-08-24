@@ -2113,7 +2113,8 @@
       "Office wear",
       "Summer"
     ],
-    "price": 975,
+    "price": 1800,
+    "discountedprice": 900,
     "status": "Available"
   },
   {
@@ -2130,7 +2131,8 @@
       "Casual",
       "Office wear"
     ],
-    "price": 1150,
+    "price": 1980,
+    "discountedprice": 990,
     "status": "Available"
   },
   {
@@ -2147,7 +2149,8 @@
       "Casual",
       "Office wear"
     ],
-    "price": 1150,
+    "price": 1980,
+    "discountedprice": 990,
     "status": "Available"
   },
   {
@@ -2164,7 +2167,8 @@
       "Casual",
       "Office wear"
     ],
-    "price": 1150,
+    "price": 1980,
+    "discountedprice": 990,
     "status": "Available"
   },
   {
@@ -2181,7 +2185,8 @@
       "Office wear",
       "Summer"
     ],
-    "price": 975,
+    "price": 1850,
+    "discountedprice": 925,
     "status": "Available"
   },
   {
@@ -2198,7 +2203,8 @@
       "Office wear",
       "Summer"
     ],
-    "price": 975,
+    "price": 1850,
+    "discountedprice": 925,
     "status": "Available"
   },
   {
@@ -2215,7 +2221,8 @@
       "Office wear",
       "Summer"
     ],
-    "price": 975,
+    "price": 1850,
+    "discountedprice": 925,
     "status": "Available"
   },
   {
