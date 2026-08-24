@@ -616,7 +616,6 @@
   {
     "productcode": "S0112",
     "name": "Tussar Printed Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0112.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0112.jpeg"
     ],
@@ -624,13 +623,13 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "2200",
+    "price": 2800,
+    "discountedprice": 1960,
     "status": "Available"
   },
   {
     "productcode": "S0113",
     "name": "Tussar Printed Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0113.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0113.jpeg"
     ],
@@ -638,7 +637,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "2200",
+    "price": 2800,
+    "discountedprice": 1960,
     "status": "Available"
   },
   {
@@ -670,8 +670,8 @@
       "Silk Saree",
       "Sale"
     ],
-    "price": 5200,
-    "discountedprice": 4500,
+    "price": 8999,
+    "discountedprice": 4499.5,
     "status": "Available"
   },
   {
@@ -689,14 +689,13 @@
       "Silk Saree",
       "Sale"
     ],
-    "price": 5200,
-    "discountedprice": 4500,
+    "price": 8999,
+    "discountedprice": 4499.5,
     "status": "Available"
   },
   {
     "productcode": "S0122",
     "name": "Raw Silk by Jute Silk Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0122.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0122.jpeg"
     ],
@@ -704,7 +703,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "2000",
+    "price": 2800,
+    "discountedprice": 1770,
     "status": "Available"
   },
   {
@@ -721,7 +721,8 @@
       "Elegant",
       "Classy"
     ],
-    "price": 2000,
+    "price": 2800,
+    "discountedprice": 1770,
     "status": "Available"
   },
   {
