@@ -564,23 +564,7 @@
     "subcategory": "Casual Sarees",
     "tags": [],
     "price": 1400,
-    "discountedprice": 700,
-    "status": "Available"
-  },
-  {
-    "productcode": "S0100",
-    "name": "Chettinad Cotton Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0100.jpeg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-01-22_at_18.24.04_1770829494975.jpeg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/WhatsApp_Image_2026-01-22_at_18.24.04__1__1770829503103.jpeg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_dejqn3dejqn3dejq_1770829519497.png"
-    ],
-    "description": "💚 Chettinad Pure Cotton Saree – Teal Green with Royal Blue and Pink Border Ganga Jamuna Style 💚\n✨ Fabric: Authentic Chettinad Pure Cotton\n✨ Colour: Rich teal green body accented with a contrasting royal blue border\n✨ Design: Minimal plain body highlighted with small traditional buttis for a graceful look\n✨ Border: Broad royal blue border featuring intricate gold-toned woven motifs inspired by classic Chettinad artistry\n✨ Pallu: Coordinated pallu with detailed zari-style weaving and hand-finished tassels\n✨ Texture: Soft, breathable cotton with a neat, structured drape\n👗 Ideal For: Office wear, festive days, temple visits & everyday ethnic elegance\n🧼 Care Instructions:\n* Hand wash separately\n* Mild detergent only\n* Dry in shade\n📌 Note: Actual saree colour may slightly vary due to lighting and screen resolution.",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": 1390,
+    "discountedprice": 630,
     "status": "Available"
   },
   {
@@ -597,7 +581,8 @@
     "tags": [
       "Pure Cotton"
     ],
-    "price": 1260,
+    "price": 1999,
+    "discountedprice": 1199,
     "status": "Available"
   },
   {
