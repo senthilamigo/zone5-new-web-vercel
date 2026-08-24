@@ -15,7 +15,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1400,
+    "price": 2000,
+    "discountedprice": 1400,
     "status": "Available"
   },
   {
@@ -34,7 +35,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1250,
+    "price": 1900,
+    "discountedprice": 1235,
     "status": "Available"
   },
   {
@@ -53,7 +55,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1299,
+    "price": 1900,
+    "discountedprice": 1235,
     "status": "Available"
   },
   {
@@ -71,7 +74,8 @@
       "Party Wear",
       "Casual"
     ],
-    "price": 1500,
+    "price": 2100,
+    "discountedprice": 1260,
     "status": "Available"
   },
   {
@@ -89,13 +93,13 @@
       "Party Wear",
       "Casual"
     ],
-    "price": 1500,
+    "price": 2100,
+    "discountedprice": 1260,
     "status": "Available"
   },
   {
     "productcode": "S0022",
     "name": "Printed Tissue Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0022.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0022.jpeg"
     ],
@@ -103,7 +107,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "1099",
+    "price": 2400,
+    "discountedprice": 1200,
     "status": "Available"
   },
   {
@@ -119,8 +124,8 @@
       "Sale",
       "Semi Crepe"
     ],
-    "price": 1199,
-    "discountedprice": 1080,
+    "price": 2200,
+    "discountedprice": 1320,
     "status": "Available"
   },
   {
@@ -136,8 +141,8 @@
       "Sale",
       "Semi Crepe"
     ],
-    "price": 1199,
-    "discountedprice": 1080,
+    "price": 2200,
+    "discountedprice": 1320,
     "status": "Available"
   },
   {
@@ -152,8 +157,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1195,
+    "price": 2600,
+    "discountedprice": 1300,
     "status": "Available"
   },
   {
@@ -168,8 +173,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 999,
-    "discountedprice": 899,
+    "price": 1600,
+    "discountedprice": 960,
     "status": "Available"
   },
   {
@@ -184,14 +189,13 @@
     "tags": [
       "Sale"
     ],
-    "price": 999,
-    "discountedprice": 899,
+    "price": 1600,
+    "discountedprice": 960,
     "status": "Available"
   },
   {
     "productcode": "S0044",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0044.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0044.jpeg"
     ],
@@ -199,13 +203,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 3200,
+    "discountedprice": 1920,
     "status": "Available"
   },
   {
     "productcode": "S0045",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0045.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0045.jpeg"
     ],
@@ -213,13 +217,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 3200,
+    "discountedprice": 1920,
     "status": "Available"
   },
   {
     "productcode": "S0046",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0046.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0046.jpeg"
     ],
@@ -227,13 +231,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 3200,
+    "discountedprice": 1920,
     "status": "Available"
   },
   {
     "productcode": "S0047",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0047.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0047.jpeg"
     ],
@@ -241,13 +245,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 3200,
+    "discountedprice": 1920,
     "status": "Available"
   },
   {
     "productcode": "S0048",
     "name": "Tussar Cotton Blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0048.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0048.jpeg"
     ],
@@ -255,7 +259,8 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1999",
+    "price": 3200,
+    "discountedprice": 1920,
     "status": "Available"
   },
   {
@@ -270,8 +275,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 2100,
+    "discountedprice": 1155,
     "status": "Available"
   },
   {
@@ -286,8 +291,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 2100,
+    "discountedprice": 1155,
     "status": "Available"
   },
   {
@@ -302,8 +307,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 2100,
+    "discountedprice": 1155,
     "status": "Available"
   },
   {
@@ -318,8 +323,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1299,
-    "discountedprice": 1190,
+    "price": 2100,
+    "discountedprice": 1155,
     "status": "Available"
   },
   {
