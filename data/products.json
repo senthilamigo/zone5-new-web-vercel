@@ -35,7 +35,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1250,
+    "price": 2100,
+    "discountedprice": 1260,
     "status": "Available"
   },
   {
@@ -54,7 +55,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1299,
+    "price": 1900,
+    "discountedprice": 1140,
     "status": "Available"
   },
   {
@@ -72,7 +74,8 @@
       "Party Wear",
       "Casual"
     ],
-    "price": 1500,
+    "price": 2250,
+    "discountedprice": 1350,
     "status": "Available"
   },
   {
@@ -90,7 +93,8 @@
       "Party Wear",
       "Casual"
     ],
-    "price": 1500,
+    "price": 2250,
+    "discountedprice": 1350,
     "status": "Available"
   },
   {
