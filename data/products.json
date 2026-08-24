@@ -737,8 +737,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 900,
-    "discountedprice": 799,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -753,8 +753,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 900,
-    "discountedprice": 799,
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
@@ -769,13 +769,13 @@
     "tags": [
       "Summer"
     ],
-    "price": 1200,
+    "price": 1750,
+    "discountedprice": 1137,
     "status": "Available"
   },
   {
     "productcode": "S0133",
     "name": "Semi Silk Cotton",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0133.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0133.jpeg"
     ],
@@ -783,13 +783,13 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [],
-    "price": "1600",
+    "price": 2200,
+    "discountedprice": 1540,
     "status": "Available"
   },
   {
     "productcode": "S0134",
     "name": "Pastel semi jute silk saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0134.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0134.jpeg"
     ],
@@ -797,13 +797,13 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [],
-    "price": "1260",
+    "price": 2200,
+    "discountedprice": 1100,
     "status": "Available"
   },
   {
     "productcode": "S0141",
     "name": "Pure Handloom Striped Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0141.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0141.jpeg"
     ],
@@ -811,13 +811,13 @@
     "category": "Saree",
     "subcategory": "Casual Sarees",
     "tags": [],
-    "price": "1000",
+    "price": 1600,
+    "discountedprice": 800,
     "status": "Available"
   },
   {
     "productcode": "S0148",
     "name": "Cotton blend Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0148.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0148.jpeg"
     ],
@@ -825,13 +825,13 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [],
-    "price": "1250",
+    "price": 2300,
+    "discountedprice": 1150,
     "status": "Available"
   },
   {
     "productcode": "S0150",
     "name": "Premium Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0150.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0150.jpeg"
     ],
@@ -839,13 +839,13 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "1650",
+    "price": 2100,
+    "discountedprice": 1470,
     "status": "Available"
   },
   {
     "productcode": "S0151",
     "name": "Premium Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0151.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0151.jpeg"
     ],
@@ -853,7 +853,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "1800",
+    "price": 2900,
+    "discountedprice": 1740,
     "status": "Available"
   },
   {
@@ -868,8 +869,8 @@
     "tags": [
       "Sale"
     ],
-    "price": 1300,
-    "discountedprice": 999,
+    "price": 1900,
+    "discountedprice": 950,
     "status": "Available"
   },
   {
@@ -925,7 +926,6 @@
   {
     "productcode": "S0157",
     "name": "Rajkot Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0157.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0157.jpeg"
     ],
@@ -933,7 +933,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [],
-    "price": "1050",
+    "price": 1800,
+    "discountedprice": 1260,
     "status": "Available"
   },
   {
