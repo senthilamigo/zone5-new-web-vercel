@@ -3196,7 +3196,8 @@
       "Traditional wear",
       "Silk"
     ],
-    "price": 1350,
+    "price": 1850,
+    "discountedprice": 1110,
     "status": "Available"
   },
   {
@@ -3215,7 +3216,8 @@
       "Traditional wear",
       "Silk"
     ],
-    "price": 1250,
+    "price": 1850,
+    "discountedprice": 1110,
     "status": "Available"
   }
 ]
