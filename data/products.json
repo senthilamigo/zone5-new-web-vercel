@@ -2701,24 +2701,25 @@
       "Festive",
       "Party wear"
     ],
-    "price": 2500,
+    "price": 3350,
+    "discountedprice": 2345,
     "status": "Available"
   },
   {
     "productcode": "S0182",
     "name": "Silk Cotton Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0182.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0182.jpeg"
     ],
-    "description": "",
+    "description": "Cotton silk saree",
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
       "Party wear"
     ],
-    "price": "2500",
+    "price": 3350,
+    "discountedprice": 2345,
     "status": "Available"
   },
   {
