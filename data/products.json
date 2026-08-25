@@ -3156,7 +3156,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1650,
+    "price": 1950,
+    "discountedprice": 1365,
     "status": "Available"
   },
   {
@@ -3175,7 +3176,8 @@
       "Party wear",
       "Silk"
     ],
-    "price": 2290,
+    "price": 3200,
+    "discountedprice": 2240,
     "status": "Available"
   },
   {
