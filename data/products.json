@@ -2910,7 +2910,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1250,
+    "price": 2150,
+    "discountedprice": 1308,
     "status": "Available"
   },
   {
@@ -2929,7 +2930,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1270,
+    "price": 1870,
+    "discountedprice": 1302,
     "status": "Available"
   },
   {
@@ -2946,7 +2948,8 @@
       "Casual wear",
       "Cotton"
     ],
-    "price": 900,
+    "price": 1500,
+    "discountedprice": 750,
     "status": "Available"
   },
   {
@@ -2963,7 +2966,8 @@
       "Casual wear",
       "Cotton"
     ],
-    "price": 900,
+    "price": 1500,
+    "discountedprice": 750,
     "status": "Available"
   },
   {
@@ -2982,7 +2986,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 2100,
+    "price": 3100,
+    "discountedprice": 2015,
     "status": "Available"
   },
   {
@@ -3002,7 +3007,8 @@
       "Chanderi Silk",
       "Festive"
     ],
-    "price": 1350,
+    "price": 1850,
+    "discountedprice": 1202,
     "status": "Available"
   },
   {
@@ -3021,7 +3027,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1340,
+    "price": 1699,
+    "discountedprice": 1104,
     "status": "Available"
   },
   {
@@ -3040,7 +3047,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1340,
+    "price": 1699,
+    "discountedprice": 1104,
     "status": "Available"
   },
   {
@@ -3059,7 +3067,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1299,
+    "price": 1799,
+    "discountedprice": 1079,
     "status": "Available"
   },
   {
@@ -3078,7 +3087,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1250,
+    "price": 1850,
+    "discountedprice": 1295,
     "status": "Available"
   },
   {
@@ -3097,7 +3107,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 2100,
+    "price": 3100,
+    "discountedprice": 2015,
     "status": "Available"
   },
   {
