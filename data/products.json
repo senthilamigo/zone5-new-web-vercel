@@ -2724,12 +2724,11 @@
   },
   {
     "productcode": "S0185",
-    "name": "Premium Chanderi Silk Embroidery Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0185.jpeg",
+    "name": "Premium Chanderi Silk Embroidery Sare",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0185.jpeg"
     ],
-    "description": "",
+    "description": "Handmade Embroidery saree",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [
@@ -2737,17 +2736,17 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "4200",
+    "price": 6500,
+    "discountedprice": 4225,
     "status": "Available"
   },
   {
     "productcode": "S0190",
     "name": "Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0190.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0190.jpeg"
     ],
-    "description": "",
+    "description": "Matka silk saree",
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
@@ -2755,17 +2754,17 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "1850",
+    "price": 2200,
+    "discountedprice": 1540,
     "status": "Available"
   },
   {
     "productcode": "S0194",
     "name": "Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0194.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0194.jpeg"
     ],
-    "description": "",
+    "description": "Semi mulberry silk saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
@@ -2773,7 +2772,8 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "2000",
+    "price": 2600,
+    "discountedprice": 1820,
     "status": "Available"
   },
   {
@@ -2791,17 +2791,17 @@
       "Festive",
       "Work Wear"
     ],
-    "price": 2000,
+    "price": 2600,
+    "discountedprice": 1820,
     "status": "Available"
   },
   {
     "productcode": "S0197",
     "name": "Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0197.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0197.jpeg"
     ],
-    "description": "",
+    "description": "Semi mulberry silk saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
@@ -2809,17 +2809,17 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "2000",
+    "price": 2600,
+    "discountedprice": 1820,
     "status": "Available"
   },
   {
     "productcode": "S0198",
     "name": "Saree",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0198.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0198.jpeg"
     ],
-    "description": "",
+    "description": "Semi mulberry silk saree",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
@@ -2827,7 +2827,8 @@
       "Festive",
       "Work Wear"
     ],
-    "price": "2000",
+    "price": 2600,
+    "discountedprice": 1820,
     "status": "Available"
   },
   {
@@ -2845,7 +2846,8 @@
       "Festive",
       "Work Wear"
     ],
-    "price": 2000,
+    "price": 2600,
+    "discountedprice": 1820,
     "status": "Available"
   },
   {
@@ -2866,7 +2868,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1230,
+    "price": 1500,
+    "discountedprice": 1000,
     "status": "Available"
   },
   {
@@ -2887,7 +2890,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1230,
+    "price": 1500,
+    "discountedprice": 1000,
     "status": "Available"
   },
   {
