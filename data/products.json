@@ -3116,7 +3116,8 @@
       "Cotton",
       "Casual"
     ],
-    "price": 1100,
+    "price": 1500,
+    "discountedprice": 1050,
     "status": "Available"
   },
   {
@@ -3135,7 +3136,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 1100,
+    "price": 1500,
+    "discountedprice": 1050,
     "status": "Available"
   },
   {
