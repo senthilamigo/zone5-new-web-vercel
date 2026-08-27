@@ -287,7 +287,7 @@ function renderRelatedProducts() {
                 </h3>
 
                 <span class="text-lg font-bold text-yellow-600">
-                    ₹${price.toLocaleString('en-IN')}
+                     
                 </span>
 
             </div>
