@@ -15,7 +15,7 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 2000,
+    "price": 2800,
     "discountedprice": 1400,
     "status": "Available"
   },
@@ -35,8 +35,8 @@
       "Traditional wear",
       "Cotton"
     ],
-    "price": 2100,
-    "discountedprice": 1260,
+    "price": 2200,
+    "discountedprice": 1250,
     "status": "Available"
   },
   {
