@@ -13,7 +13,8 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
     "price": 2800,
     "discountedprice": 1400,
@@ -33,7 +34,8 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
     "price": 2200,
     "discountedprice": 1250,
@@ -53,10 +55,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1900,
-    "discountedprice": 1140,
+    "price": 2600,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -72,10 +75,11 @@
       "New Arrival",
       "Festive Saree",
       "Party Wear",
-      "Casual"
+      "Casual",
+      "sale"
     ],
-    "price": 2250,
-    "discountedprice": 1350,
+    "price": 3000,
+    "discountedprice": 1500,
     "status": "Available"
   },
   {
@@ -91,10 +95,11 @@
       "New Arrival",
       "Festive Saree",
       "Party Wear",
-      "Casual"
+      "Casual",
+      "sale"
     ],
-    "price": 2250,
-    "discountedprice": 1350,
+    "price": 3000,
+    "discountedprice": 1500,
     "status": "Available"
   },
   {
@@ -106,7 +111,9 @@
     "description": "✨ Lightweight soft tissue fabric with a gentle natural sheen, featuring a warm golden-beige base. Designed with delicate multicolour translucent leaf motifs—scattered lightly across the body with a bold leaf cluster near the pallu—finished with a simple woven tissue border for a clean, refined look.\n🧵 Highlights:\n* Beautiful oversized floral pattern\n* Sophisticated muted gold shine\n* Easy to carry, non-bulky & elegant\n🧼 Care:\n* Dry clean recommended\n* Store in a soft muslin cloth to maintain shine\nNote: Slight shade variation may occur due to screen resolution and photography lighting.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
+    "tags": [
+      "sale"
+    ],
     "price": 2190,
     "discountedprice": 1095,
     "status": "Available"
@@ -122,9 +129,10 @@
     "subcategory": "Festive Sarees",
     "tags": [
       "Sale",
-      "Semi Crepe"
+      "Semi Crepe",
+      "sale"
     ],
-    "price": 1950,
+    "price": 2300,
     "discountedprice": 1170,
     "status": "Available"
   },
@@ -139,9 +147,10 @@
     "subcategory": "Festive Sarees",
     "tags": [
       "Sale",
-      "Semi Crepe"
+      "Semi Crepe",
+      "sale"
     ],
-    "price": 1950,
+    "price": 2300,
     "discountedprice": 1170,
     "status": "Available"
   },
@@ -155,10 +164,11 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
-    "price": 2199,
-    "discountedprice": 1319,
+    "price": 2600,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -171,7 +181,8 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
     "price": 1699,
     "discountedprice": 849,
@@ -187,7 +198,8 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
     "price": 1699,
     "discountedprice": 849,
@@ -202,9 +214,11 @@
     "description": "🌸 Tussar Cotton Blend Saree – Plum Checks Edition 🌸\n✨ Fabric: Premium Tussar–Cotton Blend\n✨ Design: Subtle checkered weave with cream traditional motifs\n✨ Color: Deep plum-purple body with contrast beige tussar border\n✨ Texture: Natural tussar slub with a soft sheen\n⸻\n⭐ Highlights\n* Lightweight & breathable\n* Minimal, elegant traditional motifs\n* Soft drape with a refined tussar shine\n* Perfect for office, small functions & everyday elegance\n⸻\n💫 Look & Feel\n* Sophisticated, neat & classy\n* Smooth finish with natural textured feel\n* Drapes effortlessly\n⸻\n🧵 Care Instructions\n* Dry clean or mild hand wash\n* Iron on low heat\n* Store in a cool, dry place",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 2800,
-    "discountedprice": 1680,
+    "tags": [
+      "sale"
+    ],
+    "price": 3800,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -216,9 +230,11 @@
     "description": "🌸 Tussar Cotton Blend Saree – Rose Plum Checks 🌸\n✨ Fabric: Soft Tussar–Cotton Blend\n✨ Color: Rose-plum body with subtle golden check lines\n✨ Design: Tone-on-tone circular motifs placed elegantly across the saree\n✨ Border: Classic beige tussar border with natural slub texture\n✨ Blouse: Matching running blouse\n⭐ Highlights\n* Lightweight & breathable\n* Elegant motif placement\n* Soft sheen with a rich tussar texture\n* Perfect for office, casual functions & gifting\n🧵 Care: Mild wash / Dry clean recommended",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 2800,
-    "discountedprice": 1680,
+    "tags": [
+      "sale"
+    ],
+    "price": 3800,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -230,9 +246,11 @@
     "description": "Title: Elegant Olive-Grey Tussar Cotton Blend Saree 🌿\nDescription:\nElevate your daily wear with this sophisticated Tussar Cotton blend saree. The perfect marriage of Tussar's rich texture and Cotton's breathable comfort.\n* Fabric: Premium Tussar Cotton Blend – lightweight and easy to drape.\n* Design: Features a subtle woven grid pattern adorned with large, artistic white block-print motifs.\n* Color: A muted, earthy Olive-Grey that suits every skin tone.\n* Details: Finished with a delicate floral border print for a graceful look.\n⭐ Highlights\n* Lightweight & breathable\n* Elegant motif placement\n* Soft sheen with a rich tussar texture\n* Perfect for office, casual functions & gifting\n💫 Look & Feel\n* Sophisticated, neat & classy\n* Smooth finish with natural textured feel\n* Drapes effortlessly\n🧵 Care Instructions\n* Dry clean or mild hand wash\n* Iron on low heat\n* Store in a cool, dry place",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 2800,
-    "discountedprice": 1680,
+    "tags": [
+      "sale"
+    ],
+    "price": 3800,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -244,9 +262,11 @@
     "description": "Tussar Cotton Saree with Sage Border 💙\nDetails:\n* Fabric: Premium Tussar Cotton Blend. Lightweight, breathable, excellent drape.\n* Design: Classic woven checks with striking white block-print motifs (Paisley/Floral).\n* Color Palette: Serene Slate Blue (Greyish-Teal) body and a contrasting Sage Green border.\n* Look: Professional elegance. Holds shape for a crisp look.\n* Occasion: Ideal for Workwear, Board Meetings, and Formal Day Events.\n⭐ Highlights\n* Lightweight & breathable\n* Minimal, elegant traditional motifs\n* Soft drape with a refined tussar shine\n* Perfect for office, small functions & everyday elegance\n⸻\n💫 Look & Feel\n* Sophisticated, neat & classy\n* Smooth finish with natural textured feel\n* Drapes effortlessly\n⸻\n🧵 Care Instructions\n* Dry clean or mild hand wash\n* Iron on low heat\n* Store in a cool, dry place",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 2800,
-    "discountedprice": 1680,
+    "tags": [
+      "sale"
+    ],
+    "price": 3800,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -258,9 +278,11 @@
     "description": "Artistic Slate Tussar Cotton Saree 🌿\n* Fabric: Premium Tussar Cotton Blend. Crisp, breathable, and drapes well.\n* Design: Features a subtle woven check pattern with striking white block-print motifs (Paisley/Floral).\n* Color Palette: A cool Slate Blue/Teal body with a contrasting Sage Green border.\n* Look: Modern workwear elegance.\n* Occasion: Office, formal day events, or professional settings.\n⭐ Highlights\n* Lightweight & breathable\n* Minimal, elegant traditional motifs\n* Soft drape with a refined tussar shine\n* Perfect for office, small functions & everyday elegance\n⸻\n💫 Look & Feel\n* Sophisticated, neat & classy\n* Smooth finish with natural textured feel\n* Drapes effortlessly\n⸻\n🧵 Care Instructions\n* Dry clean or mild hand wash\n* Iron on low heat\n* Store in a cool, dry place",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
-    "price": 2800,
-    "discountedprice": 1680,
+    "tags": [
+      "sale"
+    ],
+    "price": 3800,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -273,10 +295,11 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 1188,
+    "price": 2200,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -289,10 +312,11 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 1188,
+    "price": 2200,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -305,10 +329,11 @@
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 1188,
+    "price": 2200,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -321,10 +346,11 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 1188,
+    "price": 2200,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -337,10 +363,11 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 1188,
+    "price": 2200,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -353,10 +380,11 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 1188,
+    "price": 2200,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -370,7 +398,8 @@
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Office wear",
-      "Casual wear"
+      "Casual wear",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -387,7 +416,8 @@
     "subcategory": "Casual Sarees",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -404,7 +434,8 @@
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -421,7 +452,8 @@
     "subcategory": "Casual Sarees",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -438,7 +470,8 @@
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -455,7 +488,8 @@
     "subcategory": "Casual Sarees",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -472,7 +506,8 @@
     "subcategory": "Casual Sarees",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -489,7 +524,8 @@
     "subcategory": "Casual Sarees",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -504,9 +540,11 @@
     "description": "🌾✨ Premium Linen Saree - Golden Weave Edition ✨🌾\n✨ Fabric: Luxurious Premium Linen (Crisp texture, breathable, slight sheen)\n✨ Design: Minimalist design with a natural textured self-weave and simple, spaced-out diamond/floral butti motifs.\n✨ Color: Elegant Natural Beige/Cream tone.\n✨ Pallu/Border Accent: The pallu features bold, bright floral or abstract digital print elements (visible near the elephant).\n✨ Border: Broad, solid Rich Gold Zari woven border.\n⭐ Key Features:\n* High-quality, comfortable linen fabric.\n* Timeless, sophisticated, minimalist look.\n* Rich Zari border provides a luxurious and festive finish.\n* Ideal for: Office wear, formal daytime events, and cultural occasions.\n💗 Feel: Crisp • Structured • Light\n🧵 Care: Dry clean or gentle hand wash recommended",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
+    "tags": [
+      "sale"
+    ],
     "price": 2399,
-    "discountedprice": 1179,
+    "discountedprice": 1199,
     "status": "Available"
   },
   {
@@ -519,7 +557,8 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
     "price": 1800,
     "discountedprice": 900,
@@ -535,8 +574,12 @@
     "description": "🌿 Soft Mixed Cotton Suit – Grey Elegance 🌿\n✨ Fabric\n* 80% soft cotton, 20% blended fibre\n* Lightweight, breathable & skin-friendly\n✨ Design & Pattern\n* Grey base with peach–ivory–teal floral motifs\n* Ajrakh-inspired borders & geometric detailing\n* Coordinated printed bottom for a complete set\n* Soft ivory mixed-cotton dupatta for a classy finish\n✨ Set Includes\n* Top: Printed soft-mixed cotton\n* Bottom: Matching printed pattern\n* Dupatta: Solid ivory mixed cotton\n✨ Look & Feel\n* Elegant • Office-friendly • Neat & rich ethnic styling\n🧼 Care\n* Hand wash recommended\n* Mild detergent only\n* Dry in shade\n* Wash once before stitching",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "799",
+    "tags": [
+      "Sale",
+      "sale"
+    ],
+    "price": 1500,
+    "discountedprice": 799,
     "status": "Available"
   },
   {
@@ -549,8 +592,12 @@
     "description": "💖✨ Premium Katan Silk Suit Material - Magenta Block Print ✨💖\n✨ Fabric: Premium Cotton Blend (Comfortable, breathable, and retains structure)\n✨ Design: Traditional Batik/Block Print style featuring intricate white patterns:\n* Kurta: Dense floral/geometric motifs.\n* Dupatta/Scarf: Large central motifs with patterned borders.\n* Bottom: Solid color (as implied by the matching plain fabric).\n✨ Color: Bold and festive Magenta/Rani Pink with Crisp White print details.\n✨ Dupatta: Full patterned design with distinct borders (Unstitched).\n⭐ Key Features:\n* High-quality cotton blend material is comfortable for all-day wear.\n* Eye-catching and traditional block print design.\n* Includes ample fabric for kurta, bottom, and dupatta (Unstitched set).\n* Ideal for: Festive wear, cultural events, and vibrant daily wear.\n💗 Feel: Soft • Breathable • Structured\n🧵 Care: Gentle hand wash or dry clean recommended",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1600",
+    "tags": [
+      "Sale",
+      "sale"
+    ],
+    "price": 2600,
+    "discountedprice": 1600,
     "status": "Available"
   },
   {
@@ -562,7 +609,10 @@
     "description": "🌿 Semi Linen Saree 🌿\n✨ Fabric: Semi Linen\n✨ Colour: Earthy Olive Brown\n✨ Design: Elegant floral prints in soft pink and coral tones with leafy green accents\n✨ Border & Pallu: Subtle silver-grey woven border and pallu with tassel detailing\n✨ Texture: Lightweight, breathable & naturally textured\n✨ Drape: Comfortable with a graceful fall\n👗 Occasion:\nIdeal for office wear, casual outings, festive daytime events & elegant everyday styling\n🧼 Care Instructions:\n* Gentle hand wash or dry clean\n* Use mild detergent\n* Dry in shade\n📌 Note:\nBlouse piece included. Colour may slightly vary due to lighting and screen resolution.",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
+    "tags": [
+      "Sale",
+      "sale"
+    ],
     "price": 1400,
     "discountedprice": 630,
     "status": "Available"
@@ -579,10 +629,12 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
-      "Pure Cotton"
+      "Pure Cotton",
+      "Sale",
+      "sale"
     ],
-    "price": 1999,
-    "discountedprice": 1199,
+    "price": 2100,
+    "discountedprice": 1260,
     "status": "Available"
   },
   {
@@ -595,8 +647,12 @@
     "description": "✨ Grand Festive Salwar Material – Premium Collection ✨\nFabric: Premium festive salwar material\nColor: Rich deep magenta / wine pink\nDesign & Work:\n• Beautifully detailed embroidery on the kurta panel with intricate floral and traditional motifs\n• Elegant neckline embroidery giving a royal, festive appeal\n• Dupatta adorned with delicate buttas all over and a richly embroidered scalloped border\n• Fine craftsmanship that reflects luxury and sophistication\nLook & Feel:\n• Grand, premium finish with a soft yet rich texture\n• Drapes beautifully and feels elegant on wear\nOccasion:\nPerfect for festivals, weddings, poojas, family functions, and special celebrations\nStyle Tip:\nPair with statement earrings and minimal makeup for a classy festive look 🌸",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1400",
+    "tags": [
+      "Sale",
+      "sale"
+    ],
+    "price": 2600,
+    "discountedprice": 1300,
     "status": "Available"
   },
   {
@@ -609,8 +665,12 @@
     "description": "✨ NEW ARRIVAL: Premium Festive Silk Collection ✨\n🌸 Product Details:\n* Fabric: Premium Raw Silk / Viscose Silk (Rich texture with a subtle festive glow).\n* Color: Deep Royal Wine / Eggplant Purple.\n* Work: Heavy Hand-embroidered Zardosi & Sequin work on the neckline.\n* Sleeves: Beautifully scalloped borders with intricate floral vine embroidery.\n* Dupatta: Matching silk/chiffon with delicate hand-worked ‘butis’.\n* Style: Straight-cut Kurta with a heavy designer neckline.\n🌟 Why You’ll Love It:\n* Statement Neckline: Intricate silver-tone work that acts as built-in jewelry.\n* Premium Feel: High-quality fabric that offers a structured, slim-fit look.\n* Versatile: Perfect for Weddings, Eid, Diwali, or Grand Receptions.",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1400",
+    "tags": [
+      "Sale",
+      "sale"
+    ],
+    "price": 2600,
+    "discountedprice": 1300,
     "status": "Available"
   },
   {
@@ -622,7 +682,10 @@
     "description": "✨ Printed Tussar Silk Saree ✨\nFabric: Printed Tussar Silk\nColor: Soft rose pink base\nTexture: Natural tussar texture with a rich, slightly raw silk feel\nDesign: Elegant all-over floral and leafy vine prints\nMotifs: Artistic floral patterns in muted teal, olive & earthy tones\nBorder: Subtle zari-woven border adding a refined traditional touch\nPallu: Graceful pallu with coordinated zari finish\nLook & Feel: Rich, classy, and lightweight with a natural silk drape\nOccasion: Festive wear, cultural events, office functions, elegant day wear\nBlouse: Running blouse piece included\nNote: Color may slightly vary due to lighting and screen resolution.;",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
+    "tags": [
+      "Sale",
+      "sale"
+    ],
     "price": 2800,
     "discountedprice": 1960,
     "status": "Available"
@@ -636,7 +699,10 @@
     "description": "✨ Printed Tussar Silk Saree ✨\nFabric: Printed Tussar Silk\nColor: Serene sky blue with teal undertones\nTexture: Natural tussar texture with a soft, slightly raw silk feel\nDesign: All-over floral and leafy vine prints\nMotifs: Elegant floral patterns in teal, grey & earthy shades\nBorder: Rich silver zari woven border with intricate traditional detailing\nPallu: Graceful pallu with coordinated zari finish\nLook & Feel: Elegant, lightweight, and rich with a beautiful fall\nOccasion: Festive wear, office functions, cultural events, day celebrations\nBlouse: Running blouse piece included\nNote: Color may slightly vary due to lighting and screen resolution.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
+    "tags": [
+      "Sale",
+      "sale"
+    ],
     "price": 2800,
     "discountedprice": 1960,
     "status": "Available"
@@ -651,8 +717,12 @@
     "description": "✨ NEW ARRIVAL: Royal Maroon Hand-Worked Silk Set ✨\n🌸 Product Details:\n* Fabric: Premium Silk / Chanderi Silk (Luxurious feel and breathable comfort).\n* Color: Rich Maroon / Deep Crimson Red.\n* Work: Intricate Gota Patti, multi-color stone work, and Zardosi embroidery.\n* Dupatta: Sheer Organza/Net with designer scalloped edges and embroidered butis.\n* Style: Straight-fit Kurta with a heavy festive neckline and motif-adorned body.\n🌟 Why You’ll Love It:\n* Vibrant Details: The neckline features pops of color that bring life to the classic maroon base.\n* Regal Dupatta: The heavy border on the dupatta ensures a grand look from every angle.\n* Classic Elegance: A heritage color palette that never goes out of style for Indian festivities.",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1050",
+    "tags": [
+      "Sale",
+      "sale"
+    ],
+    "price": 2100,
+    "discountedprice": 1050,
     "status": "Available"
   },
   {
@@ -668,10 +738,11 @@
     "tags": [
       "Festive",
       "Silk Saree",
-      "Sale"
+      "Sale",
+      "sale"
     ],
     "price": 8999,
-    "discountedprice": 4499.5,
+    "discountedprice": 4500,
     "status": "Available"
   },
   {
@@ -687,10 +758,11 @@
     "tags": [
       "Festive",
       "Silk Saree",
-      "Sale"
+      "Sale",
+      "sale"
     ],
     "price": 8999,
-    "discountedprice": 4499.5,
+    "discountedprice": 4500,
     "status": "Available"
   },
   {
@@ -702,9 +774,12 @@
     "description": "✨ Pure Tussar Silk Saree ✨\nFabric: Pure Tussar Silk\nColor: Elegant Rani Pink / Rose Magenta\nDesign: Beautifully woven traditional deer motifs spread across the body, adding a classic ethnic charm\nBorder: Rich zari-woven border with intricate traditional pattern\nPallu: Matching pallu with refined zari detailing\nTexture: Signature Tussar silk texture with a natural sheen and lightweight drape\nOccasion: Festive wear | Traditional functions | Temple wear | Day celebrations\nSpecial Feature: Breathable, graceful, and timeless Tussar silk with heritage-inspired motifs\nA graceful saree that reflects tradition, elegance, and understated luxury 🌸",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
+    "tags": [
+      "Sale",
+      "sale"
+    ],
     "price": 2800,
-    "discountedprice": 1770,
+    "discountedprice": 1850,
     "status": "Available"
   },
   {
@@ -719,10 +794,12 @@
     "tags": [
       "Festive",
       "Elegant",
-      "Classy"
+      "Classy",
+      "Sale",
+      "sale"
     ],
     "price": 2800,
-    "discountedprice": 1770,
+    "discountedprice": 1850,
     "status": "Available"
   },
   {
@@ -735,7 +812,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -751,7 +829,8 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
     "price": 1600,
     "discountedprice": 800,
@@ -767,10 +846,12 @@
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
     "tags": [
-      "Summer"
+      "Summer",
+      "Sale",
+      "sale"
     ],
-    "price": 1750,
-    "discountedprice": 1137,
+    "price": 1900,
+    "discountedprice": 1150,
     "status": "Available"
   },
   {
@@ -782,9 +863,12 @@
     "description": "* Product: semi silk Cotton Traditional Saree\n* Fabric: semi silk Cotton for maximum breathability and all-day comfort\n* Body Design: Features a classic micro-checkered (grid) pattern throughout the body\n* Border Motifs: * Blue Saree: Traditional forest green Paisley (Manga) motifs on a silver-grey band\n* Pink Saree: Elegant magenta Peacock motifs on a light pink contrast band\n* Zari Work: Rich antique golden zari border for a sophisticated finish\n* Texture: Lightweight with a slightly crisp finish, making it easy to drape and hold pleats\n* Occasion: Perfect for formal office wear, daily use, or semi-formal social gatherings",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": 2200,
-    "discountedprice": 1540,
+    "tags": [
+      "Sale",
+      "sale"
+    ],
+    "price": 2300,
+    "discountedprice": 1600,
     "status": "Available"
   },
   {
@@ -796,9 +880,12 @@
     "description": "Steel Blue Cotton Saree in points:\n* Fabric: Premium quality Cotton, offering a lightweight and breathable feel suitable for long hours of wear.\n* Color: A sophisticated and serene Steel Blue monochrome shade.\n* Body Design: The body features a subtle, self-textured horizontal stripe pattern.\n* Motifs: Adorned with delicate, woven geometric buttas (diamond/square shapes) spread symmetrically across the fabric.\n* Border/Pallu: Simple and elegant with thin, woven horizontal line detailing.\n* Finishing: The pallu is finished with traditional hand-knotted tassels for an added touch of charm.\n* Style: Minimalist, modern, and professional.\n* Occasion: An excellent choice for office wear, formal meetings, or daytime social gatherings.",
     "category": "Saree",
     "subcategory": "Party Wear Sarees",
-    "tags": [],
-    "price": 2200,
-    "discountedprice": 1100,
+    "tags": [
+      "Sale",
+      "sale"
+    ],
+    "price": 2300,
+    "discountedprice": 1260,
     "status": "Available"
   },
   {
@@ -810,9 +897,12 @@
     "description": "This is a vibrant and elegant pure cotton saree in shades of pink, featuring traditional motifs and a classic layout.\nDesign & Pattern\n* Body: The main body comes in a soft coral pink shade with a subtle grid (checkered) pattern woven throughout.\n* Border Panel: A horizontal band in a lighter pink hue features intricate peacock motifs rendered in a deep magenta/fuchsia pink.\n* Main Border: The saree is finished with a bold, golden zari border flanked by magenta stripes, adding a touch of festive richness.\nColor Palette\n* Primary Color: Coral Pink.\n* Secondary Colors: Magenta (motifs and border edges) and Antique Gold (zari).\nFabric Features\n* Material: Made from pure cotton, ensuring the garment is highly breathable and comfortable for long durations.\n* Texture: The fabric appears to have a slightly crisp, structured quality, making it easier to achieve neat, sharp pleats.\nStyling Tips\n* Blouse: Pair it with a solid magenta blouse to highlight the peacock motifs, or a gold blouse for a more formal look.\n* Occasion: Ideal for daytime events, traditional gatherings, or as elegant office wear.",
     "category": "Saree",
     "subcategory": "Casual Sarees",
-    "tags": [],
+    "tags": [
+      "Sale",
+      "sale"
+    ],
     "price": 1600,
-    "discountedprice": 800,
+    "discountedprice": 1000,
     "status": "Available"
   },
   {
@@ -824,9 +914,12 @@
     "description": "Cotton Saree \n* Product Name: Traditional Pure Cotton Saree\n* Fabric: 100% Pure Cotton—breathable, lightweight, and skin-friendly for all-day comfort\n* Body Design: Features a sophisticated micro-checkered (grid) pattern in a muted lavender-blue hue\n* Motif Panel: Decorated with a horizontal band of traditional forest green Paisley (Manga) motifs\n* Zari Work: Finished with a thick, shimmering golden zari border at the bottom hem for a touch of elegance\n* Texture: Naturally crisp and structured, making it easy to achieve sharp, neat pleats\n* Occasion: Ideal for professional office wear, daytime formal meetings, or semi-formal social events",
     "category": "Saree",
     "subcategory": "Office Wear Sarees",
-    "tags": [],
+    "tags": [
+      "Sale",
+      "sale"
+    ],
     "price": 2300,
-    "discountedprice": 1150,
+    "discountedprice": 1250,
     "status": "Available"
   },
   {
@@ -838,9 +931,12 @@
     "description": "silk cotton saree \n* Fabric: A high-quality silk cotton blend, combining the natural luster of silk with the lightweight breathability of cotton.\n* Body Design: Features a rich teal (peacock blue) base adorned with evenly spaced silver floral buttis (small bouquet motifs).\n* Pallu/Border: Contrasted with a deep purple/wine-colored section that displays intricate, dense silver floral vine and geometric weaving.\n* Finishing: Includes dark thread tassels at the edge of the pallu for a traditional, polished look.\n* Zari Work: Utilizes silver zari for all the motifs and borders, giving the garment a cool, elegant sheen.\n* Texture: The fabric appears crisp yet smooth, allowing it to drape elegantly while maintaining a structured appearance.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
-    "price": 2100,
-    "discountedprice": 1470,
+    "tags": [
+      "Sale",
+      "sale"
+    ],
+    "price": 2350,
+    "discountedprice": 1650,
     "status": "Available"
   },
   {
@@ -852,9 +948,11 @@
     "description": "silk cotton saree \n* Fabric Blend: Crafted from a blend of silk and cotton fibers, combining the finest qualities of both materials into a single textile.\n* Lustrous Texture: Features a subtle, natural sheen derived from the silk content, offering a more luxurious appearance than pure matte cotton.\n* Breathability: Retains the airy and breathable nature of cotton, making it comfortable for long hours of wear and suitable for various climates.\n* Lightweight Feel: Known for being lightweight and easy to carry, reducing the heaviness often associated with pure silk sarees.\n* Structured Drape: Provides a strong and graceful drape that is less prone to excessive wrinkling compared to pure cotton.\n* All-Season Wear: Acts as a versatile, all-weather fabric that helps regulate body temperature, keeping the wearer cool in summer and comfortable in cooler months.\n* Durability: The hybrid weave creates an inherently strong fabric that is resilient and holds its shape well over time.\n* Versatility: Ideal for a wide range of occasions, from formal office settings to festive gatherings and celebrations.",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
+    "tags": [
+      "sale"
+    ],
     "price": 2900,
-    "discountedprice": 1740,
+    "discountedprice": 1800,
     "status": "Available"
   },
   {
@@ -867,10 +965,11 @@
     "category": "Saree",
     "subcategory": "Festive Sarees",
     "tags": [
-      "Sale"
+      "Sale",
+      "sale"
     ],
     "price": 1900,
-    "discountedprice": 950,
+    "discountedprice": 1100,
     "status": "Available"
   },
   {
@@ -883,9 +982,12 @@
     "description": "✨ NEW ARRIVAL: Earthy Forest & Maroon Cotton Set ✨\n🌸 Product Details:\n* Fabric: 100% Premium Cotton (Kurta, Pants, & Dupatta).\n* Color: Deep Forest Green with Maroon & Cream contrast.\n* Work: Traditional Block/Batik prints with delicate mirror-work embellishments on the front panel.\n* Dupatta: Printed cotton with designer gold tassel finish.\n* Style: Straight-cut kurta with a statement printed chest panel.\n🌟 Why You’ll Love It:\n* Breathable Luxury: Stay cool and comfortable without compromising on your festive style.\n* Artisanal Appeal: The timeless Batik-inspired prints give it a unique, handcrafted boutique feel.\n* Ready-to-Wear: Available in a comfortable XL size, perfectly stitched and ready for immediate dispatch.",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1090",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0054",
@@ -900,10 +1002,12 @@
       "Summer",
       "Cotton",
       "Office Wear",
-      "Casual"
+      "Casual",
+      "sale"
     ],
-    "price": 1080,
-    "status": "Available"
+    "price": 2160,
+    "status": "Available",
+    "discountedprice": 1080
   },
   {
     "productcode": "C0055",
@@ -918,10 +1022,12 @@
       "Summer",
       "Casual",
       "Office wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1080,
-    "status": "Available"
+    "price": 2160,
+    "status": "Available",
+    "discountedprice": 1080
   },
   {
     "productcode": "S0157",
@@ -932,9 +1038,11 @@
     "description": "✨ Cotton Silk Blend Saree ✨\nFabric: Cotton Silk Blend\nColor: Deep teal green\nDesign: Beautifully woven all-over geometric and diamond motifs that give a rich traditional look\nBorder: Classic contrast border with a subtle silk sheen, adding elegance and definition\nPallu: Neatly finished pallu with coordinated weave details\nTexture: Soft and breathable like cotton with a gentle silk finish for added grace\nLook & Feel: Elegant yet comfortable – suitable for office wear, festive occasions, and casual functions",
     "category": "Saree",
     "subcategory": "Festive Sarees",
-    "tags": [],
+    "tags": [
+      "sale"
+    ],
     "price": 1800,
-    "discountedprice": 1260,
+    "discountedprice": 1050,
     "status": "Available"
   },
   {
@@ -951,10 +1059,12 @@
       "Summer",
       "Casual",
       "Office wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1340,
-    "status": "Available"
+    "price": 2700,
+    "status": "Available",
+    "discountedprice": 1250
   },
   {
     "productcode": "C0059",
@@ -971,10 +1081,12 @@
       "Office wear",
       "Traditional wear",
       "Cotton",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1340,
-    "status": "Available"
+    "price": 2700,
+    "status": "Available",
+    "discountedprice": 1250
   },
   {
     "productcode": "C0060",
@@ -991,10 +1103,12 @@
       "Office wear",
       "Traditional wear",
       "Cotton",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1340,
-    "status": "Available"
+    "price": 2700,
+    "status": "Available",
+    "discountedprice": 1250
   },
   {
     "productcode": "C0061",
@@ -1006,9 +1120,12 @@
     "description": "Exquisite Cotton Salwar Material – Olive Green & Deep Red ✨\n(Referencing Image C0061.jpeg)\n* Fabric: Premium Quality Cotton with intricate detailing.\n* Color Palette: Sophisticated Olive Green paired with a vibrant Deep Red.\n* Kurta Details: * Olive green base featuring all-over heavy geometric embroidery.\n* Accented with colorful floral threadwork motifs for a feminine touch.\n* Elegant button-down neck panel with shimmering silver-toned buttons.\n* Dupatta Details: * Stunning dual-tone shaded (ombré) dupatta transitioning from olive green to red.\n* Highlighted with delicate horizontal silver-thread stripes for a subtle glint.\n* Bottom: Solid deep red cotton fabric for a bold and balanced finish.\n* Fabric Feel: Soft, durable, and breathable—perfect for all-day comfort.\n* Occasion: Ideal for festive gatherings, puja ceremonies, or semi-formal social events.\n* Style Tip: Pair with silver jhumkas and red bangles to highlight the intricate embroidery and ombré dupatta.",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1250",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 2600,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0063",
@@ -1020,9 +1137,12 @@
     "description": "Premium Silk Cotton – Emerald Green & Gold ✨\n* Fabric: High-grade Chanderi Silk Cotton with a rich, natural sheen.\n* Color Palette: Deep Emerald Green and Elegant Antique Gold.\n* Kurta Details:\n* Beautiful emerald green base with a soft, textured finish.\n* Adorned with delicate, all-over woven buttas (leaf-style motifs) in silver/gold thread.\n* Dupatta Details:\n* Contrasting antique gold and green dual-tone dupatta.\n* Features bold horizontal green stripes for a contemporary look.\n* Finished with traditional handcrafted black tassels at the edges.\n* Bottom: Matching solid antique gold fabric with a subtle shimmer.\n* Fabric Feel: Lightweight, luxurious, and breathable, offering a crisp and elegant silhouette.\n* Occasion: Perfect for festive celebrations, weddings, evening parties, or high-end formal events.\n* Style Tip: Pair with gold temple jewelry and a sleek hair bun to highlight the rich woven textures.",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1050",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0064",
@@ -1034,9 +1154,12 @@
     "description": "Premium Silk Cotton – Royal Blue & Gold ✨\n* Fabric: High-grade Chanderi Silk Cotton featuring a luxurious natural sheen.\n* Color Palette: Deep Royal Blue paired with Elegant Antique Gold.\n* Kurta Details: * Deep blue base with a refined textured finish.\n* Decorated with delicate, all-over woven silver-gold \"\"leaf\"\" butta motifs.\n* Dupatta Details: * Contrasting dual-tone dupatta in antique gold and royal blue.\n* Features bold blue horizontal panels and fine stripe detailing.\n* Finished with traditional handcrafted black tassels.\n* Bottom: Coordinated solid antique gold fabric with a subtle shimmer.\n* Fabric Feel: Lightweight, airy, and structured, providing a sophisticated silhouette.\n* Occasion: Perfect for weddings, festive celebrations, evening parties, or high-end formal gatherings.\n* Style Tip: Complete the look with gold jhumkas and a metallic clutch to highlight the rich woven textures.",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": [],
-    "price": "1050",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0069",
@@ -1049,9 +1172,10 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
-      "Sale"
+      "Sale",
+      "sale"
     ],
-    "price": 1360,
+    "price": 2600,
     "discountedprice": 1200,
     "status": "Available"
   },
@@ -1066,10 +1190,12 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
-      "Festive"
+      "Festive",
+      "sale"
     ],
-    "price": "1250",
-    "status": "Available"
+    "price": 2899,
+    "status": "Available",
+    "discountedprice": 1250
   },
   {
     "productcode": "C0074",
@@ -1083,10 +1209,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "690",
-    "status": "Available"
+    "price": 1500,
+    "status": "Available",
+    "discountedprice": 690
   },
   {
     "productcode": "C0076",
@@ -1100,10 +1228,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "690",
-    "status": "Available"
+    "price": 1500,
+    "status": "Available",
+    "discountedprice": 690
   },
   {
     "productcode": "C0078",
@@ -1117,10 +1247,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "690",
-    "status": "Available"
+    "price": 1500,
+    "status": "Available",
+    "discountedprice": 690
   },
   {
     "productcode": "C0079",
@@ -1134,10 +1266,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "690",
-    "status": "Available"
+    "price": 1500,
+    "status": "Available",
+    "discountedprice": 690
   },
   {
     "productcode": "C0081",
@@ -1151,10 +1285,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "690",
-    "status": "Available"
+    "price": 1500,
+    "status": "Available",
+    "discountedprice": 690
   },
   {
     "productcode": "C0085",
@@ -1168,10 +1304,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "690",
-    "status": "Available"
+    "price": 1500,
+    "status": "Available",
+    "discountedprice": 690
   },
   {
     "productcode": "C0086",
@@ -1185,10 +1323,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1170",
-    "status": "Available"
+    "price": 2399,
+    "status": "Available",
+    "discountedprice": 1170
   },
   {
     "productcode": "C0087",
@@ -1202,10 +1342,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1170",
-    "status": "Available"
+    "price": 2399,
+    "status": "Available",
+    "discountedprice": 1170
   },
   {
     "productcode": "C0088",
@@ -1219,10 +1361,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1170",
-    "status": "Available"
+    "price": 2399,
+    "status": "Available",
+    "discountedprice": 1170
   },
   {
     "productcode": "C0089",
@@ -1236,10 +1380,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1170",
-    "status": "Available"
+    "price": 2399,
+    "status": "Available",
+    "discountedprice": 1170
   },
   {
     "productcode": "C0091",
@@ -1253,10 +1399,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1150",
-    "status": "Available"
+    "price": 2500,
+    "status": "Available",
+    "discountedprice": 1150
   },
   {
     "productcode": "C0092",
@@ -1270,10 +1418,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1150",
-    "status": "Available"
+    "price": 2500,
+    "status": "Available",
+    "discountedprice": 1150
   },
   {
     "productcode": "C0093",
@@ -1287,10 +1437,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1150",
-    "status": "Available"
+    "price": 2500,
+    "status": "Available",
+    "discountedprice": 1150
   },
   {
     "productcode": "C0096",
@@ -1304,10 +1456,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 3000,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0097",
@@ -1321,10 +1475,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 3000,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0098",
@@ -1338,10 +1494,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 3000,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0099",
@@ -1355,10 +1513,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "695",
-    "status": "Available"
+    "price": 1350,
+    "status": "Available",
+    "discountedprice": 695
   },
   {
     "productcode": "C0100",
@@ -1372,10 +1532,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "695",
-    "status": "Available"
+    "price": 1350,
+    "status": "Available",
+    "discountedprice": 695
   },
   {
     "productcode": "C0102",
@@ -1389,10 +1551,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "695",
-    "status": "Available"
+    "price": 1350,
+    "status": "Available",
+    "discountedprice": 695
   },
   {
     "productcode": "C0103",
@@ -1406,10 +1570,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "695",
-    "status": "Available"
+    "price": 1350,
+    "status": "Available",
+    "discountedprice": 695
   },
   {
     "productcode": "C0115",
@@ -1423,10 +1589,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0116",
@@ -1440,10 +1608,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0117",
@@ -1457,10 +1627,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0118",
@@ -1474,10 +1646,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0121",
@@ -1491,10 +1665,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0123",
@@ -1508,10 +1684,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "960",
-    "status": "Available"
+    "price": 1800,
+    "status": "Available",
+    "discountedprice": 950
   },
   {
     "productcode": "C0124",
@@ -1525,10 +1703,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "960",
-    "status": "Available"
+    "price": 1800,
+    "status": "Available",
+    "discountedprice": 950
   },
   {
     "productcode": "C0125",
@@ -1542,10 +1722,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "975",
-    "status": "Available"
+    "price": 1850,
+    "status": "Available",
+    "discountedprice": 975
   },
   {
     "productcode": "C0126",
@@ -1557,9 +1739,12 @@
     "description": "",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Casual, Work Wear, Festive",
-    "price": "1340",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 2700,
+    "status": "Available",
+    "discountedprice": 1340
   },
   {
     "productcode": "C0131",
@@ -1573,10 +1758,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "880",
-    "status": "Available"
+    "price": 1600,
+    "status": "Available",
+    "discountedprice": 880
   },
   {
     "productcode": "C0132",
@@ -1590,10 +1777,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "880",
-    "status": "Available"
+    "price": 1600,
+    "status": "Available",
+    "discountedprice": 880
   },
   {
     "productcode": "C0133",
@@ -1606,10 +1795,12 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
-      "Festive"
+      "Festive",
+      "sale"
     ],
-    "price": "1260",
-    "status": "Available"
+    "price": 2600,
+    "status": "Available",
+    "discountedprice": 1260
   },
   {
     "productcode": "C0134",
@@ -1622,10 +1813,12 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
-      "Festive"
+      "Festive",
+      "sale"
     ],
-    "price": "1260",
-    "status": "Available"
+    "price": 2600,
+    "status": "Available",
+    "discountedprice": 1260
   },
   {
     "productcode": "C0135",
@@ -1638,10 +1831,12 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
-      "Festive"
+      "Festive",
+      "sale"
     ],
-    "price": "1260",
-    "status": "Available"
+    "price": 2600,
+    "status": "Available",
+    "discountedprice": 1260
   },
   {
     "productcode": "C0136",
@@ -1654,10 +1849,12 @@
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
-      "Festive"
+      "Festive",
+      "sale"
     ],
-    "price": "1260",
-    "status": "Available"
+    "price": 2600,
+    "status": "Available",
+    "discountedprice": 1260
   },
   {
     "productcode": "C0145",
@@ -1671,10 +1868,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0146",
@@ -1688,10 +1887,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0147",
@@ -1705,10 +1906,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0148",
@@ -1722,10 +1925,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0151",
@@ -1738,10 +1943,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": 2590,
-    "status": "Available"
+    "price": 4590,
+    "status": "Available",
+    "discountedprice": 2590
   },
   {
     "productcode": "C0161",
@@ -1755,10 +1962,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2200,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0162",
@@ -1772,10 +1981,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2200,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0163",
@@ -1789,10 +2000,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1050",
-    "status": "Available"
+    "price": 2200,
+    "status": "Available",
+    "discountedprice": 1050
   },
   {
     "productcode": "C0172",
@@ -1804,9 +2017,12 @@
     "description": "",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Party wear",
-    "price": "1280",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 2400,
+    "status": "Available",
+    "discountedprice": 1280
   },
   {
     "productcode": "C0173",
@@ -1818,9 +2034,12 @@
     "description": "",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Party wear",
-    "price": "1280",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 2400,
+    "status": "Available",
+    "discountedprice": 1280
   },
   {
     "productcode": "C0174",
@@ -1832,9 +2051,12 @@
     "description": "",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Party wear",
-    "price": "1280",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 2400,
+    "status": "Available",
+    "discountedprice": 1280
   },
   {
     "productcode": "C0176",
@@ -1846,9 +2068,12 @@
     "description": "",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Casual",
-    "price": "750",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 1400,
+    "status": "Available",
+    "discountedprice": 750
   },
   {
     "productcode": "C0177",
@@ -1860,9 +2085,12 @@
     "description": "",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Casual",
-    "price": "750",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 1400,
+    "status": "Available",
+    "discountedprice": 750
   },
   {
     "productcode": "C0179",
@@ -1874,9 +2102,12 @@
     "description": "",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
-    "tags": "Casual",
-    "price": "525",
-    "status": "Available"
+    "tags": [
+      "sale"
+    ],
+    "price": 1050,
+    "status": "Available",
+    "discountedprice": 525
   },
   {
     "productcode": "C0181",
@@ -1890,10 +2121,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "950",
-    "status": "Available"
+    "price": 1950,
+    "status": "Available",
+    "discountedprice": 950
   },
   {
     "productcode": "C0182",
@@ -1907,10 +2140,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "950",
-    "status": "Available"
+    "price": 1950,
+    "status": "Available",
+    "discountedprice": 950
   },
   {
     "productcode": "C0183",
@@ -1924,10 +2159,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1100,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1100
   },
   {
     "productcode": "C0184",
@@ -1941,10 +2178,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1100",
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1100
   },
   {
     "productcode": "C0185",
@@ -1958,10 +2197,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1100,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1100
   },
   {
     "productcode": "C0189",
@@ -1975,10 +2216,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "750",
-    "status": "Available"
+    "price": 1500,
+    "status": "Available",
+    "discountedprice": 750
   },
   {
     "productcode": "C0192",
@@ -1992,10 +2235,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1090",
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0193",
@@ -2009,10 +2254,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0197",
@@ -2026,10 +2273,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0198",
@@ -2043,10 +2292,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0200",
@@ -2060,10 +2311,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0204",
@@ -2077,10 +2330,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0205",
@@ -2094,10 +2349,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "S0160",
@@ -2111,10 +2368,11 @@
     "tags": [
       "Casual",
       "Office wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1800,
-    "discountedprice": 900,
+    "price": 1850,
+    "discountedprice": 925,
     "status": "Available"
   },
   {
@@ -2129,10 +2387,11 @@
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 990,
+    "price": 2200,
+    "discountedprice": 1100,
     "status": "Available"
   },
   {
@@ -2147,10 +2406,11 @@
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 990,
+    "price": 2200,
+    "discountedprice": 1100,
     "status": "Available"
   },
   {
@@ -2165,10 +2425,11 @@
     "subcategory": "Office Wear Sarees",
     "tags": [
       "Casual",
-      "Office wear"
+      "Office wear",
+      "sale"
     ],
-    "price": 1980,
-    "discountedprice": 990,
+    "price": 2200,
+    "discountedprice": 1100,
     "status": "Available"
   },
   {
@@ -2183,7 +2444,8 @@
     "tags": [
       "Casual",
       "Office wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
     "price": 1850,
     "discountedprice": 925,
@@ -2201,7 +2463,8 @@
     "tags": [
       "Casual",
       "Office wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
     "price": 1850,
     "discountedprice": 925,
@@ -2219,7 +2482,8 @@
     "tags": [
       "Casual",
       "Office wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
     "price": 1850,
     "discountedprice": 925,
@@ -2237,10 +2501,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0208",
@@ -2254,10 +2520,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0210",
@@ -2271,10 +2539,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0211",
@@ -2288,10 +2558,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0212",
@@ -2305,10 +2577,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0213",
@@ -2322,10 +2596,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0214",
@@ -2339,10 +2615,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0221",
@@ -2356,10 +2634,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0224",
@@ -2373,10 +2653,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1090,
-    "status": "Available"
+    "price": 2300,
+    "status": "Available",
+    "discountedprice": 1090
   },
   {
     "productcode": "C0230",
@@ -2390,10 +2672,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0231",
@@ -2407,10 +2691,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0233",
@@ -2424,10 +2710,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0234",
@@ -2441,10 +2729,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0235",
@@ -2458,10 +2748,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0238",
@@ -2475,10 +2767,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0239",
@@ -2492,10 +2786,12 @@
     "tags": [
       "Casual",
       "Work Wear",
-      "Summer"
+      "Summer",
+      "sale"
     ],
-    "price": 1200,
-    "status": "Available"
+    "price": 2490,
+    "status": "Available",
+    "discountedprice": 1200
   },
   {
     "productcode": "C0243",
@@ -2509,10 +2805,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
-      "Party wear"
+      "Party wear",
+      "sale"
     ],
-    "price": "3200",
-    "status": "Available"
+    "price": 4999,
+    "status": "Available",
+    "discountedprice": 2999
   },
   {
     "productcode": "C0244",
@@ -2526,10 +2824,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Festive",
-      "Party wear"
+      "Party wear",
+      "sale"
     ],
-    "price": 3200,
-    "status": "Available"
+    "price": 4999,
+    "status": "Available",
+    "discountedprice": 2999
   },
   {
     "productcode": "C0245",
@@ -2544,10 +2844,12 @@
     "tags": [
       "Casual",
       "Festive",
-      "Work wear"
+      "Work wear",
+      "sale"
     ],
-    "price": "1800",
-    "status": "Available"
+    "price": 2600,
+    "status": "Available",
+    "discountedprice": 1700
   },
   {
     "productcode": "C0247",
@@ -2562,10 +2864,12 @@
     "tags": [
       "Casual",
       "Festive",
-      "Work wear"
+      "Work wear",
+      "sale"
     ],
-    "price": "1800",
-    "status": "Available"
+    "price": 2600,
+    "status": "Available",
+    "discountedprice": 1700
   },
   {
     "productcode": "C0248",
@@ -2580,10 +2884,12 @@
     "tags": [
       "Casual",
       "Festive",
-      "Work wear"
+      "Work wear",
+      "sale"
     ],
-    "price": "1600",
-    "status": "Available"
+    "price": 2800,
+    "status": "Available",
+    "discountedprice": 1500
   },
   {
     "productcode": "C0249",
@@ -2598,10 +2904,12 @@
     "tags": [
       "Casual",
       "Festive",
-      "Work wear"
+      "Work wear",
+      "sale"
     ],
-    "price": "1600",
-    "status": "Available"
+    "price": 2800,
+    "status": "Available",
+    "discountedprice": 1500
   },
   {
     "productcode": "C0256",
@@ -2614,10 +2922,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Party wear",
-      "Festive"
+      "Festive",
+      "sale"
     ],
-    "price": 2300,
-    "status": "Available"
+    "price": 3800,
+    "status": "Available",
+    "discountedprice": 2300
   },
   {
     "productcode": "C0259",
@@ -2631,10 +2941,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1250",
-    "status": "Available"
+    "price": 2100,
+    "status": "Available",
+    "discountedprice": 1250
   },
   {
     "productcode": "C0263",
@@ -2648,10 +2960,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1300",
-    "status": "Available"
+    "price": 2600,
+    "status": "Available",
+    "discountedprice": 1300
   },
   {
     "productcode": "C0265",
@@ -2665,10 +2979,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1250",
-    "status": "Available"
+    "price": 2500,
+    "status": "Available",
+    "discountedprice": 1250
   },
   {
     "productcode": "C0269",
@@ -2682,10 +2998,12 @@
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "Casual",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": "1250",
-    "status": "Available"
+    "price": 2500,
+    "status": "Available",
+    "discountedprice": 1250
   },
   {
     "productcode": "S0181",
@@ -2699,10 +3017,11 @@
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
-      "Party wear"
+      "Party wear",
+      "sale"
     ],
-    "price": 3350,
-    "discountedprice": 2345,
+    "price": 3800,
+    "discountedprice": 2400,
     "status": "Available"
   },
   {
@@ -2716,10 +3035,11 @@
     "subcategory": "Festive Sarees",
     "tags": [
       "Festive",
-      "Party wear"
+      "Party wear",
+      "sale"
     ],
-    "price": 3350,
-    "discountedprice": 2345,
+    "price": 3800,
+    "discountedprice": 2400,
     "status": "Available"
   },
   {
@@ -2734,10 +3054,11 @@
     "tags": [
       "Party Wear",
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": 6500,
-    "discountedprice": 4225,
+    "price": 6400,
+    "discountedprice": 4200,
     "status": "Available"
   },
   {
@@ -2752,10 +3073,11 @@
     "tags": [
       "Party Wear",
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": 2200,
-    "discountedprice": 1540,
+    "price": 2900,
+    "discountedprice": 1850,
     "status": "Available"
   },
   {
@@ -2770,10 +3092,11 @@
     "tags": [
       "Party Wear",
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": 2600,
-    "discountedprice": 1820,
+    "price": 3200,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -2789,10 +3112,11 @@
     "tags": [
       "Party Wear",
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": 2600,
-    "discountedprice": 1820,
+    "price": 3200,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -2807,10 +3131,11 @@
     "tags": [
       "Party Wear",
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": 2600,
-    "discountedprice": 1820,
+    "price": 3200,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -2825,10 +3150,11 @@
     "tags": [
       "Party Wear",
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": 2600,
-    "discountedprice": 1820,
+    "price": 3200,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -2844,10 +3170,11 @@
     "tags": [
       "Party Wear",
       "Festive",
-      "Work Wear"
+      "Work Wear",
+      "sale"
     ],
-    "price": 2600,
-    "discountedprice": 1820,
+    "price": 3200,
+    "discountedprice": 1900,
     "status": "Available"
   },
   {
@@ -2866,10 +3193,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1500,
-    "discountedprice": 1000,
+    "price": 1930,
+    "discountedprice": 1230,
     "status": "Available"
   },
   {
@@ -2888,10 +3216,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1500,
-    "discountedprice": 1000,
+    "price": 1930,
+    "discountedprice": 1230,
     "status": "Available"
   },
   {
@@ -2908,10 +3237,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 2150,
-    "discountedprice": 1308,
+    "price": 2500,
+    "discountedprice": 1250,
     "status": "Available"
   },
   {
@@ -2928,10 +3258,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1870,
-    "discountedprice": 1302,
+    "price": 2540,
+    "discountedprice": 1270,
     "status": "Available"
   },
   {
@@ -2946,10 +3277,11 @@
     "tags": [
       "New Arrival",
       "Casual wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
     "price": 1500,
-    "discountedprice": 750,
+    "discountedprice": 900,
     "status": "Available"
   },
   {
@@ -2964,10 +3296,11 @@
     "tags": [
       "New Arrival",
       "Casual wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
     "price": 1500,
-    "discountedprice": 750,
+    "discountedprice": 900,
     "status": "Available"
   },
   {
@@ -2984,10 +3317,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 3100,
-    "discountedprice": 2015,
+    "price": 3200,
+    "discountedprice": 2100,
     "status": "Available"
   },
   {
@@ -3005,10 +3339,11 @@
       "Office wear",
       "Traditional wear",
       "Chanderi Silk",
-      "Festive"
+      "Festive",
+      "sale"
     ],
-    "price": 1850,
-    "discountedprice": 1202,
+    "price": 2700,
+    "discountedprice": 1350,
     "status": "Available"
   },
   {
@@ -3025,10 +3360,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1699,
-    "discountedprice": 1104,
+    "price": 2600,
+    "discountedprice": 1300,
     "status": "Available"
   },
   {
@@ -3045,10 +3381,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1699,
-    "discountedprice": 1104,
+    "price": 2600,
+    "discountedprice": 1300,
     "status": "Available"
   },
   {
@@ -3065,10 +3402,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1799,
-    "discountedprice": 1079,
+    "price": 2600,
+    "discountedprice": 1299,
     "status": "Available"
   },
   {
@@ -3085,10 +3423,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1850,
-    "discountedprice": 1295,
+    "price": 2500,
+    "discountedprice": 1250,
     "status": "Available"
   },
   {
@@ -3105,10 +3444,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 3100,
-    "discountedprice": 2015,
+    "price": 3300,
+    "discountedprice": 2100,
     "status": "Available"
   },
   {
@@ -3125,10 +3465,11 @@
       "Office wear",
       "Traditional wear",
       "Cotton",
-      "Casual"
+      "Casual",
+      "sale"
     ],
-    "price": 1500,
-    "discountedprice": 1050,
+    "price": 1700,
+    "discountedprice": 1100,
     "status": "Available"
   },
   {
@@ -3145,10 +3486,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1500,
-    "discountedprice": 1050,
+    "price": 1700,
+    "discountedprice": 1100,
     "status": "Available"
   },
   {
@@ -3165,10 +3507,11 @@
       "Formal wear",
       "Office wear",
       "Traditional wear",
-      "Cotton"
+      "Cotton",
+      "sale"
     ],
-    "price": 1950,
-    "discountedprice": 1365,
+    "price": 2600,
+    "discountedprice": 1600,
     "status": "Available"
   },
   {
@@ -3185,10 +3528,11 @@
       "Office wear",
       "Traditional wear",
       "Party wear",
-      "Silk"
+      "Silk",
+      "sale"
     ],
-    "price": 3200,
-    "discountedprice": 2240,
+    "price": 3300,
+    "discountedprice": 2290,
     "status": "Available"
   },
   {
@@ -3205,10 +3549,11 @@
       "Festive wear",
       "Office wear",
       "Traditional wear",
-      "Silk"
+      "Silk",
+      "sale"
     ],
-    "price": 1850,
-    "discountedprice": 1110,
+    "price": 2400,
+    "discountedprice": 1350,
     "status": "Available"
   },
   {
@@ -3225,10 +3570,11 @@
       "Festive wear",
       "Office wear",
       "Traditional wear",
-      "Silk"
+      "Silk",
+      "sale"
     ],
-    "price": 1850,
-    "discountedprice": 1110,
+    "price": 2400,
+    "discountedprice": 1350,
     "status": "Available"
   }
 ]
