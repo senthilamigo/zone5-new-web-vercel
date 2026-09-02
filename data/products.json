@@ -134,7 +134,7 @@
     ],
     "price": 2300,
     "discountedprice": 1170,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0029",
@@ -567,7 +567,6 @@
   {
     "productcode": "C0027",
     "name": "Soft Mixed Cotton Suit – Grey Elegance",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0027.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0027.jpeg"
     ],
@@ -580,7 +579,7 @@
     ],
     "price": 1500,
     "discountedprice": 799,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0002",
@@ -1006,8 +1005,8 @@
       "sale"
     ],
     "price": 2160,
-    "status": "Available",
-    "discountedprice": 1080
+    "discountedprice": 1080,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0055",
@@ -1219,7 +1218,6 @@
   {
     "productcode": "C0076",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0076.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0076.jpeg"
     ],
@@ -1232,13 +1230,12 @@
       "sale"
     ],
     "price": 1500,
-    "status": "Available",
-    "discountedprice": 690
+    "discountedprice": 690,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0078",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0078.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0078.jpeg"
     ],
@@ -1251,8 +1248,8 @@
       "sale"
     ],
     "price": 1500,
-    "status": "Available",
-    "discountedprice": 690
+    "discountedprice": 690,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0079",
@@ -1504,11 +1501,10 @@
   {
     "productcode": "C0099",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0099.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0099.jpeg"
     ],
-    "description": "",
+    "description": "Cotton material",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
@@ -1517,8 +1513,8 @@
       "sale"
     ],
     "price": 1350,
-    "status": "Available",
-    "discountedprice": 695
+    "discountedprice": 695,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0100",
@@ -2027,19 +2023,18 @@
   {
     "productcode": "C0173",
     "name": "Embroidery Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0173.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0173.jpeg"
     ],
-    "description": "",
+    "description": "Salwar material",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "sale"
     ],
     "price": 2400,
-    "status": "Available",
-    "discountedprice": 1280
+    "discountedprice": 1280,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0174",
@@ -2207,11 +2202,10 @@
   {
     "productcode": "C0189",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0189.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0189.jpeg"
     ],
-    "description": "",
+    "description": "Cotton material",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
@@ -2220,8 +2214,8 @@
       "sale"
     ],
     "price": 1500,
-    "status": "Available",
-    "discountedprice": 750
+    "discountedprice": 750,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0192",
@@ -3242,7 +3236,7 @@
     ],
     "price": 2500,
     "discountedprice": 1250,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "C0281",
