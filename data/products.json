@@ -1271,7 +1271,6 @@
   {
     "productcode": "C0081",
     "name": "Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0081.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0081.jpeg"
     ],
@@ -1284,8 +1283,8 @@
       "sale"
     ],
     "price": 1500,
-    "status": "Available",
-    "discountedprice": 690
+    "discountedprice": 690,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0085",
@@ -1474,8 +1473,8 @@
       "sale"
     ],
     "price": 3000,
-    "status": "Available",
-    "discountedprice": 1200
+    "discountedprice": 1200,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0098",
@@ -2323,8 +2322,8 @@
       "sale"
     ],
     "price": 2490,
-    "status": "Available",
-    "discountedprice": 1200
+    "discountedprice": 1200,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0205",
@@ -3067,7 +3066,7 @@
     ],
     "price": 2900,
     "discountedprice": 1850,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0194",
@@ -3164,7 +3163,7 @@
     ],
     "price": 3200,
     "discountedprice": 1900,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0209",
