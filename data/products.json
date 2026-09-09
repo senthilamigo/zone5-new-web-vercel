@@ -596,7 +596,7 @@
     ],
     "price": 2600,
     "discountedprice": 1600,
-    "status": "SoldOut"
+    "status": "Available"
   },
   {
     "productcode": "S0098",
@@ -3010,7 +3010,7 @@
     ],
     "price": 3800,
     "discountedprice": 2400,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0182",
