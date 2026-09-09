@@ -2068,19 +2068,18 @@
   {
     "productcode": "C0177",
     "name": "Rayon Cotton Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0177.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0177.jpeg"
     ],
-    "description": "",
+    "description": "Cotton",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
       "sale"
     ],
     "price": 1400,
-    "status": "Available",
-    "discountedprice": 750
+    "discountedprice": 750,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0179",
