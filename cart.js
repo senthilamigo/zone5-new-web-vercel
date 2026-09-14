@@ -29,7 +29,7 @@ function renderCart() {
     cartContent.classList.remove('hidden');
     emptyCart.classList.add('hidden');
 
-    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    const subtotal = cart.reduce((sum, item) => sum + (item.discountedprice * item.quantity), 0);
     const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : (SHIPPING_COST * cart.length);
     const total = subtotal + shipping;
 
@@ -71,8 +71,8 @@ function renderCart() {
                                 </div>
                             </div>
                             <div class="text-right">
-                                <p class="text-lg font-bold text-yellow-600">₹${(item.price * item.quantity).toLocaleString('en-IN')}</p>
-                                <p class="text-sm text-gray-500 mt-1">₹${item.price.toLocaleString('en-IN')} each</p>
+                                <p class="text-lg font-bold text-yellow-600">₹${(item.discountedprice * item.quantity).toLocaleString('en-IN')}</p>
+                                <p class="text-sm text-gray-500 mt-1">₹${item.discountedprice.toLocaleString('en-IN')} each</p>
                             </div>
                         </div>
                     `).join('')}
@@ -228,7 +228,7 @@ async function confirmCheckout() {
         minute: '2-digit'
     });
 
-    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    const subtotal = cart.reduce((sum, item) => sum + (item.discountedprice * item.quantity), 0);
     const shipping = subtotal >= SHIPPING_THRESHOLD ? 0 : (SHIPPING_COST * cart.length);
     const total = subtotal + shipping;
 
@@ -271,7 +271,7 @@ async function confirmCheckout() {
             ${cart.map(item => `
                 <div class="flex justify-between text-sm">
                     <span class="text-gray-700">${item.name} x ${item.quantity}</span>
-                    <span class="font-semibold text-gray-900">₹${(item.price * item.quantity).toLocaleString('en-IN')}</span>
+                    <span class="font-semibold text-gray-900">₹${(item.discountedprice * item.quantity).toLocaleString('en-IN')}</span>
                 </div>
             `).join('')}
         </div>
