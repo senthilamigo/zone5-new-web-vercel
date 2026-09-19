@@ -61,7 +61,7 @@
     ],
     "price": 2600,
     "discountedprice": 1299,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0239",
@@ -868,7 +868,7 @@
     ],
     "price": 2300,
     "discountedprice": 1600,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0134",
@@ -952,7 +952,7 @@
     ],
     "price": 2900,
     "discountedprice": 1800,
-    "status": "Available"
+    "status": "SoldOut"
   },
   {
     "productcode": "S0153",
@@ -1946,11 +1946,10 @@
   {
     "productcode": "C0161",
     "name": "Chikankari Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0161.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0161.jpeg"
     ],
-    "description": "",
+    "description": "Salwar matetial",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
@@ -1959,17 +1958,16 @@
       "sale"
     ],
     "price": 2200,
-    "status": "Available",
-    "discountedprice": 1050
+    "discountedprice": 1050,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0162",
     "name": "Chikankari Salwar Suit",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0162.jpeg",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0162.jpeg"
     ],
-    "description": "",
+    "description": "Salwar material",
     "category": "Salwar Suit",
     "subcategory": "Unstitched Salwar Suits",
     "tags": [
@@ -1978,8 +1976,8 @@
       "sale"
     ],
     "price": 2200,
-    "status": "Available",
-    "discountedprice": 1050
+    "discountedprice": 1050,
+    "status": "SoldOut"
   },
   {
     "productcode": "C0163",
@@ -3563,6 +3561,6 @@
     ],
     "price": 2400,
     "discountedprice": 1350,
-    "status": "Available"
+    "status": "SoldOut"
   }
 ]
