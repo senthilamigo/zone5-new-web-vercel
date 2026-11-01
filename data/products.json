@@ -1745,25 +1745,6 @@
     "status": "Available"
   },
   {
-    "productcode": "S0166",
-    "name": "Handloom Cotton Linen Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0166.jpeg",
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/Gemini_Generated_Image_nfb85hnfb85hnfb8__1__1771064341469.png"
-    ],
-    "description": "Handloom Cotton Linen Saree",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [
-      "Casual",
-      "Office wear",
-      "sale"
-    ],
-    "price": 2200,
-    "discountedprice": 1100,
-    "status": "SoldOut"
-  },
-  {
     "productcode": "S0167",
     "name": "Handloom Cotton Linen Saree",
     "images": [
@@ -2242,44 +2223,6 @@
     "discountedprice": 1500
   },
   {
-    "productcode": "C0249",
-    "name": "Kashmiri Salwar Suit - 2 pc",
-    "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0249.jpeg",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0249.jpeg"
-    ],
-    "description": "",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Casual",
-      "Festive",
-      "Work wear",
-      "sale"
-    ],
-    "price": 2800,
-    "status": "Available",
-    "discountedprice": 1500
-  },
-  {
-    "productcode": "C0256",
-    "name": "Embroidery Salwar Suit",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0256.jpeg"
-    ],
-    "description": "Embroidery Salwar Suit",
-    "category": "Salwar Suit",
-    "subcategory": "Unstitched Salwar Suits",
-    "tags": [
-      "Party wear",
-      "Festive",
-      "sale"
-    ],
-    "price": 3800,
-    "status": "Available",
-    "discountedprice": 2300
-  },
-  {
     "productcode": "C0259",
     "name": "Madhubani Salwar Suit",
     "image": "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/C0259.jpeg",
@@ -2399,25 +2342,6 @@
     "name": "Saree",
     "images": [
       "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0197.jpeg"
-    ],
-    "description": "Semi mulberry silk saree",
-    "category": "Saree",
-    "subcategory": "Office Wear Sarees",
-    "tags": [
-      "Party Wear",
-      "Festive",
-      "Work Wear",
-      "sale"
-    ],
-    "price": 3200,
-    "discountedprice": 1900,
-    "status": "Available"
-  },
-  {
-    "productcode": "S0198",
-    "name": "Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-shop-web/refs/heads/main/images/S0198.jpeg"
     ],
     "description": "Semi mulberry silk saree",
     "category": "Saree",
@@ -2640,27 +2564,6 @@
     ],
     "price": 2600,
     "discountedprice": 1600,
-    "status": "Available"
-  },
-  {
-    "productcode": "S0233",
-    "name": "Semi Mysore Silk Crepe Saree",
-    "images": [
-      "https://raw.githubusercontent.com/senthilamigo/zone5-new-web-vercel/refs/heads/main/images/S0233_1772093272382.jpeg"
-    ],
-    "description": "Semi Mysore Silk Crepe Saree with border",
-    "category": "Saree",
-    "subcategory": "Festive Sarees",
-    "tags": [
-      "New Arrival",
-      "Festive wear",
-      "Office wear",
-      "Traditional wear",
-      "Silk",
-      "sale"
-    ],
-    "price": 2400,
-    "discountedprice": 1350,
     "status": "Available"
   }
 ]
